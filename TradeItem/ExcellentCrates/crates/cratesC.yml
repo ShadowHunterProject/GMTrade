@@ -1,0 +1,3883 @@
+Name: <dark_purple>✿<light_purple>✿ <green><bold>KHO BÁU <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿
+Description: []
+ItemProvider:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"blue",italic:0b,obfuscated:0b,strikethrough:0b,text:"Alchemical Chest (blue)",underlined:0b}],text:""},"minecraft:profile":{id:[I;67411088,-739686879,-1666252800,-1432014700],name:"HeadDatabase",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUyNjk0YWViYzViYjBiMzQyZTg0M2I1ZDhjOTY3ODEwZjhjM2I2OWM0NjFiMWUwNjFhZjRmNmJlNDE0ZTVjMSJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+    DataVersion: 4671
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: csgo
+OpeningCooldown:
+  Enabled: false
+  Value: 0
+OpeningLimit:
+  Amount: 1
+Block:
+  Positions:
+  - -25,64,7,world_spawn
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: cratesc
+    Y_Offset: 0.0
+  Effect:
+    Enabled: true
+    Model: helix
+    Particle:
+      Name: CLOUD
+Milestones:
+  Repeatable: false
+_dataver: 600
+Post-Open:
+  Commands: []
+Rewards:
+  List:
+    gem_of_strength_pve_dao3_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO3_2
+          Amount: 1
+      Weight: 100.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO3_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO3_2
+    gem_of_strength_pvp_dao3_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO3_2
+          Amount: 1
+      Weight: 100.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO3_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO3_2
+    gem_of_skill_damage_dao3_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO3_2
+          Amount: 1
+      Weight: 100.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO3_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO3_2
+    gem_of_max_health_dao3_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO3_2
+          Amount: 1
+      Weight: 100.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO3_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO3_2
+    gem_of_strength_pve_dao4:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO4
+          Amount: 1
+      Weight: 85.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO4
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO4
+    gem_of_strength_pve_dao4_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO4_2
+          Amount: 1
+      Weight: 85.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO4_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO4_2
+    gem_of_strength_pvp_dao4:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO4
+          Amount: 1
+      Weight: 85.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO4
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO4
+    gem_of_skill_damage_dao4:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO4
+          Amount: 1
+      Weight: 85.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO4
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO4
+    gem_of_strength_pvp_dao4_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO4_2
+          Amount: 1
+      Weight: 85.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO4_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO4_2
+    gem_of_skill_damage_dao4_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO4_2
+          Amount: 1
+      Weight: 85.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO4_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO4_2
+    gem_of_max_health_dao4:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO4
+          Amount: 1
+      Weight: 85.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO4
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO4
+    gem_of_max_health_dao4_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO4_2
+          Amount: 1
+      Weight: 85.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO4_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO4_2
+    gem_of_strength_pve_dao5:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO5
+          Amount: 1
+      Weight: 70.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO5
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO5
+    gem_of_strength_pve_dao5_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO5_2
+          Amount: 1
+      Weight: 70.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO5_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO5_2
+    gem_of_strength_pvp_dao5:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO5
+          Amount: 1
+      Weight: 70.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO5
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO5
+    gem_of_skill_damage_dao5:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO5
+          Amount: 1
+      Weight: 70.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO5
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO5
+    gem_of_strength_pvp_dao5_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO5_2
+          Amount: 1
+      Weight: 70.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO5_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO5_2
+    gem_of_skill_damage_dao5_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO5_2
+          Amount: 1
+      Weight: 70.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO5_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO5_2
+    gem_of_max_health_dao5:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO5
+          Amount: 1
+      Weight: 70.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO5
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO5
+    gem_of_max_health_dao5_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO5_2
+          Amount: 1
+      Weight: 70.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO5_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO5_2
+    gem_of_strength_pve_dao6:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO6
+          Amount: 1
+      Weight: 55.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO6
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO6
+    gem_of_strength_pve_dao6_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO6_2
+          Amount: 1
+      Weight: 55.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO6_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO6_2
+    gem_of_strength_pvp_dao6:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO6
+          Amount: 1
+      Weight: 55.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO6
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO6
+    gem_of_skill_damage_dao6:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO6
+          Amount: 1
+      Weight: 55.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO6
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO6
+    gem_of_strength_pvp_dao6_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO6_2
+          Amount: 1
+      Weight: 55.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO6_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO6_2
+    gem_of_skill_damage_dao6_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO6_2
+          Amount: 1
+      Weight: 55.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO6_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO6_2
+    gem_of_max_health_dao6:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO6
+          Amount: 1
+      Weight: 55.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO6
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO6
+    gem_of_max_health_dao6_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO6_2
+          Amount: 1
+      Weight: 55.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO6_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO6_2
+    gem_of_strength_pve_dao7:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO7
+          Amount: 1
+      Weight: 40.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO7
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO7
+    gem_of_strength_pve_dao7_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO7_2
+          Amount: 1
+      Weight: 40.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO7_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO7_2
+    gem_of_strength_pvp_dao7:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO7
+          Amount: 1
+      Weight: 40.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO7
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO7
+    gem_of_skill_damage_dao7:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO7
+          Amount: 1
+      Weight: 40.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO7
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO7
+    gem_of_strength_pvp_dao7_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO7_2
+          Amount: 1
+      Weight: 40.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO7_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO7_2
+    gem_of_skill_damage_dao7_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO7_2
+          Amount: 1
+      Weight: 40.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO7_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO7_2
+    gem_of_max_health_dao7:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO7
+          Amount: 1
+      Weight: 40.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO7
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO7
+    gem_of_max_health_dao7_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO7_2
+          Amount: 1
+      Weight: 40.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO7_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO7_2
+    gem_of_strength_pve_dao8:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO8
+          Amount: 1
+      Weight: 20.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO8
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO8
+    gem_of_strength_pve_dao8_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO8_2
+          Amount: 1
+      Weight: 20.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO8_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO8_2
+    gem_of_strength_pvp_dao8:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO8
+          Amount: 1
+      Weight: 20.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO8
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO8
+    gem_of_skill_damage_dao8:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO8
+          Amount: 1
+      Weight: 20.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO8
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO8
+    gem_of_strength_pvp_dao8_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO8_2
+          Amount: 1
+      Weight: 20.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO8_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO8_2
+    gem_of_skill_damage_dao8_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO8_2
+          Amount: 1
+      Weight: 20.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO8_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO8_2
+    gem_of_max_health_dao8:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO8
+          Amount: 1
+      Weight: 20.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO8
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO8
+    gem_of_max_health_dao8_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO8_2
+          Amount: 1
+      Weight: 20.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO8_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO8_2
+    gem_of_strength_pve_dao9:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO9
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO9
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO9
+    gem_of_strength_pve_dao9_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO9_2
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO9_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO9_2
+    gem_of_strength_pvp_dao9:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO9
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO9
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO9
+    gem_of_skill_damage_dao9:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO9
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO9
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO9
+    gem_of_strength_pvp_dao9_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO9_2
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO9_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO9_2
+    gem_of_skill_damage_dao9_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO9_2
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO9_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO9_2
+    gem_of_max_health_dao9:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO9
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO9
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO9
+    gem_of_max_health_dao9_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO9_2
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO9_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO9_2
+    gem_of_strength_pve_dao10:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO10
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO10
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO10
+    gem_of_strength_pve_dao10_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO10_2
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO10_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO10_2
+    gem_of_strength_pvp_dao10:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO10
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO10
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO10
+    gem_of_skill_damage_dao10:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO10
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO10
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO10
+    gem_of_strength_pvp_dao10_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO10_2
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO10_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO10_2
+    gem_of_skill_damage_dao10_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO10_2
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO10_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO10_2
+    gem_of_max_health_dao10:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO10
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO10
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO10
+    gem_of_max_health_dao10_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO10_2
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO10_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO10_2
+    gem_of_strength_pve_dao11:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO11
+          Amount: 1
+      Weight: 4.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO11
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO11
+    gem_of_strength_pve_dao11_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO11_2
+          Amount: 1
+      Weight: 4.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO11_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO11_2
+    gem_of_strength_pvp_dao11:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO11
+          Amount: 1
+      Weight: 4.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO11
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO11
+    gem_of_skill_damage_dao11:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO11
+          Amount: 1
+      Weight: 4.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO11
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO11
+    gem_of_strength_pvp_dao11_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO11_2
+          Amount: 1
+      Weight: 4.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO11_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO11_2
+    gem_of_skill_damage_dao11_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO11_2
+          Amount: 1
+      Weight: 4.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO11_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO11_2
+    gem_of_max_health_dao11:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO11
+          Amount: 1
+      Weight: 4.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO11
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO11
+    gem_of_max_health_dao11_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO11_2
+          Amount: 1
+      Weight: 4.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO11_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO11_2
+    gem_of_strength_pve_dao12:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO12
+          Amount: 1
+      Weight: 2.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO12
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO12
+    gem_of_strength_pve_dao12_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO12_2
+          Amount: 1
+      Weight: 2.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO12_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO12_2
+    gem_of_strength_pvp_dao12:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO12
+          Amount: 1
+      Weight: 2.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO12
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO12
+    gem_of_skill_damage_dao12:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO12
+          Amount: 1
+      Weight: 2.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO12
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO12
+    gem_of_strength_pvp_dao12_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO12_2
+          Amount: 1
+      Weight: 2.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO12_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO12_2
+    gem_of_skill_damage_dao12_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO12_2
+          Amount: 1
+      Weight: 2.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO12_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO12_2
+    gem_of_max_health_dao12:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO12
+          Amount: 1
+      Weight: 2.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO12
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO12
+    gem_of_max_health_dao12_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO12_2
+          Amount: 1
+      Weight: 2.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO12_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO12_2
+    gem_of_strength_pve_dao13:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO13
+          Amount: 1
+      Weight: 1.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO13
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO13
+    gem_of_strength_pve_dao13_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO13_2
+          Amount: 1
+      Weight: 1.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO13_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO13_2
+    gem_of_strength_pvp_dao13:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO13
+          Amount: 1
+      Weight: 1.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO13
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO13
+    gem_of_skill_damage_dao13:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO13
+          Amount: 1
+      Weight: 1.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO13
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO13
+    gem_of_strength_pvp_dao13_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO13_2
+          Amount: 1
+      Weight: 1.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO13_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO13_2
+    gem_of_skill_damage_dao13_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO13_2
+          Amount: 1
+      Weight: 1.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO13_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO13_2
+    gem_of_max_health_dao13:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO13
+          Amount: 1
+      Weight: 1.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO13
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO13
+    gem_of_max_health_dao13_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO13_2
+          Amount: 1
+      Weight: 1.5
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO13_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO13_2
+    gem_of_strength_pve_dao14:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO14
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO14
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO14
+    gem_of_strength_pve_dao14_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO14_2
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO14_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO14_2
+    gem_of_strength_pvp_dao14:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO14
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO14
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO14
+    gem_of_skill_damage_dao14:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO14
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO14
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO14
+    gem_of_strength_pvp_dao14_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO14_2
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO14_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO14_2
+    gem_of_skill_damage_dao14_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO14_2
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO14_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO14_2
+    gem_of_max_health_dao14:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO14
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO14
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO14
+    gem_of_max_health_dao14_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO14_2
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO14_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO14_2
+    gem_of_strength_pve_dao15:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO15
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO15
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO15
+    gem_of_strength_pve_dao15_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO15_2
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO15_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO15_2
+    gem_of_strength_pvp_dao15:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO15
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO15
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO15
+    gem_of_skill_damage_dao15:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO15
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO15
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO15
+    gem_of_strength_pvp_dao15_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO15_2
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO15_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO15_2
+    gem_of_skill_damage_dao15_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO15_2
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO15_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO15_2
+    gem_of_max_health_dao15:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO15
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO15
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO15
+    gem_of_max_health_dao15_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO15_2
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO15_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO15_2
+    gem_of_strength_pve_dao16:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO16
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO16
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO16
+    gem_of_strength_pve_dao16_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO16_2
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO16_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO16_2
+    gem_of_strength_pvp_dao16:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO16
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO16
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO16
+    gem_of_skill_damage_dao16:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO16
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO16
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO16
+    gem_of_strength_pvp_dao16_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO16_2
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO16_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO16_2
+    gem_of_skill_damage_dao16_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO16_2
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO16_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO16_2
+    gem_of_max_health_dao16:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO16
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO16
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO16
+    gem_of_max_health_dao16_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO16_2
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO16_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO16_2
+    gem_of_strength_pve_dao17:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO17
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO17
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO17
+    gem_of_strength_pve_dao17_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO17_2
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO17_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO17_2
+    gem_of_strength_pvp_dao17:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO17
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO17
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO17
+    gem_of_skill_damage_dao17:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO17
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO17
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO17
+    gem_of_strength_pvp_dao17_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO17_2
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO17_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO17_2
+    gem_of_skill_damage_dao17_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO17_2
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO17_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO17_2
+    gem_of_max_health_dao17:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO17
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO17
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO17
+    gem_of_max_health_dao17_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO17_2
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO17_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO17_2
+    gem_of_strength_pve_dao18:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO18
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO18
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO18
+    gem_of_strength_pve_dao18_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO18_2
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO18_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO18_2
+    gem_of_strength_pvp_dao18:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO18
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO18
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO18
+    gem_of_skill_damage_dao18:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO18
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO18
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO18
+    gem_of_strength_pvp_dao18_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO18_2
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO18_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO18_2
+    gem_of_skill_damage_dao18_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO18_2
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO18_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO18_2
+    gem_of_max_health_dao18:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO18
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO18
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO18
+    gem_of_max_health_dao18_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO18_2
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO18_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO18_2
+    gem_of_strength_pve_dao19:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO19
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO19
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO19
+    gem_of_strength_pve_dao19_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO19_2
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO19_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO19_2
+    gem_of_strength_pvp_dao19:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO19
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO19
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO19
+    gem_of_skill_damage_dao19:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO19
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO19
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO19
+    gem_of_strength_pvp_dao19_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO19_2
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO19_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO19_2
+    gem_of_skill_damage_dao19_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO19_2
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO19_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO19_2
+    gem_of_max_health_dao19:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO19
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO19
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO19
+    gem_of_max_health_dao19_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO19_2
+          Amount: 1
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO19_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO19_2
+CostOptions:
+  cratesckey:
+    Enabled: true
+    Name: Cratesckey
+    Icon:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:trial_key"}'
+        DataVersion: 4671
+    Entries:
+      '0':
+        Type: key
+        Key: cratesckey
+        Amount: 1

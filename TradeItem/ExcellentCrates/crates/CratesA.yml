@@ -1,0 +1,1519 @@
+Name: <red>★<dark_red>✮ <red><bold>KHO BÁU VŨ KHÍ <light_purple>☾<red>⦿<light_purple>☽
+Description: []
+ItemProvider:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{bold:0b,extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"Cratese Crate",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},"minecraft:tooltip_display":{hidden_components:["minecraft:trim","minecraft:container_loot","minecraft:custom_data","minecraft:lock","minecraft:horse/variant","minecraft:container","minecraft:max_damage","minecraft:swing_animation","minecraft:pot_decorations","minecraft:fireworks","minecraft:provides_banner_patterns","minecraft:ominous_bottle_amplifier","minecraft:cat/variant","minecraft:recipes","minecraft:consumable","minecraft:writable_book_content","minecraft:unbreakable","minecraft:bundle_contents","minecraft:enchantment_glint_override","minecraft:wolf/sound_variant","minecraft:instrument","minecraft:piercing_weapon","minecraft:map_id","minecraft:food","minecraft:mooshroom/variant","minecraft:block_state","minecraft:enchantable","minecraft:suspicious_stew_effects","minecraft:sheep/color","minecraft:kinetic_weapon","minecraft:equippable","minecraft:villager/variant","minecraft:frog/variant","minecraft:map_post_processing","minecraft:max_stack_size","minecraft:bucket_entity_data","minecraft:pig/variant","minecraft:llama/variant","minecraft:firework_explosion","minecraft:banner_patterns","minecraft:chicken/variant","minecraft:debug_stick_state","minecraft:glider","minecraft:map_color","minecraft:repairable","minecraft:potion_contents","minecraft:lodestone_tracker","minecraft:cat/collar","minecraft:dyed_color","minecraft:provides_trim_material","minecraft:repair_cost","minecraft:break_sound","minecraft:shulker/color","minecraft:charged_projectiles","minecraft:base_color","minecraft:minimum_attack_charge","minecraft:use_effects","minecraft:zombie_nautilus/variant","minecraft:intangible_projectile","minecraft:entity_data","minecraft:axolotl/variant","minecraft:parrot/variant","minecraft:tropical_fish/pattern_color","minecraft:use_cooldown","minecraft:rarity","minecraft:profile","minecraft:painting/variant","minecraft:wolf/variant","minecraft:damage_resistant","minecraft:written_book_content","minecraft:death_protection","minecraft:tool","minecraft:block_entity_data","minecraft:map_decorations","minecraft:creative_slot_lock","minecraft:wolf/collar","minecraft:bees","minecraft:fox/variant","minecraft:weapon","minecraft:potion_duration_scale","minecraft:attack_range","minecraft:use_remainder","minecraft:can_break","minecraft:salmon/size","minecraft:attribute_modifiers","minecraft:jukebox_playable","minecraft:damage","minecraft:blocks_attacks","minecraft:tropical_fish/pattern","minecraft:stored_enchantments","minecraft:note_block_sound","minecraft:can_place_on","minecraft:enchantments","minecraft:cow/variant","minecraft:damage_type","minecraft:tropical_fish/base_color","minecraft:rabbit/variant"]}},count:1,id:"minecraft:chest"}'
+    DataVersion: 4671
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: csgo
+OpeningCooldown:
+  Enabled: false
+  Value: 0
+OpeningLimit:
+  Amount: 1
+Block:
+  Positions:
+  - 26,64,-3,world_spawn
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: cratesa
+    Y_Offset: 0.0
+  Effect:
+    Enabled: true
+    Model: helix
+    Particle:
+      Name: DRAGON_BREATH
+      floatValue: 1.0
+Milestones:
+  Repeatable: false
+_dataver: 600
+Post-Open:
+  Commands: []
+Rewards:
+  List:
+    kiem_bong_toi:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_BONG_TOI
+          Amount: 1
+      Weight: 3.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_BONG_TOI
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_BONG_TOI
+    kiem_bao_chua_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_BAO_CHUA_BANG_GIA
+          Amount: 1
+      Weight: 2.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_BAO_CHUA_BANG_GIA
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_BAO_CHUA_BANG_GIA
+    kiem_hoa_nguc:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_HOA_NGUC
+          Amount: 1
+      Weight: 1.5
+      Rarity: rare
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_HOA_NGUC
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_HOA_NGUC
+    kiem_hac_thien_su:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_HAC_THIEN_SU
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_HAC_THIEN_SU
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_HAC_THIEN_SU
+    kiem_cuong_no_bao_to:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_CUONG_NO_BAO_TO
+          Amount: 1
+      Weight: 0.7
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_CUONG_NO_BAO_TO
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_CUONG_NO_BAO_TO
+    kiem_quan_vuong_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_QUAN_VUONG_BANG_GIA
+          Amount: 1
+      Weight: 0.4
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_QUAN_VUONG_BANG_GIA
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_QUAN_VUONG_BANG_GIA
+    kiem_quy_vuong_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_QUY_VUONG_V1
+          Amount: 1
+      Weight: 0.05
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_QUY_VUONG_V1
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_QUY_VUONG_V1
+    kiem_quy_vuong_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_QUY_VUONG_V2
+          Amount: 1
+      Weight: 0.01
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_QUY_VUONG_V2
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_QUY_VUONG_V2
+    kiem_thinh_no_kamis_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_THINH_NO_KAMIS_V1
+          Amount: 1
+      Weight: 0.005
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_THINH_NO_KAMIS_V1
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_THINH_NO_KAMIS_V1
+    kiem_thinh_no_kamis_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_THINH_NO_KAMIS_V2
+          Amount: 1
+      Weight: 0.001
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_THINH_NO_KAMIS_V2
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_THINH_NO_KAMIS_V2
+    gay_bong_toi:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_BONG_TOI
+          Amount: 1
+      Weight: 3.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_BONG_TOI
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_BONG_TOI
+    gay_bao_chua_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_BAO_CHUA_BANG_GIA
+          Amount: 1
+      Weight: 2.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_BAO_CHUA_BANG_GIA
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_BAO_CHUA_BANG_GIA
+    gay_hoa_nguc:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_HOA_NGUC
+          Amount: 1
+      Weight: 1.5
+      Rarity: rare
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_HOA_NGUC
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_HOA_NGUC
+    gay_hac_thien_su:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_HAC_THIEN_SU
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_HAC_THIEN_SU
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_HAC_THIEN_SU
+    gay_cuong_no_bao_to:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_CUONG_NO_BAO_TO
+          Amount: 1
+      Weight: 0.7
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_CUONG_NO_BAO_TO
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_CUONG_NO_BAO_TO
+    gay_quan_vuong_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_QUAN_VUONG_BANG_GIA
+          Amount: 1
+      Weight: 0.4
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_QUAN_VUONG_BANG_GIA
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_QUAN_VUONG_BANG_GIA
+    gay_quy_vuong_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_QUY_VUONG_V1
+          Amount: 1
+      Weight: 0.05
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_QUY_VUONG_V1
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_QUY_VUONG_V1
+    gay_quy_vuong_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_QUY_VUONG_V2
+          Amount: 1
+      Weight: 0.01
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_QUY_VUONG_V2
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_QUY_VUONG_V2
+    gay_thinh_no_kamis_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_THINH_NO_KAMIS_V1
+          Amount: 1
+      Weight: 0.005
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_THINH_NO_KAMIS_V1
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_THINH_NO_KAMIS_V1
+    gay_thinh_no_kamis_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_THINH_NO_KAMIS_V2
+          Amount: 1
+      Weight: 0.001
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_THINH_NO_KAMIS_V2
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_THINH_NO_KAMIS_V2
+    cung_bong_toi:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_BONG_TOI
+          Amount: 1
+      Weight: 3.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_BONG_TOI
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_BONG_TOI
+    cung_bao_chua_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_BAO_CHUA_BANG_GIA
+          Amount: 1
+      Weight: 2.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_BAO_CHUA_BANG_GIA
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_BAO_CHUA_BANG_GIA
+    cung_hoa_nguc:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_HOA_NGUC
+          Amount: 1
+      Weight: 1.5
+      Rarity: rare
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_HOA_NGUC
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_HOA_NGUC
+    cung_hac_thien_su:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_HAC_THIEN_SU
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_HAC_THIEN_SU
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_HAC_THIEN_SU
+    cung_cuong_no_bao_to:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_CUONG_NO_BAO_TO
+          Amount: 1
+      Weight: 0.7
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_CUONG_NO_BAO_TO
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_CUONG_NO_BAO_TO
+    cung_quan_vuong_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_QUAN_VUONG_BANG_GIA
+          Amount: 1
+      Weight: 0.4
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_QUAN_VUONG_BANG_GIA
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_QUAN_VUONG_BANG_GIA
+    cung_quy_vuong_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_QUY_VUONG_V1
+          Amount: 1
+      Weight: 0.05
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_QUY_VUONG_V1
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_QUY_VUONG_V1
+    cung_quy_vuong_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_QUY_VUONG_V2
+          Amount: 1
+      Weight: 0.01
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_QUY_VUONG_V2
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_QUY_VUONG_V2
+    cung_thinh_no_kamis_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_THINH_NO_KAMIS_V1
+          Amount: 1
+      Weight: 0.005
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_THINH_NO_KAMIS_V1
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_THINH_NO_KAMIS_V1
+    cung_thinh_no_kamis_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_THINH_NO_KAMIS_V2
+          Amount: 1
+      Weight: 0.001
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_THINH_NO_KAMIS_V2
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_THINH_NO_KAMIS_V2
+    bua_bong_toi:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_BONG_TOI
+          Amount: 1
+      Weight: 3.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_BONG_TOI
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_BONG_TOI
+    bua_bao_chua_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_BAO_CHUA_BANG_GIA
+          Amount: 1
+      Weight: 2.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_BAO_CHUA_BANG_GIA
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_BAO_CHUA_BANG_GIA
+    bua_hoa_nguc:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_HOA_NGUC
+          Amount: 1
+      Weight: 1.5
+      Rarity: rare
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_HOA_NGUC
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_HOA_NGUC
+    bua_hac_thien_su:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_HAC_THIEN_SU
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_HAC_THIEN_SU
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_HAC_THIEN_SU
+    bua_cuong_no_bao_to:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_CUONG_NO_BAO_TO
+          Amount: 1
+      Weight: 0.7
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_CUONG_NO_BAO_TO
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_CUONG_NO_BAO_TO
+    bua_quan_vuong_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_QUAN_VUONG_BANG_GIA
+          Amount: 1
+      Weight: 0.4
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_QUAN_VUONG_BANG_GIA
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_QUAN_VUONG_BANG_GIA
+    bua_quy_vuong_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_QUY_VUONG_V1
+          Amount: 1
+      Weight: 0.05
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_QUY_VUONG_V1
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_QUY_VUONG_V1
+    bua_quy_vuong_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_QUY_VUONG_V2
+          Amount: 1
+      Weight: 0.01
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_QUY_VUONG_V2
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_QUY_VUONG_V2
+    bua_thinh_no_kamis_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_THINH_NO_KAMIS_V1
+          Amount: 1
+      Weight: 0.005
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_THINH_NO_KAMIS_V1
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_THINH_NO_KAMIS_V1
+    bua_thinh_no_kamis_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_THINH_NO_KAMIS_V2
+          Amount: 1
+      Weight: 0.001
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_THINH_NO_KAMIS_V2
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_THINH_NO_KAMIS_V2
+    dao_bong_toi:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_BONG_TOI
+          Amount: 1
+      Weight: 3.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_BONG_TOI
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_BONG_TOI
+    dao_bao_chua_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_BAO_CHUA_BANG_GIA
+          Amount: 1
+      Weight: 2.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_BAO_CHUA_BANG_GIA
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_BAO_CHUA_BANG_GIA
+    dao_hoa_nguc:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_HOA_NGUC
+          Amount: 1
+      Weight: 1.5
+      Rarity: rare
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_HOA_NGUC
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_HOA_NGUC
+    dao_hac_thien_su:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_HAC_THIEN_SU
+          Amount: 1
+      Weight: 1.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_HAC_THIEN_SU
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_HAC_THIEN_SU
+    dao_cuong_no_bao_to:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_CUONG_NO_BAO_TO
+          Amount: 1
+      Weight: 0.7
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_CUONG_NO_BAO_TO
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_CUONG_NO_BAO_TO
+    dao_quan_vuong_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_QUAN_VUONG_BANG_GIA
+          Amount: 1
+      Weight: 0.4
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_QUAN_VUONG_BANG_GIA
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_QUAN_VUONG_BANG_GIA
+    dao_quy_vuong_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_QUY_VUONG_V1
+          Amount: 1
+      Weight: 0.05
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_QUY_VUONG_V1
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_QUY_VUONG_V1
+    dao_quy_vuong_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_QUY_VUONG_V2
+          Amount: 1
+      Weight: 0.01
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_QUY_VUONG_V2
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_QUY_VUONG_V2
+    dao_thinh_no_kamis_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_THINH_NO_KAMIS_V1
+          Amount: 1
+      Weight: 0.005
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_THINH_NO_KAMIS_V1
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_THINH_NO_KAMIS_V1
+    dao_thinh_no_kamis_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_THINH_NO_KAMIS_V2
+          Amount: 1
+      Weight: 0.001
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_THINH_NO_KAMIS_V2
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_THINH_NO_KAMIS_V2
+Key:
+  Enabled: true
+  Name: Key
+  Icon:
+    Provider: vanilla
+    Data:
+      Value: '{count:1,id:"minecraft:trial_key"}'
+      DataVersion: 4671
+  Entries:
+    '0':
+      Type: key
+      Key: cratesakey
+      Amount: 1
+CostOptions:
+  '1':
+    Enabled: true
+    Name: '1'
+    Icon:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:trial_key"}'
+        DataVersion: 4671
+    Entries:
+      '0':
+        Type: key
+        Key: cratesakey
+        Amount: 1

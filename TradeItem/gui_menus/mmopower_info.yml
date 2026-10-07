@@ -1,0 +1,132 @@
+menu_title: '&8Thông tin Lực Chiến'
+open_command: 
+- lucchien
+- lc
+size: 27
+items:
+  'rank_1':
+    material: NETHERITE_SWORD
+    item_flags:
+      - HIDE_ATTRIBUTES
+    slot: 11
+    display_name: '&c&l👑 Quân Vương Bóng Tối 👑'
+    lore:
+      - '&7Đạt được khi lọt vào &fTop 1 Lực Chiến'
+      - ''
+      - '&a&l[+] BUFF ĐẶC QUYỀN:'
+      - '&7▪ &cSát Thương Tấn Công: &f+100.0'
+      - '&7▪ &aPhòng Thủ: &f+50.0'
+      - '&7▪ &4Máu Tối Đa: &f+1000.0'
+  'rank_2':
+    material: DIAMOND_SWORD
+    item_flags:
+      - HIDE_ATTRIBUTES
+    slot: 12
+    display_name: '&6&l🗡 Nguyên Soái Bóng Tối 🗡'
+    lore:
+      - '&7Đạt được khi lọt vào &fTop 2 Lực Chiến'
+      - ''
+      - '&a&l[+] BUFF ĐẶC QUYỀN:'
+      - '&7▪ &cSát Thương Tấn Công: &f+80.0'
+      - '&7▪ &aPhòng Thủ: &f+40.0'
+      - '&7▪ &4Máu Tối Đa: &f+750.0'
+  'rank_3':
+    material: GOLDEN_SWORD
+    item_flags:
+      - HIDE_ATTRIBUTES
+    slot: 13
+    display_name: '&e&l⭐ Chỉ Huy Bóng Tối ⭐'
+    lore:
+      - '&7Đạt được khi lọt vào &fTop 3 Lực Chiến'
+      - ''
+      - '&a&l[+] BUFF ĐẶC QUYỀN:'
+      - '&7▪ &cSát Thương Tấn Công: &f+60.0'
+      - '&7▪ &aPhòng Thủ: &f+30.0'
+      - '&7▪ &4Máu Tối Đa: &f+550.0'
+  'rank_4':
+    material: IRON_SWORD
+    item_flags:
+      - HIDE_ATTRIBUTES
+    slot: 14
+    display_name: '&a&l⚔ Tinh Nhuệ Bóng Tối ⚔'
+    lore:
+      - '&7Đạt được khi lọt vào &fTop 4 Lực Chiến'
+      - ''
+      - '&a&l[+] BUFF ĐẶC QUYỀN:'
+      - '&7▪ &cSát Thương Tấn Công: &f+40.0'
+      - '&7▪ &aPhòng Thủ: &f+20.0'
+      - '&7▪ &4Máu Tối Đa: &f+400.0'
+  'rank_5':
+    material: STONE_SWORD
+    item_flags:
+      - HIDE_ATTRIBUTES
+    slot: 15
+    display_name: '&b&l🛡 Hiệp Sĩ Bóng Tối 🛡'
+    lore:
+      - '&7Đạt được khi lọt vào &fTop 5 Lực Chiến'
+      - ''
+      - '&a&l[+] BUFF ĐẶC QUYỀN:'
+      - '&7▪ &cSát Thương Tấn Công: &f+30.0'
+      - '&7▪ &aPhòng Thủ: &f+10.0'
+      - '&7▪ &4Máu Tối Đa: &f+300.0'
+  'top_10_info':
+    material: GOLD_BLOCK
+    slot: 4
+    display_name: '&f[&e&l⚔&f]&a&l TOP LỰC CHIẾN &8(&e/lc&8)'
+    lore:
+      - ''
+      - '&e#1 %turtletop_top_name_mmopower-power_1% &a%turtletop_top_point2_mmopower-power_1%'
+      - '&e#2 %turtletop_top_name_mmopower-power_2% &a%turtletop_top_point2_mmopower-power_2%'
+      - '&e#3 %turtletop_top_name_mmopower-power_3% &a%turtletop_top_point2_mmopower-power_3%'
+      - '&e#4 %turtletop_top_name_mmopower-power_4% &a%turtletop_top_point2_mmopower-power_4%'
+      - '&e#5 %turtletop_top_name_mmopower-power_5% &a%turtletop_top_point2_mmopower-power_5%'
+      - '&e#6 %turtletop_top_name_mmopower-power_6% &a%turtletop_top_point2_mmopower-power_6%'
+      - '&e#7 %turtletop_top_name_mmopower-power_7% &a%turtletop_top_point2_mmopower-power_7%'
+      - '&e#8 %turtletop_top_name_mmopower-power_8% &a%turtletop_top_point2_mmopower-power_8%'
+      - '&e#9 %turtletop_top_name_mmopower-power_9% &a%turtletop_top_point2_mmopower-power_9%'
+      - '&e#10 %turtletop_top_name_mmopower-power_10% &a%turtletop_top_point2_mmopower-power_10%'
+      - ''
+      - '&6✔ &fXếp Hạng Của Bạn &6✔'
+      - '&e&l#%turtletop_player_top_rank_mmopower-power%  %player_name%'
+  'player_info':
+    material: head-%player_name%
+    slot: 23
+    display_name: '&a&l👤 Thông Tin Của Bạn 👤'
+    lore:
+      - '&7Người chơi: &f%player_name%'
+      - ''
+      - '&7Lực Chiến Hiện Tại: &c%mmopower_power_formatted%'
+      - '&7Danh Hiệu Top: %mmopower_top_title%'
+      - '&7Xếp Hạng Top: &e#%mmopower_top_rank%'
+  'close_button':
+    material: BARRIER
+    slot: 26
+    display_name: '&c&lĐóng'
+    left_click_commands:
+      - '[close]'
+    right_click_commands:
+      - '[close]'
+  'info_button':
+    material: BOOK
+    slot: 21
+    display_name: '&e&l❓ Cách Kiếm Lực Chiến ❓'
+    lore:
+      - '&7Lực chiến đại diện cho sức mạnh'
+      - '&7của bạn trong thế giới này.'
+      - ''
+      - '&a&l[+] CÁCH TĂNG LỰC CHIẾN:'
+      - '&7▪ &fTăng các chỉ số bản thân'
+      - '&7  &fnhư máu, damage, giáp, ...'
+      #- '&7▪ &fTiêu diệt người chơi khác (PvP)'
+      - ''
+      - '&c&lLưu ý:&7 Chăm chỉ cày cuốc'
+      - '&7để leo lên bảng xếp hạng nhé!'
+  'filler':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 0-3
+      - 5-10
+      - 16-20
+      - 22
+      - 24-25
+    display_name: ' '

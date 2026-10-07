@@ -1,0 +1,321 @@
+menu_title: "&8»  Giao Diện | Cửa Hàng Tiền Tệ"
+open_command:
+  - shopmoney
+  - thuoc
+  - thucan
+  - tien
+  - money
+open_commands:
+  - "[sound] BLOCK_NOTE_BLOCK_BELL 1.0 1.5"
+size: 54
+update_interval: 1
+
+items:
+  "vien_goc":
+    material: CYAN_STAINED_GLASS_PANE
+    display_name: "&f "
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slots: [0, 1, 7, 8, 9, 17, 45, 46, 52, 53]
+
+  "vien_canh":
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    display_name: "&f "
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slots: [2, 3, 4, 5, 6, 47, 48, 50, 51]
+
+  "vien_trong":
+    material: WHITE_STAINED_GLASS_PANE
+    display_name: "&f "
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slots: [10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+
+  "close_button":
+    material: BARRIER
+    slot: 49
+    display_name: "&c&lĐÓNG MENU"
+    lore:
+      - "&7Đóng giao diện này lại"
+    click_commands:
+      - "[close]"
+
+  "hp_potion_1":
+    material: POTION
+    rgb: 255,50,50
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slot: 36
+    display_name: "&c&lBình Hồi Máu &7(Nhỏ)"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Phục hồi 50 sinh lực"
+      - ""
+      - "  &#87CEFA▪ &fPhí mua: &#32CD325,000$ ⛁"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] eco take %player_name% 5000"
+      - "[console] mi give CONSUMABLE HP_POTION_1 %player_name% 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &c&lBình Hồi Máu &7(Nhỏ)&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        xu_check:
+          type: has money
+          amount: 5000
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Tiền của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "hp_potion_2":
+    material: POTION
+    rgb: 255,50,50
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slot: 37
+    display_name: "&c&lBình Hồi Máu &7(Vừa)"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Phục hồi 150 sinh lực"
+      - ""
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3230,000$ ⛁"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] eco take %player_name% 30000"
+      - "[console] mi give CONSUMABLE HP_POTION_2 %player_name% 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &c&lBình Hồi Máu &7(Vừa)&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        xu_check:
+          type: has money
+          amount: 30000
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Tiền của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "hp_potion_3":
+    material: POTION
+    rgb: 255,50,50
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slot: 38
+    display_name: "&c&lBình Hồi Máu &7(Lớn)"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Phục hồi 300 sinh lực"
+      - ""
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3260,000$ ⛁"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] eco take %player_name% 60000"
+      - "[console] mi give CONSUMABLE HP_POTION_3 %player_name% 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &c&lBình Hồi Máu &7(Lớn)&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        xu_check:
+          type: has money
+          amount: 60000
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Tiền của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "food_1":
+    material: BREAD
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slot: 39
+    display_name: "&6&lBánh Mì Nướng &7(Nhỏ)"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Phục hồi thể lực và độ no"
+      - ""
+      - "  &#87CEFA▪ &fPhí mua: &#32CD325,000$ ⛁"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] eco take %player_name% 5000"
+      - "[console] mi give CONSUMABLE FOOD_1 %player_name% 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &6&lBánh Mì Nướng &7(Nhỏ)&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        xu_check:
+          type: has money
+          amount: 5000
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Tiền của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "food_2":
+    material: COOKED_BEEF
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slot: 40
+    display_name: "&6&lThịt Nướng Hảo Hạng &7(Vừa)"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Phục hồi thể lực và độ no"
+      - ""
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3210,000$ ⛁"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] eco take %player_name% 10000"
+      - "[console] mi give CONSUMABLE FOOD_2 %player_name% 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &6&lThịt Nướng Hảo Hạng &7(Vừa)&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        xu_check:
+          type: has money
+          amount: 10000
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Tiền của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "food_3":
+    material: GOLDEN_APPLE
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slot: 41
+    display_name: "&6&lTáo Vàng Thần Kỳ &7(Lớn)"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Phục hồi thể lực và độ no"
+      - ""
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3215,000$ ⛁"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] eco take %player_name% 15000"
+      - "[console] mi give CONSUMABLE FOOD_3 %player_name% 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &6&lTáo Vàng Thần Kỳ &7(Lớn)&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        xu_check:
+          type: has money
+          amount: 15000
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Tiền của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "mp_potion_1":
+    material: POTION
+    rgb: 50,50,255
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slot: 42
+    display_name: "&b&lBình Hồi Mana &7(Nhỏ)"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Phục hồi 50 Mana"
+      - ""
+      - "  &#87CEFA▪ &fPhí mua: &#32CD325,000$ ⛁"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] eco take %player_name% 5000"
+      - "[console] mi give CONSUMABLE MP_POTION_1 %player_name% 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &b&lBình Hồi Mana &7(Nhỏ)&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        xu_check:
+          type: has money
+          amount: 5000
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Tiền của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "mp_potion_2":
+    material: POTION
+    rgb: 50,50,255
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slot: 43
+    display_name: "&b&lBình Hồi Mana &7(Vừa)"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Phục hồi 150 Mana"
+      - ""
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3230,000$ ⛁"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] eco take %player_name% 30000"
+      - "[console] mi give CONSUMABLE MP_POTION_2 %player_name% 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &b&lBình Hồi Mana &7(Vừa)&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        xu_check:
+          type: has money
+          amount: 30000
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Tiền của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "mp_potion_3":
+    material: POTION
+    rgb: 50,50,255
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slot: 44
+    display_name: "&b&lBình Hồi Mana &7(Lớn)"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Phục hồi 300 Mana"
+      - ""
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3260,000$ ⛁"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] eco take %player_name% 60000"
+      - "[console] mi give CONSUMABLE MP_POTION_3 %player_name% 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &b&lBình Hồi Mana &7(Lớn)&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        xu_check:
+          type: has money
+          amount: 60000
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Tiền của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"

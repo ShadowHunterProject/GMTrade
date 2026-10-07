@@ -1,0 +1,181 @@
+GEM_REMOVE:
+  base:
+    material: INK_SAC
+    name: '&8&lNgọc Phân Tách'
+    enchants:
+      LUCK: 10
+    lore:
+    - '&7- Dùng để gỡ linh thể khảm có trong vật phẩm'
+    - ''
+    - '&e[!] Cách dùng: &fkéo vào &aItem cần gỡ!'
+    tier: E
+    random-unsocket: 1.0
+    inedible: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-interaction: true
+    disable-enchanting: true
+    disable-repairing: true
+ADD_MORE_SOCKET:
+  base:
+    material: ENDER_EYE
+    disable-crafting: true
+    name: '&e&lMở Khóa &6&lÔ Trống &7((+1 Ô Khảm Ngọc))'
+    enchants:
+      DURABILITY: 1
+    hide-enchants: true
+    success-rate: 100.0
+    tier: D
+
+HP_POTION_1:
+  base:
+    material: RED_DYE
+    name: '&c&lBình Hồi Máu &7(Nhỏ)'
+    lore:
+    - '&e[!] Chuột phải để dùng'
+    - '&a[+] Mua vật phẩm tại &f/shopmoney'
+    restore-health: 50
+    disable-crafting: true
+    item-cooldown: 10.0
+    #max-consume: 10
+    #unstackable: true
+    tier: E
+    hide-enchants: true
+    enchants:
+      DURABILITY: 1
+HP_POTION_2:
+  base:
+    material: RED_DYE
+    name: '&c&lBình Hồi Máu &7(Vừa)'
+    lore:
+    - '&e[!] Chuột phải để dùng'
+    - '&a[+] Mua vật phẩm tại &f/shopmoney'
+    restore-health: 150
+    disable-crafting: true
+    item-cooldown: 10.0
+    #max-consume: 10
+    #unstackable: true
+    tier: E
+    hide-enchants: true
+    enchants:
+      DURABILITY: 1
+HP_POTION_3:
+  base:
+    material: RED_DYE
+    name: '&c&lBình Hồi Máu &7(Lớn)'
+    lore:
+    - '&e[!] Chuột phải để dùng'
+    - '&a[+] Mua vật phẩm tại &f/shopmoney'
+    restore-health: 300
+    disable-crafting: true
+    item-cooldown: 10.0
+    #max-consume: 10
+    #unstackable: true
+    tier: E
+    hide-enchants: true
+    enchants:
+      DURABILITY: 1
+
+MP_POTION_1:
+  base:
+    material: LIGHT_BLUE_DYE
+    name: '&b&lBình Hồi Mana &7(Nhỏ)'
+    lore:
+    - '&e[!] Chuột phải để dùng'
+    - '&a[+] Mua vật phẩm tại &f/shopmoney'
+    restore-mana: 50
+    disable-crafting: true
+    item-cooldown: 10.0
+    #max-consume: 10
+    #unstackable: true
+    tier: E
+    hide-enchants: true
+    enchants:
+      DURABILITY: 1
+MP_POTION_2:
+  base:
+    material: LIGHT_BLUE_DYE
+    name: '&b&lBình Hồi Mana &7(Vừa)'
+    lore:
+    - '&e[!] Chuột phải để dùng'
+    - '&a[+] Mua vật phẩm tại &f/shopmoney'
+    restore-mana: 150
+    disable-crafting: true
+    item-cooldown: 10.0
+    #max-consume: 10
+    #unstackable: true
+    tier: E
+    hide-enchants: true
+    enchants:
+      DURABILITY: 1
+MP_POTION_3:
+  base:
+    material: LIGHT_BLUE_DYE
+    name: '&b&lBình Hồi Mana &7(Lớn)'
+    lore:
+    - '&e[!] Chuột phải để dùng'
+    - '&a[+] Mua vật phẩm tại &f/shopmoney'
+    restore-mana: 300
+    disable-crafting: true
+    item-cooldown: 10.0
+    #max-consume: 10
+    #unstackable: true
+    tier: E
+    hide-enchants: true
+    enchants:
+      DURABILITY: 1
+
+
+FOOD_1:
+  base:
+    material: WHEAT
+    name: '&6&lBánh Mì Nướng &7(Nhỏ)'
+    lore:
+    - '&e[!] Chuột phải để dùng'
+    - '&a[+] Mua vật phẩm tại &f/shopmoney'
+    restore-food: 5
+    restore-saturation: 2.0
+    disable-crafting: true
+    item-cooldown: 5.0
+    #max-consume: 5
+    #unstackable: true
+    tier: E
+    hide-enchants: true
+    enchants:
+      DURABILITY: 1
+
+FOOD_2:
+  base:
+    material: COCOA_BEANS
+    name: '&6&lThịt Nướng Hảo Hạng &7(Vừa)'
+    lore:
+    - '&e[!] Chuột phải để dùng'
+    - '&a[+] Mua vật phẩm tại &f/shopmoney'
+    restore-food: 10
+    restore-saturation: 5.0
+    disable-crafting: true
+    item-cooldown: 5.0
+    #max-consume: 5
+    #unstackable: true
+    tier: E
+    hide-enchants: true
+    enchants:
+      DURABILITY: 1
+
+FOOD_3:
+  base:
+    material: GOLD_NUGGET
+    name: '&6&lTáo Vàng Thần Kỳ &7(Lớn)'
+    lore:
+    - '&e[!] Chuột phải để dùng'
+    - '&a[+] Mua vật phẩm tại &f/shopmoney'
+    restore-food: 20
+    restore-saturation: 10.0
+    disable-crafting: true
+    item-cooldown: 5.0
+    #max-consume: 5
+    #unstackable: true
+    tier: E
+    hide-enchants: true
+    enchants:
+      DURABILITY: 1

@@ -1,0 +1,8 @@
+Name: <white><bold>⏱<green>○<yellow><bold>⏱<aqua><bold> CHÌA KHÓA <white><bold>ONLINE <yellow><bold>⏱<green>○<white><bold>⏱
+Virtual: true
+ItemData:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{extra:["Cratesckey Key"],text:""}},count:1,id:"minecraft:tripwire_hook"}'
+    DataVersion: 4671
+ItemStackable: false

@@ -1,0 +1,114 @@
+menu_title: "&8▶ Giao Diện | Đỡ Đòn"
+open_command:
+  - tvkn_dodon
+size: 54
+items:
+
+  magma:
+    display_name: "&c&l⋨⋨⋨ NHAM THẠCH ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI1MDhjNzc5ZjMxMmRhZmYzMzdkMTM3ZjM0ZGQzNjVhM2Y5YzEzMmJkOTJlYjBjNWZmYWI3YzViNGE1NWM1In19fQ==
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - "&8&m                                     "
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &cV1"
+      - "  &a✧ &7Loại: &cHệ Đỡ Đòn"
+      - "  &a✧ &7Độ hiếm: &cHuyền Thoại"
+      - ""
+      - " &6[&c&l ☄ &e&lNGỌN LỬA DUNG NHAM (kỹ năng 1) &c&l☄ &6]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Giải phóng sức mạnh dung nham xung quanh."
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e5s"
+      - "  &a⚔ &7Sát thương: &c70"
+      - ""
+      - " &6[&c&l ☄ &e&lDUNG NHAM BẬT NHẢY (kỹ năng 2) &c&l☄ &6]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Tạo ra quả cầu dung nham nảy bật."
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e7s"
+      - "  &a⚔ &7Sát thương: &c120"
+      - ""
+      - " &6[&c&l ☄ &e&lMƯA THẠCH TỬ (kỹ năng 3) &c&l☄ &6]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Triệu hồi cơn mưa vẫn thạch rực lửa."
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e9s"
+      - "  &a⚔ &7Sát thương: &c170"
+      - "&8&m                                     "
+      - "    &a&l☁ &f&omc.minerua.net"
+
+  "menu":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQyZmIzYmUwMzFmNjY0NjE2MGIyZjM3YjM0NjM2MjMyY2EyZjM5ODYxZjg4Y2FiYTE5MmNhYjhmZThlODZlIn19fQ==
+    display_name: "&8[ &cX &8] &cReturn"
+    lore:
+      - "&8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      - "&7➤ Trở về &fMenu Chính"
+      - "&8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      - "&8✦ &7Nhấn để quay lại"
+    slot: 49
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] thuvienkynang"
+
+  "black":
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 50
+      - 51
+      - 52
+      - 53

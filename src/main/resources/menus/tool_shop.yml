@@ -1,0 +1,176 @@
+title: "&8Cửa Hàng Cuốc (Tools)"
+layout:
+  - "#########"
+  - "#ABCDEFG#"
+  - "#HIJKLMN#"
+  - "#########"
+
+decorations:
+  "#":
+    material: GRAY_STAINED_GLASS_PANE
+    name: "&7"
+
+trades:
+  "A":
+    result:
+      type: TOOL
+      id: CUOC_TAN_BINH
+      amount: 1
+    cost:
+      money: 1000.0
+  "B":
+    result:
+      type: TOOL
+      id: CUOC_CHIEN_BINH
+      amount: 1
+    cost:
+      money: 50000.0
+      items:
+        upgrade_req:
+          type: TOOL
+          id: CUOC_TAN_BINH
+          amount: 1
+  "C":
+    result:
+      type: TOOL
+      id: CUOC_HIEP_SI
+      amount: 1
+    cost:
+      money: 180000.0
+      items:
+        upgrade_req:
+          type: TOOL
+          id: CUOC_CHIEN_BINH
+          amount: 1
+  "D":
+    result:
+      type: TOOL
+      id: CUOC_TIEN_PHONG
+      amount: 1
+    cost:
+      money: 480000.0
+      items:
+        upgrade_req:
+          type: TOOL
+          id: CUOC_HIEP_SI
+          amount: 1
+  "E":
+    result:
+      type: TOOL
+      id: CUOC_BONG_TOI
+      amount: 1
+    cost:
+      money: 1920000.0
+      items:
+        upgrade_req:
+          type: TOOL
+          id: CUOC_TIEN_PHONG
+          amount: 1
+  "F":
+    result:
+      type: TOOL
+      id: CUOC_BAO_CHUA_BANG_GIA
+      amount: 1
+    cost:
+      money: 2400000.0
+      items:
+        upgrade_req:
+          type: TOOL
+          id: CUOC_BONG_TOI
+          amount: 1
+  "G":
+    result:
+      type: TOOL
+      id: CUOC_HOA_NGUC
+      amount: 1
+    cost:
+      money: 2880000.0
+      items:
+        upgrade_req:
+          type: TOOL
+          id: CUOC_BAO_CHUA_BANG_GIA
+          amount: 1
+  "H":
+    result:
+      type: TOOL
+      id: CUOC_HAC_THIEN_SU
+      amount: 1
+    cost:
+      money: 3360000.0
+      items:
+        upgrade_req:
+          type: TOOL
+          id: CUOC_HOA_NGUC
+          amount: 1
+  "I":
+    result:
+      type: TOOL
+      id: CUOC_CUONG_NO_BAO_TO
+      amount: 1
+    cost:
+      money: 3840000.0
+      items:
+        upgrade_req:
+          type: TOOL
+          id: CUOC_HAC_THIEN_SU
+          amount: 1
+  "J":
+    result:
+      type: TOOL
+      id: CUOC_QUAN_VUONG_BANG_GIA
+      amount: 1
+    cost:
+      money: 4320000.0
+      items:
+        upgrade_req:
+          type: TOOL
+          id: CUOC_CUONG_NO_BAO_TO
+          amount: 1
+  "K":
+    result:
+      type: TOOL
+      id: CUOC_QUY_VUONG_V1
+      amount: 1
+    cost:
+      money: 4800000.0
+      items:
+        upgrade_req:
+          type: TOOL
+          id: CUOC_QUAN_VUONG_BANG_GIA
+          amount: 1
+  "L":
+    result:
+      type: TOOL
+      id: CUOC_QUY_VUONG_V2
+      amount: 1
+    cost:
+      money: 5280000.0
+      items:
+        upgrade_req:
+          type: TOOL
+          id: CUOC_QUY_VUONG_V1
+          amount: 1
+  "M":
+    result:
+      type: TOOL
+      id: CUOC_THINH_NO_KAMIS_V1
+      amount: 1
+    cost:
+      money: 5640000.0
+      items:
+        upgrade_req:
+          type: TOOL
+          id: CUOC_QUY_VUONG_V2
+          amount: 1
+  "N":
+    result:
+      type: TOOL
+      id: CUOC_THINH_NO_KAMIS_V2
+      amount: 1
+    cost:
+      money: 6000000.0
+      items:
+        upgrade_req:
+          type: TOOL
+          id: CUOC_THINH_NO_KAMIS_V1
+          amount: 1

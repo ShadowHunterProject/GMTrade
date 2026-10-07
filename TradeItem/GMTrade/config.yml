@@ -1,0 +1,20 @@
+# Configuration cho GMTrade
+success-effects:
+  sound:
+    enabled: true
+    type: "ENTITY_PLAYER_LEVELUP"
+    volume: 1.0
+    pitch: 1.0
+  particle:
+    enabled: true
+    type: "FIREWORK" # Use FIREWORK for firework effect, or particle names like VILLAGER_HAPPY
+    firework-type: "BALL" # Types: BALL, BALL_LARGE, STAR, BURST, CREEPER
+    color:
+      red: 0
+      green: 255
+      blue: 0
+    fade:
+      red: 255
+      green: 255
+      blue: 255
+    power: 0

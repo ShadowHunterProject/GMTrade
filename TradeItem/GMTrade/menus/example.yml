@@ -1,0 +1,26 @@
+title: "Trade Menu"
+layout:
+  - "#########"
+  - "#       #"
+  - "#   T   #"
+  - "#       #"
+  - "#########"
+
+decorations:
+  '#':
+    material: GRAY_STAINED_GLASS_PANE
+    name: "&7"
+
+trades:
+  'T':
+    result:
+      type: SWORD
+      id: EXCALIBUR
+      amount: 1
+    cost:
+      money: 1000.0
+      items:
+        item1:
+          type: MATERIAL
+          id: STEEL_INGOT
+          amount: 5

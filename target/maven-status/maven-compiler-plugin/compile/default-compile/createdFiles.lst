@@ -1,0 +1,9 @@
+vn\gmtrade\command\TradeCommand.class
+vn\gmtrade\manager\MessageManager.class
+vn\gmtrade\model\TradeMenu.class
+vn\gmtrade\manager\TradeManager.class
+vn\gmtrade\model\TradeCost.class
+vn\gmtrade\model\TradeItem.class
+vn\gmtrade\GMTrade.class
+vn\gmtrade\model\RequiredItem.class
+vn\gmtrade\gui\TradeGUI.class

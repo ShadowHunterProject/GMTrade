@@ -1,0 +1,126 @@
+title: '&8Cửa Hàng Dungeon A'
+layout:
+  - '#########'
+  - '# SBDHW #'
+  - '#########'
+  - '##12 34##'
+  - '####Q####'
+decorations:
+  '#':
+    material: GRAY_STAINED_GLASS_PANE
+    name: '&7'
+  Q:
+    material: DARK_OAK_DOOR
+    name: '&cQuay Lại Cửa Hàng'
+    lore:
+      - '&7Click để quay lại menu chính'
+    command: '[console] dm open trademenu %player%'
+trades:
+  S:
+    result:
+      type: SWORD
+      id: KIEM_BONG_TOI
+      amount: 1
+    cost:
+      money: 5000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A
+          amount: 320
+  B:
+    result:
+      type: BOW
+      id: CUNG_BONG_TOI
+      amount: 1
+    cost:
+      money: 5000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A
+          amount: 320
+  D:
+    result:
+      type: DAGGER
+      id: DAO_BONG_TOI
+      amount: 1
+    cost:
+      money: 5000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A
+          amount: 320
+  H:
+    result:
+      type: HAMMER
+      id: BUA_BONG_TOI
+      amount: 1
+    cost:
+      money: 5000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A
+          amount: 320
+  W:
+    result:
+      type: STAFF
+      id: GAY_BONG_TOI
+      amount: 1
+    cost:
+      money: 5000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A
+          amount: 320
+  '1':
+    result:
+      type: ARMOR
+      id: MU_BONG_TOI
+      amount: 1
+    cost:
+      money: 2500.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A
+          amount: 320
+  '2':
+    result:
+      type: ARMOR
+      id: GIAP_BONG_TOI
+      amount: 1
+    cost:
+      money: 2500.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A
+          amount: 320
+  '3':
+    result:
+      type: ARMOR
+      id: QUAN_BONG_TOI
+      amount: 1
+    cost:
+      money: 2500.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A
+          amount: 320
+  '4':
+    result:
+      type: ARMOR
+      id: GIAY_BONG_TOI
+      amount: 1
+    cost:
+      money: 2500.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A
+          amount: 320

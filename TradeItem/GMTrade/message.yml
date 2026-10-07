@@ -1,0 +1,20 @@
+prefix: "&8[&eHệ Thống&8] &r"
+
+messages:
+  no-permission: "&cBạn không có quyền thực hiện lệnh này!"
+  player-offline: "&cNgười chơi không online!"
+  menu-not-found: "&cKhông tìm thấy menu: &f{menu}"
+  menu-opened: "&aĐã mở menu &f{menu} &acho &f{player}"
+  reload-success: "&aĐã tải lại toàn bộ cấu hình thành công!"
+  usage-open: "&eSử dụng: /gmtrade open <menu> <player>"
+  usage-reload: "&eSử dụng: /gmtrade reload"
+  
+  not-enough-money: "&cBạn không đủ tiền để trao đổi!"
+  not-enough-item: "&cBạn không đủ vật phẩm &f{name} &cx&f{amount}&c!"
+  trade-success: "&aTrao đổi thành công!"
+
+gui:
+  lore-req-title: "&eYêu cầu để chế tạo:"
+  lore-req-money: "&7- Tiền: &a{money}$"
+  lore-req-item: "&7- Vật phẩm: &f{name} &7x&f{amount}"
+  lore-click: "&aClick để trao đổi!"

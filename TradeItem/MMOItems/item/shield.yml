@@ -1,0 +1,423 @@
+KHIEN_TAN_BINH:
+  base:
+    set: VAI_THO
+    custom-model-data: 1171
+    attack-damage: 1
+    custom-nbt: []
+    lore:
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    material: SHIELD
+    name: '&7Khiên Tân Binh'
+    tier: E
+    unbreakable: true
+    armor: 1
+    max-health: 1
+    knockback-resistance: 0.5
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+KHIEN_CHIEN_BINH:
+  base:
+    set: CHIEN_BINH
+    custom-model-data: 1089
+    attack-damage: 1
+    custom-nbt: []
+    lore:
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: SHIELD
+    name: '&aKhiên Chiến Binh'
+    tier: D
+    unbreakable: true
+    armor: 1
+    max-health: 3
+    knockback-resistance: 0.5
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+KHIEN_HIEP_SI:
+  base:
+    set: HIEP_SI
+    custom-model-data: 1086
+    attack-damage: 1
+    custom-nbt: []
+    lore:
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: SHIELD
+    name: '&bKhiên Hiệp Sĩ'
+    tier: C
+    unbreakable: true
+    armor: 2
+    max-health: 9
+    knockback-resistance: 0.5
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+KHIEN_TIEN_PHONG:
+  base:
+    set: TIEN_PHONG
+    custom-model-data: 1047
+    attack-damage: 1
+    custom-nbt: []
+    lore:
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: SHIELD
+    name: '&dKhiên Tiên Phong'
+    tier: B
+    unbreakable: true
+    armor: 5
+    max-health: 27
+    knockback-resistance: 0.5
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+KHIEN_BONG_TOI:
+  base:
+    set: BONG_TOI
+    custom-model-data: 1039
+    attack-damage: 1
+    custom-nbt: []
+    lore:
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: SHIELD
+    name: '&8༺ <#8A2BE2>&lK<#8427D8>&lh<#7D22CF>&li<#771EC5>&lê <#711ABC>&lB<#6A16B2>&ló<#6411A8>&ln<#5E0D9F>&lg
+      <#580995>&lT<#51048C>&lố<#4B0082>&li &8༻'
+    tier: A
+    unbreakable: true
+    armor: 15
+    max-health: 74
+    knockback-resistance: 0.5
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+KHIEN_BAO_CHUA_BANG_GIA:
+  base:
+    set: BAO_CHUA_BANG_GIA
+    custom-model-data: 1051
+    attack-damage: 1
+    custom-nbt: []
+    lore:
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: SHIELD
+    name: '&f꧁༺ <#00CBFF>&lK<#03CAFD>&lh<#07C8FB>&li<#0AC7F9>&lê <#0DC6F7>&lB<#10C5F5>&lạ<#14C3F3>&lo
+      <#17C2F1>&lC<#1AC1EF>&lh<#1EBFEC>&lú<#21BEEA>&la <#24BDE8>&lB<#28BBE6>&lă<#2BBAE4>&ln<#2EB9E2>&lg
+      <#31B8E0>&lG<#35B6DE>&li<#38B5DC>&lá &f༻꧂'
+    tier: A+
+    unbreakable: true
+    armor: 22
+    max-health: 108
+    knockback-resistance: 0.5
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+KHIEN_HOA_NGUC:
+  base:
+    set: HOA_NGUC
+    custom-model-data: 1005
+    attack-damage: 1
+    custom-nbt: []
+    lore:
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: SHIELD
+    name: '&f꧁༺ <#FF0000>&lK<#FF0E00>&lh<#FF1C00>&li<#FF2A00>&lê <#FF3800>&lH<#FF4600>&lo<#FF5400>&lả
+      <#FF6200>&lN<#FF7000>&lg<#FF7E00>&lụ<#FF8C00>&lc &f༻꧂'
+    tier: A+
+    unbreakable: true
+    armor: 27
+    max-health: 137
+    knockback-resistance: 0.5
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+KHIEN_HAC_THIEN_SU:
+  base:
+    set: HAC_THIEN_SU
+    custom-model-data: 1049
+    attack-damage: 1
+    custom-nbt: []
+    lore:
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: SHIELD
+    name: '&f꧁༺ <#8B008B>&lK<#86008A>&lh<#81008A>&li<#7C0089>&lê <#770088>&lH<#720088>&lắ<#6D0087>&lc
+      <#690086>&lT<#640085>&lh<#5F0085>&li<#5A0084>&lê<#550083>&ln <#500083>&lS<#4B0082>&lứ
+      &f༻꧂'
+    tier: A+
+    unbreakable: true
+    armor: 25
+    max-health: 123
+    knockback-resistance: 0.5
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+KHIEN_CUONG_NO_BAO_TO:
+  base:
+    set: CUONG_NO_BAO_TO
+    custom-model-data: 1133
+    attack-damage: 1
+    custom-nbt: []
+    lore:
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: SHIELD
+    name: '&f꧁༺ <#FFD700>&lK<#FFD400>&lh<#FFD000>&li<#FFCD00>&lê <#FFCA00>&lC<#FFC600>&lu<#FFC300>&lồ<#FFC000>&ln<#FFBC00>&lg
+      <#FFB900>&lN<#FFB600>&lộ <#FFB200>&lB<#FFAF00>&lã<#FFAC00>&lo <#FFA800>&lT<#FFA500>&lố
+      &f༻꧂'
+    tier: A+
+    unbreakable: true
+    armor: 24
+    max-health: 118
+    knockback-resistance: 0.5
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+KHIEN_QUAN_VUONG_BANG_GIA:
+  base:
+    set: QUAN_VUONG_BANG_GIA
+    custom-model-data: 1054
+    attack-damage: 1
+    custom-nbt: []
+    lore:
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: SHIELD
+    name: <#FFF1CE>⊱⋇⊷ <#00FFFF>&lK<#00F2F9>&lh<#00E4F3>&li<#00D7ED>&lê <#00C9E7>&lQ<#00BCE0>&lu<#00AEDA>&lâ<#00A1D4>&ln
+      <#0094CE>&lV<#0086C8>&lư<#0079C2>&lơ<#006BBC>&ln<#005EB6>&lg <#0051B0>&lB<#0043AA>&lă<#0036A3>&ln<#00289D>&lg
+      <#001B97>&lG<#000D91>&li<#00008B>&lá <#FFF1CE>⊶⋇⊰
+    tier: S
+    unbreakable: true
+    armor: 37
+    max-health: 186
+    knockback-resistance: 0.5
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+KHIEN_QUY_VUONG_V1:
+  base:
+    set: QUY_VUONG
+    custom-model-data: 1003
+    attack-damage: 1
+    custom-nbt: []
+    lore:
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: SHIELD
+    name: '&f꧁༺ <#FCD05C>&lK<#F9C55C>&lh<#F6BA5B>&li<#F3AF5B>&lê &e&k&l.&e&l｡ <#F0A45A>&lQ<#EA8E5A>&lu<#E88459>&lỷ <#E57959>&lV<#DF6358>&lư<#DC5858>&lơ<#D94D57>&ln<#D64257>&lg &e&l｡&k&l｡ &6&lV1 &f༻꧂'
+    tier: S
+    unbreakable: true
+    armor: 41
+    max-health: 206
+    knockback-resistance: 0.5
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+KHIEN_QUY_VUONG_V2:
+  base:
+    set: QUY_VUONG
+    custom-model-data: 1003
+    attack-damage: 1
+    custom-nbt: []
+    lore:
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: SHIELD
+    name: '&f꧁༺ <#FCD05C>&lK<#F9C55C>&lh<#F6BA5B>&li<#F3AF5B>&lê &c&k&l.&c&l｡ <#F0A45A>&lQ<#EA8E5A>&lu<#E88459>&lỷ <#E57959>&lV<#DF6358>&lư<#DC5858>&lơ<#D94D57>&ln<#D64257>&lg &c&l｡&k&l｡ <#A470F1>&lV2 &f༻꧂'
+    tier: S
+    unbreakable: true
+    armor: 47
+    max-health: 235
+    knockback-resistance: 0.5
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+KHIEN_THINH_NO_KAMIS_V1:
+  base:
+    set: THINH_NO_KAMIS
+    custom-model-data: 1016
+    attack-damage: 1
+    custom-nbt: []
+    lore:
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: SHIELD
+    name: '<#FFF1CE>⊱⋇⊷ <#CFC6FF>&lK<#CBBDFC>&lh<#C8B3FA>&li<#C4AAF7>&lê <#BC97F2>&lT<#B98DEF>&lh<#B17AEA>&lị<#AD71E7>&ln<#AA67E5>&lh <#A65EE2>&lN<#9E4BDD>&lộ &e&k&l.&e&l｡ <#9B42DA>&lK<#9738D8>&la<#932FD5>&lm<#8E26D2>&li<#8A1ED0>&ls &e&l｡&k&l｡ &6&lV1 <#FFF1CE>⊶⋇⊰'
+    tier: S
+    unbreakable: true
+    armor: 44
+    max-health: 221
+    knockback-resistance: 0.5
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+KHIEN_THINH_NO_KAMIS_V2:
+  base:
+    set: THINH_NO_KAMIS
+    custom-model-data: 1016
+    attack-damage: 1
+    custom-nbt: []
+    lore:
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: SHIELD
+    name: '<#FFF1CE>⊱⋇⊷ <#CFC6FF>&lK<#CBBDFC>&lh<#C8B3FA>&li<#C4AAF7>&lê <#BC97F2>&lT<#B98DEF>&lh<#B17AEA>&lị<#AD71E7>&ln<#AA67E5>&lh <#A65EE2>&lN<#9E4BDD>&lộ &d&k&l.&d&l｡ <#9B42DA>&lK<#9738D8>&la<#932FD5>&lm<#8E26D2>&li<#8A1ED0>&ls &d&l｡&k&l｡ <#A470F1>&lV2 <#FFF1CE>⊶⋇⊰'
+    tier: S
+    unbreakable: true
+    armor: 50
+    max-health: 250
+    knockback-resistance: 0.5
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+TEST:
+  base:
+    material: SHIELD
+    attack-damage: 9804
+
+
+
+

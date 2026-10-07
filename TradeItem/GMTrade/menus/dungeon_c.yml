@@ -1,0 +1,126 @@
+title: '&8Cửa Hàng Dungeon C'
+layout:
+  - '#########'
+  - '# SBDHW #'
+  - '#########'
+  - '##12 34##'
+  - '####Q####'
+decorations:
+  '#':
+    material: GRAY_STAINED_GLASS_PANE
+    name: '&7'
+  Q:
+    material: DARK_OAK_DOOR
+    name: '&cQuay Lại Cửa Hàng'
+    lore:
+      - '&7Click để quay lại menu chính'
+    command: '[console] dm open trademenu %player%'
+trades:
+  S:
+    result:
+      type: SWORD
+      id: KIEM_HIEP_SI
+      amount: 1
+    cost:
+      money: 3000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_C
+          amount: 192
+  B:
+    result:
+      type: BOW
+      id: CUNG_HIEP_SI
+      amount: 1
+    cost:
+      money: 3000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_C
+          amount: 192
+  D:
+    result:
+      type: DAGGER
+      id: DAO_HIEP_SI
+      amount: 1
+    cost:
+      money: 3000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_C
+          amount: 192
+  H:
+    result:
+      type: HAMMER
+      id: BUA_HIEP_SI
+      amount: 1
+    cost:
+      money: 3000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_C
+          amount: 192
+  W:
+    result:
+      type: STAFF
+      id: GAY_HIEP_SI
+      amount: 1
+    cost:
+      money: 3000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_C
+          amount: 192
+  '1':
+    result:
+      type: ARMOR
+      id: MU_HIEP_SI
+      amount: 1
+    cost:
+      money: 1500.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_C
+          amount: 192
+  '2':
+    result:
+      type: ARMOR
+      id: GIAP_HIEP_SI
+      amount: 1
+    cost:
+      money: 1500.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_C
+          amount: 192
+  '3':
+    result:
+      type: ARMOR
+      id: QUAN_HIEP_SI
+      amount: 1
+    cost:
+      money: 1500.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_C
+          amount: 192
+  '4':
+    result:
+      type: ARMOR
+      id: GIAY_HIEP_SI
+      amount: 1
+    cost:
+      money: 1500.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_C
+          amount: 192

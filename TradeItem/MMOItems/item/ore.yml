@@ -1,0 +1,947 @@
+THAN_I:
+  base:
+    material: COAL_ORE
+    name: "&8✦ &f&lThan &aI &8✦"
+    tier: E
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank E"
+      - "  &7▪ &fPhẩm chất: &aBậc I"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+THAN_II:
+  base:
+    material: DEEPSLATE_COAL_ORE
+    name: "&8✦ &f&lThan &bII &8✦"
+    tier: E
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank E"
+      - "  &7▪ &fPhẩm chất: &bBậc II"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+THAN_III:
+  base:
+    material: COAL_BLOCK
+    name: "&8✦ &f&lThan &dIII &8✦"
+    tier: E
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank E"
+      - "  &7▪ &fPhẩm chất: &dBậc III"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+
+DONG_I:
+  base:
+    material: COPPER_ORE
+    name: "&6✦ &a&lĐồng &aI &6✦"
+    tier: D
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank D"
+      - "  &7▪ &fPhẩm chất: &aBậc I"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+DONG_II:
+  base:
+    material: DEEPSLATE_COPPER_ORE
+    name: "&6✦ &a&lĐồng &bII &6✦"
+    tier: D
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank D"
+      - "  &7▪ &fPhẩm chất: &bBậc II"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+DONG_III:
+  base:
+    material: RAW_COPPER_BLOCK
+    name: "&6✦ &a&lĐồng &dIII &6✦"
+    tier: D
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank D"
+      - "  &7▪ &fPhẩm chất: &dBậc III"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+
+SAT_I:
+  base:
+    material: IRON_ORE
+    name: "&7✦ &b&lSắt &aI &7✦"
+    tier: C
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank C"
+      - "  &7▪ &fPhẩm chất: &aBậc I"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+SAT_II:
+  base:
+    material: DEEPSLATE_IRON_ORE
+    name: "&7✦ &b&lSắt &bII &7✦"
+    tier: C
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank C"
+      - "  &7▪ &fPhẩm chất: &bBậc II"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+SAT_III:
+  base:
+    material: RAW_IRON_BLOCK
+    name: "&7✦ &b&lSắt &dIII &7✦"
+    tier: C
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank C"
+      - "  &7▪ &fPhẩm chất: &dBậc III"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+
+VANG_I:
+  base:
+    material: GOLD_ORE
+    name: "&e✦ &5&lVàng &aI &e✦"
+    tier: B
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank B"
+      - "  &7▪ &fPhẩm chất: &aBậc I"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+VANG_II:
+  base:
+    material: DEEPSLATE_GOLD_ORE
+    name: "&e✦ &5&lVàng &bII &e✦"
+    tier: B
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank B"
+      - "  &7▪ &fPhẩm chất: &bBậc II"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+VANG_III:
+  base:
+    material: RAW_GOLD_BLOCK
+    name: "&e✦ &5&lVàng &dIII &e✦"
+    tier: B
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank B"
+      - "  &7▪ &fPhẩm chất: &dBậc III"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+
+KIM_CUONG_I:
+  base:
+    material: DIAMOND_ORE
+    name: "&b✦ &6&lKim Cương &aI &b✦"
+    tier: A
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank A"
+      - "  &7▪ &fPhẩm chất: &aBậc I"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+KIM_CUONG_II:
+  base:
+    material: DEEPSLATE_DIAMOND_ORE
+    name: "&b✦ &6&lKim Cương &bII &b✦"
+    tier: A
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank A"
+      - "  &7▪ &fPhẩm chất: &bBậc II"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+KIM_CUONG_III:
+  base:
+    material: DIAMOND_BLOCK
+    name: "&b✦ &6&lKim Cương &dIII &b✦"
+    tier: A
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank A"
+      - "  &7▪ &fPhẩm chất: &dBậc III"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+
+BANG_THACH_I:
+  base:
+    material: lapis_ore
+    name: "&b❄ &d&lBăng Thạch &aI &b❄"
+    tier: A+
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank A+"
+      - "  &7▪ &fPhẩm chất: &aBậc I"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+BANG_THACH_II:
+  base:
+    material: deepslate_lapis_ore
+    name: "&b❄ &d&lBăng Thạch &bII &b❄"
+    tier: A+
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank A+"
+      - "  &7▪ &fPhẩm chất: &bBậc II"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+BANG_THACH_III:
+  base:
+    material: lapis_block
+    name: "&b❄ &d&lBăng Thạch &dIII &b❄"
+    tier: A+
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank A+"
+      - "  &7▪ &fPhẩm chất: &dBậc III"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+
+NHAM_THACH_I:
+  base:
+    material: MAGMA_BLOCK
+    name: "&c♨ &d&lNham Thạch &aI &c♨"
+    tier: A+
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank A+"
+      - "  &7▪ &fPhẩm chất: &aBậc I"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+NHAM_THACH_II:
+  base:
+    material: NETHER_WART_BLOCK
+    name: "&c♨ &d&lNham Thạch &bII &c♨"
+    tier: A+
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank A+"
+      - "  &7▪ &fPhẩm chất: &bBậc II"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+NHAM_THACH_III:
+  base:
+    material: SHROOMLIGHT
+    name: "&c♨ &d&lNham Thạch &dIII &c♨"
+    tier: A+
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank A+"
+      - "  &7▪ &fPhẩm chất: &dBậc III"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+
+LOI_THACH_I:
+  base:
+    material: COPPER_BLOCK
+    name: "&eϟ &d&lLôi Thạch &aI &eϟ"
+    tier: A+
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank A+"
+      - "  &7▪ &fPhẩm chất: &aBậc I"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+LOI_THACH_II:
+  base:
+    material: EXPOSED_COPPER
+    name: "&eϟ &d&lLôi Thạch &bII &eϟ"
+    tier: A+
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank A+"
+      - "  &7▪ &fPhẩm chất: &bBậc II"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+LOI_THACH_III:
+  base:
+    material: OXIDIZED_COPPER
+    name: "&eϟ &d&lLôi Thạch &dIII &eϟ"
+    tier: A+
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank A+"
+      - "  &7▪ &fPhẩm chất: &dBậc III"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+
+CUC_HAN_TINH_I:
+  base:
+    material: WHITE_GLAZED_TERRACOTTA
+    name: "&f❄ &c&lCực Hàn Tinh &aI &f❄"
+    tier: S
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank S"
+      - "  &7▪ &fPhẩm chất: &aBậc I"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+CUC_HAN_TINH_II:
+  base:
+    material: LIGHT_BLUE_GLAZED_TERRACOTTA
+    name: "&f❄ &c&lCực Hàn Tinh &bII &f❄"
+    tier: S
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank S"
+      - "  &7▪ &fPhẩm chất: &bBậc II"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+CUC_HAN_TINH_III:
+  base:
+    material: CYAN_GLAZED_TERRACOTTA
+    name: "&f❄ &c&lCực Hàn Tinh &dIII &f❄"
+    tier: S
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank S"
+      - "  &7▪ &fPhẩm chất: &dBậc III"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+
+HOA_DIEM_TINH_I:
+  base:
+    material: CRIMSON_NYLIUM
+    name: "&4♨ &c&lHỏa Diệm Tinh &aI &4♨"
+    tier: S
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank S"
+      - "  &7▪ &fPhẩm chất: &aBậc I"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+HOA_DIEM_TINH_II:
+  base:
+    material: RED_NETHER_BRICKS
+    name: "&4♨ &c&lHỏa Diệm Tinh &bII &4♨"
+    tier: S
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank S"
+      - "  &7▪ &fPhẩm chất: &bBậc II"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+HOA_DIEM_TINH_III:
+  base:
+    material: GILDED_BLACKSTONE
+    name: "&4♨ &c&lHỏa Diệm Tinh &dIII &4♨"
+    tier: S
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank S"
+      - "  &7▪ &fPhẩm chất: &dBậc III"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+
+PHONG_LOI_TINH_I:
+  base:
+    material: AMETHYST_BLOCK
+    name: "&5ϟ &c&lPhong Lôi Tinh &aI &5ϟ"
+    tier: S
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank S"
+      - "  &7▪ &fPhẩm chất: &aBậc I"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+PHONG_LOI_TINH_II:
+  base:
+    material: PURPUR_BLOCK
+    name: "&5ϟ &c&lPhong Lôi Tinh &bII &5ϟ"
+    tier: S
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank S"
+      - "  &7▪ &fPhẩm chất: &bBậc II"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+PHONG_LOI_TINH_III:
+  base:
+    material: SCULK
+    name: "&5ϟ &c&lPhong Lôi Tinh &dIII &5ϟ"
+    tier: S
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank S"
+      - "  &7▪ &fPhẩm chất: &dBậc III"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+
+THANH_QUANG_TINH_I:
+  base:
+    material: QUARTZ_BLOCK
+    name: "&f✧ &c&lThánh Quang Tinh &aI &f✧"
+    tier: S
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank S"
+      - "  &7▪ &fPhẩm chất: &aBậc I"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+THANH_QUANG_TINH_II:
+  base:
+    material: GLOWSTONE
+    name: "&e✧ &c&lThánh Quang Tinh &bII &e✧"
+    tier: S
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank S"
+      - "  &7▪ &fPhẩm chất: &bBậc II"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+THANH_QUANG_TINH_III:
+  base:
+    material: SEA_LANTERN
+    name: "&b✧ &c&lThánh Quang Tinh &dIII &b✧"
+    tier: S
+    lore:
+      - "&8&m                              "
+      - ""
+      - "&6&l ✦ &e&lTHÔNG TIN KHOÁNG SẢN &6&l✦"
+      - "  &7▪ &fNguồn gốc: &eDungeon Rank S"
+      - "  &7▪ &fPhẩm chất: &dBậc III"
+      - ""
+      - "&b&l ✦ &3&lHƯỚNG DẪN SỬ DỤNG &b&l✦"
+      - "  &a✔ &fRèn luyện trang bị &7(Sắp ra mắt)"
+      - "  &a✔ &fBán kiếm tiền &c(/khoangsan)"
+      - ""
+      - "&8&o ❝ Các mỏ quặng sẽ tự động hồi phục"
+      - "&8&o    sau khi hạ gục Boss Dungeon ❞"
+      - ""
+      - "&8&m                              "
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true

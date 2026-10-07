@@ -1,0 +1,165 @@
+menu_title: '&8▶ Giao Diện | Cửa Hàng Chìa Khoá'
+open_command:
+  - keyshop 
+  - chiakhoa
+  - key
+open_commands:
+  - "[sound] BLOCK_CHAIN_PLACE 1.0 1.0"
+size: 54
+update_interval: 1
+
+items:
+  # ==========================================
+  # VIỀN MENU (BORDERS) - SIZE 54
+  # ==========================================
+  'vien_ngoai':
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: '&f '
+    slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+
+  'vien_trong':
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: '&f '
+    slots: [10, 11, 12, 14, 15, 16, 19, 20, 24, 25, 28, 29, 30, 32, 33, 34, 37, 38, 39, 41, 42, 43]
+
+
+  'longthan':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q5NTg1MzVmMjY0ZjE2Mzk4YjI4OTY0MGMwYzUzOTFhNDE4NzlkMTk2NzMxYTcxNjY0N2QzYzY0NjZjZGNkZSJ9fX0=
+    slot: 21
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    display_name: '&#FF4500&l✨ CHÌA KHÓA BẢO VẬT &#FF4500&l✨'
+    lore:
+      - '&#787878&m────────────────────────'
+      - '&#E0E0E0✦ Mua chìa khóa để đến khu vực'
+      - '&#E0E0E0✦ Crate và thử vận may của bạn.'
+      - ''
+      - '&#FF69B4&l📦 PHẦN THƯỞNG'
+      - '  &#FFB6C1▪ &fMở khóa: &#FF4500&lHÒM BÁU BẢO VẬT'
+      - ''
+      - '&#00BFFF&l💰 THÔNG TIN THANH TOÁN'
+      - '  &#87CEFA▪ &fPhí mua: &#32CD3254 Xu ⛁'
+      - ''
+      - '&#FF3333&l📌 LƯU Ý QUAN TRỌNG:'
+      - '  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ.'
+      - '  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải'
+      - '  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!'
+      - ''
+      - '&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!'
+      - '&#787878&m────────────────────────'
+    click_commands:
+      - '[console] points take %player_name% 54'
+      - '[console] crates giveKey chiakhoabaovat %player_name% 1'
+      - '[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &#FF4500Chìa Khóa Bảo Vật&a!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[close]'
+    click_requirement:
+      requirements:
+        Gold:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '54'
+          deny_commands:
+            - '[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!'
+            - '[sound] ENTITY_VILLAGER_NO'
+            - '[close]'
+
+  'batquai':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1ZGY0MjA1NmQ3OTYwMmE2OTE1ZmVjNmVmODA0YmJlNTdiNDUwYTBhNDg0Y2U5OTk3NDAzZDBjOTA0ZDM1NiJ9fX0=
+    slot: 22
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    display_name: '&a&lCHÌA KHOÁ HIẾM'
+    lore:
+      - '&#787878&m────────────────────────'
+      - '&#E0E0E0✦ Mua chìa khóa để đến khu vực'
+      - '&#E0E0E0✦ Crate và thử vận may của bạn.'
+      - ''
+      - '&#FF69B4&l📦 PHẦN THƯỞNG'
+      - '  &#FFB6C1▪ &fMở khóa: &a&lHÒM BÁU HIẾM'
+      - ''
+      - '&#00BFFF&l💰 THÔNG TIN THANH TOÁN'
+      - '  &#87CEFA▪ &fPhí mua: &#32CD3240 Xu ⛁'
+      - ''
+      - '&#FF3333&l📌 LƯU Ý QUAN TRỌNG:'
+      - '  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ.'
+      - '  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải'
+      - '  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!'
+      - ''
+      - '&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!'
+      - '&#787878&m────────────────────────'
+    click_commands:
+      - '[console] points take %player_name% 40'
+      - '[console] crates giveKey chiakhoahiem %player_name% 1'
+      - '[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &aChìa Khóa hiếm&a!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[close]'
+    click_requirement:
+      requirements:
+        Gold:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '40'
+          deny_commands:
+            - '[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!'
+            - '[sound] ENTITY_VILLAGER_NO'
+            - '[close]'
+
+  'nguyenlieu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDMzY2JmNzVmZjQwZDFiZmM4MTQ2NTI4Y2EzZTFiZGFjM2Q2NzBhYzc3ZWUxYzhkOThhZjE3NGNhMTlmZWIxOSJ9fX0=
+    slot: 23
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    display_name: '&e&lCHÌA KHOÁ THƯỜNG'
+    lore:
+      - '&#787878&m────────────────────────'
+      - '&#E0E0E0✦ Mua chìa khóa để đến khu vực'
+      - '&#E0E0E0✦ Crate và thử vận may của bạn.'
+      - ''
+      - '&#FF69B4&l📦 PHẦN THƯỞNG'
+      - '  &#FFB6C1▪ &fMở khóa: &e&lHÒM BÁU THƯỜNG'
+      - ''
+      - '&#00BFFF&l💰 THÔNG TIN THANH TOÁN'
+      - '  &#87CEFA▪ &fPhí mua: &#32CD3225 Xu ⛁'
+      - ''
+      - '&#FF3333&l📌 LƯU Ý QUAN TRỌNG:'
+      - '  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ.'
+      - '  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải'
+      - '  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!'
+      - ''
+      - '&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!'
+      - '&#787878&m────────────────────────'
+    click_commands:
+      - '[console] points take %player_name% 25'
+      - '[console] crates giveKey chiakhoathuong %player_name% 1'
+      - '[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &#32CD32Chìa Khóa Nguyên Liệu&a!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[close]'
+    click_requirement:
+      requirements:
+        Gold:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '25'
+          deny_commands:
+            - '[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!'
+            - '[sound] ENTITY_VILLAGER_NO'
+            - '[close]'
+
+  # ==========================================
+  # NÚT ĐÓNG MENU (SLOT 53)
+  # ==========================================
+  'menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 53
+    display_name: '&#FF3333&l❌ ĐÓNG / QUAY LẠI'
+    lore:
+      - '&#787878&m────────────────────────'
+      - '&#A9A9A9➤ &fClick để quay lại menu chính'
+      - '&#787878&m────────────────────────'
+    click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[openguimenu] menu'

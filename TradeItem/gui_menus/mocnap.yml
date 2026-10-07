@@ -1,0 +1,863 @@
+menu_title: "&0&lTHỢ SĂN TÀI PHIỆT"
+open_command:
+  - mocnap
+  - mocdonate
+  - napmoc
+  - moc
+  - nm
+  - qua
+  - rewardnap
+open_commands:
+  - "[sound] BLOCK_CHEST_OPEN 2.0 0.5"
+size: 54
+items:
+  "border":
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 0-8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36-44
+      - 45-53
+  "accent":
+    material: RED_STAINED_GLASS_PANE
+    slots:
+      - 11
+      - 13
+      - 15
+      - 20
+      - 22
+      - 24
+      - 29
+      - 31
+      - 33
+  "info":
+    material: NETHER_STAR
+    slot: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+    display_name: "&c&lHỘI THỢ SĂN"
+    lore:
+      - ""
+      - "&f⚡ &7Tài lực đóng góp:"
+      - "  &e&l%chuyenxu_backend_real_amount_spent% Xu"
+      - ""
+      - "&f⚡ &7Phần thưởng vinh danh:"
+      - "  &7Đạt đủ mốc tài lực để nhận đặc quyền."
+      - ""
+      - "&7Ủng hộ thêm bằng lệnh &f/napthe"
+  "back":
+    material: ARROW
+    slot: 47
+    display_name: "&fQuay Lại"
+    lore:
+      - ""
+      - "&7Trở về menu chính"
+    click_commands:
+      - "[console] dm open menu %player_name%"
+  "support":
+    material: EMERALD
+    slot: 51
+    display_name: "&a&lỦng Hộ Quỹ Hội"
+    lore:
+      - ""
+      - "&7Mở giao diện nạp tài lực"
+      - "&7để nâng cao thứ hạng thợ săn"
+    click_commands:
+      - "[player] napthe"
+
+  "50_claimed":
+    material: MINECART
+    slot: 10
+    priority: 0
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e50 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e50 Xu"
+      - "&f⚡ &7Trạng thái: &a&lĐÃ CẤP PHÁT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a500,000$"
+      - " &7▪ &25,000,000 Exp Level"
+      - " &7▪ &ex1 &a&lBooster x2 Kinh Nghiệm Level 1 Giờ"
+      - " &7▪ &ex1 &d&lBooster x2 EXP Shadow 1 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP1"
+      - ""
+      - "&8[&a✔&8] &aĐã chuyển vào túi đồ!"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: moc.50
+    click_commands:
+      - "[message] &cBạn đã nhận mốc 50 xu rồi!"
+  "50":
+    material: CHEST_MINECART
+    slot: 10
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e50 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e50 Xu"
+      - "&f⚡ &7Trạng thái: &c&lCHƯA ĐẠT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a500,000$"
+      - " &7▪ &25,000,000 Exp Level"
+      - " &7▪ &ex1 &a&lBooster x2 Kinh Nghiệm Level 1 Giờ"
+      - " &7▪ &ex1 &d&lBooster x2 EXP Shadow 1 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP1"
+      - ""
+      - "&8[&e!&8] &eClick để nhận thưởng!"
+    click_requirement:
+      requirements:
+        check_spent:
+          type: ">="
+          input: "%chuyenxu_backend_real_amount_spent%"
+          output: "50"
+          deny_commands:
+            - "[message] &cBạn cần ủng hộ ít nhất &e50 &cxu để nhận mốc này!"
+    click_commands:
+      - "[console] eco give %player_name% 500000"
+      - "[console] exp give %player_name% 5000000"
+      - "[console] cbooster giveitem %player_name% xp 2 3600 1"
+      - "[console] cbooster giveitem %player_name% TURTLE_SKILL 2 3600 1"
+      - "[console] lp user %player_name% permission set turtletags.tag.VIP1 true"
+      - "[console] lp user %player_name% permission set moc.50 true"
+      - "[message] &aNhận thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[close]"
+
+  "100_claimed":
+    material: MINECART
+    slot: 12
+    priority: 0
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e100 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e100 Xu"
+      - "&f⚡ &7Trạng thái: &a&lĐÃ CẤP PHÁT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a1,000,000$"
+      - " &7▪ &210,000,000 Exp Level"
+      - " &7▪ &ex2 &a&lBooster x2 Kinh Nghiệm Level 1 Giờ"
+      - " &7▪ &ex2 &d&lBooster x2 EXP Shadow 1 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP2"
+      - ""
+      - "&8[&a✔&8] &aĐã chuyển vào túi đồ!"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: moc.100
+    click_commands:
+      - "[message] &cBạn đã nhận mốc 100 xu rồi!"
+  "100":
+    material: CHEST_MINECART
+    slot: 12
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e100 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e100 Xu"
+      - "&f⚡ &7Trạng thái: &c&lCHƯA ĐẠT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a1,000,000$"
+      - " &7▪ &210,000,000 Exp Level"
+      - " &7▪ &ex2 &a&lBooster x2 Kinh Nghiệm Level 1 Giờ"
+      - " &7▪ &ex2 &d&lBooster x2 EXP Shadow 1 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP2"
+      - ""
+      - "&8[&e!&8] &eClick để nhận thưởng!"
+    click_requirement:
+      requirements:
+        check_spent:
+          type: ">="
+          input: "%chuyenxu_backend_real_amount_spent%"
+          output: "100"
+          deny_commands:
+            - "[message] &cBạn cần ủng hộ ít nhất &e100 &cxu để nhận mốc này!"
+    click_commands:
+      - "[console] eco give %player_name% 1000000"
+      - "[console] exp give %player_name% 10000000"
+      - "[console] cbooster giveitem %player_name% xp 2 3600 2"
+      - "[console] cbooster giveitem %player_name% TURTLE_SKILL 2 3600 2"
+      - "[console] lp user %player_name% permission set turtletags.tag.VIP2 true"
+      - "[console] lp user %player_name% permission set moc.100 true"
+      - "[message] &aNhận thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[close]"
+
+  "200_claimed":
+    material: MINECART
+    slot: 14
+    priority: 0
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e200 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e200 Xu"
+      - "&f⚡ &7Trạng thái: &a&lĐÃ CẤP PHÁT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a2,000,000$"
+      - " &7▪ &220,000,000 Exp Level"
+      - " &7▪ &ex1 &a&lBooster x2 Kinh Nghiệm Level 3 Giờ"
+      - " &7▪ &ex1 &d&lBooster x2 EXP Shadow 3 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP3"
+      - ""
+      - "&8[&a✔&8] &aĐã chuyển vào túi đồ!"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: moc.200
+    click_commands:
+      - "[message] &cBạn đã nhận mốc 200 xu rồi!"
+  "200":
+    material: CHEST_MINECART
+    slot: 14
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e200 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e200 Xu"
+      - "&f⚡ &7Trạng thái: &c&lCHƯA ĐẠT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a2,000,000$"
+      - " &7▪ &220,000,000 Exp Level"
+      - " &7▪ &ex1 &a&lBooster x2 Kinh Nghiệm Level 3 Giờ"
+      - " &7▪ &ex1 &d&lBooster x2 EXP Shadow 3 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP3"
+      - ""
+      - "&8[&e!&8] &eClick để nhận thưởng!"
+    click_requirement:
+      requirements:
+        check_spent:
+          type: ">="
+          input: "%chuyenxu_backend_real_amount_spent%"
+          output: "200"
+          deny_commands:
+            - "[message] &cBạn cần ủng hộ ít nhất &e200 &cxu để nhận mốc này!"
+    click_commands:
+      - "[console] eco give %player_name% 2000000"
+      - "[console] exp give %player_name% 20000000"
+      - "[console] cbooster giveitem %player_name% xp 2 10800 1"
+      - "[console] cbooster giveitem %player_name% TURTLE_SKILL 2 10800 1"
+      - "[console] lp user %player_name% permission set turtletags.tag.VIP3 true"
+      - "[console] lp user %player_name% permission set moc.200 true"
+      - "[message] &aNhận thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[close]"
+
+  "500_claimed":
+    material: MINECART
+    slot: 16
+    priority: 0
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e500 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e500 Xu"
+      - "&f⚡ &7Trạng thái: &a&lĐÃ CẤP PHÁT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a5,000,000$"
+      - " &7▪ &250,000,000 Exp Level"
+      - " &7▪ &ex2 &a&lBooster x2 Kinh Nghiệm Level 3 Giờ"
+      - " &7▪ &ex2 &d&lBooster x2 EXP Shadow 3 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP4"
+      - ""
+      - "&8[&a✔&8] &aĐã chuyển vào túi đồ!"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: moc.500
+    click_commands:
+      - "[message] &cBạn đã nhận mốc 500 xu rồi!"
+  "500":
+    material: CHEST_MINECART
+    slot: 16
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e500 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e500 Xu"
+      - "&f⚡ &7Trạng thái: &c&lCHƯA ĐẠT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a5,000,000$"
+      - " &7▪ &250,000,000 Exp Level"
+      - " &7▪ &ex2 &a&lBooster x2 Kinh Nghiệm Level 3 Giờ"
+      - " &7▪ &ex2 &d&lBooster x2 EXP Shadow 3 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP4"
+      - ""
+      - "&8[&e!&8] &eClick để nhận thưởng!"
+    click_requirement:
+      requirements:
+        check_spent:
+          type: ">="
+          input: "%chuyenxu_backend_real_amount_spent%"
+          output: "500"
+          deny_commands:
+            - "[message] &cBạn cần ủng hộ ít nhất &e500 &cxu để nhận mốc này!"
+    click_commands:
+      - "[console] eco give %player_name% 5000000"
+      - "[console] exp give %player_name% 50000000"
+      - "[console] cbooster giveitem %player_name% xp 2 10800 2"
+      - "[console] cbooster giveitem %player_name% TURTLE_SKILL 2 10800 2"
+      - "[console] lp user %player_name% permission set turtletags.tag.VIP4 true"
+      - "[console] lp user %player_name% permission set moc.500 true"
+      - "[message] &aNhận thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[close]"
+
+  "1000_claimed":
+    material: MINECART
+    slot: 19
+    priority: 0
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e1,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e1,000 Xu"
+      - "&f⚡ &7Trạng thái: &a&lĐÃ CẤP PHÁT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a10,000,000$"
+      - " &7▪ &2100,000,000 Exp Level"
+      - " &7▪ &ex1 &a&lBooster x2 Kinh Nghiệm Level 5 Giờ"
+      - " &7▪ &ex1 &d&lBooster x2 EXP Shadow 5 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP5"
+      - ""
+      - "&8[&a✔&8] &aĐã chuyển vào túi đồ!"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: moc.1000
+    click_commands:
+      - "[message] &cBạn đã nhận mốc 1,000 xu rồi!"
+  "1000":
+    material: CHEST_MINECART
+    slot: 19
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e1,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e1,000 Xu"
+      - "&f⚡ &7Trạng thái: &c&lCHƯA ĐẠT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a10,000,000$"
+      - " &7▪ &2100,000,000 Exp Level"
+      - " &7▪ &ex1 &a&lBooster x2 Kinh Nghiệm Level 5 Giờ"
+      - " &7▪ &ex1 &d&lBooster x2 EXP Shadow 5 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP5"
+      - ""
+      - "&8[&e!&8] &eClick để nhận thưởng!"
+    click_requirement:
+      requirements:
+        check_spent:
+          type: ">="
+          input: "%chuyenxu_backend_real_amount_spent%"
+          output: "1000"
+          deny_commands:
+            - "[message] &cBạn cần ủng hộ ít nhất &e1,000 &cxu để nhận mốc này!"
+    click_commands:
+      - "[console] eco give %player_name% 10000000"
+      - "[console] exp give %player_name% 100000000"
+      - "[console] cbooster giveitem %player_name% xp 2 18000 1"
+      - "[console] cbooster giveitem %player_name% TURTLE_SKILL 2 18000 1"
+      - "[console] lp user %player_name% permission set turtletags.tag.VIP5 true"
+      - "[console] lp user %player_name% permission set moc.1000 true"
+      - "[console] bc Cảm ơn %player_name% đã ủng hộ server và nhận được gói quà mốc &e&l1,000 &7[&e/moc&7]"
+      - "[message] &aNhận thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[close]"
+
+  "2000_claimed":
+    material: MINECART
+    slot: 21
+    priority: 0
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e2,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e2,000 Xu"
+      - "&f⚡ &7Trạng thái: &a&lĐÃ CẤP PHÁT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a20,000,000$"
+      - " &7▪ &2200,000,000 Exp Level"
+      - " &7▪ &ex2 &a&lBooster x2 Kinh Nghiệm Level 5 Giờ"
+      - " &7▪ &ex2 &d&lBooster x2 EXP Shadow 5 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP6"
+      - ""
+      - "&8[&a✔&8] &aĐã chuyển vào túi đồ!"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: moc.2000
+    click_commands:
+      - "[message] &cBạn đã nhận mốc 2,000 xu rồi!"
+  "2000":
+    material: CHEST_MINECART
+    slot: 21
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e2,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e2,000 Xu"
+      - "&f⚡ &7Trạng thái: &c&lCHƯA ĐẠT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a20,000,000$"
+      - " &7▪ &2200,000,000 Exp Level"
+      - " &7▪ &ex2 &a&lBooster x2 Kinh Nghiệm Level 5 Giờ"
+      - " &7▪ &ex2 &d&lBooster x2 EXP Shadow 5 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP6"
+      - ""
+      - "&8[&e!&8] &eClick để nhận thưởng!"
+    click_requirement:
+      requirements:
+        check_spent:
+          type: ">="
+          input: "%chuyenxu_backend_real_amount_spent%"
+          output: "2000"
+          deny_commands:
+            - "[message] &cBạn cần ủng hộ ít nhất &e2,000 &cxu để nhận mốc này!"
+    click_commands:
+      - "[console] eco give %player_name% 20000000"
+      - "[console] exp give %player_name% 200000000"
+      - "[console] cbooster giveitem %player_name% xp 2 18000 2"
+      - "[console] cbooster giveitem %player_name% TURTLE_SKILL 2 18000 2"
+      - "[console] lp user %player_name% permission set turtletags.tag.VIP6 true"
+      - "[console] lp user %player_name% permission set moc.2000 true"
+      - "[console] bc Cảm ơn %player_name% đã ủng hộ server và nhận được gói quà mốc &e&l2,000 &7[&e/moc&7]"
+      - "[message] &aNhận thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[close]"
+
+  "5000_claimed":
+    material: MINECART
+    slot: 23
+    priority: 0
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e5,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e5,000 Xu"
+      - "&f⚡ &7Trạng thái: &a&lĐÃ CẤP PHÁT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a50,000,000$"
+      - " &7▪ &2500,000,000 Exp Level"
+      - " &7▪ &ex1 &a&lBooster x2 Kinh Nghiệm Level 8 Giờ"
+      - " &7▪ &ex1 &d&lBooster x2 EXP Shadow 8 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP7"
+      - ""
+      - "&8[&a✔&8] &aĐã chuyển vào túi đồ!"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: moc.5000
+    click_commands:
+      - "[message] &cBạn đã nhận mốc 5,000 xu rồi!"
+  "5000":
+    material: CHEST_MINECART
+    slot: 23
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e5,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e5,000 Xu"
+      - "&f⚡ &7Trạng thái: &c&lCHƯA ĐẠT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a50,000,000$"
+      - " &7▪ &2500,000,000 Exp Level"
+      - " &7▪ &ex1 &a&lBooster x2 Kinh Nghiệm Level 8 Giờ"
+      - " &7▪ &ex1 &d&lBooster x2 EXP Shadow 8 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP7"
+      - ""
+      - "&8[&e!&8] &eClick để nhận thưởng!"
+    click_requirement:
+      requirements:
+        check_spent:
+          type: ">="
+          input: "%chuyenxu_backend_real_amount_spent%"
+          output: "5000"
+          deny_commands:
+            - "[message] &cBạn cần ủng hộ ít nhất &e5,000 &cxu để nhận mốc này!"
+    click_commands:
+      - "[console] eco give %player_name% 50000000"
+      - "[console] exp give %player_name% 500000000"
+      - "[console] cbooster giveitem %player_name% xp 2 28800 1"
+      - "[console] cbooster giveitem %player_name% TURTLE_SKILL 2 28800 1"
+      - "[console] lp user %player_name% permission set turtletags.tag.VIP7 true"
+      - "[console] lp user %player_name% permission set moc.5000 true"
+      - "[console] bc Cảm ơn %player_name% đã ủng hộ server và nhận được gói quà mốc &e&l5,000 &7[&e/moc&7]"
+      - "[message] &aNhận thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[close]"
+
+  "10000_claimed":
+    material: MINECART
+    slot: 25
+    priority: 0
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e10,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e10,000 Xu"
+      - "&f⚡ &7Trạng thái: &a&lĐÃ CẤP PHÁT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a100,000,000$"
+      - " &7▪ &21,000,000,000 Exp Level"
+      - " &7▪ &ex2 &a&lBooster x2 Kinh Nghiệm Level 8 Giờ"
+      - " &7▪ &ex2 &d&lBooster x2 EXP Shadow 8 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP8"
+      - ""
+      - "&8[&a✔&8] &aĐã chuyển vào túi đồ!"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: moc.10000
+    click_commands:
+      - "[message] &cBạn đã nhận mốc 10,000 xu rồi!"
+  "10000":
+    material: CHEST_MINECART
+    slot: 25
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e10,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e10,000 Xu"
+      - "&f⚡ &7Trạng thái: &c&lCHƯA ĐẠT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a100,000,000$"
+      - " &7▪ &21,000,000,000 Exp Level"
+      - " &7▪ &ex2 &a&lBooster x2 Kinh Nghiệm Level 8 Giờ"
+      - " &7▪ &ex2 &d&lBooster x2 EXP Shadow 8 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP8"
+      - ""
+      - "&8[&e!&8] &eClick để nhận thưởng!"
+    click_requirement:
+      requirements:
+        check_spent:
+          type: ">="
+          input: "%chuyenxu_backend_real_amount_spent%"
+          output: "10000"
+          deny_commands:
+            - "[message] &cBạn cần ủng hộ ít nhất &e10,000 &cxu để nhận mốc này!"
+    click_commands:
+      - "[console] eco give %player_name% 100000000"
+      - "[console] exp give %player_name% 1000000000"
+      - "[console] cbooster giveitem %player_name% xp 2 28800 2"
+      - "[console] cbooster giveitem %player_name% TURTLE_SKILL 2 28800 2"
+      - "[console] lp user %player_name% permission set turtletags.tag.VIP8 true"
+      - "[console] lp user %player_name% permission set moc.10000 true"
+      - "[console] bc Cảm ơn %player_name% đã ủng hộ server và nhận được gói quà mốc &e&l10,000 &7[&e/moc&7]"
+      - "[message] &aNhận thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[close]"
+
+  "20000_claimed":
+    material: MINECART
+    slot: 28
+    priority: 0
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e20,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e20,000 Xu"
+      - "&f⚡ &7Trạng thái: &a&lĐÃ CẤP PHÁT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a200,000,000$"
+      - " &7▪ &22,000,000,000 Exp Level"
+      - " &7▪ &ex3 &a&lBooster x2 Kinh Nghiệm Level 8 Giờ"
+      - " &7▪ &ex3 &d&lBooster x2 EXP Shadow 8 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP9"
+      - ""
+      - "&8[&a✔&8] &aĐã chuyển vào túi đồ!"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: moc.20000
+    click_commands:
+      - "[message] &cBạn đã nhận mốc 20,000 xu rồi!"
+  "20000":
+    material: CHEST_MINECART
+    slot: 28
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e20,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e20,000 Xu"
+      - "&f⚡ &7Trạng thái: &c&lCHƯA ĐẠT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a200,000,000$"
+      - " &7▪ &22,000,000,000 Exp Level"
+      - " &7▪ &ex3 &a&lBooster x2 Kinh Nghiệm Level 8 Giờ"
+      - " &7▪ &ex3 &d&lBooster x2 EXP Shadow 8 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP9"
+      - ""
+      - "&8[&e!&8] &eClick để nhận thưởng!"
+    click_requirement:
+      requirements:
+        check_spent:
+          type: ">="
+          input: "%chuyenxu_backend_real_amount_spent%"
+          output: "20000"
+          deny_commands:
+            - "[message] &cBạn cần ủng hộ ít nhất &e20,000 &cxu để nhận mốc này!"
+    click_commands:
+      - "[console] eco give %player_name% 200000000"
+      - "[console] exp give %player_name% 2000000000"
+      - "[console] cbooster giveitem %player_name% xp 2 28800 3"
+      - "[console] cbooster giveitem %player_name% TURTLE_SKILL 2 28800 3"
+      - "[console] lp user %player_name% permission set turtletags.tag.VIP9 true"
+      - "[console] lp user %player_name% permission set moc.20000 true"
+      - "[console] bc Cảm ơn %player_name% đã ủng hộ server và nhận được gói quà mốc &e&l20,000 &7[&e/moc&7]"
+      - "[message] &aNhận thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[close]"
+
+  "30000_claimed":
+    material: MINECART
+    slot: 30
+    priority: 0
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e30,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e30,000 Xu"
+      - "&f⚡ &7Trạng thái: &a&lĐÃ CẤP PHÁT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a300,000,000$"
+      - " &7▪ &23,000,000,000 Exp Level"
+      - " &7▪ &ex4 &a&lBooster x2 Kinh Nghiệm Level 8 Giờ"
+      - " &7▪ &ex4 &d&lBooster x2 EXP Shadow 8 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP10"
+      - ""
+      - "&8[&a✔&8] &aĐã chuyển vào túi đồ!"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: moc.30000
+    click_commands:
+      - "[message] &cBạn đã nhận mốc 30,000 xu rồi!"
+  "30000":
+    material: CHEST_MINECART
+    slot: 30
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e30,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e30,000 Xu"
+      - "&f⚡ &7Trạng thái: &c&lCHƯA ĐẠT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a300,000,000$"
+      - " &7▪ &23,000,000,000 Exp Level"
+      - " &7▪ &ex4 &a&lBooster x2 Kinh Nghiệm Level 8 Giờ"
+      - " &7▪ &ex4 &d&lBooster x2 EXP Shadow 8 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP10"
+      - ""
+      - "&8[&e!&8] &eClick để nhận thưởng!"
+    click_requirement:
+      requirements:
+        check_spent:
+          type: ">="
+          input: "%chuyenxu_backend_real_amount_spent%"
+          output: "30000"
+          deny_commands:
+            - "[message] &cBạn cần ủng hộ ít nhất &e30,000 &cxu để nhận mốc này!"
+    click_commands:
+      - "[console] eco give %player_name% 300000000"
+      - "[console] exp give %player_name% 3000000000"
+      - "[console] cbooster giveitem %player_name% xp 2 28800 4"
+      - "[console] cbooster giveitem %player_name% TURTLE_SKILL 2 28800 4"
+      - "[console] lp user %player_name% permission set turtletags.tag.VIP10 true"
+      - "[console] lp user %player_name% permission set moc.30000 true"
+      - "[console] bc Cảm ơn %player_name% đã ủng hộ server và nhận được gói quà mốc &e&l30,000 &7[&e/moc&7]"
+      - "[message] &aNhận thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[close]"
+
+  "40000_claimed":
+    material: MINECART
+    slot: 32
+    priority: 0
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e40,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e40,000 Xu"
+      - "&f⚡ &7Trạng thái: &a&lĐÃ CẤP PHÁT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a400,000,000$"
+      - " &7▪ &24,000,000,000 Exp Level"
+      - " &7▪ &ex5 &a&lBooster x2 Kinh Nghiệm Level 8 Giờ"
+      - " &7▪ &ex5 &d&lBooster x2 EXP Shadow 8 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP11"
+      - ""
+      - "&8[&a✔&8] &aĐã chuyển vào túi đồ!"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: moc.40000
+    click_commands:
+      - "[message] &cBạn đã nhận mốc 40,000 xu rồi!"
+  "40000":
+    material: CHEST_MINECART
+    slot: 32
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e40,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e40,000 Xu"
+      - "&f⚡ &7Trạng thái: &c&lCHƯA ĐẠT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a400,000,000$"
+      - " &7▪ &24,000,000,000 Exp Level"
+      - " &7▪ &ex5 &a&lBooster x2 Kinh Nghiệm Level 8 Giờ"
+      - " &7▪ &ex5 &d&lBooster x2 EXP Shadow 8 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP11"
+      - ""
+      - "&8[&e!&8] &eClick để nhận thưởng!"
+    click_requirement:
+      requirements:
+        check_spent:
+          type: ">="
+          input: "%chuyenxu_backend_real_amount_spent%"
+          output: "40000"
+          deny_commands:
+            - "[message] &cBạn cần ủng hộ ít nhất &e40,000 &cxu để nhận mốc này!"
+    click_commands:
+      - "[console] eco give %player_name% 400000000"
+      - "[console] exp give %player_name% 4000000000"
+      - "[console] cbooster giveitem %player_name% xp 2 28800 5"
+      - "[console] cbooster giveitem %player_name% TURTLE_SKILL 2 28800 5"
+      - "[console] lp user %player_name% permission set turtletags.tag.VIP11 true"
+      - "[console] lp user %player_name% permission set moc.40000 true"
+      - "[console] bc Cảm ơn %player_name% đã ủng hộ server và nhận được gói quà mốc &e&l40,000 &7[&e/moc&7]"
+      - "[message] &aNhận thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[close]"
+
+  "50000_claimed":
+    material: MINECART
+    slot: 34
+    priority: 0
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e50,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e50,000 Xu"
+      - "&f⚡ &7Trạng thái: &a&lĐÃ CẤP PHÁT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a500,000,000$"
+      - " &7▪ &25,000,000,000 Exp Level"
+      - " &7▪ &ex10 &a&lBooster x2 Kinh Nghiệm Level 8 Giờ"
+      - " &7▪ &ex10 &d&lBooster x2 EXP Shadow 8 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP12"
+      - ""
+      - "&8[&a✔&8] &aĐã chuyển vào túi đồ!"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: moc.50000
+    click_commands:
+      - "[message] &cBạn đã nhận mốc 50,000 xu rồi!"
+  "50000":
+    material: CHEST_MINECART
+    slot: 34
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    display_name: "&8&l✦ &c&lMỐC TÀI LỰC &8» &e50,000 Xu"
+    lore:
+      - ""
+      - "&f⚡ &7Yêu cầu: &e50,000 Xu"
+      - "&f⚡ &7Trạng thái: &c&lCHƯA ĐẠT"
+      - ""
+      - "&6&l✦ BẢNG THƯỞNG:"
+      - " &7▪ &a500,000,000$"
+      - " &7▪ &25,000,000,000 Exp Level"
+      - " &7▪ &ex10 &a&lBooster x2 Kinh Nghiệm Level 8 Giờ"
+      - " &7▪ &ex10 &d&lBooster x2 EXP Shadow 8 Giờ"
+      - " &7▪ &ex1 &6&lDanh hiệu nạp thẻ VIP12"
+      - ""
+      - "&8[&e!&8] &eClick để nhận thưởng!"
+    click_requirement:
+      requirements:
+        check_spent:
+          type: ">="
+          input: "%chuyenxu_backend_real_amount_spent%"
+          output: "50000"
+          deny_commands:
+            - "[message] &cBạn cần ủng hộ ít nhất &e50,000 &cxu để nhận mốc này!"
+    click_commands:
+      - "[console] eco give %player_name% 500000000"
+      - "[console] exp give %player_name% 5000000000"
+      - "[console] cbooster giveitem %player_name% xp 2 28800 10"
+      - "[console] cbooster giveitem %player_name% TURTLE_SKILL 2 28800 10"
+      - "[console] lp user %player_name% permission set turtletags.tag.VIP12 true"
+      - "[console] lp user %player_name% permission set moc.50000 true"
+      - "[console] bc Cảm ơn %player_name% đã ủng hộ server và nhận được gói quà mốc &e&l50,000 &7[&e/moc&7]"
+      - "[message] &aNhận thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[close]"

@@ -1,0 +1,183 @@
+menu_title: "&8▶ Giao Diện | Cửa Hàng Đổi Đồ"
+open_command:
+  - trade
+open_commands:
+  - "[sound] BLOCK_NOTE_BLOCK_BELL 1.0 1.5"
+size: 36
+update_interval: 1
+
+items:
+  # ==========================================
+  # VIỀN MENU (BORDERS)
+  # ==========================================
+  "vien_den":
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: "&f "
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slots: [0, 8, 27, 35]
+
+  "vien_xam":
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: "&f "
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slots: [1, 2, 3, 5, 6, 7, 28, 29, 30, 32, 33, 34]
+
+  "info":
+    material: NETHER_STAR
+    slot: 4
+    display_name: "&#00BFFF&lTHÔNG TIN CỬA HÀNG"
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&fTại đây bạn có thể mở các Cửa Hàng"
+      - "&fđổi đồ bằng Mảnh Vỡ Dungeon."
+      - ""
+      - "&e★ Mua sắm vui vẻ! ★"
+      - "&#787878&m────────────────────────"
+
+  # ==========================================
+  # HÀNG 2: DUNGEON E, D, C, B
+  # ==========================================
+  "dungeon_e":
+    material: FLINT
+    slot: 10
+    display_name: "&#00FF00&lCỬA HÀNG DUNGEON E"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Khu vực quy đổi vật phẩm Tân Binh"
+      - "&#E0E0E0✦ Dùng &7Mảnh Vỡ Dungeon E &fđể đổi."
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để mở cửa hàng!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] gmtrade open dungeon_e %player_name%"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+  "dungeon_d":
+    material: COAL
+    slot: 12
+    display_name: "&#32CD32&lCỬA HÀNG DUNGEON D"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Khu vực quy đổi vật phẩm Chiến Binh"
+      - "&#E0E0E0✦ Dùng &8Mảnh Vỡ Dungeon D &fđể đổi."
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để mở cửa hàng!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] gmtrade open dungeon_d %player_name%"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+  "dungeon_c":
+    material: IRON_NUGGET
+    slot: 14
+    display_name: "&#00BFFF&lCỬA HÀNG DUNGEON C"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Khu vực quy đổi vật phẩm Hiệp Sĩ"
+      - "&#E0E0E0✦ Dùng &fMảnh Vỡ Dungeon C &fđể đổi."
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để mở cửa hàng!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] gmtrade open dungeon_c %player_name%"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+  "dungeon_b":
+    material: GOLD_NUGGET
+    slot: 16
+    display_name: "&#9370DB&lCỬA HÀNG DUNGEON B"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Khu vực quy đổi vật phẩm Tiên Phong"
+      - "&#E0E0E0✦ Dùng &eMảnh Vỡ Dungeon B &fđể đổi."
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để mở cửa hàng!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] gmtrade open dungeon_b %player_name%"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+  # ==========================================
+  # HÀNG 3: DUNGEON A, A+
+  # ==========================================
+  "dungeon_a":
+    material: EMERALD
+    slot: 19
+    display_name: "&#FFD700&lCỬA HÀNG DUNGEON A"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Khu vực quy đổi vật phẩm Bóng Tối"
+      - "&#E0E0E0✦ Dùng &aTinh Thể Dungeon A &fđể đổi."
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để mở cửa hàng!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] gmtrade open dungeon_a %player_name%"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+  "dungeon_a_hoanguc":
+    material: MAGMA_CREAM
+    slot: 21
+    display_name: "&#FF4500&lCỬA HÀNG A+ HỎA NGỤC"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Khu vực quy đổi vật phẩm Hỏa Ngục"
+      - "&#E0E0E0✦ Dùng &cTinh Thể Hỏa Ngục &fđể đổi."
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để mở cửa hàng!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] gmtrade open dungeon_a_plus_hoanguc %player_name%"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+  "dungeon_a_banggia":
+    material: SNOWBALL
+    slot: 23
+    display_name: "&#00FFFF&lCỬA HÀNG A+ BĂNG GIÁ"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Khu vực quy đổi vật phẩm Băng Giá"
+      - "&#E0E0E0✦ Dùng &bTinh Thể Băng Giá &fđể đổi."
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để mở cửa hàng!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] gmtrade open dungeon_a_plus_banggia %player_name%"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+  "dungeon_a_dentho":
+    material: QUARTZ
+    slot: 25
+    display_name: "&#8B4513&lCỬA HÀNG A+ ĐỀN THỜ"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Khu vực quy đổi vật phẩm Đền Thờ"
+      - "&#E0E0E0✦ Dùng &6Tinh Thể Đền Thờ &fđể đổi."
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click để mở cửa hàng!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] gmtrade open dungeon_a_plus_dentho %player_name%"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+  # ==========================================
+  # NÚT ĐÓNG MENU
+  # ==========================================
+  "menu":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 31
+    display_name: "&#FF3333&l❌ ĐÓNG CỬA HÀNG"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#A9A9A9➤ &fClick để thoát."
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[close]"

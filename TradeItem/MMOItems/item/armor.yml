@@ -1,0 +1,1863 @@
+# equippable-slot: FEET
+MU_TAN_BINH:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: VAI_THO
+    material: LEATHER_HELMET
+    tier: E
+    name: '&7Mũ Tân Binh'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 0.6
+    max-health: 16
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 139 69 19
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: copper
+    trim-pattern: snout
+
+GIAP_TAN_BINH:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: VAI_THO
+    material: LEATHER_CHESTPLATE
+    tier: E
+    name: '&7Giáp Tân Binh'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 1.2
+    max-health: 32
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 139 69 19
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: copper
+    trim-pattern: snout
+
+QUAN_TAN_BINH:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: VAI_THO
+    material: LEATHER_LEGGINGS
+    tier: E
+    name: '&7Quần Tân Binh'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 0.8
+    max-health: 20
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 139 69 19
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: copper
+    trim-pattern: snout
+
+GIAY_TAN_BINH:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: VAI_THO
+    material: LEATHER_BOOTS
+    tier: E
+    name: '&7Giày Tân Binh'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 0.4
+    max-health: 12
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 139 69 19
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: copper
+    trim-pattern: snout
+
+MU_CHIEN_BINH:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: CHIEN_BINH
+    material: LEATHER_HELMET
+    tier: D
+    name: '&aMũ Chiến Binh'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 1.0
+    max-health: 30
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 0 170 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: emerald
+    trim-pattern: wild
+
+GIAP_CHIEN_BINH:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: CHIEN_BINH
+    material: LEATHER_CHESTPLATE
+    tier: D
+    name: '&aGiáp Chiến Binh'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 2.0
+    max-health: 60
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 0 170 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: emerald
+    trim-pattern: wild
+
+QUAN_CHIEN_BINH:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: CHIEN_BINH
+    material: LEATHER_LEGGINGS
+    tier: D
+    name: '&aQuần Chiến Binh'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 1.3
+    max-health: 38
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 0 170 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: emerald
+    trim-pattern: wild
+
+GIAY_CHIEN_BINH:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: CHIEN_BINH
+    material: LEATHER_BOOTS
+    tier: D
+    name: '&aGiày Chiến Binh'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 0.8
+    max-health: 23
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 0 170 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: emerald
+    trim-pattern: wild
+
+MU_HIEP_SI:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: HIEP_SI
+    material: LEATHER_HELMET
+    tier: C
+    name: '&bMũ Hiệp Sĩ'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 3.0
+    max-health: 90
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 85 255 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: diamond
+    trim-pattern: sentry
+
+GIAP_HIEP_SI:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: HIEP_SI
+    material: LEATHER_CHESTPLATE
+    tier: C
+    name: '&bGiáp Hiệp Sĩ'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 6.0
+    max-health: 180
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 85 255 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: diamond
+    trim-pattern: sentry
+
+QUAN_HIEP_SI:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: HIEP_SI
+    material: LEATHER_LEGGINGS
+    tier: C
+    name: '&bQuần Hiệp Sĩ'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 3.8
+    max-health: 113
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 85 255 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: diamond
+    trim-pattern: sentry
+
+GIAY_HIEP_SI:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: HIEP_SI
+    material: LEATHER_BOOTS
+    tier: C
+    name: '&bGiày Hiệp Sĩ'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 2.3
+    max-health: 68
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 85 255 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: diamond
+    trim-pattern: sentry
+
+MU_TIEN_PHONG:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: TIEN_PHONG
+    material: LEATHER_HELMET
+    tier: B
+    name: '&dMũ Tiên Phong'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 8.0
+    max-health: 260
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 85 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: amethyst
+    trim-pattern: vex
+
+GIAP_TIEN_PHONG:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: TIEN_PHONG
+    material: LEATHER_CHESTPLATE
+    tier: B
+    name: '&dGiáp Tiên Phong'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 16
+    max-health: 520
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 85 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: amethyst
+    trim-pattern: vex
+
+QUAN_TIEN_PHONG:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: TIEN_PHONG
+    material: LEATHER_LEGGINGS
+    tier: B
+    name: '&dQuần Tiên Phong'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 10
+    max-health: 325
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 85 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: amethyst
+    trim-pattern: vex
+
+GIAY_TIEN_PHONG:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: TIEN_PHONG
+    material: LEATHER_BOOTS
+    tier: B
+    name: '&dGiày Tiên Phong'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 6.0
+    max-health: 195
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 85 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: amethyst
+    trim-pattern: vex
+
+MU_BONG_TOI:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: BONG_TOI
+    material: LEATHER_HELMET
+    tier: A
+    name: '&8༺ <#8A2BE2>&lM<#8226D6>&lũ <#7A20CA>&lB<#721BBE>&ló<#6A16B2>&ln<#6310A6>&lg
+      <#5B0B9A>&lT<#53058E>&lố<#4B0082>&li &8༻'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 12
+    max-health: 360
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 75 0 130
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: silence
+
+GIAP_BONG_TOI:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: BONG_TOI
+    material: LEATHER_CHESTPLATE
+    tier: A
+    name: '&8༺ <#8A2BE2>&lG<#8427D8>&li<#7D22CF>&lá<#771EC5>&lp <#711ABC>&lB<#6A16B2>&ló<#6411A8>&ln<#5E0D9F>&lg
+      <#580995>&lT<#51048C>&lố<#4B0082>&li &8༻'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 24
+    max-health: 720
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 75 0 130
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: silence
+
+QUAN_BONG_TOI:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: BONG_TOI
+    material: LEATHER_LEGGINGS
+    tier: A
+    name: '&8༺ <#8A2BE2>&lQ<#8427D8>&lu<#7D22CF>&lầ<#771EC5>&ln <#711ABC>&lB<#6A16B2>&ló<#6411A8>&ln<#5E0D9F>&lg
+      <#580995>&lT<#51048C>&lố<#4B0082>&li &8༻'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 15
+    max-health: 450
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 75 0 130
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: silence
+
+GIAY_BONG_TOI:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: BONG_TOI
+    material: LEATHER_BOOTS
+    tier: A
+    name: '&8༺ <#8A2BE2>&lG<#8427D8>&li<#7D22CF>&là<#771EC5>&ly <#711ABC>&lB<#6A16B2>&ló<#6411A8>&ln<#5E0D9F>&lg
+      <#580995>&lT<#51048C>&lố<#4B0082>&li &8༻'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 9.0
+    max-health: 270
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 75 0 130
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: silence
+
+MU_BAO_CHUA_BANG_GIA:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: BAO_CHUA_BANG_GIA
+    material: LEATHER_HELMET
+    tier: A+
+    name: '&f꧁༺ <#00CBFF>&lM<#04CAFD>&lũ <#07C8FA>&lB<#0BC7F8>&lạ<#0FC5F6>&lo <#13C4F3>&lC<#16C2F1>&lh<#1AC1EF>&lú<#1EBFEC>&la
+      <#22BEEA>&lB<#25BCE8>&lă<#29BBE5>&ln<#2DB9E3>&lg <#31B8E1>&lG<#34B6DE>&li<#38B5DC>&lá
+      &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 16
+    max-health: 460
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 0 203 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: diamond
+    trim-pattern: spire
+
+GIAP_BAO_CHUA_BANG_GIA:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: BAO_CHUA_BANG_GIA
+    material: LEATHER_CHESTPLATE
+    tier: A+
+    name: '&f꧁༺ <#00CBFF>&lG<#03CAFD>&li<#07C8FB>&lá<#0AC7F9>&lp <#0DC6F7>&lB<#10C5F5>&lạ<#14C3F3>&lo
+      <#17C2F1>&lC<#1AC1EF>&lh<#1EBFEC>&lú<#21BEEA>&la <#24BDE8>&lB<#28BBE6>&lă<#2BBAE4>&ln<#2EB9E2>&lg
+      <#31B8E0>&lG<#35B6DE>&li<#38B5DC>&lá &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 32
+    max-health: 920
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 0 203 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: diamond
+    trim-pattern: spire
+
+QUAN_BAO_CHUA_BANG_GIA:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: BAO_CHUA_BANG_GIA
+    material: LEATHER_LEGGINGS
+    tier: A+
+    name: '&f꧁༺ <#00CBFF>&lQ<#03CAFD>&lu<#07C8FB>&lầ<#0AC7F9>&ln <#0DC6F7>&lB<#10C5F5>&lạ<#14C3F3>&lo
+      <#17C2F1>&lC<#1AC1EF>&lh<#1EBFEC>&lú<#21BEEA>&la <#24BDE8>&lB<#28BBE6>&lă<#2BBAE4>&ln<#2EB9E2>&lg
+      <#31B8E0>&lG<#35B6DE>&li<#38B5DC>&lá &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 20
+    max-health: 575
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 0 203 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: diamond
+    trim-pattern: spire
+
+GIAY_BAO_CHUA_BANG_GIA:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: BAO_CHUA_BANG_GIA
+    material: LEATHER_BOOTS
+    tier: A+
+    name: '&f꧁༺ <#00CBFF>&lG<#03CAFD>&li<#07C8FB>&là<#0AC7F9>&ly <#0DC6F7>&lB<#10C5F5>&lạ<#14C3F3>&lo
+      <#17C2F1>&lC<#1AC1EF>&lh<#1EBFEC>&lú<#21BEEA>&la <#24BDE8>&lB<#28BBE6>&lă<#2BBAE4>&ln<#2EB9E2>&lg
+      <#31B8E0>&lG<#35B6DE>&li<#38B5DC>&lá &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 12
+    max-health: 345
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 0 203 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: diamond
+    trim-pattern: spire
+
+MU_HOA_NGUC:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: HOA_NGUC
+    material: LEATHER_HELMET
+    tier: A+
+    name: '&f꧁༺ <#FF0000>&lM<#FF1200>&lũ <#FF2300>&lH<#FF3400>&lo<#FF4600>&lả <#FF5800>&lN<#FF6900>&lg<#FF7A00>&lụ<#FF8C00>&lc
+      &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 14
+    max-health: 420
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 35 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: redstone
+    trim-pattern: rib
+
+GIAP_HOA_NGUC:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: HOA_NGUC
+    material: LEATHER_CHESTPLATE
+    tier: A+
+    name: '&f꧁༺ <#FF0000>&lG<#FF0E00>&li<#FF1C00>&lá<#FF2A00>&lp <#FF3800>&lH<#FF4600>&lo<#FF5400>&lả
+      <#FF6200>&lN<#FF7000>&lg<#FF7E00>&lụ<#FF8C00>&lc &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 28
+    max-health: 840
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 35 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: redstone
+    trim-pattern: rib
+
+QUAN_HOA_NGUC:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: HOA_NGUC
+    material: LEATHER_LEGGINGS
+    tier: A+
+    name: '&f꧁༺ <#FF0000>&lQ<#FF0E00>&lu<#FF1C00>&lầ<#FF2A00>&ln <#FF3800>&lH<#FF4600>&lo<#FF5400>&lả
+      <#FF6200>&lN<#FF7000>&lg<#FF7E00>&lụ<#FF8C00>&lc &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 18
+    max-health: 525
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 35 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: redstone
+    trim-pattern: rib
+
+GIAY_HOA_NGUC:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: HOA_NGUC
+    material: LEATHER_BOOTS
+    tier: A+
+    name: '&f꧁༺ <#FF0000>&lG<#FF0E00>&li<#FF1C00>&là<#FF2A00>&ly <#FF3800>&lH<#FF4600>&lo<#FF5400>&lả
+      <#FF6200>&lN<#FF7000>&lg<#FF7E00>&lụ<#FF8C00>&lc &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 11
+    max-health: 315
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 35 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: redstone
+    trim-pattern: rib
+
+MU_HAC_THIEN_SU:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: HAC_THIEN_SU
+    material: LEATHER_HELMET
+    tier: A+
+    name: '&f꧁༺ <#8B008B>&lM<#85008A>&lũ <#7F0089>&lH<#7A0089>&lắ<#740088>&lc <#6E0087>&lT<#680086>&lh<#620085>&li<#5C0084>&lê<#570084>&ln
+      <#510083>&lS<#4B0082>&lứ &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 18
+    max-health: 500
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 139 0 139
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: ward
+
+GIAP_HAC_THIEN_SU:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: HAC_THIEN_SU
+    material: LEATHER_CHESTPLATE
+    tier: A+
+    name: '&f꧁༺ <#8B008B>&lG<#86008A>&li<#81008A>&lá<#7C0089>&lp <#770088>&lH<#720088>&lắ<#6D0087>&lc
+      <#690086>&lT<#640085>&lh<#5F0085>&li<#5A0084>&lê<#550083>&ln <#500083>&lS<#4B0082>&lứ
+      &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 36
+    max-health: 1000
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 139 0 139
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: ward
+
+QUAN_HAC_THIEN_SU:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: HAC_THIEN_SU
+    material: LEATHER_LEGGINGS
+    tier: A+
+    name: '&f꧁༺ <#8B008B>&lQ<#86008A>&lu<#81008A>&lầ<#7C0089>&ln <#770088>&lH<#720088>&lắ<#6D0087>&lc
+      <#690086>&lT<#640085>&lh<#5F0085>&li<#5A0084>&lê<#550083>&ln <#500083>&lS<#4B0082>&lứ
+      &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 23
+    max-health: 625
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 139 0 139
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: ward
+
+GIAY_HAC_THIEN_SU:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: HAC_THIEN_SU
+    material: LEATHER_BOOTS
+    tier: A+
+    name: '&f꧁༺ <#8B008B>&lG<#86008A>&li<#81008A>&là<#7C0089>&ly <#770088>&lH<#720088>&lắ<#6D0087>&lc
+      <#690086>&lT<#640085>&lh<#5F0085>&li<#5A0084>&lê<#550083>&ln <#500083>&lS<#4B0082>&lứ
+      &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 14
+    max-health: 375
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 139 0 139
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: ward
+
+MU_CUONG_NO_BAO_TO:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: CUONG_NO_BAO_TO
+    material: LEATHER_HELMET
+    tier: A+
+    name: '&f꧁༺ <#FFD700>&lM<#FFD300>&lũ <#FFCF00>&lC<#FFCB00>&lu<#FFC800>&lồ<#FFC400>&ln<#FFC000>&lg
+      <#FFBC00>&lN<#FFB800>&lộ <#FFB400>&lB<#FFB100>&lã<#FFAD00>&lo <#FFA900>&lT<#FFA500>&lố
+      &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 14
+    max-health: 420
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 215 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: gold
+    trim-pattern: dune
+
+GIAP_CUONG_NO_BAO_TO:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: CUONG_NO_BAO_TO
+    material: LEATHER_CHESTPLATE
+    tier: A+
+    name: '&f꧁༺ <#FFD700>&lG<#FFD400>&li<#FFD000>&lá<#FFCD00>&lp <#FFCA00>&lC<#FFC600>&lu<#FFC300>&lồ<#FFC000>&ln<#FFBC00>&lg
+      <#FFB900>&lN<#FFB600>&lộ <#FFB200>&lB<#FFAF00>&lã<#FFAC00>&lo <#FFA800>&lT<#FFA500>&lố
+      &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 28
+    max-health: 840
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 215 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: gold
+    trim-pattern: dune
+
+QUAN_CUONG_NO_BAO_TO:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: CUONG_NO_BAO_TO
+    material: LEATHER_LEGGINGS
+    tier: A+
+    name: '&f꧁༺ <#FFD700>&lQ<#FFD400>&lu<#FFD000>&lầ<#FFCD00>&ln <#FFCA00>&lC<#FFC600>&lu<#FFC300>&lồ<#FFC000>&ln<#FFBC00>&lg
+      <#FFB900>&lN<#FFB600>&lộ <#FFB200>&lB<#FFAF00>&lã<#FFAC00>&lo <#FFA800>&lT<#FFA500>&lố
+      &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 18
+    max-health: 525
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 215 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: gold
+    trim-pattern: dune
+
+GIAY_CUONG_NO_BAO_TO:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: CUONG_NO_BAO_TO
+    material: LEATHER_BOOTS
+    tier: A+
+    name: '&f꧁༺ <#FFD700>&lG<#FFD400>&li<#FFD000>&là<#FFCD00>&ly <#FFCA00>&lC<#FFC600>&lu<#FFC300>&lồ<#FFC000>&ln<#FFBC00>&lg
+      <#FFB900>&lN<#FFB600>&lộ <#FFB200>&lB<#FFAF00>&lã<#FFAC00>&lo <#FFA800>&lT<#FFA500>&lố
+      &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 11
+    max-health: 315
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 215 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: gold
+    trim-pattern: dune
+
+MU_QUAN_VUONG_BANG_GIA:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: QUAN_VUONG_BANG_GIA
+    material: LEATHER_HELMET
+    tier: S
+    name: <#FFF1CE>⊱⋇⊷ <#00FFFF>&lM<#00F0F8>&lũ <#00E1F1>&lQ<#00D2EB>&lu<#00C3E4>&lâ<#00B4DD>&ln
+      <#00A5D6>&lV<#0096CF>&lư<#0087C8>&lơ<#0078C2>&ln<#0069BB>&lg <#005AB4>&lB<#004BAD>&lă<#003CA6>&ln<#002D9F>&lg
+      <#001E99>&lG<#000F92>&li<#00008B>&lá <#FFF1CE>⊶⋇⊰
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 24
+    max-health: 700
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 0 255 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: diamond
+    trim-pattern: wayfinder
+
+GIAP_QUAN_VUONG_BANG_GIA:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: QUAN_VUONG_BANG_GIA
+    material: LEATHER_CHESTPLATE
+    tier: S
+    name: <#FFF1CE>⊱⋇⊷ <#00FFFF>&lG<#00F2F9>&li<#00E4F3>&lá<#00D7ED>&lp <#00C9E7>&lQ<#00BCE0>&lu<#00AEDA>&lâ<#00A1D4>&ln
+      <#0094CE>&lV<#0086C8>&lư<#0079C2>&lơ<#006BBC>&ln<#005EB6>&lg <#0051B0>&lB<#0043AA>&lă<#0036A3>&ln<#00289D>&lg
+      <#001B97>&lG<#000D91>&li<#00008B>&lá <#FFF1CE>⊶⋇⊰
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 48
+    max-health: 1400
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 0 255 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: diamond
+    trim-pattern: wayfinder
+
+QUAN_QUAN_VUONG_BANG_GIA:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: QUAN_VUONG_BANG_GIA
+    material: LEATHER_LEGGINGS
+    tier: S
+    name: <#FFF1CE>⊱⋇⊷ <#00FFFF>&lQ<#00F2F9>&lu<#00E4F3>&lầ<#00D7ED>&ln <#00C9E7>&lQ<#00BCE0>&lu<#00AEDA>&lâ<#00A1D4>&ln
+      <#0094CE>&lV<#0086C8>&lư<#0079C2>&lơ<#006BBC>&ln<#005EB6>&lg <#0051B0>&lB<#0043AA>&lă<#0036A3>&ln<#00289D>&lg
+      <#001B97>&lG<#000D91>&li<#00008B>&lá <#FFF1CE>⊶⋇⊰
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 30
+    max-health: 875
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 0 255 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: diamond
+    trim-pattern: wayfinder
+
+GIAY_QUAN_VUONG_BANG_GIA:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: QUAN_VUONG_BANG_GIA
+    material: LEATHER_BOOTS
+    tier: S
+    name: <#FFF1CE>⊱⋇⊷ <#00FFFF>&lG<#00F2F9>&li<#00E4F3>&là<#00D7ED>&ly <#00C9E7>&lQ<#00BCE0>&lu<#00AEDA>&lâ<#00A1D4>&ln
+      <#0094CE>&lV<#0086C8>&lư<#0079C2>&lơ<#006BBC>&ln<#005EB6>&lg <#0051B0>&lB<#0043AA>&lă<#0036A3>&ln<#00289D>&lg
+      <#001B97>&lG<#000D91>&li<#00008B>&lá <#FFF1CE>⊶⋇⊰
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 18
+    max-health: 525
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 0 255 255
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: diamond
+    trim-pattern: wayfinder
+
+MU_QUY_VUONG:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: QUY_VUONG
+    material: LEATHER_HELMET
+    tier: S
+    name: '&f꧁༺ <#FCD05C>&lM<#F9C55C>&lũ &e&k&l.&e&l｡ <#F6BA5B>&lQ<#F3AF5B>&lu<#F0A45A>&lỷ
+      <#EA8E5A>&lV<#E88459>&lư<#E57959>&lơ<#DF6358>&ln<#DC5858>&lg &e&l｡&k&l｡ &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 27
+    max-health: 760
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 92 0 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: silence
+
+GIAP_QUY_VUONG:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: QUY_VUONG
+    material: LEATHER_CHESTPLATE
+    tier: S
+    name: '&f꧁༺ <#FCD05C>&lG<#F9C55C>&li<#F6BA5B>&lá<#F3AF5B>&lp &e&k&l.&e&l｡ <#F0A45A>&lQ<#EA8E5A>&lu<#E88459>&lỷ
+      <#E57959>&lV<#DF6358>&lư<#DC5858>&lơ<#D94D57>&ln<#D64257>&lg &e&l｡&k&l｡ &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 54
+    max-health: 1520
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 92 0 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: silence
+
+QUAN_QUY_VUONG:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: QUY_VUONG
+    material: LEATHER_LEGGINGS
+    tier: S
+    name: '&f꧁༺ <#FCD05C>&lQ<#F9C55C>&lu<#F6BA5B>&lầ<#F3AF5B>&ln &e&k&l.&e&l｡ <#F0A45A>&lQ<#EA8E5A>&lu<#E88459>&lỷ
+      <#E57959>&lV<#DF6358>&lư<#DC5858>&lơ<#D94D57>&ln<#D64257>&lg &e&l｡&k&l｡ &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 34
+    max-health: 950
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 92 0 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: silence
+
+GIAY_QUY_VUONG:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: QUY_VUONG
+    material: LEATHER_BOOTS
+    tier: S
+    name: '&f꧁༺ <#FCD05C>&lG<#F9C55C>&li<#F6BA5B>&là<#F3AF5B>&ly &e&k&l.&e&l｡ <#F0A45A>&lQ<#EA8E5A>&lu<#E88459>&lỷ
+      <#E57959>&lV<#DF6358>&lư<#DC5858>&lơ<#D94D57>&ln<#D64257>&lg &e&l｡&k&l｡ &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 20
+    max-health: 570
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 92 0 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: silence
+
+MU_THINH_NO_KAMIS:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: THINH_NO_KAMIS
+    material: LEATHER_HELMET
+    tier: S
+    name: <#FFF1CE>⊱⋇⊷ <#CFC6FF>&lM<#CBBDFC>&lũ <#C8B3FA>&lT<#C4AAF7>&lh<#BC97F2>&lị<#B98DEF>&ln<#B17AEA>&lh
+      <#AD71E7>&lN<#AA67E5>&lộ &e&k&l.&e&l｡ <#A65EE2>&lK<#9E4BDD>&la<#9B42DA>&lm<#9738D8>&li<#932FD5>&ls
+      &e&l｡&k&l｡ <#FFF1CE>⊶⋇⊰
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 30
+    max-health: 840
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 75 0 130
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: amethyst
+    trim-pattern: eye
+
+GIAP_THINH_NO_KAMIS:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: THINH_NO_KAMIS
+    material: LEATHER_CHESTPLATE
+    tier: S
+    name: <#FFF1CE>⊱⋇⊷ <#CFC6FF>&lG<#CBBDFC>&li<#C8B3FA>&lá<#C4AAF7>&lp <#BC97F2>&lT<#B98DEF>&lh<#B17AEA>&lị<#AD71E7>&ln<#AA67E5>&lh
+      <#A65EE2>&lN<#9E4BDD>&lộ &e&k&l.&e&l｡ <#9B42DA>&lK<#9738D8>&la<#932FD5>&lm<#8E26D2>&li<#8A1ED0>&ls
+      &e&l｡&k&l｡ <#FFF1CE>⊶⋇⊰
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 60
+    max-health: 1680
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 75 0 130
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: amethyst
+    trim-pattern: eye
+
+QUAN_THINH_NO_KAMIS:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: THINH_NO_KAMIS
+    material: LEATHER_LEGGINGS
+    tier: S
+    name: <#FFF1CE>⊱⋇⊷ <#CFC6FF>&lQ<#CBBDFC>&lu<#C8B3FA>&lầ<#C4AAF7>&ln <#BC97F2>&lT<#B98DEF>&lh<#B17AEA>&lị<#AD71E7>&ln<#AA67E5>&lh
+      <#A65EE2>&lN<#9E4BDD>&lộ &e&k&l.&e&l｡ <#9B42DA>&lK<#9738D8>&la<#932FD5>&lm<#8E26D2>&li<#8A1ED0>&ls
+      &e&l｡&k&l｡ <#FFF1CE>⊶⋇⊰
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 38
+    max-health: 1050
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 75 0 130
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: amethyst
+    trim-pattern: eye
+
+GIAY_THINH_NO_KAMIS:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: THINH_NO_KAMIS
+    material: LEATHER_BOOTS
+    tier: S
+    name: <#FFF1CE>⊱⋇⊷ <#CFC6FF>&lG<#CBBDFC>&li<#C8B3FA>&là<#C4AAF7>&ly <#BC97F2>&lT<#B98DEF>&lh<#B17AEA>&lị<#AD71E7>&ln<#AA67E5>&lh
+      <#A65EE2>&lN<#9E4BDD>&lộ &e&k&l.&e&l｡ <#9B42DA>&lK<#9738D8>&la<#932FD5>&lm<#8E26D2>&li<#8A1ED0>&ls
+      &e&l｡&k&l｡ <#FFF1CE>⊶⋇⊰
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 23
+    max-health: 630
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 75 0 130
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: amethyst
+    trim-pattern: eye
+TEST:
+  base:
+    upgrade:
+      template: armor-upgrade
+    material: IRON_CHESTPLATE
+    unbreakable: true
+    max-health: 630
+
+
+MU_QUY_VUONG_V2:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: QUY_VUONG
+    material: LEATHER_HELMET
+    tier: S
+    name: '&f꧁༺ <#FCD05C>&lM<#F9C55C>&lũ &e&k&l.&e&l｡ <#F6BA5B>&lQ<#F3AF5B>&lu<#F0A45A>&lỷ
+      <#EA8E5A>&lV<#E88459>&lư<#E57959>&lơ<#DF6358>&ln<#DC5858>&lg &e&l｡&k&l｡ &f<#A470F1>&lV2 &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 35
+    max-health: 988
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 92 0 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: silence
+
+GIAP_QUY_VUONG_V2:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: QUY_VUONG
+    material: LEATHER_CHESTPLATE
+    tier: S
+    name: '&f꧁༺ <#FCD05C>&lG<#F9C55C>&li<#F6BA5B>&lá<#F3AF5B>&lp &e&k&l.&e&l｡ <#F0A45A>&lQ<#EA8E5A>&lu<#E88459>&lỷ
+      <#E57959>&lV<#DF6358>&lư<#DC5858>&lơ<#D94D57>&ln<#D64257>&lg &e&l｡&k&l｡ &f<#A470F1>&lV2 &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 70
+    max-health: 1976
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 92 0 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: silence
+
+QUAN_QUY_VUONG_V2:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: QUY_VUONG
+    material: LEATHER_LEGGINGS
+    tier: S
+    name: '&f꧁༺ <#FCD05C>&lQ<#F9C55C>&lu<#F6BA5B>&lầ<#F3AF5B>&ln &e&k&l.&e&l｡ <#F0A45A>&lQ<#EA8E5A>&lu<#E88459>&lỷ
+      <#E57959>&lV<#DF6358>&lư<#DC5858>&lơ<#D94D57>&ln<#D64257>&lg &e&l｡&k&l｡ &f<#A470F1>&lV2 &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 44
+    max-health: 1235
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 92 0 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: silence
+
+GIAY_QUY_VUONG_V2:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: QUY_VUONG
+    material: LEATHER_BOOTS
+    tier: S
+    name: '&f꧁༺ <#FCD05C>&lG<#F9C55C>&li<#F6BA5B>&là<#F3AF5B>&ly &e&k&l.&e&l｡ <#F0A45A>&lQ<#EA8E5A>&lu<#E88459>&lỷ
+      <#E57959>&lV<#DF6358>&lư<#DC5858>&lơ<#D94D57>&ln<#D64257>&lg &e&l｡&k&l｡ &f<#A470F1>&lV2 &f༻꧂'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 26
+    max-health: 741
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 92 0 0
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: netherite
+    trim-pattern: silence
+
+MU_THINH_NO_KAMIS_V2:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: THINH_NO_KAMIS
+    material: LEATHER_HELMET
+    tier: S
+    name: <#FFF1CE>⊱⋇⊷ <#CFC6FF>&lM<#CBBDFC>&lũ <#C8B3FA>&lT<#C4AAF7>&lh<#BC97F2>&lị<#B98DEF>&ln<#B17AEA>&lh
+      <#AD71E7>&lN<#AA67E5>&lộ &e&k&l.&e&l｡ <#A65EE2>&lK<#9E4BDD>&la<#9B42DA>&lm<#9738D8>&li<#932FD5>&ls
+      &e&l｡&k&l｡ <#FFF1CE>⊶⋇⊰
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 39
+    max-health: 1092
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 75 0 130
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: amethyst
+    trim-pattern: eye
+
+GIAP_THINH_NO_KAMIS_V2:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: THINH_NO_KAMIS
+    material: LEATHER_CHESTPLATE
+    tier: S
+    name: <#FFF1CE>⊱⋇⊷ <#CFC6FF>&lG<#CBBDFC>&li<#C8B3FA>&lá<#C4AAF7>&lp <#BC97F2>&lT<#B98DEF>&lh<#B17AEA>&lị<#AD71E7>&ln<#AA67E5>&lh
+      <#A65EE2>&lN<#9E4BDD>&lộ &e&k&l.&e&l｡ <#9B42DA>&lK<#9738D8>&la<#932FD5>&lm<#8E26D2>&li<#8A1ED0>&ls
+      &e&l｡&k&l｡ <#FFF1CE>⊶⋇⊰
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 78
+    max-health: 2184
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 75 0 130
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: amethyst
+    trim-pattern: eye
+
+QUAN_THINH_NO_KAMIS_V2:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: THINH_NO_KAMIS
+    material: LEATHER_LEGGINGS
+    tier: S
+    name: <#FFF1CE>⊱⋇⊷ <#CFC6FF>&lQ<#CBBDFC>&lu<#C8B3FA>&lầ<#C4AAF7>&ln <#BC97F2>&lT<#B98DEF>&lh<#B17AEA>&lị<#AD71E7>&ln<#AA67E5>&lh
+      <#A65EE2>&lN<#9E4BDD>&lộ &e&k&l.&e&l｡ <#9B42DA>&lK<#9738D8>&la<#932FD5>&lm<#8E26D2>&li<#8A1ED0>&ls
+      &e&l｡&k&l｡ <#FFF1CE>⊶⋇⊰
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 49
+    max-health: 1365
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 75 0 130
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: amethyst
+    trim-pattern: eye
+
+GIAY_THINH_NO_KAMIS_V2:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: THINH_NO_KAMIS
+    material: LEATHER_BOOTS
+    tier: S
+    name: <#FFF1CE>⊱⋇⊷ <#CFC6FF>&lG<#CBBDFC>&li<#C8B3FA>&là<#C4AAF7>&ly <#BC97F2>&lT<#B98DEF>&lh<#B17AEA>&lị<#AD71E7>&ln<#AA67E5>&lh
+      <#A65EE2>&lN<#9E4BDD>&lộ &e&k&l.&e&l｡ <#9B42DA>&lK<#9738D8>&la<#932FD5>&lm<#8E26D2>&li<#8A1ED0>&ls
+      &e&l｡&k&l｡ <#FFF1CE>⊶⋇⊰
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 30
+    max-health: 819
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 75 0 130
+    hide-armor-trim: true
+    hide-dye: true
+    trim-material: amethyst
+    trim-pattern: eye
+
+MU_TRUNG_THU_2026:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: TRUNG_THU_2026
+    material: LEATHER_HELMET
+    tier: B
+    name: '&eMũ Trung Thu 2026'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 12
+    max-health: 360
+    lore:
+    - '&8▪ &cVật phẩm sự kiện Trung Thu 2026'
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 255 0
+    hide-dye: true
+
+GIAP_TRUNG_THU_2026:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: TRUNG_THU_2026
+    material: LEATHER_CHESTPLATE
+    tier: B
+    name: '&eGiáp Trung Thu 2026'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 24
+    max-health: 720
+    lore:
+    - '&8▪ &cVật phẩm sự kiện Trung Thu 2026'
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 255 0
+    hide-dye: true
+
+QUAN_TRUNG_THU_2026:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: TRUNG_THU_2026
+    material: LEATHER_LEGGINGS
+    tier: B
+    name: '&eQuần Trung Thu 2026'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 15
+    max-health: 450
+    lore:
+    - '&8▪ &cVật phẩm sự kiện Trung Thu 2026'
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 255 0
+    hide-dye: true
+
+GIAY_TRUNG_THU_2026:
+  base:
+    upgrade:
+      template: armor-upgrade
+    set: TRUNG_THU_2026
+    material: LEATHER_BOOTS
+    tier: B
+    name: '&eGiày Trung Thu 2026'
+    hide-enchants: true
+    will-break: false
+    unbreakable: true
+    defense: 9.0
+    max-health: 270
+    lore:
+    - '&8▪ &cVật phẩm sự kiện Trung Thu 2026'
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    - '&aGiáp'
+    dye-color: 255 255 0
+    hide-dye: true

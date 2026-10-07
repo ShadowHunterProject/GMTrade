@@ -1,0 +1,26 @@
+menu_title: "&#FFAA00&lTHÔNG TIN THĂNG HẠNG"
+open_command:
+  - thanghang
+  - prestigeinfo
+  - chuyensinh
+size: 9
+items:
+  "info":
+    material: BOOK
+    slot: 4
+    display_name: "&#FFAA00&lHƯỚNG DẪN THĂNG HẠNG (TÁI THỨC TỈNH)"
+    lore:
+      - "&f&lCÁCH HOẠT ĐỘNG:"
+      - "&7- Khi đạt đến &cLevel giới hạn&7 của bậc hiện tại,"
+      - "&7  bạn sẽ tự động tái thức tỉnh lên hạng tiếp theo."
+      - "&7- Sau khi thăng hạng, &cLevel sẽ bị reset&7."
+      - "&7- &aĐƯỢC GIỮ NGUYÊN:&7 Chỉ số, Điểm Tiềm Năng, Kỹ Năng."
+      - ""
+      - "&f&lCÁC CẤP BẬC THĂNG HẠNG:"
+      - "&#A9A9A9&l❖ Thợ Săn Hạng D &7- Tái thức tỉnh tại: &cLevel 100"
+      - "&#55FF55&l✣ Thợ Săn Hạng C &7- Tái thức tỉnh tại: &cLevel 300"
+      - "&#00AAFF&l✦ Thợ Săn Hạng B &7- Tái thức tỉnh tại: &cLevel 500"
+      - "&#AA00AA&l✪ Thợ Săn Hạng A &7- Tái thức tỉnh tại: &cLevel 700"
+      - "&#FFAA00&l♛ Thợ Săn Hạng S &7- Tái thức tỉnh tại: &cLevel 900"
+      - ""
+      - "&eCác cổng đều yêu cầu cấp bậc thợ săn, hãy cày cuốc đi!"

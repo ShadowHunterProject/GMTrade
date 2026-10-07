@@ -1,0 +1,10 @@
+name: GMTrade
+version: '1.0'
+main: vn.gmtrade.GMTrade
+api-version: '1.21'
+depend: [Vault, MMOItems, GMCore]
+
+commands:
+  gmtrade:
+    description: "Main command for GMTrade"
+    usage: "/gmtrade"

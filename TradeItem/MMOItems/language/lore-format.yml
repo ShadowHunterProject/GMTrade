@@ -1,0 +1,202 @@
+#########################################################
+#
+# MMOITEMS ANCIENT TOOLTIPS
+# Copyright (C) 2025 Phoenix Devt
+#
+# Last Modified: 16/03/2025
+# - Only difference with the original file is the removal of the 'tier'
+#  'item-type' section, as they are now displayed on the tooltip header.
+# - Commands, arrow potion effects are not displayed by default.
+#
+#########################################################
+
+# This is the way stats are organized in the item lore.
+# You can remove and swap lines as much as you want.
+# Make sure each line has EXACTLY the placeholder as text.
+#
+# Lines starting with {bar} are strips and will be removed
+# removed from the lore if no regular line is detected right under them.
+# The lines starting with {sbar} will stay whatever is below them.
+#
+# Reload with /mmoitems reload
+lore-format:
+  ########################################################################
+  # General Item Info
+  # General Requirements
+  ########################################################################
+  #- '#item-type#'
+  - '#custom-levelitem#'
+  - '#custom-materialitem#'
+  - '#custom-myluck#'
+  # - '{bar}'
+  - '#required-class#'
+  - '#required-level#'
+  - '#required-dexterity#'
+  - '#required-strength#'
+  - '#required-intelligence#'
+  - '#success-rate#'
+  # - '{bar}'
+  - '#soulbound#'
+  ########################################################################
+  # MMOCore Profession Requirements
+  ########################################################################
+  - '#profession-alchemy#'
+  - '#profession-enchanting#'
+  - '#profession-farming#'
+  - '#profession-fishing#'
+  - '#profession-mining#'
+  - '#profession-smelting#'
+  - '#profession-smithing#'
+  - '#profession-woodcutting#'
+  ########################################################################
+  # Main Weapon Stats
+  ########################################################################
+  - '{bar}'
+  - '#seabeast-enchant-lure#'
+  - '#seabeast-enchant-lucky#'
+  - '#seabeast-enchant-strong#'
+  - '#attack-damage#'
+  - '#weapon-damage#'
+  - '#attack-speed#'
+  - '#critical-strike-chance#'
+  - '#critical-strike-power#'
+  - '#knockback#'
+  - '#recoil#'
+  - '#note-weight#'
+  - '#arrow-velocity#'
+  - '#range#'
+  ########################################################################
+  # Other Item Stats
+  ########################################################################
+  # - '{bar}'
+  - '#can-identify#'
+  - '#can-deconstruct#'
+  - '#can-deskin#'
+  - '#skill-critical-strike-chance#'
+  - '#skill-critical-strike-power#'
+  - '#pvp-damage#'
+  - '#pve-damage#'
+  - '#blunt-power#'
+  - '#blunt-rating#'
+  - '#magic-damage#'
+  - '#skill-damage#'
+  - '#physical-damage#'
+  - '#projectile-damage#'
+  - '#defense#'
+  - '#damage-reduction#'
+  - '#fall-damage-reduction#'
+  - '#fire-damage-reduction#'
+  - '#magic-damage-reduction#'
+  - '#projectile-damage-reduction#'
+  - '#physical-damage-reduction#'
+  - '#pve-damage-reduction#'
+  - '#pvp-damage-reduction#'
+  - '#undead-damage#'
+  - '#faction-damage-undead#'
+  - '#block-power#'
+  - '#block-rating#'
+  - '#dodge-rating#'
+  - '#parry-rating#'
+  - '#block-cooldown-reduction#'
+  - '#dodge-cooldown-reduction#'
+  - '#parry-cooldown-reduction#'
+  - '#armor#'
+  - '#armor-toughness#'
+  - '#knockback-resistance#'
+  - '#max-health#'
+  - '#max-mana#'
+  - '#max-stamina#'
+  - '#health-regeneration#'
+  - '#mana-regeneration#'
+  - '#stamina-regeneration#'
+  - '#movement-speed#'
+  - '#staff-spirit#'
+  - '#lute-attack-effect#'
+  - '#two-handed#'
+  - '#handworn#'
+  - '#autosmelt#'
+  - '#bouncing-crack#'
+  - '#pickaxe-power#'
+  - '#restore-health#'
+  - '#restore-food#'
+  - '#restore-saturation#'
+  - '#restore-mana#'
+  - '#restore-stamina#'
+  - '#soulbinding-chance#'
+  - '#soulbound-break-chance#'
+  - '#soulbound-level#'
+  - '#repair#'
+  - '#repair-percent#'
+  - '#item-cooldown#'
+  - '#lifesteal#'
+  - '#spell-vampirism#'
+  - '#additional-dexterity#'
+  - '#additional-strength#'
+  - '#additional-intelligence#'
+  - '#additional-experience#'
+  - '#additional-experience-alchemy#'
+  - '#additional-experience-enchanting#'
+  - '#additional-experience-farming#'
+  - '#additional-experience-fishing#'
+  - '#additional-experience-mining#'
+  - '#additional-experience-smelting#'
+  - '#additional-experience-smithing#'
+  - '#additional-experience-woodcutting#'
+  - '#cooldown-reduction#'
+  - '#mana-cost#'
+  - '#stamina-cost#'
+  - '#max-consume#'
+  ########################################################################
+  # Elemental stats
+  ########################################################################
+  # - '{bar}'
+  # - '#elements#'
+  ########################################################################
+  # Perm effects
+  # On-hit Arrow potion effects
+  ########################################################################
+  # - '{bar}'
+  # - '#effects#'
+  # - '#arrow-potion-effects#'
+  ########################################################################
+  # item Abilities
+  ########################################################################
+  #- '{bar}'
+  #- '#abilities#'
+  ########################################################################
+  # Right-Click Item Commands (not displayed)
+  ########################################################################
+  #- '{bar}'
+  #- '#commands#'
+  ########################################################################
+  # Gem Sockets
+  # Current Item Gemstones
+  ########################################################################
+  - '{bar}'
+  - '#lore#'
+  #- '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+  - '#gem-stones#'
+  ########################################################################
+  # Item lore
+  # Gemstone generic lore
+  ########################################################################
+  - '{bar}'
+  #- '#lore#'
+  - '#gem-stone-lore#'
+  ########################################################################
+  # Item set info
+  ########################################################################
+  - '{bar}'
+  - '#set#'
+  ########################################################################
+  # Item tier info
+  ########################################################################
+  - '{bar}'
+  - '#durability#'  
+  - '#digs-remaining#'
+  - '{bar}'
+  - '#tier#'
+  ########################################################################
+  # Finally, durability
+  ########################################################################
+  #- '#durability#'

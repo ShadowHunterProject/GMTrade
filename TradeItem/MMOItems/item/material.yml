@@ -1,0 +1,131 @@
+DACUONGHOA1:
+  base:
+    material: PRISMARINE_SHARD
+    name: '&a✧ Đá Cường Hóa I ✧'
+    tier: D
+    lore:
+    - '&8» &fNguyên liệu chuyên dụng.'
+    - '&8» &eDùng để đột phá trang bị tại &a/rendo'
+    - '&8» &cMẹo: &fQuay hòm dungeon để tìm kiếm.'
+
+DACUONGHOA2:
+  base:
+    material: PRISMARINE_CRYSTALS
+    name: '&b✧ Đá Cường Hóa II ✧'
+    tier: C
+    lore:
+    - '&8» &fNguyên liệu chuyên dụng.'
+    - '&8» &eDùng để đột phá trang bị tại &a/rendo'
+    - '&8» &cMẹo: &fQuay hòm dungeon để tìm kiếm.'
+
+DACUONGHOA3:
+  base:
+    material: AMETHYST_SHARD
+    name: '&d✧ Đá Cường Hóa III ✧'
+    tier: B
+    lore:
+    - '&8» &fNguyên liệu chuyên dụng.'
+    - '&8» &eDùng để đột phá trang bị tại &a/rendo'
+    - '&8» &cMẹo: &fQuay hòm dungeon để tìm kiếm.'
+
+DACUONGHOA4:
+  base:
+    material: EMERALD
+    name: '&e✧ Đá Cường Hóa IV ✧'
+    tier: A
+    lore:
+    - '&8» &fNguyên liệu chuyên dụng.'
+    - '&8» &eDùng để đột phá trang bị tại &a/rendo'
+    - '&8» &cMẹo: &fQuay hòm dungeon để tìm kiếm.'
+
+DACUONGHOA5:
+  base:
+    material: DIAMOND
+    name: '&c✧ Đá Cường Hóa V ✧'
+    tier: S
+    lore:
+    - '&8» &fNguyên liệu chuyên dụng.'
+    - '&8» &eDùng để đột phá trang bị tại &a/rendo'
+    - '&8» &cMẹo: &fQuay hòm dungeon để tìm kiếm.'
+
+DEN_ONG_SAO:
+  base:
+    material: SUNFLOWER
+    name: '&e✧ Đèn Ông Sao ✧'
+    tier: A
+    lore:
+    - '&8» &fChiếc đèn truyền thống đêm hội trăng rằm.'
+    - '&8» &eNguyên liệu dùng để đổi đồ sự kiện Trung Thu 2026.'
+    - '&8» &cMẹo: &fĐánh quái ở các dungeon để tìm kiếm.'
+
+ITEM_YEU_CAU_E:
+  base:
+    material: FLINT
+    name: '&7◈ Mảnh Vỡ Dungeon E ◈'
+    tier: C
+    lore:
+    - '&8❖ &fNguyên liệu thu thập từ Dungeon E.'
+    - '&8❖ &eDùng để trao đổi vật phẩm tại &a/trade'
+
+ITEM_YEU_CAU_D:
+  base:
+    material: COAL
+    name: '&8▣ Mảnh Vỡ Dungeon D ▣'
+    tier: C
+    lore:
+    - '&8❖ &fNguyên liệu thu thập từ Dungeon D.'
+    - '&8❖ &eDùng để trao đổi vật phẩm tại &a/trade'
+
+ITEM_YEU_CAU_C:
+  base:
+    material: IRON_NUGGET
+    name: '&f✦ Mảnh Vỡ Dungeon C ✦'
+    tier: B
+    lore:
+    - '&8❖ &fNguyên liệu thu thập từ Dungeon C.'
+    - '&8❖ &eDùng để trao đổi vật phẩm tại &a/trade'
+
+ITEM_YEU_CAU_B:
+  base:
+    material: GOLD_NUGGET
+    name: '&e★ Mảnh Vỡ Dungeon B ★'
+    tier: B
+    lore:
+    - '&8❖ &fNguyên liệu thu thập từ Dungeon B.'
+    - '&8❖ &eDùng để trao đổi vật phẩm tại &a/trade'
+
+ITEM_YEU_CAU_A:
+  base:
+    material: EMERALD
+    name: '&a✪ Tinh Thể Dungeon A ✪'
+    tier: A
+    lore:
+    - '&8❖ &fNguyên liệu thu thập từ Dungeon A.'
+    - '&8❖ &eDùng để trao đổi vật phẩm tại &a/trade'
+
+ITEM_YEU_CAU_A_PLUS_HOANGUC:
+  base:
+    material: MAGMA_CREAM
+    name: '&c♨ Tinh Thể Hỏa Ngục (A+) ♨'
+    tier: S
+    lore:
+    - '&8❖ &fNguyên liệu quý hiếm từ Dungeon A+ Hỏa Ngục.'
+    - '&8❖ &eDùng để trao đổi vật phẩm tại &a/trade'
+
+ITEM_YEU_CAU_A_PLUS_BANGGIA:
+  base:
+    material: SNOWBALL
+    name: '&b❅ Tinh Thể Băng Giá (A+) ❅'
+    tier: S
+    lore:
+    - '&8❖ &fNguyên liệu quý hiếm từ Dungeon A+ Băng Giá.'
+    - '&8❖ &eDùng để trao đổi vật phẩm tại &a/trade'
+
+ITEM_YEU_CAU_A_PLUS_DENTHO:
+  base:
+    material: QUARTZ
+    name: '&6۩ Tinh Thể Đền Thờ (A+) ۩'
+    tier: S
+    lore:
+    - '&8❖ &fNguyên liệu quý hiếm từ Dungeon A+ Đền Thờ.'
+    - '&8❖ &eDùng để trao đổi vật phẩm tại &a/trade'

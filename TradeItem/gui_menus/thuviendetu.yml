@@ -1,0 +1,255 @@
+menu_title: "&#8A2BE2&l✦ &#9370DB&lTHƯ VIỆN ĐỆ TỬ &#8A2BE2&l✦"
+open_command:
+  - thuviendetu
+  - detu info
+  - tvdt
+  - shadow info
+  - shadowhunter info
+size: 54
+items:
+  "glass_border":
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 0-9
+      - 17-18
+      - 26-27
+      - 35-36
+      - 44-53
+    display_name: " "
+
+  "bl_dark_knight_Pet":
+    material: hdb-52297
+    slot: 10
+    display_name: "&#00BFFF&l❖ &aPhân Ảnh Igris &7(Rank F) &#00BFFF&l❖"
+    lore:
+      - "&8&m                                     "
+      - " &7➻ &fChỉ số cơ bản (Khi thu phục):"
+      - "    &c♥ Máu:&f 100 - 200"
+      - "    &e⚔ Sát thương:&f 1 - 2"
+      - "    &b⛨ Giáp:&f 1 - 1"
+      - ""
+      - " &7➻ &fTỉ lệ thu thập thành công: &a&l100%"
+      - ""
+      - " &7➻ &fKỹ năng:"
+      - "    &8▪ &eĐánh Thường: &fGây 30 sát thương"
+      - "    &8▪ &bQuét Kiếm: &fGây 86 sát thương (PvP) / 87 (PvE)"
+      - "    &8▪ &bChẻ Đôi: &fGây 86 sát thương (PvP) / 87 (PvE)"
+      - "    &8▪ &bĐâm Kiếm: &fGây 86 sát thương (PvP) / 87 (PvE)"
+      - "    &8▪ &bXoay Kiếm: &fGây 86 sát thương (PvP) / 87 (PvE)"
+      - "    &8▪ &bĐá Địa Hình: &fGây 140 sát thương (PvP) / 144 (PvE)"
+      - ""
+      - " &7➻ &fCách kiếm:"
+      - "    &dNhận được thông qua nhiệm vụ tân thủ."
+      - "&8&m                                     "
+
+  "orc_giant":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFhOTZmZmU1NTgxM2MzMTNmYjdiMWQyZWE2YzBkZmUxMDQ0N2YyYjNiYTlhMDg2ZTQxYmQ5MGY0ZjBhY2EwYiJ9fX0=
+    slot: 11
+    display_name: "&#00BFFF&l❖ &2Yêu Tinh Vương Kragg &7(Rank E) &#00BFFF&l❖"
+    lore:
+      - "&8&m                                     "
+      - " &7➻ &fChỉ số cơ bản (Khi thu phục):"
+      - "    &c♥ Máu:&f 300 - 450"
+      - "    &e⚔ Sát thương:&f 2 - 5"
+      - "    &b⛨ Giáp:&f 1 - 2"
+      - ""
+      - " &7➻ &fTỉ lệ thu thập thành công: &a&l75%"
+      - ""
+      - " &7➻ &fKỹ năng:"
+      - "    &8▪ &eĐánh Thường: &fGây 46 sát thương (PvP) / 49 (PvE)"
+      - "    &8▪ &bĐập Đất: &fGây 46 sát thương (PvP) / 49 (PvE)"
+      - "    &8▪ &bGầm Rống: &fGây 46 sát thương (PvP) / 49 (PvE)"
+      - ""
+      - " &7➻ &fCách kiếm:"
+      - "    &dĐánh bại Yêu Tinh Vương Kragg tại cổng E."
+      - "&8&m                                     "
+
+  "orc_king":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU3MTAzMjJjNzE5OWNmZTA5OWE0NzUzNDgxMmVkNzQ2MGVlNGU4YzU2YWYzYzdhMTEwNzcwY2Y3MjY0YjdlNCJ9fX0=
+    slot: 12
+    display_name: "&#00BFFF&l❖ &aOrc Thủ Lĩnh &7(Rank D) &#00BFFF&l❖"
+    lore:
+      - "&8&m                                     "
+      - " &7➻ &fChỉ số cơ bản (Khi thu phục):"
+      - "    &c♥ Máu:&f 500 - 750"
+      - "    &e⚔ Sát thương:&f 5 - 10"
+      - "    &b⛨ Giáp:&f 2 - 4"
+      - ""
+      - " &7➻ &fTỉ lệ thu thập thành công: &a&l50%"
+      - ""
+      - " &7➻ &fKỹ năng:"
+      - "    &8▪ &eĐánh Thường: &fGây 81 sát thương (PvP) / 80 (PvE)"
+      - "    &8▪ &bLướt Tới: &fGây 81 sát thương (PvP) / 80 (PvE)"
+      - "    &8▪ &bNện Giáo: &fGây 81 sát thương (PvP) / 80 (PvE)"
+      - "    &8▪ &bNém Giáo: &fGây 8 sát thương (PvP) / 8 (PvE) (15 lần)"
+      - ""
+      - " &7➻ &fCách kiếm:"
+      - "    &dĐánh bại Orc Thủ Lĩnh tại cổng D."
+      - "&8&m                                     "
+
+  "crowreaper":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE0NGMxOTkxOGYwYjA5ZjM3NDc1Y2U0OTE0ZjgwMzc0OGUyYWZmMGFhNzJjMjE0NDlmYWE4MTM0ZGYzNjA4NiJ9fX0=
+    slot: 13
+    display_name: "&#00BFFF&l❖ &8Hắc Hiệp Sĩ Vargoth &7(Rank C) &#00BFFF&l❖"
+    lore:
+      - "&8&m                                     "
+      - " &7➻ &fChỉ số cơ bản (Khi thu phục):"
+      - "    &c♥ Máu:&f 850 - 1100"
+      - "    &e⚔ Sát thương:&f 15 - 30"
+      - "    &b⛨ Giáp:&f 5 - 10"
+      - ""
+      - " &7➻ &fTỉ lệ thu thập thành công: &a&l40%"
+      - ""
+      - " &7➻ &fKỹ năng:"
+      - "    &8▪ &eĐánh Thường: &fGây 156 sát thương (PvP) / 146 (PvE)"
+      - "    &8▪ &bLướt Tới: &fGây 156 sát thương (PvP) / 146 (PvE)"
+      - "    &8▪ &bChém Liên Hoàn: &fGây 156 sát thương (PvP) / 146 (PvE)"
+      - "    &8▪ &bChông Gai: &fGây 156 sát thương (PvP) / 146 (PvE)"
+      - "    &8▪ &bNém Rìu: &fGây 156 sát thương (PvP) / 146 (PvE)"
+      - ""
+      - " &7➻ &fCách kiếm:"
+      - "    &dĐánh bại Hắc Hiệp Sĩ Vargoth tại cổng C."
+      - "&8&m                                     "
+
+  "thecrowknight":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzEzNGMwN2YwZGI4MjdiNDc5YzY5ZWQxODBhZTBlMjRjMGNiM2Y0YTcxMDQ1YmNkYmEzZGJlNDMzZjg3MGRjIn19fQ==
+    slot: 14
+    display_name: "&#00BFFF&l❖ &5Ma Vương Baruka &7(Rank B) &#00BFFF&l❖"
+    lore:
+      - "&8&m                                     "
+      - " &7➻ &fChỉ số cơ bản (Khi thu phục):"
+      - "    &c♥ Máu:&f 1200 - 1500"
+      - "    &e⚔ Sát thương:&f 40 - 80"
+      - "    &b⛨ Giáp:&f 15 - 25"
+      - ""
+      - " &7➻ &fTỉ lệ thu thập thành công: &a&l30%"
+      - ""
+      - " &7➻ &fKỹ năng:"
+      - "    &8▪ &eĐánh Thường: &fGây 194 sát thương (PvP) / 188 (PvE)"
+      - "    &8▪ &bLiên Hoàn Chém: &fGây 194 sát thương (PvP) / 188 (PvE)"
+      - "    &8▪ &bKhông Kích: &fGây 194 sát thương (PvP) / 188 (PvE)"
+      - "    &8▪ &bBùng Nổ: &fGây 194 sát thương (PvP) / 188 (PvE)"
+      - "    &8▪ &bChông Gai: &fGây 194 sát thương (PvP) / 188 (PvE)"
+      - "    &8▪ &bLàn Khói Độc: &fGây 194 sát thương (PvP) / 188 (PvE)"
+      - ""
+      - " &7➻ &fCách kiếm:"
+      - "    &dĐánh bại Ma Vương Baruka tại cổng B."
+      - "&8&m                                     "
+
+  "apocalypse_type_a":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDUxMGQ5OGVjYzJhMjBlMTkxNzkxNDE2YjI5MGNkMmE4YTBlNzNhYTI4NDVlNDI4YTM4MmRkY2Y5MjNkMjMwMiJ9fX0=
+    slot: 15
+    display_name: "&#00BFFF&l❖ &dHắc Ám Thánh Thể &7(Rank A) &#00BFFF&l❖"
+    lore:
+      - "&8&m                                     "
+      - " &7➻ &fChỉ số cơ bản (Khi thu phục):"
+      - "    &c♥ Máu:&f 1600 - 1900"
+      - "    &e⚔ Sát thương:&f 120 - 200"
+      - "    &b⛨ Giáp:&f 30 - 50"
+      - ""
+      - " &7➻ &fTỉ lệ thu thập thành công: &a&l20%"
+      - ""
+      - " &7➻ &fKỹ năng:"
+      - "    &8▪ &eĐánh Thường: &fGây 233 sát thương (PvP) / 240 (PvE)"
+      - "    &8▪ &bHộp Hủy Diệt: &fGây 233 sát thương (PvP) / 240 (PvE)"
+      - "    &8▪ &bHố Đen Hủy Diệt: &fGây 300 sát thương (PvP) / 360 (PvE)"
+      - ""
+      - " &7➻ &fCách kiếm:"
+      - "    &dĐánh bại Hắc Ám Thánh Thể tại cổng A."
+      - "&8&m                                     "
+
+  "koboldwizard":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWMyNDM0ZDM5OTNiYjhiYzMwZDJkMjRkOGQxNzA3Yjc0N2QyZDM2YTM2M2JmMzQ5MTk2ZmJhNjMxNWQ4Njk1MCJ9fX0=
+    slot: 16
+    display_name: "&#00BFFF&l❖ &cPháp Sư Kobold &7(Rank A+) &#00BFFF&l❖"
+    lore:
+      - "&8&m                                     "
+      - " &7➻ &fChỉ số cơ bản (Khi thu phục):"
+      - "    &c♥ Máu:&f 2100 - 2400"
+      - "    &e⚔ Sát thương:&f 300 - 500"
+      - "    &b⛨ Giáp:&f 50 - 80"
+      - ""
+      - " &7➻ &fTỉ lệ thu thập thành công: &a&l15%"
+      - ""
+      - " &7➻ &fKỹ năng:"
+      - "    &8▪ &eĐánh Thường: &fGây 440 sát thương (PvP) / 450 (PvE)"
+      - "    &8▪ &bThiên Thạch Lửa: &fGây 560 sát thương (PvP) / 550 (PvE)"
+      - "    &8▪ &bCột Lửa Thái Dương: &fGây 560 sát thương (PvP) / 550 (PvE)"
+      - "    &8▪ &bBẫy Lửa (Trói Buộc): &fGây 340 sát thương (PvP) / 330 (PvE)"
+      - ""
+      - " &7➻ &fCách kiếm:"
+      - "    &dĐánh bại Pháp Sư Kobold tại cổng A+."
+      - "&8&m                                     "
+
+  "ice_golem":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGJmMzllZTUwYzE1YjhjYjE5MWNhNWQ2YTdiZjI4MWExZWQ1ZWNhOTQ3NjBlYmYxZTc2NmQ3OTk4ZDlmOGY4NyJ9fX0=
+    slot: 19
+    display_name: "&#00BFFF&l❖ &bBăng Hoàng Golem &7(Rank A+) &#00BFFF&l❖"
+    lore:
+      - "&8&m                                     "
+      - " &7➻ &fChỉ số cơ bản (Khi thu phục):"
+      - "    &c♥ Máu:&f 2100 - 2400"
+      - "    &e⚔ Sát thương:&f 300 - 500"
+      - "    &b⛨ Giáp:&f 50 - 80"
+      - ""
+      - " &7➻ &fTỉ lệ thu thập thành công: &a&l15%"
+      - ""
+      - " &7➻ &fKỹ năng:"
+      - "    &8▪ &eĐấm Thường: &fGây 322 sát thương (PvP) / 345 (PvE)"
+      - "    &8▪ &bTát: &fGây 322 sát thương (PvP) / 345 (PvE)"
+      - "    &8▪ &bĐập Nát: &fGây 322 sát thương (PvP) / 345 (PvE)"
+      - "    &8▪ &bNghiền Nát: &fGây 322 sát thương (PvP) / 345 (PvE)"
+      - "    &8▪ &bGai Băng: &fGây 322 sát thương (PvP) / 345 (PvE)"
+      - "    &8▪ &bMảnh Băng: &fGây 322 sát thương (PvP) / 345 (PvE)"
+      - "    &8▪ &bSương Mù Băng: &fGây 322 sát thương (PvP) / 345 (PvE)"
+      - ""
+      - " &7➻ &fCách kiếm:"
+      - "    &dĐánh bại Băng Hoàng Golem tại cổng A+."
+      - "&8&m                                     "
+
+  "mage":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlM2U2ZWY3Yjc4MWRkYjRiOWI5MmRiYjVlOTAzOWIyNmZhMzY3ODA0ZmQ1YzgyNTZiY2FlNjU5NjY4ZDJlIn19fQ==
+    slot: 20
+    display_name: "&#00BFFF&l❖ &5Tusk (Mage) &7(Rank A+) &#00BFFF&l❖"
+    lore:
+      - "&8&m                                     "
+      - " &7➻ &fChỉ số cơ bản (Khi thu phục):"
+      - "    &c♥ Máu:&f 2100 - 2400"
+      - "    &e⚔ Sát thương:&f 300 - 500"
+      - "    &b⛨ Giáp:&f 50 - 80"
+      - ""
+      - " &7➻ &fTỉ lệ thu thập thành công: &a&l15%"
+      - ""
+      - " &7➻ &fKỹ năng:"
+      - "    &8▪ &eCầu Lửa: &fGây 500 sát thương (PvP) / 400 (PvE)"
+      - "    &8▪ &bKiếm Lửa (Lướt/Xoay): &fGây 500 sát thương (PvP) / 450 (PvE)"
+      - "    &8▪ &bLãnh Địa Lửa: &fGây 400 sát thương (PvP) / 440 (PvE)"
+      - "    &8▪ &bSóng Lửa: &fGây 500 sát thương (PvP) / 450 (PvE)"
+      - ""
+      - " &7➻ &fCách kiếm:"
+      - "    &dĐánh bại Tusk (Mage) tại cổng A+."
+      - "&8&m                                     "
+
+  "hydra":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZhNzc2ODlhNzNmMzljZDljNWY1NmM4ZTAwMmVkN2M3NmVhNGE5MDVjNTZhNzY3YWRmZDgzY2IyZWExZjJjNCJ9fX0=
+    slot: 21
+    display_name: "&#00BFFF&l❖ &2Rồng Độc Hydra &7(Rank S) &#00BFFF&l❖"
+    lore:
+      - "&8&m                                     "
+      - " &7➻ &fChỉ số cơ bản (Khi thu phục):"
+      - "    &c♥ Máu:&f 2600 - 3000"
+      - "    &e⚔ Sát thương:&f 500 - 650"
+      - "    &b⛨ Giáp:&f 100 - 150"
+      - ""
+      - " &7➻ &fTỉ lệ thu thập thành công: &a&l10%"
+      - ""
+      - " &7➻ &fKỹ năng:"
+      - "    &8▪ &eCắn: &fGây 500 - 650 sát thương"
+      - "    &8▪ &bGiẫm Đạp: &fGây 500 - 650 sát thương"
+      - "    &8▪ &bQuật Đuôi: &fGây 500 - 650 sát thương"
+      - "    &8▪ &bĐộc Suy Yếu: &fGây 380 sát thương (PvP) / 350 (PvE)"
+      - "    &8▪ &bHố Đen Hủy Diệt: &fGây 380 sát thương (PvP) / 350 (PvE)"
+      - ""
+      - " &7➻ &fCách kiếm:"
+      - "    &dĐánh bại Rồng Độc Hydra tại cổng Đỏ Boss Thế Giới."
+      - "&8&m                                     "

@@ -1,0 +1,50 @@
+open_command:
+  - stat
+  - stats
+  - chiso
+
+open_commands:
+  - "[sound] ITEM_ARMOR_EQUIP_DIAMOND 1.0 1.0"
+size: 9
+menu_title: "&8⟦ &8Hồ sơ chỉ số nhân vật&8 ⟧"
+
+items:
+  decor_fill:
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: "&r"
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8
+
+  profile:
+    material: PLAYER_HEAD
+    skull_owner: "%player_name%"
+    slot: 4
+    display_name: "&#FFD36B👤 Hồ Sơ Chỉ Số: &f%player_name%"
+    lore:
+      - "&8━━━━━━━━━━━━━━━━━━━━"
+      - "&#FF8C42⚔ Sát thương: &f%mmoitems_stat_attack_damage%"
+      - "&#FF7A7A🗡 ST vũ khí: &f+%mmoitems_stat_Weapon_damage%%"
+      - "&#8BE9FF➶ ST tầm xa: &f+%mmoitems_stat_projectile_damage%%"
+      - "&#FF6347💀 ST PvE: &f+%mmoitems_stat_pve_damage%%"
+      - "&#DC143C☠ ST PvP: &f+%mmoitems_stat_pvp_damage%%"
+      - "&#FFCC66⏱ Tốc độ đánh: &f%mmoitems_stat_attack_speed% &7hit/s"
+      - "&#7EB6FF✦ Tỉ lệ chí mạng: &f%mmoitems_stat_critical_strike_chance%%"
+      - "&#B18CFF✹ ST chí mạng: &f%math_0:_50+{mmoitems_stat_critical_strike_power}%%"
+      - "&#FF4D6D🩸 Hút máu: &f%mmoitems_stat_lifesteal%%"
+      - "&#B38BFF⌁ Giảm hồi chiêu: &f%mmoitems_stat_cooldown_reduction%%"
+      - ""
+      - "&#FF6B6B❤ Máu tối đa: &f%mmoitems_stat_max_health%"
+      - "&#B6FFEA🛡 Phòng thủ: &f%mmoitems_stat_defense%"
+      - "&#FFF0A6⛨ Giảm sát thương: &f%mmoitems_stat_damage_reduction%%"
+      - "&#FFA07A🛡 Giảm ST PvE: &f+%mmoitems_stat_pve_damage_reduction%%"
+      - "&#F08080🛡 Giảm ST PvP: &f+%mmoitems_stat_pvp_damage_reduction%%"
+      - "&#6BE4FF۞ Kháng phép: &f%mmoitems_stat_magic_damage_reduction%%"
+      - "&#6BFF8A⟲ Kháng lùi: &f%math_0:_{mmoitems_stat_knockback_resistance}*100%%"
+      - "&8━━━━━━━━━━━━━━━━━━━━"

@@ -1,0 +1,99 @@
+menu_title: "&8&l🛡 Thợ Rèn Bóng Tối 🛡"
+open_command:
+  - rendo
+  - nangcap
+  - nc 
+  - rd
+size: 54
+
+items:
+  "bg_black":
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 0-3
+      - 5-9
+      - 17-18
+      - 26-27
+      - 35-39
+      - 41-48
+      - 50-53
+
+  "divider":
+    material: BLUE_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 4
+      - 13
+      - 22
+      - 31
+      - 40
+
+  "ring_cyan":
+    material: CYAN_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 11
+      - 19
+      - 21
+      - 29
+      - 15
+      - 23
+      - 25
+      - 33
+
+  "ring_lightblue":
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 10
+      - 12
+      - 28
+      - 30
+      - 14
+      - 16
+      - 32
+      - 34
+
+  "upgrade":
+    material: ANVIL
+    slot: 20
+    display_name: "&#00FF7F&lNÂNG CẤP TRANG BỊ"
+    lore:
+      - "&8▶ &fLệnh tắt: &a/upgrade"
+      - ""
+      - "&7Đưa trang bị của bạn lên một"
+      - "&7tầm cao mới bằng cách bơm"
+      - "&bMa Lực &7vào trang bị."
+      - ""
+      - "&e&l*** CLICK CHUỘT ***"
+    click_commands:
+      - "[sound] BLOCK_ANVIL_USE"
+      - "[player] upgrade"
+
+  "decompose":
+    material: BLAST_FURNACE
+    slot: 24
+    display_name: "&#FF3333&lPHÂN RÃ TRANG BỊ"
+    lore:
+      - "&8▶ &fLệnh tắt: &c/phanra"
+      - ""
+      - "&7Phân rã các trang bị dư thừa"
+      - "&7để thu hồi lại &bMa Lực"
+      - "&7tương ứng với phẩm chất đồ."
+      - ""
+      - "&e&l*** CLICK CHUỘT ***"
+    click_commands:
+      - "[sound] BLOCK_GRINDSTONE_USE"
+      - "[player] phanra"
+
+  "close":
+    material: BARRIER
+    slot: 49
+    display_name: "&#FF0000&l❌ ĐÓNG GIAO DIỆN"
+    lore:
+      - ""
+      - "&7Thoát khỏi lò rèn."
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[close]"

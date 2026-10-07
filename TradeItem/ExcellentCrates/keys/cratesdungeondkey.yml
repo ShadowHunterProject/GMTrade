@@ -1,0 +1,8 @@
+Name: <yellow>☀<gold>✧ <yellow><bold>CHÌA KHÓA DUNGEON D <gold>✧<yellow>☀
+Virtual: true
+ItemData:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{"extra":["CHÌA KHÓA DUNGEON D"],"text":""}},count:1,id:"minecraft:tripwire_hook"}'
+    DataVersion: 4671
+ItemStackable: false

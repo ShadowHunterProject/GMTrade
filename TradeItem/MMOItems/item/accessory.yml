@@ -1,0 +1,692 @@
+# ==================== ACCESSORIES ====================
+
+ACCESSORY_1:
+  base:
+    material: ECHO_SHARD
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aTinh Thể Mana I&7]&b Khuếch Đại'
+    max-mana:
+      base: 10
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 1.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_2:
+  base:
+    material: ECHO_SHARD
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bTinh Thể Mana II&7]&b Khuếch Đại'
+    max-mana:
+      base: 20
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 2.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_3:
+  base:
+    material: ECHO_SHARD
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dTinh Thể Mana III&7]&b Khuếch Đại'
+    max-mana:
+      base: 30
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 3.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_4:
+  base:
+    material: ECHO_SHARD
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aTinh Thể Mana IV&7]&b Khuếch Đại'
+    max-mana:
+      base: 40
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 4.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_5:
+  base:
+    material: ECHO_SHARD
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bTinh Thể Mana V&7]&b Khuếch Đại'
+    max-mana:
+      base: 50
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 5.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_6:
+  base:
+    material: ECHO_SHARD
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dTinh Thể Mana VI&7]&b Khuếch Đại'
+    max-mana:
+      base: 60
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 6.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_7:
+  base:
+    material: ECHO_SHARD
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aTinh Thể Mana VII&7]&b Khuếch Đại'
+    max-mana:
+      base: 70
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 7.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_8:
+  base:
+    material: ECHO_SHARD
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bTinh Thể Mana VIII&7]&b Khuếch Đại'
+    max-mana:
+      base: 80
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 8.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_9:
+  base:
+    material: ECHO_SHARD
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dTinh Thể Mana IX&7]&b Khuếch Đại'
+    max-mana:
+      base: 90
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 9.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_10:
+  base:
+    material: ECHO_SHARD
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aTinh Thể Mana X&7]&b Khuếch Đại'
+    max-mana:
+      base: 100
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 10.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_11:
+  base:
+    material: ECHO_SHARD
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bTinh Thể Mana XI&7]&b Khuếch Đại'
+    max-mana:
+      base: 110
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 11.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_12:
+  base:
+    material: ECHO_SHARD
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dTinh Thể Mana XII&7]&b Khuếch Đại'
+    max-mana:
+      base: 120
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 12.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_13:
+  base:
+    material: ECHO_SHARD
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aTinh Thể Mana XIII&7]&b Khuếch Đại'
+    max-mana:
+      base: 130
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 13.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_14:
+  base:
+    material: ECHO_SHARD
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bTinh Thể Mana XIV&7]&b Khuếch Đại'
+    max-mana:
+      base: 140
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 14.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_15:
+  base:
+    material: ECHO_SHARD
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dTinh Thể Mana XV&7]&b Khuếch Đại'
+    max-mana:
+      base: 150
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 15.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_16:
+  base:
+    material: ECHO_SHARD
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aTinh Thể Mana XVI&7]&b Khuếch Đại'
+    max-mana:
+      base: 160
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 16.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_17:
+  base:
+    material: ECHO_SHARD
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bTinh Thể Mana XVII&7]&b Khuếch Đại'
+    max-mana:
+      base: 170
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 17.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_18:
+  base:
+    material: ECHO_SHARD
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dTinh Thể Mana XVIII&7]&b Khuếch Đại'
+    max-mana:
+      base: 180
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 18.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_19:
+  base:
+    material: ECHO_SHARD
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aTinh Thể Mana XIX&7]&b Khuếch Đại'
+    max-mana:
+      base: 190
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 19.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_20:
+  base:
+    material: ECHO_SHARD
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bTinh Thể Mana XX&7]&b Khuếch Đại'
+    max-mana:
+      base: 200
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 20.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_21:
+  base:
+    material: ECHO_SHARD
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dTinh Thể Mana XXI&7]&b Khuếch Đại'
+    max-mana:
+      base: 210
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 21.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_22:
+  base:
+    material: ECHO_SHARD
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aTinh Thể Mana XXII&7]&b Khuếch Đại'
+    max-mana:
+      base: 220
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 22.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_23:
+  base:
+    material: ECHO_SHARD
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bTinh Thể Mana XXIII&7]&b Khuếch Đại'
+    max-mana:
+      base: 230
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 23.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_24:
+  base:
+    material: ECHO_SHARD
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&6Tinh Thể Mana XXIV&7]&b Khuếch Đại'
+    max-mana:
+      base: 240
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 24.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_25:
+  base:
+    material: ECHO_SHARD
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aTinh Thể Mana XXV&7]&b Khuếch Đại'
+    max-mana:
+      base: 250
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 25.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_26:
+  base:
+    material: ECHO_SHARD
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bTinh Thể Mana XXVI&7]&b Khuếch Đại'
+    max-mana:
+      base: 260
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 26.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_27:
+  base:
+    material: ECHO_SHARD
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dTinh Thể Mana XXVII&7]&b Khuếch Đại'
+    max-mana:
+      base: 270
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 27.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_28:
+  base:
+    material: ECHO_SHARD
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&6Tinh Thể Mana XXVIII&7]&b Khuếch Đại'
+    max-mana:
+      base: 280
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 28.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_29:
+  base:
+    material: ECHO_SHARD
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&6Tinh Thể Mana XXIX&7]&b Khuếch Đại'
+    max-mana:
+      base: 290
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 29.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+ACCESSORY_30:
+  base:
+    material: ECHO_SHARD
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô tinh thể'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&6Tinh Thể Mana XXX&7]&b Khuếch Đại'
+    max-mana:
+      base: 300
+      spread: 0.1
+      max-spread: 0.3
+    skill-damage:
+      base: 30.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true

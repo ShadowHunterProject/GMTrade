@@ -1,0 +1,8 @@
+Name: <red><bold>✮ <dark_red><bold>CHÌA KHÓA GIÁP <yellow>☾<gold>♛
+Virtual: true
+ItemData:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{extra:["CratesGiap Key"],text:""}},count:1,id:"minecraft:tripwire_hook"}'
+    DataVersion: 4671
+ItemStackable: false

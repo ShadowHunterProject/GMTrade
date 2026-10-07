@@ -1,0 +1,161 @@
+menu_title: "&8▶ Giao Diện | Chiến Binh"
+open_command:
+- tvkn_chienbinh
+size: 54
+items:
+
+  chienbinh:
+    display_name: "&c&l⋨⋨⋨ Chiến Binh ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI4YWY1MmVmMmY3MmMzYmY1ZWNlNmU3MGE4MmYxMzcxOTU5Y2UzZmNiNzM2YzUwMDMwNWNhZGRjNTA1YzVlMiJ9fX0=
+    slot: 10
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES    
+    lore:
+      - '&8&m                                     '
+      - ' &f&lTHÔNG TIN:'
+      - '  &a✧ &7Cấp độ: &cV1 &7/ &cV2'
+      - '  &a✧ &7Loại: &cHệ Chiến Binh'
+      - '  &a✧ &7Độ hiếm: &cHuyền Thoại'
+      - ''
+      - ' &6[&c&l ⚔ &e&lBẠO CHIẾN (kỹ năng 1) &c&l⚔ &6]'
+      - ' &f&lMÔ TẢ:'
+      - '  &7▪ Combo khống chế đối thủ liên tục'
+      - ''
+      - ' &f&lCHỈ SỐ:'
+      - '  &a⚡ &7Cooldown: &e9s'
+      - '  &a✦ &7Mastery: &d150'
+      - '  &a⚔ &7Sát thương: &c120/nhÃ¡t'
+      - ''
+      - ' &6[&c&l ⚔ &e&lXOÁY THỊNH NỘ (kỹ năng 2) &c&l⚔ &6]'
+      - ' &f&lMÔ TẢ:'
+      - '  &7▪ Tạo ra bão xoáy hút đối thủ'
+      - ''
+      - ' &f&lCHỈ SỐ:'
+      - '  &a⚡ &7Cooldown: &e12s'
+      - '  &a✦ &7Mastery: &d250'
+      - '  &a⚔ &7Sát thương: &c180/láº§n trÃºng'
+      - ''
+      - ' &6[&c&l ⚔ &e&lRUNG CHẤN (kỹ năng 3) &c&l⚔ &6]'
+      - ' &f&lMÔ TẢ:'
+      - '  &7▪ Rung chấn mặt đất xung quanh bản thân'
+      - ''
+      - ' &f&lCHỈ SỐ:'
+      - '  &a⚡ &7Cooldown: &e18s'
+      - '  &a✦ &7Mastery: &d350'
+      - '  &a⚔ &7Sát thương: &c240'
+      - '&8&m                                     '
+      - '    &a&l☁ &f&omc.minerua.net'
+
+
+  viemthuong:
+    display_name: "&e&l⋨⋨⋨ VIÊM THƯƠNG KỴ SĨ ⋩⋩⋩"
+    material: hdb-37875
+    slot: 11
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES    
+    lore:
+      - '&8&m                                     '
+      - ' &f&lTHÔNG TIN:'
+      - '  &a✧ &7Cấp độ: &cThức Tỉnh'
+      - '  &a✧ &7Loại: &cHệ Chiến Binh'
+      - '  &a✧ &7Độ hiếm: &6&lThần Thoại'
+      - ''
+      - ' &6[&c&l ♨ &e&lNHAM THẠCH BÙNG NỔ (kỹ năng 1) &c&l♨ &6]'
+      - '  &f&lMÔ TẢ:'
+      - '   &7▪ Phóng ra quả cầu nham thạch thiêu rụi'
+      - '   &7▪ kẻ địch trên đường bay'
+      - '  &f&lCHỈ SỐ:'
+      - '   &a⚡ &7Cooldown: &e15s'
+      - '   &a✦ &7Mastery: &d&b150'
+      - '   &a⚔ &7Sát thương: &c120'
+      - ''
+      - ' &6[&c&l ♨ &e&lTIA LỬA NHIỆT (kỹ năng 2) &c&l♨ &6]'
+      - '  &f&lMÔ TẢ:'
+      - '   &7▪ Bắn ra tia lửa bùng nổ cực mạnh'
+      - '   &7▪ hất tung và thiêu đốt mục tiêu'
+      - '  &f&lCHỈ SỐ:'
+      - '   &a⚡ &7Cooldown: &e20s'
+      - '   &a✦ &7Mastery: &d&b250'
+      - '   &a⚔ &7Sát thương: &c200'
+      - ''
+      - ' &6[&c&l ♨ &e&lPHÁN XÉT KỴ SĨ (kỹ năng 3) &c&l♨ &6]'
+      - ' &f&lMÔ TẢ:'
+      - '  &7▪ Phán xét bằng ngọn giáo lửa và rung chấn'
+      - ''
+      - ' &f&lCHỈ SỐ:'
+      - '  &a⚡ &7Cooldown: &e18s'
+      - '  &a✦ &7Mastery: &d300'
+      - '  &a⚔ &7Sát thương: &c300'
+      - '&8&m                                     '
+      - '    &a&l☁ &f&omc.minerua.net'
+
+  "menu":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQyZmIzYmUwMzFmNjY0NjE2MGIyZjM3YjM0NjM2MjMyY2EyZjM5ODYxZjg4Y2FiYTE5MmNhYjhmZThlODZlIn19fQ==
+    display_name: "&8[ &cX &8] &cReturn"
+    lore:
+      - "&8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      - "&7➤ Trở về &fMenu Chính"
+      - "&8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      - "&8✦ &7Nhấn để quay lại"
+    slot: 49
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] thuvienkynang"
+
+  "black":
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 50
+      - 51
+      - 52
+      - 53

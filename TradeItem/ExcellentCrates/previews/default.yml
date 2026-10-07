@@ -1,0 +1,87 @@
+# ==================== [SECTION] SETTINGS ====================
+# > [MenuType] : String | Represents the menu type. Allowed values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/MenuType.html
+# > [Title] : String | Sets menu title.
+# > [Auto_Refresh] : Integer | Defines menu refresh rate in seconds. Set 0 to disable.
+# > [PlaceholderAPI -> Enabled] : Boolean | When enabled, applies PlaceholderAPI placeholders for all items in the menu per player.
+#  
+# ==================== [SECTION] CONTENT ====================
+# You can freely edit items in this section as you wish (add, remove, modify items).
+# > [Item] : Section | Item to display.
+#     [*] Navigate to https://nightexpressdev.com/nightcore/configuration/item-formation/ for a list of available options.
+# > [Priority] : Integer | Item priority. Higher values will override other item(s) in the same slot(s).
+# > [Slots] : Int Array | Item slots, starts from 0. Split with commas.
+#     Slots: '0,4,9,10'
+# > [Type] : String | Defines item click action.
+#     [*] Available types: ['close', 'user_skin', 'page_next', 'page_previous', 'open', 'milestones']
+# > [Click_Commands] : Section | Executes commands on click with PlaceholderAPI support.
+#     [*] Works only if [Type] is not set (null).
+#     [*] Available click types: [LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, DRAG_N_DROP]
+#     [*] Use prefix 'player:' to run command by a player.
+#     Click_Commands:
+#       LEFT:
+#       - say Hello
+#       - give %player_name% diamond 1
+#       - player: warp shop
+# ==================================================
+Settings:
+  MenuType: minecraft:generic_9x6
+  Title: <black>%crate_name%</black>
+  Auto_Refresh: -1
+  PlaceholderAPI:
+    Enabled: true
+Reward:
+  # When enabled, displays only rewards that can be rolled out for a player.
+  Hide_Unavailable: true
+  Slots: 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44
+  Name: '%reward_name%'
+  Lore:
+    Default:
+    - '%reward_description%'
+    # - ''
+    # - '<dark_gray>»</dark_gray><gray> Độ Hiếm: <white>%reward_rarity_name%</white> → <green>%reward_roll_chance%%</green></gray>'
+    No_Permission:
+    - <gray><red>✘</red> Bạn không có quyền truy cập vào phần thưởng này.</gray>
+    LimitInfo:
+    - '<dark_gray>»</dark_gray><gray> Lượt Quay Khả Dụng: </gray><yellow>%amount%</yellow>'
+Content:
+  red_stained_glass_pane:
+    Priority: 0
+    Item:
+      Material: minecraft:red_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 0,1,2,3,4,5,6,7,8,45,46,47,48,49,50,51,52,53
+    Type: 'null'
+  milestones:
+    Priority: 10
+    Item:
+      Material: minecraft:player_head
+      Display_Name: <gold><b>Mốc Thưởng</b></gold>
+      Lore: []
+      SkinURL: 1daf09284530ce92ed2df2a62e1b05a11f1871f85ae559042844206d66c0b5b0
+    Slots: '4'
+    Type: milestones
+  close:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_door
+      Display_Name: <red><b>Đóng</b></red>
+      Lore: []
+    Slots: '49'
+    Type: close
+  page_next:
+    Priority: 10
+    Item:
+      Material: minecraft:arrow
+      Display_Name: <white><b><u>Trang Tiếp Theo</u> →</b></white>
+      Lore: []
+    Slots: '53'
+    Type: page_next
+  page_previous:
+    Priority: 10
+    Item:
+      Material: minecraft:arrow
+      Display_Name: <white><b>← <u>Trang Trước</u></b></white>
+      Lore: []
+    Slots: '45'
+    Type: page_previous

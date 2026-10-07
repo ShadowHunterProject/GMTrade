@@ -1,0 +1,304 @@
+menu_title: "&#00FFFF&lCỬA HÀNG BOOSTER"
+open_command:
+  - shopbooster
+  - booster
+  - buff
+size: 54
+
+items:
+  "bg_black":
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 10-16
+      - 20
+      - 22
+      - 24
+      - 29
+      - 31
+      - 33
+      - 37-43
+
+  "border_cyan":
+    material: CYAN_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 0
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 44
+      - 45
+      - 53
+
+  "border_lightblue":
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 1-7
+      - 46-52
+
+  # ==============================
+  # DÒNG 1: BOOSTER XP
+  # ==============================
+  "xp_1":
+    material: BEACON
+    slot: 19
+    display_name: "&#00FF7F&l★ BOOSTER X2 XP &f(1 Tiếng)"
+    lore:
+      - "&a↘ Dùng x2 XP Levels khi farm quái"
+      - ""
+      - "&e&lCách Sử Dụng:"
+      - "&f ✦ Sử dụng: &b1 Tiếng"
+      - "&f ✦ Booster này vẫn sẽ chạy thời gian"
+      - "&f    còn lại kể cả khi bạn offline!!"
+      - ""
+      - "&c&l* &fGiá: &a30 Xu"
+      - "&8(Lưu ý: ấn vào đây là mua luôn, không có xác nhận)"
+    click_requirement:
+      requirements:
+        points:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "30"
+          deny_commands:
+            - "[message] &cBạn không đủ Xu để mua!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] p take %player_name% 30"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-1h"
+      - "[close]"
+
+  "xp_3":
+    material: BEACON
+    slot: 21
+    amount: 3
+    display_name: "&#00FF7F&l★ BOOSTER X2 XP &f(3 Tiếng)"
+    lore:
+      - "&a↘ Dùng x2 XP Levels khi farm quái"
+      - ""
+      - "&e&lCách Sử Dụng:"
+      - "&f ✦ Sử dụng: &b3 Tiếng"
+      - "&f ✦ Booster này vẫn sẽ chạy thời gian"
+      - "&f    còn lại kể cả khi bạn offline!!"
+      - ""
+      - "&c&l* &fGiá: &a50 Xu"
+      - "&8(Lưu ý: ấn vào đây là mua luôn, không có xác nhận)"
+    click_requirement:
+      requirements:
+        points:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "50"
+          deny_commands:
+            - "[message] &cBạn không đủ Xu để mua!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] p take %player_name% 50"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-3h"
+      - "[close]"
+
+  "xp_5":
+    material: BEACON
+    slot: 23
+    amount: 5
+    display_name: "&#00FF7F&l★ BOOSTER X2 XP &f(5 Tiếng)"
+    lore:
+      - "&a↘ Dùng x2 XP Levels khi farm quái"
+      - ""
+      - "&e&lCách Sử Dụng:"
+      - "&f ✦ Sử dụng: &b5 Tiếng"
+      - "&f ✦ Booster này vẫn sẽ chạy thời gian"
+      - "&f    còn lại kể cả khi bạn offline!!"
+      - ""
+      - "&c&l* &fGiá: &a75 Xu"
+      - "&8(Lưu ý: ấn vào đây là mua luôn, không có xác nhận)"
+    click_requirement:
+      requirements:
+        points:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "75"
+          deny_commands:
+            - "[message] &cBạn không đủ Xu để mua!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] p take %player_name% 75"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-5h"
+      - "[close]"
+
+  "xp_8":
+    material: BEACON
+    slot: 25
+    amount: 8
+    display_name: "&#00FF7F&l★ BOOSTER X2 XP &f(8 Tiếng) &d(HOT)"
+    lore:
+      - "&a↘ Dùng x2 XP Levels khi farm quái"
+      - ""
+      - "&e&lCách Sử Dụng:"
+      - "&f ✦ Sử dụng: &b8 Tiếng"
+      - "&f ✦ Booster này vẫn sẽ chạy thời gian"
+      - "&f    còn lại kể cả khi bạn offline!!"
+      - ""
+      - "&c&l* &fGiá: &a100 Xu"
+      - "&8(Lưu ý: ấn vào đây là mua luôn, không có xác nhận)"
+    click_requirement:
+      requirements:
+        points:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "100"
+          deny_commands:
+            - "[message] &cBạn không đủ Xu để mua!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] p take %player_name% 100"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-8h"
+      - "[close]"
+
+  # ==============================
+  # DÒNG 2: BOOSTER EXP ĐỆ TỬ
+  # ==============================
+  "item_1":
+    material: END_CRYSTAL
+    slot: 28
+    display_name: "&#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(1 Tiếng)"
+    lore:
+      - "&a↘ Dùng x2 EXP Đệ Tử Bóng Tối"
+      - ""
+      - "&e&lCách Sử Dụng:"
+      - "&f ✦ Sử dụng: &b1 Tiếng"
+      - "&f ✦ Booster này vẫn sẽ chạy thời gian"
+      - "&f    còn lại kể cả khi bạn offline!!"
+      - ""
+      - "&c&l* &fGiá: &a30 Xu"
+      - "&8(Lưu ý: ấn vào đây là mua luôn, không có xác nhận)"
+    click_requirement:
+      requirements:
+        points:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "30"
+          deny_commands:
+            - "[message] &cBạn không đủ Xu để mua!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] p take %player_name% 30"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-1h"
+      - "[close]"
+
+  "item_3":
+    material: END_CRYSTAL
+    slot: 30
+    amount: 3
+    display_name: "&#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(3 Tiếng)"
+    lore:
+      - "&a↘ Dùng x2 EXP Đệ Tử Bóng Tối"
+      - ""
+      - "&e&lCách Sử Dụng:"
+      - "&f ✦ Sử dụng: &b3 Tiếng"
+      - "&f ✦ Booster này vẫn sẽ chạy thời gian"
+      - "&f    còn lại kể cả khi bạn offline!!"
+      - ""
+      - "&c&l* &fGiá: &a50 Xu"
+      - "&8(Lưu ý: ấn vào đây là mua luôn, không có xác nhận)"
+    click_requirement:
+      requirements:
+        points:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "50"
+          deny_commands:
+            - "[message] &cBạn không đủ Xu để mua!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] p take %player_name% 50"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-3h"
+      - "[close]"
+
+  "item_5":
+    material: END_CRYSTAL
+    slot: 32
+    amount: 5
+    display_name: "&#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(5 Tiếng)"
+    lore:
+      - "&a↘ Dùng x2 EXP Đệ Tử Bóng Tối"
+      - ""
+      - "&e&lCách Sử Dụng:"
+      - "&f ✦ Sử dụng: &b5 Tiếng"
+      - "&f ✦ Booster này vẫn sẽ chạy thời gian"
+      - "&f    còn lại kể cả khi bạn offline!!"
+      - ""
+      - "&c&l* &fGiá: &a75 Xu"
+      - "&8(Lưu ý: ấn vào đây là mua luôn, không có xác nhận)"
+    click_requirement:
+      requirements:
+        points:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "75"
+          deny_commands:
+            - "[message] &cBạn không đủ Xu để mua!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] p take %player_name% 75"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-5h"
+      - "[close]"
+
+  "item_8":
+    material: END_CRYSTAL
+    slot: 34
+    amount: 8
+    display_name: "&#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(8 Tiếng) &d(HOT)"
+    lore:
+      - "&a↘ Dùng x2 EXP Đệ Tử Bóng Tối"
+      - ""
+      - "&e&lCách Sử Dụng:"
+      - "&f ✦ Sử dụng: &b8 Tiếng"
+      - "&f ✦ Booster này vẫn sẽ chạy thời gian"
+      - "&f    còn lại kể cả khi bạn offline!!"
+      - ""
+      - "&c&l* &fGiá: &a100 Xu"
+      - "&8(Lưu ý: ấn vào đây là mua luôn, không có xác nhận)"
+    click_requirement:
+      requirements:
+        points:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "100"
+          deny_commands:
+            - "[message] &cBạn không đủ Xu để mua!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] p take %player_name% 100"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-8h"
+      - "[close]"
+
+  "close":
+    material: BARRIER
+    slot: 49
+    display_name: "&#FF0000&l❌ ĐÓNG CỬA HÀNG"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[close]"

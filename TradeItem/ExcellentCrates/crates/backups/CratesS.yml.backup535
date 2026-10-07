@@ -1,0 +1,2537 @@
+﻿Name: <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>KHO BÁU <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱
+Description: []
+ItemProvider:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{bold:0b,extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"Cratese Crate",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},"minecraft:tooltip_display":{hidden_components:["minecraft:trim","minecraft:container_loot","minecraft:custom_data","minecraft:lock","minecraft:horse/variant","minecraft:container","minecraft:max_damage","minecraft:swing_animation","minecraft:pot_decorations","minecraft:fireworks","minecraft:provides_banner_patterns","minecraft:ominous_bottle_amplifier","minecraft:cat/variant","minecraft:recipes","minecraft:consumable","minecraft:writable_book_content","minecraft:unbreakable","minecraft:bundle_contents","minecraft:enchantment_glint_override","minecraft:wolf/sound_variant","minecraft:instrument","minecraft:piercing_weapon","minecraft:map_id","minecraft:food","minecraft:mooshroom/variant","minecraft:block_state","minecraft:enchantable","minecraft:suspicious_stew_effects","minecraft:sheep/color","minecraft:kinetic_weapon","minecraft:equippable","minecraft:villager/variant","minecraft:frog/variant","minecraft:map_post_processing","minecraft:max_stack_size","minecraft:bucket_entity_data","minecraft:pig/variant","minecraft:llama/variant","minecraft:firework_explosion","minecraft:banner_patterns","minecraft:chicken/variant","minecraft:debug_stick_state","minecraft:glider","minecraft:map_color","minecraft:repairable","minecraft:potion_contents","minecraft:lodestone_tracker","minecraft:cat/collar","minecraft:dyed_color","minecraft:provides_trim_material","minecraft:repair_cost","minecraft:break_sound","minecraft:shulker/color","minecraft:charged_projectiles","minecraft:base_color","minecraft:minimum_attack_charge","minecraft:use_effects","minecraft:zombie_nautilus/variant","minecraft:intangible_projectile","minecraft:entity_data","minecraft:axolotl/variant","minecraft:parrot/variant","minecraft:tropical_fish/pattern_color","minecraft:use_cooldown","minecraft:rarity","minecraft:profile","minecraft:painting/variant","minecraft:wolf/variant","minecraft:damage_resistant","minecraft:written_book_content","minecraft:death_protection","minecraft:tool","minecraft:block_entity_data","minecraft:map_decorations","minecraft:creative_slot_lock","minecraft:wolf/collar","minecraft:bees","minecraft:fox/variant","minecraft:weapon","minecraft:potion_duration_scale","minecraft:attack_range","minecraft:use_remainder","minecraft:can_break","minecraft:salmon/size","minecraft:attribute_modifiers","minecraft:jukebox_playable","minecraft:damage","minecraft:blocks_attacks","minecraft:tropical_fish/pattern","minecraft:stored_enchantments","minecraft:note_block_sound","minecraft:can_place_on","minecraft:enchantments","minecraft:cow/variant","minecraft:damage_type","minecraft:tropical_fish/base_color","minecraft:rabbit/variant"]}},count:1,id:"minecraft:chest"}'
+    DataVersion: 4671
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: csgo
+OpeningCooldown:
+  Enabled: false
+  Value: 0
+OpeningLimit:
+  Amount: 1
+Block:
+  Positions:
+    - 25,64,2,world_spawn
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: cratess
+    Y_Offset: 0.0
+  Effect:
+    Enabled: true
+    Model: helix
+    Particle:
+      Name: END_ROD
+Milestones:
+  Repeatable: false
+_dataver: 600
+Post-Open:
+  Commands: []
+Rewards:
+  List:
+    100k:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"blue",italic:0b,obfuscated:0b,strikethrough:0b,text:"Birch Crate",underlined:0b}],text:""},"minecraft:profile":{id:[I;67411088,-739686879,-1666252800,-1432258224],name:"HeadDatabase",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I0ZTQ3OGMxMWNjZGZhNDUzMjk4NzQ3MjQ1ZTA0MjVlYzQyNTFlMTdmYjNlNjdkYmVjMTQxNzZjNjQ3MTcifX19"}]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 90.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <green><b>HÃ²m 100k tiá»n
+      Description: []
+      Commands:
+        - eco give %player_name% 100000
+    300k:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"blue",italic:0b,obfuscated:0b,strikethrough:0b,text:"Birch Crate",underlined:0b}],text:""},"minecraft:profile":{id:[I;67411088,-739686879,-1666252800,-1432258224],name:"HeadDatabase",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I0ZTQ3OGMxMWNjZGZhNDUzMjk4NzQ3MjQ1ZTA0MjVlYzQyNTFlMTdmYjNlNjdkYmVjMTQxNzZjNjQ3MTcifX19"}]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 80.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <green><b>HÃ²m 300k tiá»n
+      Description: []
+      Commands:
+        - eco give %player_name% 300000
+    600k:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"blue",italic:0b,obfuscated:0b,strikethrough:0b,text:"Birch Crate",underlined:0b}],text:""},"minecraft:profile":{id:[I;67411088,-739686879,-1666252800,-1432258224],name:"HeadDatabase",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I0ZTQ3OGMxMWNjZGZhNDUzMjk4NzQ3MjQ1ZTA0MjVlYzQyNTFlMTdmYjNlNjdkYmVjMTQxNzZjNjQ3MTcifX19"}]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 50.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <green><b>HÃ²m 600k tiá»n
+      Description: []
+      Commands:
+        - eco give %player_name% 600000
+    _rank5_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 80.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"rank5"}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"âœ¦ ",underlined:0b},{bold:1b,color:"gray",italic:0b,text:"Rank "},{bold:0b,color:"dark_gray",italic:0b,text:"Â» "},{bold:1b,color:"#9863E7",italic:1b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#CCB1F3",italic:1b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#FFFFFF",italic:1b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#FFFFFF",italic:1b,obfuscated:0b,strikethrough:0b,text:"5",underlined:0b},{bold:0b,italic:0b,text:""}],text:""},"minecraft:damage":0,"minecraft:lore":[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},{extra:["  ",{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â­
+              QUYá»€N Lá»¢I RANK â­",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â–¸ ",underlined:0b},{color:"white",italic:0b,text:"DÃ¹ng lá»‡nh "},{color:"green",italic:0b,text:"/rank "},{color:"white",italic:0b,text:"Ä‘á»ƒ xem chi tiáº¿t."}],text:""},"",{extra:[" ",{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"yellow",italic:0b,text:"LÆ¯U Ã QUAN TRá»ŒNG "},{bold:1b,color:"red",italic:0b,text:"âš "}],text:""},{extra:["
+              ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Sá»­ dá»¥ng voucher sáº½ "},{color:"red",italic:0b,text:"khÃ´ng nháº­n Ä‘Æ°á»£c "},{color:"white",italic:0b,text:"quÃ "}],text:""},{extra:["   ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"táº·ng kÃ¨m (ChÃ¬a khÃ³a, Tiá»n,...) nhÆ° mua á»Ÿ shop.",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Quyá»n
+              lá»£i "},{color:"aqua",italic:0b,text:"/kit "},{color:"white",italic:0b,text:"váº«n nháº­n bÃ¬nh thÆ°á»ng."}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}]},count:1,id:"minecraft:nether_star"}'
+            DataVersion: 4671
+          Vouchers_Id: rank5
+    _rank6_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 60.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"rank6"}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"âœ¦ ",underlined:0b},{bold:1b,color:"gray",italic:0b,text:"Rank "},{bold:0b,color:"dark_gray",italic:0b,text:"Â» "},{bold:1b,color:"#E43A96",italic:1b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#F29DCB",italic:1b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#FFFFFF",italic:1b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#FFFFFF",italic:1b,obfuscated:0b,strikethrough:0b,text:"6",underlined:0b},{bold:0b,italic:0b,text:""}],text:""},"minecraft:damage":0,"minecraft:lore":[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},{extra:["  ",{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â­
+              QUYá»€N Lá»¢I RANK â­",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â–¸ ",underlined:0b},{color:"white",italic:0b,text:"DÃ¹ng lá»‡nh "},{color:"green",italic:0b,text:"/rank "},{color:"white",italic:0b,text:"Ä‘á»ƒ xem chi tiáº¿t."}],text:""},"",{extra:[" ",{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"yellow",italic:0b,text:"LÆ¯U Ã QUAN TRá»ŒNG "},{bold:1b,color:"red",italic:0b,text:"âš "}],text:""},{extra:["
+              ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Sá»­ dá»¥ng voucher sáº½ "},{color:"red",italic:0b,text:"khÃ´ng nháº­n Ä‘Æ°á»£c "},{color:"white",italic:0b,text:"quÃ "}],text:""},{extra:["   ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"táº·ng kÃ¨m (ChÃ¬a khÃ³a, Tiá»n,...) nhÆ° mua á»Ÿ shop.",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Quyá»n
+              lá»£i "},{color:"aqua",italic:0b,text:"/kit "},{color:"white",italic:0b,text:"váº«n nháº­n bÃ¬nh thÆ°á»ng."}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}]},count:1,id:"minecraft:nether_star"}'
+            DataVersion: 4671
+          Vouchers_Id: rank6
+    _rank7_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 30.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"rank7"}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"âœ¦ ",underlined:0b},{bold:1b,color:"gray",italic:0b,text:"Rank "},{bold:0b,color:"dark_gray",italic:0b,text:"Â» "},{bold:1b,color:"#555555",italic:1b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#AAAAAA",italic:1b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#FFFFFF",italic:1b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#FFFFFF",italic:1b,obfuscated:0b,strikethrough:0b,text:"7",underlined:0b},{bold:0b,italic:0b,text:""}],text:""},"minecraft:damage":0,"minecraft:lore":[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},{extra:["  ",{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â­
+              QUYá»€N Lá»¢I RANK â­",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â–¸ ",underlined:0b},{color:"white",italic:0b,text:"DÃ¹ng lá»‡nh "},{color:"green",italic:0b,text:"/rank "},{color:"white",italic:0b,text:"Ä‘á»ƒ xem chi tiáº¿t."}],text:""},"",{extra:[" ",{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"yellow",italic:0b,text:"LÆ¯U Ã QUAN TRá»ŒNG "},{bold:1b,color:"red",italic:0b,text:"âš "}],text:""},{extra:["
+              ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Sá»­ dá»¥ng voucher sáº½ "},{color:"red",italic:0b,text:"khÃ´ng nháº­n Ä‘Æ°á»£c "},{color:"white",italic:0b,text:"quÃ "}],text:""},{extra:["   ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"táº·ng kÃ¨m (ChÃ¬a khÃ³a, Tiá»n,...) nhÆ° mua á»Ÿ shop.",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Quyá»n
+              lá»£i "},{color:"aqua",italic:0b,text:"/kit "},{color:"white",italic:0b,text:"váº«n nháº­n bÃ¬nh thÆ°á»ng."}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}]},count:1,id:"minecraft:nether_star"}'
+            DataVersion: 4671
+          Vouchers_Id: rank7
+    _rank8_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 10.0
+      Rarity: common
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"rank8"}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"âœ¦ ",underlined:0b},{bold:1b,color:"gray",italic:0b,text:"Rank "},{bold:0b,color:"dark_gray",italic:0b,text:"Â» "},{bold:1b,color:"#555555",italic:1b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#8A5652",italic:1b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#C0584E",italic:1b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#F5594B",italic:1b,obfuscated:0b,strikethrough:0b,text:"8",underlined:0b},{bold:0b,italic:0b,text:""}],text:""},"minecraft:damage":0,"minecraft:lore":[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},{extra:["  ",{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â­
+              QUYá»€N Lá»¢I RANK â­",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â–¸ ",underlined:0b},{color:"white",italic:0b,text:"DÃ¹ng lá»‡nh "},{color:"green",italic:0b,text:"/rank "},{color:"white",italic:0b,text:"Ä‘á»ƒ xem chi tiáº¿t."}],text:""},"",{extra:[" ",{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"yellow",italic:0b,text:"LÆ¯U Ã QUAN TRá»ŒNG "},{bold:1b,color:"red",italic:0b,text:"âš "}],text:""},{extra:["
+              ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Sá»­ dá»¥ng voucher sáº½ "},{color:"red",italic:0b,text:"khÃ´ng nháº­n Ä‘Æ°á»£c "},{color:"white",italic:0b,text:"quÃ "}],text:""},{extra:["   ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"táº·ng kÃ¨m (ChÃ¬a khÃ³a, Tiá»n,...) nhÆ° mua á»Ÿ shop.",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Quyá»n
+              lá»£i "},{color:"aqua",italic:0b,text:"/kit "},{color:"white",italic:0b,text:"váº«n nháº­n bÃ¬nh thÆ°á»ng."}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}]},count:1,id:"minecraft:nether_star"}'
+            DataVersion: 4671
+          Vouchers_Id: rank8
+    _rank9_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 4.0
+      Rarity: common
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"rank9"}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"âœ¦ ",underlined:0b},{bold:1b,color:"gray",italic:0b,text:"Rank "},{bold:0b,color:"dark_gray",italic:0b,text:"Â» "},{bold:1b,color:"#9863E7",italic:1b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#B155CC",italic:1b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#CB48B1",italic:1b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#E43A96",italic:1b,obfuscated:0b,strikethrough:0b,text:"9",underlined:0b},{bold:0b,italic:0b,text:""}],text:""},"minecraft:damage":0,"minecraft:lore":[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},{extra:["  ",{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â­
+              QUYá»€N Lá»¢I RANK â­",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â–¸ ",underlined:0b},{color:"white",italic:0b,text:"DÃ¹ng lá»‡nh "},{color:"green",italic:0b,text:"/rank "},{color:"white",italic:0b,text:"Ä‘á»ƒ xem chi tiáº¿t."}],text:""},"",{extra:[" ",{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"yellow",italic:0b,text:"LÆ¯U Ã QUAN TRá»ŒNG "},{bold:1b,color:"red",italic:0b,text:"âš "}],text:""},{extra:["
+              ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Sá»­ dá»¥ng voucher sáº½ "},{color:"red",italic:0b,text:"khÃ´ng nháº­n Ä‘Æ°á»£c "},{color:"white",italic:0b,text:"quÃ "}],text:""},{extra:["   ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"táº·ng kÃ¨m (ChÃ¬a khÃ³a, Tiá»n,...) nhÆ° mua á»Ÿ shop.",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Quyá»n
+              lá»£i "},{color:"aqua",italic:0b,text:"/kit "},{color:"white",italic:0b,text:"váº«n nháº­n bÃ¬nh thÆ°á»ng."}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}]},count:1,id:"minecraft:nether_star"}'
+            DataVersion: 4671
+          Vouchers_Id: rank9
+    _rank10_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 3.0
+      Rarity: common
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"rank10"}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"âœ¦ ",underlined:0b},{bold:1b,color:"gray",italic:0b,text:"Rank "},{bold:0b,color:"dark_gray",italic:0b,text:"Â» "},{bold:1b,color:"#FCD05C",italic:1b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#D5D554",italic:1b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#AEDA4B",italic:1b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#86DF43",italic:1b,obfuscated:0b,strikethrough:0b,text:"1",underlined:0b},{bold:1b,color:"#5FE43A",italic:1b,obfuscated:0b,strikethrough:0b,text:"0",underlined:0b},{bold:0b,italic:0b,text:""}],text:""},"minecraft:damage":0,"minecraft:lore":[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},{extra:["  ",{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â­
+              QUYá»€N Lá»¢I RANK â­",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â–¸ ",underlined:0b},{color:"white",italic:0b,text:"DÃ¹ng lá»‡nh "},{color:"green",italic:0b,text:"/rank "},{color:"white",italic:0b,text:"Ä‘á»ƒ xem chi tiáº¿t."}],text:""},"",{extra:[" ",{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"yellow",italic:0b,text:"LÆ¯U Ã QUAN TRá»ŒNG "},{bold:1b,color:"red",italic:0b,text:"âš "}],text:""},{extra:["
+              ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Sá»­ dá»¥ng voucher sáº½ "},{color:"red",italic:0b,text:"khÃ´ng nháº­n Ä‘Æ°á»£c "},{color:"white",italic:0b,text:"quÃ "}],text:""},{extra:["   ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"táº·ng kÃ¨m (ChÃ¬a khÃ³a, Tiá»n,...) nhÆ° mua á»Ÿ shop.",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Quyá»n
+              lá»£i "},{color:"aqua",italic:0b,text:"/kit "},{color:"white",italic:0b,text:"váº«n nháº­n bÃ¬nh thÆ°á»ng."}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}]},count:1,id:"minecraft:nether_star"}'
+            DataVersion: 4671
+          Vouchers_Id: rank10
+    _rank11_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 2.0
+      Rarity: common
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"rank11"}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"âœ¦ ",underlined:0b},{bold:1b,color:"gray",italic:0b,text:"Rank "},{bold:0b,color:"dark_gray",italic:0b,text:"Â» "},{bold:1b,color:"#3D3F46",italic:1b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#9D724F",italic:1b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#FCA458",italic:1b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#8FA676",italic:1b,obfuscated:0b,strikethrough:0b,text:"1",underlined:0b},{bold:1b,color:"#22A893",italic:1b,obfuscated:0b,strikethrough:0b,text:"1",underlined:0b},{bold:0b,italic:0b,text:""}],text:""},"minecraft:damage":0,"minecraft:lore":[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},{extra:["  ",{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â­
+              QUYá»€N Lá»¢I RANK â­",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â–¸ ",underlined:0b},{color:"white",italic:0b,text:"DÃ¹ng lá»‡nh "},{color:"green",italic:0b,text:"/rank "},{color:"white",italic:0b,text:"Ä‘á»ƒ xem chi tiáº¿t."}],text:""},"",{extra:[" ",{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"yellow",italic:0b,text:"LÆ¯U Ã QUAN TRá»ŒNG "},{bold:1b,color:"red",italic:0b,text:"âš "}],text:""},{extra:["
+              ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Sá»­ dá»¥ng voucher sáº½ "},{color:"red",italic:0b,text:"khÃ´ng nháº­n Ä‘Æ°á»£c "},{color:"white",italic:0b,text:"quÃ "}],text:""},{extra:["   ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"táº·ng kÃ¨m (ChÃ¬a khÃ³a, Tiá»n,...) nhÆ° mua á»Ÿ shop.",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Quyá»n
+              lá»£i "},{color:"aqua",italic:0b,text:"/kit "},{color:"white",italic:0b,text:"váº«n nháº­n bÃ¬nh thÆ°á»ng."}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}]},count:1,id:"minecraft:nether_star"}'
+            DataVersion: 4671
+          Vouchers_Id: rank11
+    _rank12_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 1.0
+      Rarity: common
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"rank12"}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"âœ¦ ",underlined:0b},{bold:1b,color:"gray",italic:0b,text:"Rank "},{bold:0b,color:"dark_gray",italic:0b,text:"Â» "},{bold:1b,color:"#4329C1",italic:1b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#3C398B",italic:1b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#354854",italic:1b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#66948C",italic:1b,obfuscated:0b,strikethrough:0b,text:"1",underlined:0b},{bold:1b,color:"#96E0C3",italic:1b,obfuscated:0b,strikethrough:0b,text:"2",underlined:0b},{bold:0b,italic:0b,text:""}],text:""},"minecraft:damage":0,"minecraft:lore":[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},{extra:["  ",{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â­
+              QUYá»€N Lá»¢I RANK â­",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â–¸ ",underlined:0b},{color:"white",italic:0b,text:"DÃ¹ng lá»‡nh "},{color:"green",italic:0b,text:"/rank "},{color:"white",italic:0b,text:"Ä‘á»ƒ xem chi tiáº¿t."}],text:""},"",{extra:[" ",{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"yellow",italic:0b,text:"LÆ¯U Ã QUAN TRá»ŒNG "},{bold:1b,color:"red",italic:0b,text:"âš "}],text:""},{extra:["
+              ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Sá»­ dá»¥ng voucher sáº½ "},{color:"red",italic:0b,text:"khÃ´ng nháº­n Ä‘Æ°á»£c "},{color:"white",italic:0b,text:"quÃ "}],text:""},{extra:["   ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"táº·ng kÃ¨m (ChÃ¬a khÃ³a, Tiá»n,...) nhÆ° mua á»Ÿ shop.",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Quyá»n
+              lá»£i "},{color:"aqua",italic:0b,text:"/kit "},{color:"white",italic:0b,text:"váº«n nháº­n bÃ¬nh thÆ°á»ng."}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}]},count:1,id:"minecraft:nether_star"}'
+            DataVersion: 4671
+          Vouchers_Id: rank12
+    _rank13_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.8
+      Rarity: common
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"rank13"}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"âœ¦ ",underlined:0b},{bold:1b,color:"gray",italic:0b,text:"Rank "},{bold:0b,color:"dark_gray",italic:0b,text:"Â» "},{bold:1b,color:"#37CBFC",italic:1b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#25C1F6",italic:1b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#13B6F0",italic:1b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#49A7A5",italic:1b,obfuscated:0b,strikethrough:0b,text:"1",underlined:0b},{bold:1b,color:"#7F9759",italic:1b,obfuscated:0b,strikethrough:0b,text:"3",underlined:0b},{bold:0b,italic:0b,text:""}],text:""},"minecraft:damage":0,"minecraft:lore":[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},{extra:["  ",{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â­
+              QUYá»€N Lá»¢I RANK â­",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â–¸ ",underlined:0b},{color:"white",italic:0b,text:"DÃ¹ng lá»‡nh "},{color:"green",italic:0b,text:"/rank "},{color:"white",italic:0b,text:"Ä‘á»ƒ xem chi tiáº¿t."}],text:""},"",{extra:[" ",{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"yellow",italic:0b,text:"LÆ¯U Ã QUAN TRá»ŒNG "},{bold:1b,color:"red",italic:0b,text:"âš "}],text:""},{extra:["
+              ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Sá»­ dá»¥ng voucher sáº½ "},{color:"red",italic:0b,text:"khÃ´ng nháº­n Ä‘Æ°á»£c "},{color:"white",italic:0b,text:"quÃ "}],text:""},{extra:["   ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"táº·ng kÃ¨m (ChÃ¬a khÃ³a, Tiá»n,...) nhÆ° mua á»Ÿ shop.",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Quyá»n
+              lá»£i "},{color:"aqua",italic:0b,text:"/kit "},{color:"white",italic:0b,text:"váº«n nháº­n bÃ¬nh thÆ°á»ng."}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}]},count:1,id:"minecraft:nether_star"}'
+            DataVersion: 4671
+          Vouchers_Id: rank13
+    _rank14_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.5
+      Rarity: common
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"rank14"}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"âœ¦ ",underlined:0b},{bold:1b,color:"gray",italic:0b,text:"Rank "},{bold:0b,color:"dark_gray",italic:0b,text:"Â» "},{bold:1b,color:"#D50F1E",italic:1b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#D86C4A",italic:1b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#DBC975",italic:1b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#ECCD69",italic:1b,obfuscated:0b,strikethrough:0b,text:"1",underlined:0b},{bold:1b,color:"#FCD05C",italic:1b,obfuscated:0b,strikethrough:0b,text:"4",underlined:0b},{bold:0b,italic:0b,text:""}],text:""},"minecraft:damage":0,"minecraft:lore":[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},{extra:["  ",{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â­
+              QUYá»€N Lá»¢I RANK â­",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â–¸ ",underlined:0b},{color:"white",italic:0b,text:"DÃ¹ng lá»‡nh "},{color:"green",italic:0b,text:"/rank "},{color:"white",italic:0b,text:"Ä‘á»ƒ xem chi tiáº¿t."}],text:""},"",{extra:[" ",{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"yellow",italic:0b,text:"LÆ¯U Ã QUAN TRá»ŒNG "},{bold:1b,color:"red",italic:0b,text:"âš "}],text:""},{extra:["
+              ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Sá»­ dá»¥ng voucher sáº½ "},{color:"red",italic:0b,text:"khÃ´ng nháº­n Ä‘Æ°á»£c "},{color:"white",italic:0b,text:"quÃ "}],text:""},{extra:["   ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"táº·ng kÃ¨m (ChÃ¬a khÃ³a, Tiá»n,...) nhÆ° mua á»Ÿ shop.",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Quyá»n
+              lá»£i "},{color:"aqua",italic:0b,text:"/kit "},{color:"white",italic:0b,text:"váº«n nháº­n bÃ¬nh thÆ°á»ng."}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}]},count:1,id:"minecraft:nether_star"}'
+            DataVersion: 4671
+          Vouchers_Id: rank14
+    _rank15_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.1
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"rank15"}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"âœ¦ ",underlined:0b},{bold:1b,color:"gray",italic:0b,text:"Rank "},{bold:0b,color:"dark_gray",italic:0b,text:"Â» "},{bold:1b,color:"#4958EC",italic:1b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#564CAF",italic:1b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#633F72",italic:1b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#A6364F",italic:1b,obfuscated:0b,strikethrough:0b,text:"1",underlined:0b},{bold:1b,color:"#E92C2C",italic:1b,obfuscated:0b,strikethrough:0b,text:"5",underlined:0b},{bold:0b,italic:0b,text:""}],text:""},"minecraft:damage":0,"minecraft:lore":[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},{extra:["  ",{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â­
+              QUYá»€N Lá»¢I RANK â­",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â–¸ ",underlined:0b},{color:"white",italic:0b,text:"DÃ¹ng lá»‡nh "},{color:"green",italic:0b,text:"/rank "},{color:"white",italic:0b,text:"Ä‘á»ƒ xem chi tiáº¿t."}],text:""},"",{extra:[" ",{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"yellow",italic:0b,text:"LÆ¯U Ã QUAN TRá»ŒNG "},{bold:1b,color:"red",italic:0b,text:"âš "}],text:""},{extra:["
+              ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Sá»­ dá»¥ng voucher sáº½ "},{color:"red",italic:0b,text:"khÃ´ng nháº­n Ä‘Æ°á»£c "},{color:"white",italic:0b,text:"quÃ "}],text:""},{extra:["   ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"táº·ng kÃ¨m (ChÃ¬a khÃ³a, Tiá»n,...) nhÆ° mua á»Ÿ shop.",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"â€¢ ",underlined:0b},{color:"white",italic:0b,text:"Quyá»n
+              lá»£i "},{color:"aqua",italic:0b,text:"/kit "},{color:"white",italic:0b,text:"váº«n nháº­n bÃ¬nh thÆ°á»ng."}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}]},count:1,id:"minecraft:nether_star"}'
+            DataVersion: 4671
+          Vouchers_Id: rank15
+    _bÄƒng_v2_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 50.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"bang2"}},"minecraft:custom_name":{extra:[{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"â‹¨â‹¨â‹¨ BÄ‚NG V2 â‹©â‹©â‹©",underlined:0b}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"ThÃ´ng tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang Ä‘á»ƒ biáº¿t chi tiáº¿t]"}],text:""},{extra:["
+              ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cáº¥p Ä‘á»™",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"V2"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loáº¡i",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Há»‡ PhÃ¡p SÆ°"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»™ hiáº¿m",underlined:0b},{color:"gray",italic:0b,text:":
+              "},{color:"red",italic:0b,text:"Huyá»n Thoáº¡i"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"YÃªu cáº§u",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cáº§n Class PhÃ¡p SÆ°"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ä‘á»ƒ chá»n nhÃ¡nh nÃ y",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"LÆ°u
+              Ã½: "},{color:"white",italic:0b,text:"HÃ£y suy nghÄ© tháº­t ká»¹!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»•i nhÃ¡nh khÃ¡c sáº½ pháº£i vá» láº¡i Class ChÃ­nh.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;-1282638291,529220219,-1995222302,1349891935],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QzZTFjNWU2NWUxMzU1OWJmNjBlMTU0ZjE3ZjZhZjNhOGU1NjA4YTQ5ODdlY2QxZTBmYWU3NTFjNmY4MjcyNiJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: bang2
+    _lá»­a_v2_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 50.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"lua2"}},"minecraft:custom_name":{extra:[{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"â‹¨â‹¨â‹¨ Lá»¬A V2 â‹©â‹©â‹©",underlined:0b}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"ThÃ´ng tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang Ä‘á»ƒ biáº¿t chi tiáº¿t]"}],text:""},{extra:["
+              ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cáº¥p Ä‘á»™",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"V2"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loáº¡i",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Há»‡ PhÃ¡p SÆ°"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»™ hiáº¿m",underlined:0b},{color:"gray",italic:0b,text:":
+              "},{color:"red",italic:0b,text:"Huyá»n Thoáº¡i"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"YÃªu cáº§u",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cáº§n Class PhÃ¡p SÆ°"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ä‘á»ƒ chá»n nhÃ¡nh nÃ y",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"LÆ°u
+              Ã½: "},{color:"white",italic:0b,text:"HÃ£y suy nghÄ© tháº­t ká»¹!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»•i nhÃ¡nh khÃ¡c sáº½ pháº£i vá» láº¡i Class ChÃ­nh.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;-1573493425,159467807,-1534041642,932625582],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMzNWUyYWM0NGYyNDJiZDRlYWYyNTFkMGY0YTA1MzNlNjkyYjhjZDhkMjFkNTQ5MTRlNWZlN2NhNDg0M2M5MzYifX19"}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: lua2
+    _chiáº¿n_binh_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 30.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"chienbinh"}},"minecraft:custom_name":{extra:[{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"â‹¨â‹¨â‹¨ Chiáº¿n Binh â‹©â‹©â‹©",underlined:0b}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"ThÃ´ng tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang Ä‘á»ƒ biáº¿t chi tiáº¿t]"}],text:""},{extra:["
+              ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cáº¥p Ä‘á»™",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"V1"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loáº¡i",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Há»‡ Äáº¥u SÄ©"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»™ hiáº¿m",underlined:0b},{color:"gray",italic:0b,text:":
+              "},{color:"red",italic:0b,text:"Huyá»n Thoáº¡i"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"YÃªu cáº§u",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cáº§n Class Äáº¥u SÄ©"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ä‘á»ƒ chá»n nhÃ¡nh nÃ y",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"LÆ°u
+              Ã½: "},{color:"white",italic:0b,text:"HÃ£y suy nghÄ© tháº­t ká»¹!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»•i nhÃ¡nh khÃ¡c sáº½ pháº£i vá» láº¡i Class ChÃ­nh.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;1755843675,-576107970,-1834531756,1619553354],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzliOGFmNTJlZjJmNzJjM2JmNWVjZTZlNzBhODJmMTM3MTk1OWNlM2ZjYjczNmM1MDAzMDVjYWRkYzUwNWM1ZTIifX19"}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: chienbinh
+    _nhamthach_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"nhamthach"}},"minecraft:custom_name":{extra:[{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"â‹¨â‹¨â‹¨ NHAM THáº CH â‹©â‹©â‹©",underlined:0b}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"ThÃ´ng tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang Ä‘á»ƒ biáº¿t chi tiáº¿t]"}],text:""},{extra:["
+              ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cáº¥p Ä‘á»™",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"V1"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loáº¡i",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Há»‡ Äá»¡ ÄÃ²n"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»™ hiáº¿m",underlined:0b},{color:"gray",italic:0b,text:":
+              "},{color:"red",italic:0b,text:"Huyá»n Thoáº¡i"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"YÃªu cáº§u",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cáº§n Class Äá»¡ ÄÃ²n"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ä‘á»ƒ chá»n nhÃ¡nh nÃ y",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"LÆ°u
+              Ã½: "},{color:"white",italic:0b,text:"HÃ£y suy nghÄ© tháº­t ká»¹!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»•i nhÃ¡nh khÃ¡c sáº½ pháº£i vá» láº¡i Class ChÃ­nh.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;901387572,119490100,-1518617491,301761389],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JiNTA4Yzc3OWYzMTJkYWZmMzM3ZDEzN2YzNGRkMzY1YTNmOWMxMzJiZDkyZWIwYzVmZmFiN2M1YjRhNTVjNSJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: nhamthach
+    _Ä‘á»™c_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.5
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"poison"}},"minecraft:custom_name":{extra:[{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â‹¨â‹¨",underlined:0b},{bold:1b,color:"yellow",italic:0b,obfuscated:1b,strikethrough:0b,text:"k",underlined:0b},{bold:0b,italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"yellow",italic:0b,text:"Äá»˜C "},{bold:1b,color:"yellow",italic:0b,obfuscated:1b,text:"k"},{bold:1b,color:"yellow",italic:0b,text:"â‹©â‹©"}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"ThÃ´ng
+              tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang Ä‘á»ƒ biáº¿t chi tiáº¿t]"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cáº¥p Ä‘á»™",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"V1"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loáº¡i",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"Há»‡ SÃ¡t Thá»§"}],text:""},{extra:["
+              ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»™ hiáº¿m",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"â˜¬"},{bold:1b,color:"yellow",italic:0b,text:"Tháº§n Thoáº¡i"},{bold:0b,color:"yellow",italic:0b,text:"â˜¬"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"YÃªu cáº§u",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cáº§n Class SÃ¡t Thá»§"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ä‘á»ƒ
+              chá»n nhÃ¡nh nÃ y",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"LÆ°u Ã½: "},{color:"white",italic:0b,text:"HÃ£y suy nghÄ© tháº­t ká»¹!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»•i nhÃ¡nh khÃ¡c sáº½ pháº£i vá» láº¡i Class ChÃ­nh.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t
+              Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;-1359846201,2127843245,-1876958502,1060088780],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkyNTc1YmM5NDc2NDhiN2ZlNjhmMWI2MjNmZWI3Zjc3Mjg2Zjk2YTE3OTg5NWQ3MmQyNzE4Zjk0Yjg5YzYzIn19fQ=="}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: poison
+    _bÃ³ng_tá»‘i_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.5
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"bongtoi"}},"minecraft:custom_name":{extra:[{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â‹¨â‹¨",underlined:0b},{bold:1b,color:"yellow",italic:0b,obfuscated:1b,strikethrough:0b,text:"k",underlined:0b},{bold:0b,italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"yellow",italic:0b,text:"BÃ“NG Tá»I "},{bold:1b,color:"yellow",italic:0b,obfuscated:1b,text:"k"},{bold:1b,color:"yellow",italic:0b,text:"â‹©â‹©"}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"ThÃ´ng
+              tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang Ä‘á»ƒ biáº¿t chi tiáº¿t]"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cáº¥p Ä‘á»™",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"V1"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loáº¡i",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"Há»‡ PhÃ¡p SÆ°"}],text:""},{extra:["
+              ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»™ hiáº¿m",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"â˜¬"},{bold:1b,color:"yellow",italic:0b,text:"Tháº§n Thoáº¡i"},{bold:0b,color:"yellow",italic:0b,text:"â˜¬"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"YÃªu cáº§u",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cáº§n Class PhÃ¡p SÆ°"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ä‘á»ƒ
+              chá»n nhÃ¡nh nÃ y",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"LÆ°u Ã½: "},{color:"white",italic:0b,text:"HÃ£y suy nghÄ© tháº­t ká»¹!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»•i nhÃ¡nh khÃ¡c sáº½ pháº£i vá» láº¡i Class ChÃ­nh.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t
+              Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;-947110311,1603882882,-1522565145,-156952987],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY4ODEzMDkyNTZhMDY0MTM1YzA5ZDQ4YjczODg4MWM3MDJlOWNkYzEzMDYyZGM5OTI3Y2VjNGVjNGZlNWVkN2IifX19"}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: bongtoi
+    _viÃªm_thÆ°Æ¡ng_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.3
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"viemthuong"}},"minecraft:custom_name":{extra:[{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â‹¨â‹¨â‹¨ VIÃŠM THÆ¯Æ NG Ká»´ SÄ¨ â‹©â‹©â‹©",underlined:0b}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"ThÃ´ng tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang Ä‘á»ƒ biáº¿t chi
+              tiáº¿t]"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cáº¥p Ä‘á»™",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"V1"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loáº¡i",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Há»‡ Äáº¥u SÄ©"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»™ hiáº¿m",underlined:0b},{color:"gray",italic:0b,text:":
+              "},{bold:1b,color:"gold",italic:0b,text:"Tháº§n Thoáº¡i"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"YÃªu cáº§u",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cáº§n Class Äáº¥u SÄ©"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ä‘á»ƒ chá»n nhÃ¡nh nÃ y",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"LÆ°u
+              Ã½: "},{color:"white",italic:0b,text:"HÃ£y suy nghÄ© tháº­t ká»¹!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»•i nhÃ¡nh khÃ¡c sáº½ pháº£i vá» láº¡i Class ChÃ­nh.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;-1747046339,574967738,-1217248106,1666126753],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E5YTVhMWU2OWI0ZjgxMDU2MjU3NTJiY2VlMjUzNDA2NjRiMDg5ZmExYjJmNTI3ZmE5MTQzZDkwNjZhN2FhZDIifX19"}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: viemthuong
+    _thá»§y_long_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.3
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"thuylong"}},"minecraft:custom_name":{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš˜âŠ± â”€",underlined:0b},{bold:1b,color:"aqua",italic:0b,obfuscated:1b,text:"â”Š"},{bold:0b,color:"aqua",italic:0b,obfuscated:0b,text:"â”€ {.â‹… "},{bold:1b,color:"aqua",italic:0b,text:"THá»¦Y LONG"},{bold:0b,color:"aqua",italic:0b,text:" â‹….} â”€"},{bold:1b,color:"aqua",italic:0b,obfuscated:1b,text:"â”Š"},{bold:0b,color:"aqua",italic:0b,obfuscated:0b,text:"â”€
+              âŠ°âš˜"}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"ThÃ´ng tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang Ä‘á»ƒ biáº¿t chi tiáº¿t]"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cáº¥p Ä‘á»™",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"aqua",italic:0b,text:"V1"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loáº¡i",underlined:0b},{color:"gray",italic:0b,text:":
+              "},{color:"aqua",italic:0b,text:"Há»‡ PhÃ¡p SÆ°"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»™ hiáº¿m",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"aqua",italic:0b,text:"âœµ"},{bold:1b,color:"aqua",italic:0b,text:"ThÆ°á»£ng Pháº©m"},{bold:0b,color:"aqua",italic:0b,text:"âœµ"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"YÃªu cáº§u",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cáº§n
+              Class PhÃ¡p SÆ°"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ä‘á»ƒ chá»n nhÃ¡nh nÃ y",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"LÆ°u Ã½: "},{color:"white",italic:0b,text:"HÃ£y suy nghÄ© tháº­t ká»¹!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»•i nhÃ¡nh khÃ¡c sáº½ pháº£i vá» láº¡i Class ChÃ­nh.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!]
+              ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;-1089531899,-673234814,-1980924698,-266957438],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZmNDJkOTIzMTUwYTU0NjQ5OTMzYzU1ZWI4ZTc2ZmMyYTNmYjBmYWU2ZjhhZmFkYzZmMjQ1ODMzMWIzY2VjNzMifX19"}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: thuylong
+    _há»§y_diá»‡t_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:swing_animation","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_type","minecraft:use_effects","minecraft:weapon","minecraft:container","minecraft:damage_resistant","minecraft:use_cooldown","minecraft:lodestone_tracker","minecraft:enchantment_glint_override","minecraft:container_loot","minecraft:painting/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:charged_projectiles","minecraft:bucket_entity_data","minecraft:axolotl/variant","minecraft:suspicious_stew_effects","minecraft:profile","minecraft:llama/variant","minecraft:max_damage","minecraft:map_post_processing","minecraft:frog/variant","minecraft:piercing_weapon","minecraft:fox/variant","minecraft:provides_banner_patterns","minecraft:enchantments","minecraft:shulker/color","minecraft:food","minecraft:max_stack_size","minecraft:glider","minecraft:salmon/size","minecraft:villager/variant","minecraft:unbreakable","minecraft:death_protection","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:banner_patterns","minecraft:firework_explosion","minecraft:attack_range","minecraft:attribute_modifiers","minecraft:zombie_nautilus/variant","minecraft:debug_stick_state","minecraft:cow/variant","minecraft:tropical_fish/pattern_color","minecraft:block_state","minecraft:instrument","minecraft:enchantable","minecraft:recipes","minecraft:can_break","minecraft:fireworks","minecraft:trim","minecraft:cat/variant","minecraft:map_decorations","minecraft:bees","minecraft:blocks_attacks","minecraft:note_block_sound","minecraft:tropical_fish/base_color","minecraft:block_entity_data","minecraft:stored_enchantments","minecraft:writable_book_content","minecraft:dyed_color","minecraft:cat/collar","minecraft:pot_decorations","minecraft:repairable","minecraft:mooshroom/variant","minecraft:use_remainder","minecraft:consumable","minecraft:potion_contents","minecraft:tool","minecraft:rarity","minecraft:entity_data","minecraft:tropical_fish/pattern","minecraft:base_color","minecraft:kinetic_weapon","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:written_book_content","minecraft:lock","minecraft:intangible_projectile","minecraft:can_place_on","minecraft:parrot/variant","minecraft:chicken/variant","minecraft:pig/variant","minecraft:wolf/collar","minecraft:map_id","minecraft:equippable","minecraft:bundle_contents","minecraft:horse/variant","minecraft:ominous_bottle_amplifier","minecraft:repair_cost","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:map_color","minecraft:sheep/color","minecraft:wolf/variant"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.1
+      Rarity: common
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: vanilla
+          Data:
+            Value:
+              '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"huydiet"}},"minecraft:custom_name":{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"â‹‡âŠ¶âŠ°â£âŠ±âŠ·â‹‡ ",underlined:0b},{bold:1b,color:"yellow",italic:0b,obfuscated:1b,text:"â”Š"},{bold:0b,color:"yellow",italic:0b,obfuscated:0b,text:"ðŸŽ•â‹…âš˜ "},{bold:1b,color:"yellow",italic:0b,text:"Há»¦Y DIá»†T"},{bold:0b,color:"yellow",italic:0b,text:" âš˜â‹…ðŸŽ•"},{bold:1b,color:"yellow",italic:0b,obfuscated:1b,text:"â”Š"},{bold:0b,color:"yellow",italic:0b,obfuscated:0b,text:"
+              "},{color:"yellow",italic:0b,text:"â‹‡âŠ¶âŠ°â£âŠ±âŠ·â‹‡"}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"ThÃ´ng tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang Ä‘á»ƒ biáº¿t chi tiáº¿t]"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cáº¥p Ä‘á»™",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"V1"}],text:""},{extra:["
+              ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loáº¡i",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"Há»‡ PhÃ¡p SÆ°"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»™ hiáº¿m",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"âœµ"},{bold:1b,color:"yellow",italic:0b,text:"ThÆ°á»£ng Pháº©m"},{bold:0b,color:"yellow",italic:0b,text:"âœµ"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"YÃªu
+              cáº§u",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cáº§n Class PhÃ¡p SÆ°"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ä‘á»ƒ chá»n nhÃ¡nh nÃ y",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"âš  ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"LÆ°u Ã½: "},{color:"white",italic:0b,text:"HÃ£y suy nghÄ© tháº­t ká»¹!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Äá»•i
+              nhÃ¡nh khÃ¡c sáº½ pháº£i vá» láº¡i Class ChÃ­nh.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuá»™t Pháº£i "},{color:"white",italic:0b,text:"Ä‘á»ƒ báº¯t Ä‘áº§u "},{color:"red",italic:0b,text:"Sá»­ Dá»¥ng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;-2136923084,-2049028846,-1891734249,-202855913],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhlMWVmNTgzZWYxZmI1MmYyNjIyNGVjNWMxNmY1OTY4N2MzNmIzMzQ5MWUwZGQwMTgzMmE5MDU1MzhjYTNhZGUifX19"}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: huydiet
+    kiem_quan_vuong_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_QUAN_VUONG_BANG_GIA
+          Amount: 1
+      Weight: 2.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_QUAN_VUONG_BANG_GIA
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_QUAN_VUONG_BANG_GIA
+    kiem_quy_vuong_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_QUY_VUONG_V1
+          Amount: 1
+      Weight: 1.5
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_QUY_VUONG_V1
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_QUY_VUONG_V1
+    kiem_quy_vuong_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_QUY_VUONG_V2
+          Amount: 1
+      Weight: 1.5
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_QUY_VUONG_V2
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_QUY_VUONG_V2
+    kiem_thinh_no_kamis_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_THINH_NO_KAMIS_V1
+          Amount: 1
+      Weight: 0.8
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_THINH_NO_KAMIS_V1
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_THINH_NO_KAMIS_V1
+    kiem_thinh_no_kamis_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_THINH_NO_KAMIS_V2
+          Amount: 1
+      Weight: 0.8
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_THINH_NO_KAMIS_V2
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_THINH_NO_KAMIS_V2
+    gay_quan_vuong_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_QUAN_VUONG_BANG_GIA
+          Amount: 1
+      Weight: 2.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_QUAN_VUONG_BANG_GIA
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_QUAN_VUONG_BANG_GIA
+    gay_quy_vuong_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_QUY_VUONG_V1
+          Amount: 1
+      Weight: 1.5
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_QUY_VUONG_V1
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_QUY_VUONG_V1
+    gay_quy_vuong_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_QUY_VUONG_V2
+          Amount: 1
+      Weight: 1.5
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_QUY_VUONG_V2
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_QUY_VUONG_V2
+    gay_thinh_no_kamis_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_THINH_NO_KAMIS_V1
+          Amount: 1
+      Weight: 0.8
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_THINH_NO_KAMIS_V1
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_THINH_NO_KAMIS_V1
+    gay_thinh_no_kamis_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_THINH_NO_KAMIS_V2
+          Amount: 1
+      Weight: 0.8
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_THINH_NO_KAMIS_V2
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_THINH_NO_KAMIS_V2
+    cung_quan_vuong_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_QUAN_VUONG_BANG_GIA
+          Amount: 1
+      Weight: 2.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_QUAN_VUONG_BANG_GIA
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_QUAN_VUONG_BANG_GIA
+    cung_quy_vuong_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_QUY_VUONG_V1
+          Amount: 1
+      Weight: 1.5
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_QUY_VUONG_V1
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_QUY_VUONG_V1
+    cung_quy_vuong_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_QUY_VUONG_V2
+          Amount: 1
+      Weight: 1.5
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_QUY_VUONG_V2
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_QUY_VUONG_V2
+    cung_thinh_no_kamis_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_THINH_NO_KAMIS_V1
+          Amount: 1
+      Weight: 0.8
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_THINH_NO_KAMIS_V1
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_THINH_NO_KAMIS_V1
+    cung_thinh_no_kamis_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_THINH_NO_KAMIS_V2
+          Amount: 1
+      Weight: 0.8
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_THINH_NO_KAMIS_V2
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_THINH_NO_KAMIS_V2
+    bua_quan_vuong_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_QUAN_VUONG_BANG_GIA
+          Amount: 1
+      Weight: 2.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_QUAN_VUONG_BANG_GIA
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_QUAN_VUONG_BANG_GIA
+    bua_quy_vuong_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_QUY_VUONG_V1
+          Amount: 1
+      Weight: 1.5
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_QUY_VUONG_V1
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_QUY_VUONG_V1
+    bua_quy_vuong_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_QUY_VUONG_V2
+          Amount: 1
+      Weight: 1.5
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_QUY_VUONG_V2
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_QUY_VUONG_V2
+    bua_thinh_no_kamis_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_THINH_NO_KAMIS_V1
+          Amount: 1
+      Weight: 0.8
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_THINH_NO_KAMIS_V1
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_THINH_NO_KAMIS_V1
+    bua_thinh_no_kamis_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_THINH_NO_KAMIS_V2
+          Amount: 1
+      Weight: 0.8
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_THINH_NO_KAMIS_V2
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_THINH_NO_KAMIS_V2
+    dao_quan_vuong_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_QUAN_VUONG_BANG_GIA
+          Amount: 1
+      Weight: 2.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_QUAN_VUONG_BANG_GIA
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_QUAN_VUONG_BANG_GIA
+    dao_quy_vuong_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_QUY_VUONG_V1
+          Amount: 1
+      Weight: 1.5
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_QUY_VUONG_V1
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_QUY_VUONG_V1
+    dao_quy_vuong_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_QUY_VUONG_V2
+          Amount: 1
+      Weight: 1.5
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_QUY_VUONG_V2
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_QUY_VUONG_V2
+    dao_thinh_no_kamis_v1:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_THINH_NO_KAMIS_V1
+          Amount: 1
+      Weight: 0.8
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_THINH_NO_KAMIS_V1
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_THINH_NO_KAMIS_V1
+    dao_thinh_no_kamis_v2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_THINH_NO_KAMIS_V2
+          Amount: 1
+      Weight: 0.8
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_THINH_NO_KAMIS_V2
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_THINH_NO_KAMIS_V2
+    mu_quan_vuong_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:MU_QUAN_VUONG_BANG_GIA
+          Amount: 1
+      Weight: 2.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:MU_QUAN_VUONG_BANG_GIA
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: MU_QUAN_VUONG_BANG_GIA
+    mu_quy_vuong:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:MU_QUY_VUONG
+          Amount: 1
+      Weight: 1.5
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:MU_QUY_VUONG
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: MU_QUY_VUONG
+    mu_thinh_no_kamis:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:MU_THINH_NO_KAMIS
+          Amount: 1
+      Weight: 0.8
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:MU_THINH_NO_KAMIS
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: MU_THINH_NO_KAMIS
+    giap_quan_vuong_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:GIAP_QUAN_VUONG_BANG_GIA
+          Amount: 1
+      Weight: 2.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:GIAP_QUAN_VUONG_BANG_GIA
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: GIAP_QUAN_VUONG_BANG_GIA
+    giap_quy_vuong:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:GIAP_QUY_VUONG
+          Amount: 1
+      Weight: 1.5
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:GIAP_QUY_VUONG
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: GIAP_QUY_VUONG
+    giap_thinh_no_kamis:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:GIAP_THINH_NO_KAMIS
+          Amount: 1
+      Weight: 0.8
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:GIAP_THINH_NO_KAMIS
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: GIAP_THINH_NO_KAMIS
+    quan_quan_vuong_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:QUAN_QUAN_VUONG_BANG_GIA
+          Amount: 1
+      Weight: 2.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:QUAN_QUAN_VUONG_BANG_GIA
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: QUAN_QUAN_VUONG_BANG_GIA
+    quan_quy_vuong:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:QUAN_QUY_VUONG
+          Amount: 1
+      Weight: 1.5
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:QUAN_QUY_VUONG
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: QUAN_QUY_VUONG
+    quan_thinh_no_kamis:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:QUAN_THINH_NO_KAMIS
+          Amount: 1
+      Weight: 0.8
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:QUAN_THINH_NO_KAMIS
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: QUAN_THINH_NO_KAMIS
+    giay_quan_vuong_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:GIAY_QUAN_VUONG_BANG_GIA
+          Amount: 1
+      Weight: 2.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:GIAY_QUAN_VUONG_BANG_GIA
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: GIAY_QUAN_VUONG_BANG_GIA
+    giay_quy_vuong:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:GIAY_QUY_VUONG
+          Amount: 1
+      Weight: 1.5
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:GIAY_QUY_VUONG
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: GIAY_QUY_VUONG
+    giay_thinh_no_kamis:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:GIAY_THINH_NO_KAMIS
+          Amount: 1
+      Weight: 0.8
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:GIAY_THINH_NO_KAMIS
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: GIAY_THINH_NO_KAMIS
+    gem_of_strength_pve_dao17:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO17
+          Amount: 1
+      Weight: 7.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO17
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO17
+    gem_of_strength_pve_dao17_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO17_2
+          Amount: 1
+      Weight: 7.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO17_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO17_2
+    gem_of_strength_pvp_dao17:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO17
+          Amount: 1
+      Weight: 7.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO17
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO17
+    gem_of_skill_damage_dao17:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO17
+          Amount: 1
+      Weight: 7.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO17
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO17
+    gem_of_strength_pvp_dao17_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO17_2
+          Amount: 1
+      Weight: 7.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO17_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO17_2
+    gem_of_skill_damage_dao17_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO17_2
+          Amount: 1
+      Weight: 7.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO17_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO17_2
+    gem_of_max_health_dao17:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO17
+          Amount: 1
+      Weight: 7.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO17
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO17
+    gem_of_max_health_dao17_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO17_2
+          Amount: 1
+      Weight: 7.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO17_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO17_2
+    gem_of_strength_pve_dao18:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO18
+          Amount: 1
+      Weight: 5.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO18
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO18
+    gem_of_strength_pve_dao18_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO18_2
+          Amount: 1
+      Weight: 5.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO18_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO18_2
+    gem_of_strength_pvp_dao18:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO18
+          Amount: 1
+      Weight: 5.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO18
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO18
+    gem_of_skill_damage_dao18:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO18
+          Amount: 1
+      Weight: 5.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO18
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO18
+    gem_of_strength_pvp_dao18_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO18_2
+          Amount: 1
+      Weight: 5.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO18_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO18_2
+    gem_of_skill_damage_dao18_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO18_2
+          Amount: 1
+      Weight: 5.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO18_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO18_2
+    gem_of_max_health_dao18:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO18
+          Amount: 1
+      Weight: 5.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO18
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO18
+    gem_of_max_health_dao18_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO18_2
+          Amount: 1
+      Weight: 5.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO18_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO18_2
+    gem_of_strength_pve_dao19:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO19
+          Amount: 1
+      Weight: 3.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO19
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO19
+    gem_of_strength_pve_dao19_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO19_2
+          Amount: 1
+      Weight: 3.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVE_DAO19_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO19_2
+    gem_of_strength_pvp_dao19:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO19
+          Amount: 1
+      Weight: 3.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO19
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO19
+    gem_of_skill_damage_dao19:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO19
+          Amount: 1
+      Weight: 3.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO19
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO19
+    gem_of_strength_pvp_dao19_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO19_2
+          Amount: 1
+      Weight: 3.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_STRENGTH_PVP_DAO19_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO19_2
+    gem_of_skill_damage_dao19_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO19_2
+          Amount: 1
+      Weight: 3.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_SKILL_DAMAGE_DAO19_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO19_2
+    gem_of_max_health_dao19:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO19
+          Amount: 1
+      Weight: 3.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO19
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO19
+    gem_of_max_health_dao19_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: gem_stone:GEM_OF_MAX_HEALTH_DAO19_2
+          Amount: 1
+      Weight: 3.0
+      Rarity: mythic
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        "0":
+          Provider: mmoitems
+          Data:
+            ID: gem_stone:GEM_OF_MAX_HEALTH_DAO19_2
+            Amount: 1
+          MMOItems_Type: gem_stone
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO19_2
+CostOptions:
+  key:
+    Enabled: true
+    Name: Key
+    Icon:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:trial_key"}'
+        DataVersion: 4671
+    Entries:
+      "0":
+        Type: key
+        Key: cratesskey
+        Amount: 1

@@ -1,0 +1,511 @@
+# ==================== ĐẢO 2 ====================
+AMULET_1:
+  base:
+    material: AMETHYST_SHARD
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aBùa Cổ&7]&9 Phòng Thủ I'
+    defense: 1.0
+    max-health: 10
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_2:
+  base:
+    material: AMETHYST_SHARD
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bBùa Cổ&7]&9 Phòng Thủ II'
+    defense: 1.4
+    max-health: 22
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_3:
+  base:
+    material: AMETHYST_SHARD
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dBùa Cổ&7]&9 Phòng Thủ III'
+    defense: 1.8
+    max-health: 34
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_4:
+  base:
+    material: AMETHYST_SHARD
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aBùa Cổ&7]&9 Phòng Thủ IV'
+    defense: 2.1
+    max-health: 46
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_5:
+  base:
+    material: AMETHYST_SHARD
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bBùa Cổ&7]&9 Phòng Thủ V'
+    defense: 2.5
+    max-health: 58
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_6:
+  base:
+    material: AMETHYST_SHARD
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dBùa Cổ&7]&9 Phòng Thủ VI'
+    defense: 2.9
+    max-health: 70
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_7:
+  base:
+    material: AMETHYST_SHARD
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aBùa Cổ&7]&9 Phòng Thủ VII'
+    defense: 3.3
+    max-health: 82
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_8:
+  base:
+    material: AMETHYST_SHARD
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bBùa Cổ&7]&9 Phòng Thủ VIII'
+    defense: 3.7
+    max-health: 94
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_9:
+  base:
+    material: AMETHYST_SHARD
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dBùa Cổ&7]&9 Phòng Thủ IX'
+    defense: 4.0
+    max-health: 107
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_10:
+  base:
+    material: AMETHYST_SHARD
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aBùa Cổ&7]&9 Phòng Thủ X'
+    defense: 4.4
+    max-health: 119
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_11:
+  base:
+    material: AMETHYST_SHARD
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bBùa Cổ&7]&9 Phòng Thủ XI'
+    defense: 4.8
+    max-health: 131
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_12:
+  base:
+    material: AMETHYST_SHARD
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dBùa Cổ&7]&9 Phòng Thủ XII'
+    defense: 5.2
+    max-health: 143
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_13:
+  base:
+    material: AMETHYST_SHARD
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aBùa Cổ&7]&9 Phòng Thủ XIII'
+    defense: 5.6
+    max-health: 155
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_14:
+  base:
+    material: AMETHYST_SHARD
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bBùa Cổ&7]&9 Phòng Thủ XIV'
+    defense: 5.9
+    max-health: 167
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_15:
+  base:
+    material: AMETHYST_SHARD
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dBùa Cổ&7]&9 Phòng Thủ XV'
+    defense: 6.3
+    max-health: 179
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_16:
+  base:
+    material: AMETHYST_SHARD
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aBùa Cổ&7]&9 Phòng Thủ XVI'
+    defense: 6.7
+    max-health: 191
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_17:
+  base:
+    material: AMETHYST_SHARD
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bBùa Cổ&7]&9 Phòng Thủ XVII'
+    defense: 7.1
+    max-health: 203
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_18:
+  base:
+    material: AMETHYST_SHARD
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dBùa Cổ&7]&9 Phòng Thủ XVIII'
+    defense: 7.4
+    max-health: 215
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_19:
+  base:
+    material: AMETHYST_SHARD
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aBùa Cổ&7]&9 Phòng Thủ XIX'
+    defense: 7.8
+    max-health: 227
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_20:
+  base:
+    material: AMETHYST_SHARD
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bBùa Cổ&7]&9 Phòng Thủ XX'
+    defense: 8.2
+    max-health: 239
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_21:
+  base:
+    material: AMETHYST_SHARD
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dBùa Cổ&7]&9 Phòng Thủ XXI'
+    defense: 8.6
+    max-health: 251
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_22:
+  base:
+    material: AMETHYST_SHARD
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aBùa Cổ&7]&9 Phòng Thủ XXII'
+    defense: 9.0
+    max-health: 263
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_23:
+  base:
+    material: AMETHYST_SHARD
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bBùa Cổ&7]&9 Phòng Thủ XXIII'
+    defense: 9.3
+    max-health: 276
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_24:
+  base:
+    material: AMETHYST_SHARD
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&6Bùa Cổ&7]&9 Phòng Thủ XXIV'
+    defense: 9.7
+    max-health: 288
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_25:
+  base:
+    material: AMETHYST_SHARD
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&6Bùa Cổ&7]&9 Phòng Thủ XXV'
+    defense: 10.1
+    max-health: 300
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_26:
+  base:
+    material: AMETHYST_SHARD
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&6Bùa Cổ&7]&9 Phòng Thủ XXVI'
+    defense: 10.5
+    max-health: 312
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_27:
+  base:
+    material: AMETHYST_SHARD
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&6Bùa Cổ&7]&9 Phòng Thủ XXVII'
+    defense: 10.9
+    max-health: 324
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_28:
+  base:
+    material: AMETHYST_SHARD
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&6Bùa Cổ&7]&9 Phòng Thủ XXVIII'
+    defense: 11.2
+    max-health: 336
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_29:
+  base:
+    material: AMETHYST_SHARD
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&6Bùa Cổ&7]&9 Phòng Thủ XXIX'
+    defense: 11.6
+    max-health: 348
+    enchants:
+      LURE: 1
+    hide-enchants: true
+AMULET_30:
+  base:
+    material: AMETHYST_SHARD
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô bùa cổ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&6Bùa Cổ&7]&9 Phòng Thủ XXX'
+    defense: 12.0
+    max-health: 360
+    enchants:
+      LURE: 1
+    hide-enchants: true

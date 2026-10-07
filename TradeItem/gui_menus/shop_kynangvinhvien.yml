@@ -1,0 +1,858 @@
+menu_title: "&8▶ Giao Diện | Chọn Kỹ Năng Vĩnh Viễn"
+open_command:
+  - chonkynang
+size: 54
+items:
+  glass_border:
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 50
+      - 51
+      - 52
+      - 53
+  menu:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQyZmIzYmUwMzFmNjY0NjE2MGIyZjM3YjM0NjM2MjMyY2EyZjM5ODYxZjg4Y2FiYTE5MmNhYjhmZThlODZlIn19fQ==
+    display_name: "&8[ &cX &8] &cĐóng"
+    lore:
+      - "&8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      - "&7➤ Đóng &fMenu"
+      - "&8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      - "&8✦ &7Nhấn để thoát"
+    slot: 49
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[close]"
+  bang1_owned:
+    display_name: "&e&l⋨⋨⋨ BĂNG V1 ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTk0MzY3NjNlZTcwNGRlZjFiYzZlODk0ZDFmODUzNTE0MWI0OWM5NTk5NWJhYzU3NjRmMTYzNWM2ZDBkMTEzNiJ9fX0=
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &eThường"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&a&l✔ BẠN ĐÃ SỞ HỮU VĨNH VIỄN"
+      - "&e➤ Bấm vào để SỬ DỤNG kỹ năng này!"
+    priority: 1
+    view_requirement:
+      requirements:
+        owned:
+          type: has permission
+          permission: kynang.bang1
+    click_commands:
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[message] &aĐã trang bị thành công kỹ năng &e&e&l⋨⋨⋨ BĂNG V1 ⋩⋩⋩&a!"
+      - "[console] solo setclass %player_name% icev1"
+  bang1:
+    display_name: "&e&l⋨⋨⋨ BĂNG V1 ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTk0MzY3NjNlZTcwNGRlZjFiYzZlODk0ZDFmODUzNTE0MWI0OWM5NTk5NWJhYzU3NjRmMTYzNWM2ZDBkMTEzNiJ9fX0=
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &eThường"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&c&l✖ BẠN CHƯA SỞ HỮU VĨNH VIỄN"
+      - ""
+      - "&e&l💡 MẸO: &fBạn có thể mua vĩnh viễn rẻ hơn"
+      - "  &ftại thương nhân bán theo thời gian &e/goiqua"
+      - ""
+      - "&a&l💰 GIÁ BÁN TRỰC TIẾP: &e300 Xu"
+      - "&b➤ Click để MUA VĨNH VIỄN kỹ năng này!"
+    priority: 2
+    click_requirement:
+      requirements:
+        xu:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "300"
+          deny_commands:
+            - "[message] &cBạn không đủ 300 Xu để mua kỹ năng này!"
+            - "[sound] ENTITY_VILLAGER_NO"
+    click_commands:
+      - "[console] points take %player_name% 300"
+      - "[console] lp user %player_name% permission set kynang.bang1"
+      - "[message] &aBạn đã mua vĩnh viễn kỹ năng thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[refresh]"
+  bom_owned:
+    display_name: "&e&l⋨⋨⋨ BOM ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRmODE1YmNiYWMyMzczNDA0NjRiNzc3ODA3ZjI2YjVlOTMxN2MxOWQ1NzlkYTJkZDk0Y2JiYzZhMGRlNTEzOCJ9fX0=
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1"
+      - "  &a✧ &7Loại: &eHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &eThường"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&a&l✔ BẠN ĐÃ SỞ HỮU VĨNH VIỄN"
+      - "&e➤ Bấm vào để SỬ DỤNG kỹ năng này!"
+    priority: 1
+    view_requirement:
+      requirements:
+        owned:
+          type: has permission
+          permission: kynang.bom
+    click_commands:
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[message] &aĐã trang bị thành công kỹ năng &e&e&l⋨⋨⋨ BOM ⋩⋩⋩&a!"
+      - "[console] solo setclass %player_name% bom"
+  bom:
+    display_name: "&e&l⋨⋨⋨ BOM ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRmODE1YmNiYWMyMzczNDA0NjRiNzc3ODA3ZjI2YjVlOTMxN2MxOWQ1NzlkYTJkZDk0Y2JiYzZhMGRlNTEzOCJ9fX0=
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1"
+      - "  &a✧ &7Loại: &eHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &eThường"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&c&l✖ BẠN CHƯA SỞ HỮU VĨNH VIỄN"
+      - ""
+      - "&e&l💡 MẸO: &fBạn có thể mua vĩnh viễn rẻ hơn"
+      - "  &ftại thương nhân bán theo thời gian &e/goiqua"
+      - ""
+      - "&a&l💰 GIÁ BÁN TRỰC TIẾP: &e300 Xu"
+      - "&b➤ Click để MUA VĨNH VIỄN kỹ năng này!"
+    priority: 2
+    click_requirement:
+      requirements:
+        xu:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "300"
+          deny_commands:
+            - "[message] &cBạn không đủ 300 Xu để mua kỹ năng này!"
+            - "[sound] ENTITY_VILLAGER_NO"
+    click_commands:
+      - "[console] points take %player_name% 300"
+      - "[console] lp user %player_name% permission set kynang.bom"
+      - "[message] &aBạn đã mua vĩnh viễn kỹ năng thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[refresh]"
+  lua1_owned:
+    display_name: "&e&l⋨⋨⋨ LỬA V1 ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJjYmE5ZTc1YThhMzNhNGI5NzkzODRmZTJmM2RiMGIxZjFmODA2M2YyMTY2ODlmNmVkYTk1OWQ5MDUwYjk3NSJ9fX0=
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &eThường"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&a&l✔ BẠN ĐÃ SỞ HỮU VĨNH VIỄN"
+      - "&e➤ Bấm vào để SỬ DỤNG kỹ năng này!"
+    priority: 1
+    view_requirement:
+      requirements:
+        owned:
+          type: has permission
+          permission: kynang.lua1
+    click_commands:
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[message] &aĐã trang bị thành công kỹ năng &e&e&l⋨⋨⋨ LỬA V1 ⋩⋩⋩&a!"
+      - "[console] solo setclass %player_name% luav1"
+  lua1:
+    display_name: "&e&l⋨⋨⋨ LỬA V1 ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJjYmE5ZTc1YThhMzNhNGI5NzkzODRmZTJmM2RiMGIxZjFmODA2M2YyMTY2ODlmNmVkYTk1OWQ5MDUwYjk3NSJ9fX0=
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &eThường"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&c&l✖ BẠN CHƯA SỞ HỮU VĨNH VIỄN"
+      - ""
+      - "&e&l💡 MẸO: &fBạn có thể mua vĩnh viễn rẻ hơn"
+      - "  &ftại thương nhân bán theo thời gian &e/goiqua"
+      - ""
+      - "&a&l💰 GIÁ BÁN TRỰC TIẾP: &e300 Xu"
+      - "&b➤ Click để MUA VĨNH VIỄN kỹ năng này!"
+    priority: 2
+    click_requirement:
+      requirements:
+        xu:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "300"
+          deny_commands:
+            - "[message] &cBạn không đủ 300 Xu để mua kỹ năng này!"
+            - "[sound] ENTITY_VILLAGER_NO"
+    click_commands:
+      - "[console] points take %player_name% 300"
+      - "[console] lp user %player_name% permission set kynang.lua1"
+      - "[message] &aBạn đã mua vĩnh viễn kỹ năng thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[refresh]"
+  chienbinh_owned:
+    display_name: "&c&l⋨⋨⋨ Chiến Binh ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI4YWY1MmVmMmY3MmMzYmY1ZWNlNmU3MGE4MmYxMzcxOTU5Y2UzZmNiNzM2YzUwMDMwNWNhZGRjNTA1YzVlMiJ9fX0=
+    slot: 13
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &cV1 &7/ &cV2"
+      - "  &a✧ &7Loại: &cHệ Chiến Binh"
+      - "  &a✧ &7Độ hiếm: &cHuyền Thoại"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&a&l✔ BẠN ĐÃ SỞ HỮU VĨNH VIỄN"
+      - "&e➤ Bấm vào để SỬ DỤNG kỹ năng này!"
+    priority: 1
+    view_requirement:
+      requirements:
+        owned:
+          type: has permission
+          permission: kynang.chienbinh
+    click_commands:
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[message] &aĐã trang bị thành công kỹ năng &e&c&l⋨⋨⋨ Chiến Binh ⋩⋩⋩&a!"
+      - "[console] solo setclass %player_name% chienbinh"
+  chienbinh:
+    display_name: "&c&l⋨⋨⋨ Chiến Binh ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI4YWY1MmVmMmY3MmMzYmY1ZWNlNmU3MGE4MmYxMzcxOTU5Y2UzZmNiNzM2YzUwMDMwNWNhZGRjNTA1YzVlMiJ9fX0=
+    slot: 13
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &cV1 &7/ &cV2"
+      - "  &a✧ &7Loại: &cHệ Chiến Binh"
+      - "  &a✧ &7Độ hiếm: &cHuyền Thoại"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&c&l✖ BẠN CHƯA SỞ HỮU VĨNH VIỄN"
+      - ""
+      - "&e&l💡 MẸO: &fBạn có thể mua vĩnh viễn rẻ hơn"
+      - "  &ftại thương nhân bán theo thời gian &e/goiqua"
+      - ""
+      - "&a&l💰 GIÁ BÁN TRỰC TIẾP: &e800 Xu"
+      - "&b➤ Click để MUA VĨNH VIỄN kỹ năng này!"
+    priority: 2
+    click_requirement:
+      requirements:
+        xu:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "800"
+          deny_commands:
+            - "[message] &cBạn không đủ 800 Xu để mua kỹ năng này!"
+            - "[sound] ENTITY_VILLAGER_NO"
+    click_commands:
+      - "[console] points take %player_name% 800"
+      - "[console] lp user %player_name% permission set kynang.chienbinh"
+      - "[message] &aBạn đã mua vĩnh viễn kỹ năng thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[refresh]"
+  bang2_owned:
+    display_name: "&c&l⋨⋨⋨ BĂNG V2 ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDNlMWM1ZTY1ZTEzNTU5YmY2MGUxNTRmMTdmNmFmM2E4ZTU2MDhhNDk4N2VjZDFlMGZhZTc1MWM2ZjgyNzI2In19fQ==
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &cV1 &7/ &cV2"
+      - "  &a✧ &7Loại: &cHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &cHuyền Thoại"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&a&l✔ BẠN ĐÃ SỞ HỮU VĨNH VIỄN"
+      - "&e➤ Bấm vào để SỬ DỤNG kỹ năng này!"
+    priority: 1
+    view_requirement:
+      requirements:
+        owned:
+          type: has permission
+          permission: kynang.bang2
+    click_commands:
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[message] &aĐã trang bị thành công kỹ năng &e&c&l⋨⋨⋨ BĂNG V2 ⋩⋩⋩&a!"
+      - "[console] solo setclass %player_name% icev2"
+  bang2:
+    display_name: "&c&l⋨⋨⋨ BĂNG V2 ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDNlMWM1ZTY1ZTEzNTU5YmY2MGUxNTRmMTdmNmFmM2E4ZTU2MDhhNDk4N2VjZDFlMGZhZTc1MWM2ZjgyNzI2In19fQ==
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &cV1 &7/ &cV2"
+      - "  &a✧ &7Loại: &cHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &cHuyền Thoại"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&c&l✖ BẠN CHƯA SỞ HỮU VĨNH VIỄN"
+      - ""
+      - "&e&l💡 MẸO: &fBạn có thể mua vĩnh viễn rẻ hơn"
+      - "  &ftại thương nhân bán theo thời gian &e/goiqua"
+      - ""
+      - "&a&l💰 GIÁ BÁN TRỰC TIẾP: &e800 Xu"
+      - "&b➤ Click để MUA VĨNH VIỄN kỹ năng này!"
+    priority: 2
+    click_requirement:
+      requirements:
+        xu:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "800"
+          deny_commands:
+            - "[message] &cBạn không đủ 800 Xu để mua kỹ năng này!"
+            - "[sound] ENTITY_VILLAGER_NO"
+    click_commands:
+      - "[console] points take %player_name% 800"
+      - "[console] lp user %player_name% permission set kynang.bang2"
+      - "[message] &aBạn đã mua vĩnh viễn kỹ năng thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[refresh]"
+  luabv2_owned:
+    display_name: "&c&l⋨⋨⋨ LỬA V2 ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzM1ZTJhYzQ0ZjI0MmJkNGVhZjI1MWQwZjRhMDUzM2U2OTJiOGNkOGQyMWQ1NDkxNGU1ZmU3Y2E0ODQzYzkzNiJ9fX0=
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &cV1 &7/ &cV2"
+      - "  &a✧ &7Loại: &cHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &cHuyền Thoại"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&a&l✔ BẠN ĐÃ SỞ HỮU VĨNH VIỄN"
+      - "&e➤ Bấm vào để SỬ DỤNG kỹ năng này!"
+    priority: 1
+    view_requirement:
+      requirements:
+        owned:
+          type: has permission
+          permission: kynang.luabv2
+    click_commands:
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[message] &aĐã trang bị thành công kỹ năng &e&c&l⋨⋨⋨ LỬA V2 ⋩⋩⋩&a!"
+      - "[console] solo setclass %player_name% luav2"
+  luabv2:
+    display_name: "&c&l⋨⋨⋨ LỬA V2 ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzM1ZTJhYzQ0ZjI0MmJkNGVhZjI1MWQwZjRhMDUzM2U2OTJiOGNkOGQyMWQ1NDkxNGU1ZmU3Y2E0ODQzYzkzNiJ9fX0=
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &cV1 &7/ &cV2"
+      - "  &a✧ &7Loại: &cHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &cHuyền Thoại"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&c&l✖ BẠN CHƯA SỞ HỮU VĨNH VIỄN"
+      - ""
+      - "&e&l💡 MẸO: &fBạn có thể mua vĩnh viễn rẻ hơn"
+      - "  &ftại thương nhân bán theo thời gian &e/goiqua"
+      - ""
+      - "&a&l💰 GIÁ BÁN TRỰC TIẾP: &e800 Xu"
+      - "&b➤ Click để MUA VĨNH VIỄN kỹ năng này!"
+    priority: 2
+    click_requirement:
+      requirements:
+        xu:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "800"
+          deny_commands:
+            - "[message] &cBạn không đủ 800 Xu để mua kỹ năng này!"
+            - "[sound] ENTITY_VILLAGER_NO"
+    click_commands:
+      - "[console] points take %player_name% 800"
+      - "[console] lp user %player_name% permission set kynang.luabv2"
+      - "[message] &aBạn đã mua vĩnh viễn kỹ năng thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[refresh]"
+  magma_owned:
+    display_name: "&c&l⋨⋨⋨ NHAM THẠCH ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI1MDhjNzc5ZjMxMmRhZmYzMzdkMTM3ZjM0ZGQzNjVhM2Y5YzEzMmJkOTJlYjBjNWZmYWI3YzViNGE1NWM1In19fQ==
+    slot: 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &cV1"
+      - "  &a✧ &7Loại: &cHệ Đỡ Đòn"
+      - "  &a✧ &7Độ hiếm: &cHuyền Thoại"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&a&l✔ BẠN ĐÃ SỞ HỮU VĨNH VIỄN"
+      - "&e➤ Bấm vào để SỬ DỤNG kỹ năng này!"
+    priority: 1
+    view_requirement:
+      requirements:
+        owned:
+          type: has permission
+          permission: kynang.magma
+    click_commands:
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[message] &aĐã trang bị thành công kỹ năng &e&c&l⋨⋨⋨ NHAM THẠCH ⋩⋩⋩&a!"
+      - "[console] solo setclass %player_name% magma"
+  magma:
+    display_name: "&c&l⋨⋨⋨ NHAM THẠCH ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI1MDhjNzc5ZjMxMmRhZmYzMzdkMTM3ZjM0ZGQzNjVhM2Y5YzEzMmJkOTJlYjBjNWZmYWI3YzViNGE1NWM1In19fQ==
+    slot: 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &cV1"
+      - "  &a✧ &7Loại: &cHệ Đỡ Đòn"
+      - "  &a✧ &7Độ hiếm: &cHuyền Thoại"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&c&l✖ BẠN CHƯA SỞ HỮU VĨNH VIỄN"
+      - ""
+      - "&e&l💡 MẸO: &fBạn có thể mua vĩnh viễn rẻ hơn"
+      - "  &ftại thương nhân bán theo thời gian &e/goiqua"
+      - ""
+      - "&a&l💰 GIÁ BÁN TRỰC TIẾP: &e800 Xu"
+      - "&b➤ Click để MUA VĨNH VIỄN kỹ năng này!"
+    priority: 2
+    click_requirement:
+      requirements:
+        xu:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "800"
+          deny_commands:
+            - "[message] &cBạn không đủ 800 Xu để mua kỹ năng này!"
+            - "[sound] ENTITY_VILLAGER_NO"
+    click_commands:
+      - "[console] points take %player_name% 800"
+      - "[console] lp user %player_name% permission set kynang.magma"
+      - "[message] &aBạn đã mua vĩnh viễn kỹ năng thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[refresh]"
+  poison_owned:
+    display_name: "&e&l⋨⋨&kk&r &e&lĐỘC &kk&r&e&l⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI1NzViYzk0NzY0OGI3ZmU2OGYxYjYyM2ZlYjdmNzcyODZmOTZhMTc5ODk1ZDcyZDI3MThmOTRiODljNjMifX19
+    slot: 19
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Sát Thủ"
+      - "  &a✧ &7Độ hiếm: &e☬&lThần Thoại&e☬"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&a&l✔ BẠN ĐÃ SỞ HỮU VĨNH VIỄN"
+      - "&e➤ Bấm vào để SỬ DỤNG kỹ năng này!"
+    priority: 1
+    view_requirement:
+      requirements:
+        owned:
+          type: has permission
+          permission: kynang.poison
+    click_commands:
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[message] &aĐã trang bị thành công kỹ năng &e&e&l⋨⋨&kk&r &e&lĐỘC &kk&r&e&l⋩⋩&a!"
+      - "[console] solo setclass %player_name% doc"
+  poison:
+    display_name: "&e&l⋨⋨&kk&r &e&lĐỘC &kk&r&e&l⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI1NzViYzk0NzY0OGI3ZmU2OGYxYjYyM2ZlYjdmNzcyODZmOTZhMTc5ODk1ZDcyZDI3MThmOTRiODljNjMifX19
+    slot: 19
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Sát Thủ"
+      - "  &a✧ &7Độ hiếm: &e☬&lThần Thoại&e☬"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&c&l✖ BẠN CHƯA SỞ HỮU VĨNH VIỄN"
+      - ""
+      - "&e&l💡 MẸO: &fBạn có thể mua vĩnh viễn rẻ hơn"
+      - "  &ftại thương nhân bán theo thời gian &e/goiqua"
+      - ""
+      - "&a&l💰 GIÁ BÁN TRỰC TIẾP: &e1500 Xu"
+      - "&b➤ Click để MUA VĨNH VIỄN kỹ năng này!"
+    priority: 2
+    click_requirement:
+      requirements:
+        xu:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "1500"
+          deny_commands:
+            - "[message] &cBạn không đủ 1500 Xu để mua kỹ năng này!"
+            - "[sound] ENTITY_VILLAGER_NO"
+    click_commands:
+      - "[console] points take %player_name% 1500"
+      - "[console] lp user %player_name% permission set kynang.poison"
+      - "[message] &aBạn đã mua vĩnh viễn kỹ năng thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[refresh]"
+  viemthuong_owned:
+    display_name: "&e&l⋨⋨⋨ VIÊM THƯƠNG KỴ SĨ ⋩⋩⋩"
+    material: hdb-37875
+    slot: 20
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &cThức Tỉnh"
+      - "  &a✧ &7Loại: &cHệ Chiến Binh"
+      - "  &a✧ &7Độ hiếm: &6&lThần Thoại"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&a&l✔ BẠN ĐÃ SỞ HỮU VĨNH VIỄN"
+      - "&e➤ Bấm vào để SỬ DỤNG kỹ năng này!"
+    priority: 1
+    view_requirement:
+      requirements:
+        owned:
+          type: has permission
+          permission: kynang.viemthuong
+    click_commands:
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[message] &aĐã trang bị thành công kỹ năng &e&e&l⋨⋨⋨ VIÊM THƯƠNG KỴ SĨ ⋩⋩⋩&a!"
+      - "[console] solo setclass %player_name% viemthuong"
+  viemthuong:
+    display_name: "&e&l⋨⋨⋨ VIÊM THƯƠNG KỴ SĨ ⋩⋩⋩"
+    material: hdb-37875
+    slot: 20
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &cThức Tỉnh"
+      - "  &a✧ &7Loại: &cHệ Chiến Binh"
+      - "  &a✧ &7Độ hiếm: &6&lThần Thoại"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&c&l✖ BẠN CHƯA SỞ HỮU VĨNH VIỄN"
+      - ""
+      - "&e&l💡 MẸO: &fBạn có thể mua vĩnh viễn rẻ hơn"
+      - "  &ftại thương nhân bán theo thời gian &e/goiqua"
+      - ""
+      - "&a&l💰 GIÁ BÁN TRỰC TIẾP: &e1500 Xu"
+      - "&b➤ Click để MUA VĨNH VIỄN kỹ năng này!"
+    priority: 2
+    click_requirement:
+      requirements:
+        xu:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "1500"
+          deny_commands:
+            - "[message] &cBạn không đủ 1500 Xu để mua kỹ năng này!"
+            - "[sound] ENTITY_VILLAGER_NO"
+    click_commands:
+      - "[console] points take %player_name% 1500"
+      - "[console] lp user %player_name% permission set kynang.viemthuong"
+      - "[message] &aBạn đã mua vĩnh viễn kỹ năng thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[refresh]"
+  bongtoi_owned:
+    display_name: "&e&l⋨⋨&kk&r &e&lBÓNG TỐI &kk&r&e&l⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg4MTMwOTI1NmEwNjQxMzVjMDlkNDhiNzM4ODgxYzcwMmU5Y2RjMTMwNjJkYzk5MjdjZWM0ZWM0ZmU1ZWQ3YiJ9fX0=
+    slot: 21
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Hắc Ám"
+      - "  &a✧ &7Độ hiếm: &e☬&lThần Thoại&e☬"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&a&l✔ BẠN ĐÃ SỞ HỮU VĨNH VIỄN"
+      - "&e➤ Bấm vào để SỬ DỤNG kỹ năng này!"
+    priority: 1
+    view_requirement:
+      requirements:
+        owned:
+          type: has permission
+          permission: kynang.bongtoi
+    click_commands:
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[message] &aĐã trang bị thành công kỹ năng &e&e&l⋨⋨&kk&r &e&lBÓNG TỐI &kk&r&e&l⋩⋩&a!"
+      - "[console] solo setclass %player_name% bongtoi"
+  bongtoi:
+    display_name: "&e&l⋨⋨&kk&r &e&lBÓNG TỐI &kk&r&e&l⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg4MTMwOTI1NmEwNjQxMzVjMDlkNDhiNzM4ODgxYzcwMmU5Y2RjMTMwNjJkYzk5MjdjZWM0ZWM0ZmU1ZWQ3YiJ9fX0=
+    slot: 21
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Hắc Ám"
+      - "  &a✧ &7Độ hiếm: &e☬&lThần Thoại&e☬"
+      - ""
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&c&l✖ BẠN CHƯA SỞ HỮU VĨNH VIỄN"
+      - ""
+      - "&e&l💡 MẸO: &fBạn có thể mua vĩnh viễn rẻ hơn"
+      - "  &ftại thương nhân bán theo thời gian &e/goiqua"
+      - ""
+      - "&a&l💰 GIÁ BÁN TRỰC TIẾP: &e1500 Xu"
+      - "&b➤ Click để MUA VĨNH VIỄN kỹ năng này!"
+    priority: 2
+    click_requirement:
+      requirements:
+        xu:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "1500"
+          deny_commands:
+            - "[message] &cBạn không đủ 1500 Xu để mua kỹ năng này!"
+            - "[sound] ENTITY_VILLAGER_NO"
+    click_commands:
+      - "[console] points take %player_name% 1500"
+      - "[console] lp user %player_name% permission set kynang.bongtoi"
+      - "[message] &aBạn đã mua vĩnh viễn kỹ năng thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[refresh]"
+  THUYLONG_owned:
+    display_name: "&b⚘⊱ ─&b&l&k┊&b─ {.⋅ &b&lTHỦY LONG&b ⋅.} ─&b&l&k┊&b─ ⊰⚘"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY0MmQ5MjMxNTBhNTQ2NDk5MzNjNTVlYjhlNzZmYzJhM2ZiMGZhZTZmOGFmYWRjNmYyNDU4MzMxYjNjZWM3MyJ9fX0=
+    slot: 22
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &bV1 &7/ &bV2"
+      - "  &a✧ &7Loại: &bHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &b✵&lThượng Phẩm&b✵"
+      - ""
+      - "&c&l⊱ ─&c&l&k┊&c─ {.⋅ &c&lBạo Long&c ⋅.} ─&c&l&k┊&c─ ⊰"
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&a&l✔ BẠN ĐÃ SỞ HỮU VĨNH VIỄN"
+      - "&e➤ Bấm vào để SỬ DỤNG kỹ năng này!"
+    priority: 1
+    view_requirement:
+      requirements:
+        owned:
+          type: has permission
+          permission: kynang.THUYLONG
+    click_commands:
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[message] &aĐã trang bị thành công kỹ năng &e&b⚘⊱ ─&b&l&k┊&b─ {.⋅ &b&lTHỦY LONG&b ⋅.} ─&b&l&k┊&b─ ⊰⚘&a!"
+      - "[console] solo setclass %player_name% thuylong"
+  THUYLONG:
+    display_name: "&b⚘⊱ ─&b&l&k┊&b─ {.⋅ &b&lTHỦY LONG&b ⋅.} ─&b&l&k┊&b─ ⊰⚘"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY0MmQ5MjMxNTBhNTQ2NDk5MzNjNTVlYjhlNzZmYzJhM2ZiMGZhZTZmOGFmYWRjNmYyNDU4MzMxYjNjZWM3MyJ9fX0=
+    slot: 22
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &bV1 &7/ &bV2"
+      - "  &a✧ &7Loại: &bHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &b✵&lThượng Phẩm&b✵"
+      - ""
+      - "&c&l⊱ ─&c&l&k┊&c─ {.⋅ &c&lBạo Long&c ⋅.} ─&c&l&k┊&c─ ⊰"
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&c&l✖ BẠN CHƯA SỞ HỮU VĨNH VIỄN"
+      - ""
+      - "&e&l💡 MẸO: &fBạn có thể mua vĩnh viễn rẻ hơn"
+      - "  &ftại thương nhân bán theo thời gian &e/goiqua"
+      - ""
+      - "&a&l💰 GIÁ BÁN TRỰC TIẾP: &e2200 Xu"
+      - "&b➤ Click để MUA VĨNH VIỄN kỹ năng này!"
+    priority: 2
+    click_requirement:
+      requirements:
+        xu:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "2200"
+          deny_commands:
+            - "[message] &cBạn không đủ 2200 Xu để mua kỹ năng này!"
+            - "[sound] ENTITY_VILLAGER_NO"
+    click_commands:
+      - "[console] points take %player_name% 2200"
+      - "[console] lp user %player_name% permission set kynang.THUYLONG"
+      - "[message] &aBạn đã mua vĩnh viễn kỹ năng thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[refresh]"
+  HUYDIET_owned:
+    display_name: "&e⋇⊶⊰❣⊱⊷⋇ &e&l&k┊&e🎕⋅⚘ &e&lHỦY DIỆT&e ⚘⋅🎕&e&l&k┊&e &e⋇⊶⊰❣⊱⊷⋇"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUxZWY1ODNlZjFmYjUyZjI2MjI0ZWM1YzE2ZjU5Njg3YzM2YjMzNDkxZTBkZDAxODMyYTkwNTUzOGNhM2FkZSJ9fX0=
+    slot: 23
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &e✵&lThượng Phẩm&e✵"
+      - ""
+      - "&4&l⊱ ─&4&l&k┊&4─ {.⋅ &4&lTàn Diệt&4 ⋅.} ─&4&l&k┊&4─ ⊰"
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&a&l✔ BẠN ĐÃ SỞ HỮU VĨNH VIỄN"
+      - "&e➤ Bấm vào để SỬ DỤNG kỹ năng này!"
+    priority: 1
+    view_requirement:
+      requirements:
+        owned:
+          type: has permission
+          permission: kynang.HUYDIET
+    click_commands:
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[message] &aĐã trang bị thành công kỹ năng &e&e⋇⊶⊰❣⊱⊷⋇ &e&l&k┊&e🎕⋅⚘ &e&lHỦY DIỆT&e ⚘⋅🎕&e&l&k┊&e &e⋇⊶⊰❣⊱⊷⋇&a!"
+      - "[console] solo setclass %player_name% huydiet"
+  HUYDIET:
+    display_name: "&e⋇⊶⊰❣⊱⊷⋇ &e&l&k┊&e🎕⋅⚘ &e&lHỦY DIỆT&e ⚘⋅🎕&e&l&k┊&e &e⋇⊶⊰❣⊱⊷⋇"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUxZWY1ODNlZjFmYjUyZjI2MjI0ZWM1YzE2ZjU5Njg3YzM2YjMzNDkxZTBkZDAxODMyYTkwNTUzOGNhM2FkZSJ9fX0=
+    slot: 23
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &e✵&lThượng Phẩm&e✵"
+      - ""
+      - "&4&l⊱ ─&4&l&k┊&4─ {.⋅ &4&lTàn Diệt&4 ⋅.} ─&4&l&k┊&4─ ⊰"
+      - "    &a&l☁ &f&omc.minerua.net"
+      - ""
+      - "&b➤ Xem thông tin kỹ năng chi tiết tại lệnh &l/skill"
+      - ""
+      - "&c&l✖ BẠN CHƯA SỞ HỮU VĨNH VIỄN"
+      - ""
+      - "&e&l💡 MẸO: &fBạn có thể mua vĩnh viễn rẻ hơn"
+      - "  &ftại thương nhân bán theo thời gian &e/goiqua"
+      - ""
+      - "&a&l💰 GIÁ BÁN TRỰC TIẾP: &e2200 Xu"
+      - "&b➤ Click để MUA VĨNH VIỄN kỹ năng này!"
+    priority: 2
+    click_requirement:
+      requirements:
+        xu:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "2200"
+          deny_commands:
+            - "[message] &cBạn không đủ 2200 Xu để mua kỹ năng này!"
+            - "[sound] ENTITY_VILLAGER_NO"
+    click_commands:
+      - "[console] points take %player_name% 2200"
+      - "[console] lp user %player_name% permission set kynang.HUYDIET"
+      - "[message] &aBạn đã mua vĩnh viễn kỹ năng thành công!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[refresh]"

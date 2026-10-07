@@ -1,0 +1,692 @@
+# ==================== TALISMANS ====================
+
+TALISMAN_1:
+  base:
+    material: PAPER
+    tier: E
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &a&lBậc I'
+    pve-damage:
+      base: 1.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 2.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_2:
+  base:
+    material: PAPER
+    tier: E
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &a&lBậc II'
+    pve-damage:
+      base: 2.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 3.3
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_3:
+  base:
+    material: PAPER
+    tier: E
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &a&lBậc III'
+    pve-damage:
+      base: 3.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 4.6
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_4:
+  base:
+    material: PAPER
+    tier: E
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &a&lBậc IV'
+    pve-damage:
+      base: 4.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 5.9
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_5:
+  base:
+    material: PAPER
+    tier: E
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &a&lBậc V'
+    pve-damage:
+      base: 5.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 7.2
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_6:
+  base:
+    material: PAPER
+    tier: E
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &a&lBậc VI'
+    pve-damage:
+      base: 6.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 8.6
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_7:
+  base:
+    material: PAPER
+    tier: D
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &b&lBậc VII'
+    pve-damage:
+      base: 7.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 9.9
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_8:
+  base:
+    material: PAPER
+    tier: D
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &b&lBậc VIII'
+    pve-damage:
+      base: 8.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 11.2
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_9:
+  base:
+    material: PAPER
+    tier: D
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &b&lBậc IX'
+    pve-damage:
+      base: 9.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 12.5
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_10:
+  base:
+    material: PAPER
+    tier: D
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &b&lBậc X'
+    pve-damage:
+      base: 10.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 13.8
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_11:
+  base:
+    material: PAPER
+    tier: D
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &b&lBậc XI'
+    pve-damage:
+      base: 11.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 15.1
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_12:
+  base:
+    material: PAPER
+    tier: D
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &b&lBậc XII'
+    pve-damage:
+      base: 12.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 16.4
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_13:
+  base:
+    material: PAPER
+    tier: C
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &d&lBậc XIII'
+    pve-damage:
+      base: 13.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 17.7
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_14:
+  base:
+    material: PAPER
+    tier: C
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &d&lBậc XIV'
+    pve-damage:
+      base: 14.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 19.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_15:
+  base:
+    material: PAPER
+    tier: C
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &d&lBậc XV'
+    pve-damage:
+      base: 15.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 20.3
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_16:
+  base:
+    material: PAPER
+    tier: C
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &d&lBậc XVI'
+    pve-damage:
+      base: 16.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 21.7
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_17:
+  base:
+    material: PAPER
+    tier: C
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &d&lBậc XVII'
+    pve-damage:
+      base: 17.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 23.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_18:
+  base:
+    material: PAPER
+    tier: C
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &d&lBậc XVIII'
+    pve-damage:
+      base: 18.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 24.3
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_19:
+  base:
+    material: PAPER
+    tier: B
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &c&lBậc XIX'
+    pve-damage:
+      base: 19.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 25.6
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_20:
+  base:
+    material: PAPER
+    tier: B
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &c&lBậc XX'
+    pve-damage:
+      base: 20.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 26.9
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_21:
+  base:
+    material: PAPER
+    tier: B
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &c&lBậc XXI'
+    pve-damage:
+      base: 21.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 28.2
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_22:
+  base:
+    material: PAPER
+    tier: B
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &c&lBậc XXII'
+    pve-damage:
+      base: 22.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 29.5
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_23:
+  base:
+    material: PAPER
+    tier: B
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &c&lBậc XXIII'
+    pve-damage:
+      base: 23.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 30.8
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_24:
+  base:
+    material: PAPER
+    tier: B
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &c&lBậc XXIV'
+    pve-damage:
+      base: 24.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 32.1
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_25:
+  base:
+    material: PAPER
+    tier: A
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &6&lBậc XXV'
+    pve-damage:
+      base: 25.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 33.4
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_26:
+  base:
+    material: PAPER
+    tier: A
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &6&lBậc XXVI'
+    pve-damage:
+      base: 26.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 34.8
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_27:
+  base:
+    material: PAPER
+    tier: A
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &6&lBậc XXVII'
+    pve-damage:
+      base: 27.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 36.1
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_28:
+  base:
+    material: PAPER
+    tier: A
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &6&lBậc XXVIII'
+    pve-damage:
+      base: 28.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 37.4
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_29:
+  base:
+    material: PAPER
+    tier: A
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &6&lBậc XXIX'
+    pve-damage:
+      base: 29.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 38.7
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+TALISMAN_30:
+  base:
+    material: PAPER
+    tier: A
+    unstackable: true
+    name: '&8&l✦ &f&lCỔ NGỮ &8» &6&lBậc XXX'
+    pve-damage:
+      base: 30.0
+      spread: 0.1
+      max-spread: 0.3
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô cổ ngữ'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    attack-damage:
+      base: 40.0
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true

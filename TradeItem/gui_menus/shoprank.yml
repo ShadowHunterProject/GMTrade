@@ -1,0 +1,1684 @@
+menu_title: "&8✦ &e&lCỬA HÀNG RANK &8✦"
+open_command:
+  - rankshop
+  - muarank
+  - rank
+open_commands:
+  - "[sound] UI_TOAST_CHALLENGE_COMPLETE 0.5 1.0"
+size: 54
+update_interval: 1
+
+items:
+  fill_black:
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: "&0"
+    slots:
+      - 0-8
+      - 45-53
+  fill_gray:
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: "&0"
+    slots:
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 44
+  fill_light:
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    display_name: "&0"
+    slots:
+      - 10
+      - 16
+      - 19
+      - 25
+      - 28
+      - 34
+      - 37
+      - 43
+  fill_gold:
+    material: YELLOW_STAINED_GLASS_PANE
+    display_name: "&0"
+    slots:
+      - 1
+      - 7
+      - 46
+      - 52
+  fill_corner:
+    material: ORANGE_STAINED_GLASS_PANE
+    display_name: "&0"
+    slots:
+      - 0
+      - 8
+      - 45
+  back_menu:
+    material: Basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    display_name: "&c&l❖ TRỞ VỀ ❖"
+    lore:
+      - "&8&m──────────────"
+      - "&7➤ &fQuay lại &aGiao Diện Chính"
+      - ""
+      - "&e&l» &aNhấn để mở menu"
+      - "&8&m──────────────"
+    slot: 53
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] menu"
+  title:
+    material: NAME_TAG
+    slot: 4
+    display_name: "&8✦ &e&lRANK SHOP &8✦"
+    lore:
+      - ""
+      - "&7• Mua rank VIP bằng &bXu&7."
+      - "&7• Rank có giá trị &aVĩnh viễn&7."
+      - "&7• Cần mua theo thứ tự từ thấp đến cao."
+      - ""
+      - "&bXu của bạn: &f%playerpoints_points%"
+      - "&eChọn rank bên dưới để nâng cấp."
+    enchantments:
+      - DURABILITY;1
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  help:
+    material: BOOK
+    slot: 47
+    display_name: "&e✦ &fHướng dẫn"
+    lore:
+      - ""
+      - "&7• Click để mua."
+      - "&7• Nếu đã sở hữu, sẽ hiện &aĐã sở hữu&7."
+      - "&7• Khi thiếu Xu hoặc chưa có rank trước sẽ báo đỏ."
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  roadmap:
+    material: COMPASS
+    slot: 48
+    display_name: "&b✦ &fLộ trình Rank"
+    lore:
+      - ""
+      - "&7Mặc định &8➜ VIP 1 &8➜ VIP 2 &8➜ ... &8➜ VIP 15"
+      - ""
+      - "&8• Mua theo thứ tự để mở khoá dần các lệnh."
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  close:
+    material: BARRIER
+    slot: 50
+    display_name: "&4✖ &fĐóng"
+    lore:
+      - "&7Đóng cửa hàng."
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+      - "[close]"
+
+  # ==============================
+  # VIP 1
+  # ==============================
+  vip1_owned:
+    material: COAL
+    priority: 1
+    slot: 11
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#fcd05c&lV&#ffffff&lI&lP&l1&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f2 Slots&8]"
+      - " &8| &a/ah &8[&f2 Slots&8]"
+      - " &8| &eAutofarm &8[&f60 phút/ngày&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx0.5&8]"
+      - " &8| &bEXP Level Shadow &8[&fx0.5&8]"
+      - " &8| &a/kit &8[&#fcd05c&lV&#ffffff&lI&lP&l1&r&8]"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱ &7x&f2"
+      - " &8➤ &f5.000 &eTiền"
+      - " &8➤ &aKit: &#fcd05c&lV&#ffffff&lI&lP&l1&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(1 Tiếng)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(1 Tiếng)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip1
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip1_buy:
+    material: COAL
+    priority: 2
+    slot: 11
+    display_name: "&8✦ &7&lMua Rank &8» &#fcd05c&lV&#ffffff&lI&lP&l1&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f2 Slots&8]"
+      - " &8| &a/ah &8[&f2 Slots&8]"
+      - " &8| &eAutofarm &8[&f60 phút/ngày&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx0.5&8]"
+      - " &8| &bEXP Level Shadow &8[&fx0.5&8]"
+      - " &8| &a/kit &8[&#fcd05c&lV&#ffffff&lI&lP&l1&r&8]"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱ &7x&f2"
+      - " &8➤ &f5.000 &eTiền"
+      - " &8➤ &aKit: &#fcd05c&lV&#ffffff&lI&lP&l1&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(1 Tiếng)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(1 Tiếng)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f50 &6Xu"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "50"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesonline 2"
+      - "[console] eco give %player_name% 5000"
+      - "[console] p take %player_name% 50"
+      - "[console] lp user %player_name% parent add vip1"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#fcd05c&lV&#ffffff&lI&lP&l1&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#fcd05c&lV&#ffffff&lI&lP&l1&r&f!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-1h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-1h"
+      - "[refresh]"
+
+  # ==============================
+  # VIP 2
+  # ==============================
+  vip2_owned:
+    material: COPPER_INGOT
+    priority: 1
+    slot: 12
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#fcd05c&lV&#fee8ae&lI&#ffffff&lP&#faedcb&l2&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f2 Slots&8]"
+      - " &8| &a/ah &8[&f3 Slots&8]"
+      - " &8| &eAutofarm &8[&f90 phút/ngày&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx0.8&8]"
+      - " &8| &bEXP Level Shadow &8[&fx0.8&8]"
+      - " &8| &a/kit &8[&#fcd05c&lV&#fee8ae&lI&#ffffff&lP&#faedcb&l2&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱ &7x&f4"
+      - " &8➤ &f10.000 &eTiền"
+      - " &8➤ &aKit: &#fcd05c&lV&#fee8ae&lI&#ffffff&lP&#faedcb&l2&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(3 Tiếng)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(3 Tiếng)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip2
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip2_buy:
+    material: COPPER_INGOT
+    priority: 2
+    slot: 12
+    display_name: "&8✦ &7&lMua Rank &8» &#fcd05c&lV&#fee8ae&lI&#ffffff&lP&#faedcb&l2&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f2 Slots&8]"
+      - " &8| &a/ah &8[&f3 Slots&8]"
+      - " &8| &eAutofarm &8[&f90 phút/ngày&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx0.8&8]"
+      - " &8| &bEXP Level Shadow &8[&fx0.8&8]"
+      - " &8| &a/kit &8[&#fcd05c&lV&#fee8ae&lI&#ffffff&lP&#faedcb&l2&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱ &7x&f4"
+      - " &8➤ &f10.000 &eTiền"
+      - " &8➤ &aKit: &#fcd05c&lV&#fee8ae&lI&#ffffff&lP&#faedcb&l2&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(3 Tiếng)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(3 Tiếng)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f150 &6Xu"
+      - "&c(Yêu cầu: VIP 1)"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        has_prev:
+          type: has permission
+          permission: group.vip1
+          deny_commands:
+            - "[message] &cBạn cần mua rank VIP 1 trước!"
+            - "[sound] ENTITY_VILLAGER_NO"
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "150"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesonline 4"
+      - "[console] eco give %player_name% 10000"
+      - "[console] p take %player_name% 150"
+      - "[console] lp user %player_name% parent add vip2"
+      - "[console] lp user %player_name% parent remove vip1"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#fcd05c&lV&#fee8ae&lI&#ffffff&lP&#faedcb&l2&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#fcd05c&lV&#fee8ae&lI&#ffffff&lP&#faedcb&l2&r&f!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-3h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-3h"
+      - "[refresh]"
+
+  # ==============================
+  # VIP 3
+  # ==============================
+  vip3_owned:
+    material: IRON_INGOT
+    priority: 1
+    slot: 13
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#5fe2c5&lV&#aff1e2&lI&#ffffff&lP&l3&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f3 Slots&8]"
+      - " &8| &a/ah &8[&f4 Slots&8]"
+      - " &8| &a/hat &8[&fĐội item lên đầu&8]"
+      - " &8| &eAutofarm &8[&f120 phút/ngày&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx1.2&8]"
+      - " &8| &bEXP Level Shadow &8[&fx1.2&8]"
+      - " &8| &a/kit &8[&#5fe2c5&lV&#aff1e2&lI&#ffffff&lP&l3&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱ &7x&f6"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f2"
+      - " &8➤ &f20.000 &eTiền"
+      - " &8➤ &aKit: &#5fe2c5&lV&#aff1e2&lI&#ffffff&lP&l3&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(5 Tiếng)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(5 Tiếng)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip3
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip3_buy:
+    material: IRON_INGOT
+    priority: 2
+    slot: 13
+    display_name: "&8✦ &7&lMua Rank &8» &#5fe2c5&lV&#aff1e2&lI&#ffffff&lP&l3&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f3 Slots&8]"
+      - " &8| &a/ah &8[&f4 Slots&8]"
+      - " &8| &a/hat &8[&fĐội item lên đầu&8]"
+      - " &8| &eAutofarm &8[&f120 phút/ngày&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx1.2&8]"
+      - " &8| &bEXP Level Shadow &8[&fx1.2&8]"
+      - " &8| &a/kit &8[&#5fe2c5&lV&#aff1e2&lI&#ffffff&lP&l3&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱ &7x&f6"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f2"
+      - " &8➤ &f20.000 &eTiền"
+      - " &8➤ &aKit: &#5fe2c5&lV&#aff1e2&lI&#ffffff&lP&l3&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(5 Tiếng)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(5 Tiếng)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f400 &6Xu"
+      - "&c(Yêu cầu: VIP 2)"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        has_prev:
+          type: has permission
+          permission: group.vip2
+          deny_commands:
+            - "[message] &cBạn cần mua rank VIP 2 trước!"
+            - "[sound] ENTITY_VILLAGER_NO"
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "400"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesonline 6"
+      - "[console] crates key give %player_name% cratesckey 2"
+      - "[console] eco give %player_name% 20000"
+      - "[console] p take %player_name% 400"
+      - "[console] lp user %player_name% parent add vip3"
+      - "[console] lp user %player_name% parent remove vip2"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#5fe2c5&lV&#aff1e2&lI&#ffffff&lP&l3&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#5fe2c5&lV&#aff1e2&lI&#ffffff&lP&l3&r&f!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-5h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-5h"
+      - "[refresh]"
+
+  # ==============================
+  # VIP 4
+  # ==============================
+  vip4_owned:
+    material: GOLD_INGOT
+    priority: 1
+    slot: 14
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#4498db&lV&#a2cced&lI&#ffffff&lP&l4&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f3 Slots&8]"
+      - " &8| &a/ah &8[&f5 Slots&8]"
+      - " &8| &a/pweather &8[&fĐổi thời tiết cá nhân&8]"
+      - " &8| &eAutofarm &8[&f180 phút/ngày&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx1.6&8]"
+      - " &8| &bEXP Level Shadow &8[&fx1.6&8]"
+      - " &8| &a/kit &8[&#4498db&lV&#a2cced&lI&#ffffff&lP&l4&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱ &7x&f8"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f4"
+      - " &8➤ &f40.000 &eTiền"
+      - " &8➤ &aKit: &#4498db&lV&#a2cced&lI&#ffffff&lP&l4&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(8 Tiếng)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(8 Tiếng)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip4
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip4_buy:
+    material: GOLD_INGOT
+    priority: 2
+    slot: 14
+    display_name: "&8✦ &7&lMua Rank &8» &#4498db&lV&#a2cced&lI&#ffffff&lP&l4&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f3 Slots&8]"
+      - " &8| &a/ah &8[&f5 Slots&8]"
+      - " &8| &a/pweather &8[&fĐổi thời tiết cá nhân&8]"
+      - " &8| &eAutofarm &8[&f180 phút/ngày&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx1.6&8]"
+      - " &8| &bEXP Level Shadow &8[&fx1.6&8]"
+      - " &8| &a/kit &8[&#4498db&lV&#a2cced&lI&#ffffff&lP&l4&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱ &7x&f8"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f4"
+      - " &8➤ &f40.000 &eTiền"
+      - " &8➤ &aKit: &#4498db&lV&#a2cced&lI&#ffffff&lP&l4&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(8 Tiếng)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(8 Tiếng)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f800 &6Xu"
+      - "&c(Yêu cầu: VIP 3)"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        has_prev:
+          type: has permission
+          permission: group.vip3
+          deny_commands:
+            - "[message] &cBạn cần mua rank VIP 3 trước!"
+            - "[sound] ENTITY_VILLAGER_NO"
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "800"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesonline 8"
+      - "[console] crates key give %player_name% cratesckey 4"
+      - "[console] eco give %player_name% 40000"
+      - "[console] p take %player_name% 800"
+      - "[console] lp user %player_name% parent add vip4"
+      - "[console] lp user %player_name% parent remove vip3"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#4498db&lV&#a2cced&lI&#ffffff&lP&l4&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#4498db&lV&#a2cced&lI&#ffffff&lP&l4&r&f!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-8h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-8h"
+      - "[refresh]"
+
+  # ==============================
+  # VIP 5
+  # ==============================
+  vip5_owned:
+    material: REDSTONE
+    priority: 1
+    slot: 15
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#9863e7&lV&#ccb1f3&lI&#ffffff&lP&l5&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f4 Slots&8]"
+      - " &8| &a/ah &8[&f6 Slots&8]"
+      - " &8| &a/wb &8[&fBàn chế tạo di động&8]"
+      - " &8| &a/ec &8[&fMở túi đồ Ender&8]"
+      - " &8| &eAutofarm &8[&f240 phút/ngày&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx2&8]"
+      - " &8| &bEXP Level Shadow &8[&fx2&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx1&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-5%&8]"
+      - " &8| &a/kit &8[&#9863e7&lV&#ccb1f3&lI&#ffffff&lP&l5&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱ &7x&f10"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f6"
+      - " &8➤ &f60.000 &eTiền"
+      - " &8➤ &aKit: &#9863e7&lV&#ccb1f3&lI&#ffffff&lP&l5&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(12 Tiếng)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(12 Tiếng)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip5
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip5_buy:
+    material: REDSTONE
+    priority: 2
+    slot: 15
+    display_name: "&8✦ &7&lMua Rank &8» &#9863e7&lV&#ccb1f3&lI&#ffffff&lP&l5&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f4 Slots&8]"
+      - " &8| &a/ah &8[&f6 Slots&8]"
+      - " &8| &a/wb &8[&fBàn chế tạo di động&8]"
+      - " &8| &a/ec &8[&fMở túi đồ Ender&8]"
+      - " &8| &eAutofarm &8[&f240 phút/ngày&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx2&8]"
+      - " &8| &bEXP Level Shadow &8[&fx2&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx1&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-5%&8]"
+      - " &8| &a/kit &8[&#9863e7&lV&#ccb1f3&lI&#ffffff&lP&l5&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱ &7x&f10"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f6"
+      - " &8➤ &f60.000 &eTiền"
+      - " &8➤ &aKit: &#9863e7&lV&#ccb1f3&lI&#ffffff&lP&l5&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(12 Tiếng)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(12 Tiếng)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f1.500 &6Xu"
+      - "&c(Yêu cầu: VIP 4)"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        has_prev:
+          type: has permission
+          permission: group.vip4
+          deny_commands:
+            - "[message] &cBạn cần mua rank VIP 4 trước!"
+            - "[sound] ENTITY_VILLAGER_NO"
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "1500"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesonline 10"
+      - "[console] crates key give %player_name% cratesckey 6"
+      - "[console] eco give %player_name% 60000"
+      - "[console] p take %player_name% 1500"
+      - "[console] lp user %player_name% parent add vip5"
+      - "[console] lp user %player_name% parent remove vip4"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#9863e7&lV&#ccb1f3&lI&#ffffff&lP&l5&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#9863e7&lV&#ccb1f3&lI&#ffffff&lP&l5&r&f!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-12h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-12h"
+      - "[refresh]"
+
+  # ==============================
+  # VIP 6
+  # ==============================
+  vip6_owned:
+    material: LAPIS_LAZULI
+    priority: 1
+    slot: 20
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#e43a96&lV&#f29dcb&lI&#ffffff&lP&l6&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f4 Slots&8]"
+      - " &8| &a/ah &8[&f7 Slots&8]"
+      - " &8| &a/namecolor &8[&fĐổi màu tên&8]"
+      - " &8| &eAutofarm &8[&f300 phút/ngày&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx2.5&8]"
+      - " &8| &bEXP Level Shadow &8[&fx2.5&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx1.5&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-8%&8]"
+      - " &8| &a/kit &8[&#e43a96&lV&#f29dcb&lI&#ffffff&lP&l6&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱ &7x&f12"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f8"
+      - " &8➤ &f80.000 &eTiền"
+      - " &8➤ &aKit: &#e43a96&lV&#f29dcb&lI&#ffffff&lP&l6&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(1 Ngày)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(1 Ngày)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip6
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip6_buy:
+    material: LAPIS_LAZULI
+    priority: 2
+    slot: 20
+    display_name: "&8✦ &7&lMua Rank &8» &#e43a96&lV&#f29dcb&lI&#ffffff&lP&l6&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f4 Slots&8]"
+      - " &8| &a/ah &8[&f7 Slots&8]"
+      - " &8| &a/namecolor &8[&fĐổi màu tên&8]"
+      - " &8| &eAutofarm &8[&f300 phút/ngày&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx2.5&8]"
+      - " &8| &bEXP Level Shadow &8[&fx2.5&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx1.5&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-8%&8]"
+      - " &8| &a/kit &8[&#e43a96&lV&#f29dcb&lI&#ffffff&lP&l6&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱ &7x&f12"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f8"
+      - " &8➤ &f80.000 &eTiền"
+      - " &8➤ &aKit: &#e43a96&lV&#f29dcb&lI&#ffffff&lP&l6&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(1 Ngày)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(1 Ngày)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f2.500 &6Xu"
+      - "&c(Yêu cầu: VIP 5)"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        has_prev:
+          type: has permission
+          permission: group.vip5
+          deny_commands:
+            - "[message] &cBạn cần mua rank VIP 5 trước!"
+            - "[sound] ENTITY_VILLAGER_NO"
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "2500"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesonline 12"
+      - "[console] crates key give %player_name% cratesckey 8"
+      - "[console] eco give %player_name% 80000"
+      - "[console] p take %player_name% 2500"
+      - "[console] lp user %player_name% parent add vip6"
+      - "[console] lp user %player_name% parent remove vip5"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#e43a96&lV&#f29dcb&lI&#ffffff&lP&l6&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#e43a96&lV&#f29dcb&lI&#ffffff&lP&l6&r&f!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-24h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-24h"
+      - "[refresh]"
+
+  # ==============================
+  # VIP 7
+  # ==============================
+  vip7_owned:
+    material: AMETHYST_SHARD
+    priority: 1
+    slot: 21
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#555555&lV&#aaaaaa&lI&#ffffff&lP&l7&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f5 Slots&8]"
+      - " &8| &a/ah &8[&f8 Slots&8]"
+      - " &8| &a/nick &8[&fĐổi biệt danh&8]"
+      - " &8| &eAutofarm &8[&f360 phút/ngày&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx3&8]"
+      - " &8| &bEXP Level Shadow &8[&fx3&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx2&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-12%&8]"
+      - " &8| &a/kit &8[&#555555&lV&#aaaaaa&lI&#ffffff&lP&l7&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱ &7x&f14"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f10"
+      - " &8➤ &f100.000 &eTiền"
+      - " &8➤ &aKit: &#555555&lV&#aaaaaa&lI&#ffffff&lP&l7&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(36 Tiếng)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(36 Tiếng)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip7
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip7_buy:
+    material: AMETHYST_SHARD
+    priority: 2
+    slot: 21
+    display_name: "&8✦ &7&lMua Rank &8» &#555555&lV&#aaaaaa&lI&#ffffff&lP&l7&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f5 Slots&8]"
+      - " &8| &a/ah &8[&f8 Slots&8]"
+      - " &8| &a/nick &8[&fĐổi biệt danh&8]"
+      - " &8| &eAutofarm &8[&f360 phút/ngày&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx3&8]"
+      - " &8| &bEXP Level Shadow &8[&fx3&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx2&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-12%&8]"
+      - " &8| &a/kit &8[&#555555&lV&#aaaaaa&lI&#ffffff&lP&l7&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱ &7x&f14"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f10"
+      - " &8➤ &f100.000 &eTiền"
+      - " &8➤ &aKit: &#555555&lV&#aaaaaa&lI&#ffffff&lP&l7&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(36 Tiếng)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(36 Tiếng)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f4.000 &6Xu"
+      - "&c(Yêu cầu: VIP 6)"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        has_prev:
+          type: has permission
+          permission: group.vip6
+          deny_commands:
+            - "[message] &cBạn cần mua rank VIP 6 trước!"
+            - "[sound] ENTITY_VILLAGER_NO"
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "4000"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesonline 14"
+      - "[console] crates key give %player_name% cratesckey 10"
+      - "[console] eco give %player_name% 100000"
+      - "[console] p take %player_name% 4000"
+      - "[console] lp user %player_name% parent add vip7"
+      - "[console] lp user %player_name% parent remove vip6"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#555555&lV&#aaaaaa&lI&#ffffff&lP&l7&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#555555&lV&#aaaaaa&lI&#ffffff&lP&l7&r&f!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-36h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-36h"
+      - "[refresh]"
+
+  # ==============================
+  # VIP 8
+  # ==============================
+  vip8_owned:
+    material: QUARTZ
+    priority: 1
+    slot: 22
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#555555&lV&#8a5652&lI&#c0584e&lP&#f5594b&l8&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f5 Slots&8]"
+      - " &8| &a/ah &8[&f9 Slots&8]"
+      - " &8| &a/feed &8[&fLàm no bụng&8]"
+      - " &8| &a/gradient &8[&fTạo màu chữ Gradient&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx3.6&8]"
+      - " &8| &bEXP Level Shadow &8[&fx3.6&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx2.5&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-16%&8]"
+      - " &8| &a/kit &8[&#555555&lV&#8a5652&lI&#c0584e&lP&#f5594b&l8&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f5"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f12"
+      - " &8➤ &f150.000 &eTiền"
+      - " &8➤ &aKit: &#555555&lV&#8a5652&lI&#c0584e&lP&#f5594b&l8&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(2 Ngày)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(2 Ngày)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip8
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip8_buy:
+    material: QUARTZ
+    priority: 2
+    slot: 22
+    display_name: "&8✦ &7&lMua Rank &8» &#555555&lV&#8a5652&lI&#c0584e&lP&#f5594b&l8&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f5 Slots&8]"
+      - " &8| &a/ah &8[&f9 Slots&8]"
+      - " &8| &a/feed &8[&fLàm no bụng&8]"
+      - " &8| &a/gradient &8[&fTạo màu chữ Gradient&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx3.6&8]"
+      - " &8| &bEXP Level Shadow &8[&fx3.6&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx2.5&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-16%&8]"
+      - " &8| &a/kit &8[&#555555&lV&#8a5652&lI&#c0584e&lP&#f5594b&l8&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f5"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f12"
+      - " &8➤ &f150.000 &eTiền"
+      - " &8➤ &aKit: &#555555&lV&#8a5652&lI&#c0584e&lP&#f5594b&l8&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(2 Ngày)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(2 Ngày)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f6.500 &6Xu"
+      - "&c(Yêu cầu: VIP 7)"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        has_prev:
+          type: has permission
+          permission: group.vip7
+          deny_commands:
+            - "[message] &cBạn cần mua rank VIP 7 trước!"
+            - "[sound] ENTITY_VILLAGER_NO"
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "6500"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesSkey 5"
+      - "[console] crates key give %player_name% cratesckey 12"
+      - "[console] eco give %player_name% 150000"
+      - "[console] p take %player_name% 6500"
+      - "[console] lp user %player_name% parent add vip8"
+      - "[console] lp user %player_name% parent remove vip7"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#555555&lV&#8a5652&lI&#c0584e&lP&#f5594b&l8&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#555555&lV&#8a5652&lI&#c0584e&lP&#f5594b&l8&r&f!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-48h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-48h"
+      - "[refresh]"
+
+  # ==============================
+  # VIP 9 (Nhiều màu)
+  # ==============================
+  vip9_owned:
+    material: EMERALD
+    priority: 1
+    slot: 23
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#9863e7&lV&#b155cc&lI&#cb48b1&lP&#e43a96&l9&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f6 Slots&8]"
+      - " &8| &a/ah &8[&f10 Slots&8]"
+      - " &8| &aChat &8[&fKhông thời gian chờ&8]"
+      - " &8| &aDịch chuyển &8[&fKhông thời gian chờ&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx4.3&8]"
+      - " &8| &bEXP Level Shadow &8[&fx4.3&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx3&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-20%&8]"
+      - " &8| &a/kit &8[&#9863e7&lV&#b155cc&lI&#cb48b1&lP&#e43a96&l9&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f8"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f14"
+      - " &8➤ &f200.000 &eTiền"
+      - " &8➤ &aKit: &#9863e7&lV&#b155cc&lI&#cb48b1&lP&#e43a96&l9&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(3 Ngày)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(3 Ngày)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip9
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip9_buy:
+    material: EMERALD
+    priority: 2
+    slot: 23
+    display_name: "&8✦ &7&lMua Rank &8» &#9863e7&lV&#b155cc&lI&#cb48b1&lP&#e43a96&l9&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f6 Slots&8]"
+      - " &8| &a/ah &8[&f10 Slots&8]"
+      - " &8| &aChat &8[&fKhông thời gian chờ&8]"
+      - " &8| &aDịch chuyển &8[&fKhông thời gian chờ&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx4.3&8]"
+      - " &8| &bEXP Level Shadow &8[&fx4.3&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx3&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-20%&8]"
+      - " &8| &a/kit &8[&#9863e7&lV&#b155cc&lI&#cb48b1&lP&#e43a96&l9&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f8"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f14"
+      - " &8➤ &f200.000 &eTiền"
+      - " &8➤ &aKit: &#9863e7&lV&#b155cc&lI&#cb48b1&lP&#e43a96&l9&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(3 Ngày)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(3 Ngày)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f10.000 &6Xu"
+      - "&c(Yêu cầu: VIP 8)"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        has_prev:
+          type: has permission
+          permission: group.vip8
+          deny_commands:
+            - "[message] &cBạn cần mua rank VIP 8 trước!"
+            - "[sound] ENTITY_VILLAGER_NO"
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "10000"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesSkey 8"
+      - "[console] crates key give %player_name% cratesckey 14"
+      - "[console] eco give %player_name% 200000"
+      - "[console] p take %player_name% 10000"
+      - "[console] lp user %player_name% parent add vip9"
+      - "[console] lp user %player_name% parent remove vip8"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#9863e7&lV&#b155cc&lI&#cb48b1&lP&#e43a96&l9&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#9863e7&lV&#b155cc&lI&#cb48b1&lP&#e43a96&l9&r&f!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-72h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-72h"
+      - "[refresh]"
+
+  # ==============================
+  # VIP 10 (Nhiều màu)
+  # ==============================
+  vip10_owned:
+    material: DIAMOND
+    priority: 1
+    slot: 24
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#fcd05c&lV&#d5d554&lI&#aeda4b&lP&#86df43&l1&#5fe43a&l0&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f6 Slots&8]"
+      - " &8| &a/ah &8[&f11 Slots&8]"
+      - " &8| &a/near &8[&fXem người chơi xung quanh&8]"
+      - " &8| &a/chatall &8[&fChat toàn máy chủ&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx5&8]"
+      - " &8| &bEXP Level Shadow &8[&fx5&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx4&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-25%&8]"
+      - " &8| &a/kit &8[&#fcd05c&lV&#d5d554&lI&#aeda4b&lP&#86df43&l1&#5fe43a&l0&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f11"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f16"
+      - " &8➤ &f250.000 &eTiền"
+      - " &8➤ &aKit: &#fcd05c&lV&#d5d554&lI&#aeda4b&lP&#86df43&l1&#5fe43a&l0&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(4 Ngày)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(4 Ngày)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip10
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip10_buy:
+    material: DIAMOND
+    priority: 2
+    slot: 24
+    display_name: "&8✦ &7&lMua Rank &8» &#fcd05c&lV&#d5d554&lI&#aeda4b&lP&#86df43&l1&#5fe43a&l0&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f6 Slots&8]"
+      - " &8| &a/ah &8[&f11 Slots&8]"
+      - " &8| &a/near &8[&fXem người chơi xung quanh&8]"
+      - " &8| &a/chatall &8[&fChat toàn máy chủ&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx5&8]"
+      - " &8| &bEXP Level Shadow &8[&fx5&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx4&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-25%&8]"
+      - " &8| &a/kit &8[&#fcd05c&lV&#d5d554&lI&#aeda4b&lP&#86df43&l1&#5fe43a&l0&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f11"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f16"
+      - " &8➤ &f250.000 &eTiền"
+      - " &8➤ &aKit: &#fcd05c&lV&#d5d554&lI&#aeda4b&lP&#86df43&l1&#5fe43a&l0&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(4 Ngày)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(4 Ngày)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f15.000 &6Xu"
+      - "&c(Yêu cầu: VIP 9)"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        has_prev:
+          type: has permission
+          permission: group.vip9
+          deny_commands:
+            - "[message] &cBạn cần mua rank VIP 9 trước!"
+            - "[sound] ENTITY_VILLAGER_NO"
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "15000"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesSkey 11"
+      - "[console] crates key give %player_name% cratesckey 16"
+      - "[console] eco give %player_name% 250000"
+      - "[console] p take %player_name% 15000"
+      - "[console] lp user %player_name% parent add vip10"
+      - "[console] lp user %player_name% parent remove vip9"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#fcd05c&lV&#d5d554&lI&#aeda4b&lP&#86df43&l1&#5fe43a&l0&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#fcd05c&lV&#d5d554&lI&#aeda4b&lP&#86df43&l1&#5fe43a&l0&r&f!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-96h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-96h"
+      - "[refresh]"
+
+  # ==============================
+  # VIP 11 (Nhiều màu)
+  # ==============================
+  vip11_owned:
+    material: NETHERITE_SCRAP
+    priority: 1
+    slot: 29
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#3d3f46&lV&#9d724f&lI&#fca458&lP&#8fa676&l1&#22a893&l1&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f7 Slots&8]"
+      - " &8| &a/ah &8[&f12 Slots&8]"
+      - " &8| &a/hieuung &8[&fMở khóa hiệu ứng kết liễu: Bom khói&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx5.8&8]"
+      - " &8| &bEXP Level Shadow &8[&fx5.8&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx5&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-30%&8]"
+      - " &8| &a/kit &8[&#3d3f46&lV&#9d724f&lI&#fca458&lP&#8fa676&l1&#22a893&l1&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f15"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f18"
+      - " &8➤ &f300.000 &eTiền"
+      - " &8➤ &aKit: &#3d3f46&lV&#9d724f&lI&#fca458&lP&#8fa676&l1&#22a893&l1&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(5 Ngày)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(5 Ngày)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip11
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip11_buy:
+    material: NETHERITE_SCRAP
+    priority: 2
+    slot: 29
+    display_name: "&8✦ &7&lMua Rank &8» &#3d3f46&lV&#9d724f&lI&#fca458&lP&#8fa676&l1&#22a893&l1&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f7 Slots&8]"
+      - " &8| &a/ah &8[&f12 Slots&8]"
+      - " &8| &a/hieuung &8[&fMở khóa hiệu ứng kết liễu: Bom khói&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx5.8&8]"
+      - " &8| &bEXP Level Shadow &8[&fx5.8&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx5&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-30%&8]"
+      - " &8| &a/kit &8[&#3d3f46&lV&#9d724f&lI&#fca458&lP&#8fa676&l1&#22a893&l1&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f15"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f18"
+      - " &8➤ &f300.000 &eTiền"
+      - " &8➤ &aKit: &#3d3f46&lV&#9d724f&lI&#fca458&lP&#8fa676&l1&#22a893&l1&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(5 Ngày)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(5 Ngày)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f22.000 &6Xu"
+      - "&c(Yêu cầu: VIP 10)"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        has_prev:
+          type: has permission
+          permission: group.vip10
+          deny_commands:
+            - "[message] &cBạn cần mua rank VIP 10 trước!"
+            - "[sound] ENTITY_VILLAGER_NO"
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "22000"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesSkey 15"
+      - "[console] crates key give %player_name% cratesckey 18"
+      - "[console] eco give %player_name% 300000"
+      - "[console] p take %player_name% 22000"
+      - "[console] lp user %player_name% parent add vip11"
+      - "[console] lp user %player_name% parent remove vip10"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#3d3f46&lV&#9d724f&lI&#fca458&lP&#8fa676&l1&#22a893&l1&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#3d3f46&lV&#9d724f&lI&#fca458&lP&#8fa676&l1&#22a893&l1&r&f!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-120h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-120h"
+      - "[refresh]"
+
+  # ==============================
+  # VIP 12 (Nhiều màu)
+  # ==============================
+  vip12_owned:
+    material: NETHERITE_INGOT
+    priority: 1
+    slot: 30
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#4329c1&lV&#3c398b&lI&#354854&lP&#66948c&l1&#96e0c3&l2&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f7 Slots&8]"
+      - " &8| &a/ah &8[&f13 Slots&8]"
+      - " &8| &a/heal &8[&fHồi máu bản thân&8]"
+      - " &8| &a/hieuung &8[&fMở khóa hiệu ứng kết liễu: Sấm sét&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx6.7&8]"
+      - " &8| &bEXP Level Shadow &8[&fx6.7&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx6&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-35%&8]"
+      - " &8| &a/kit &8[&#4329c1&lV&#3c398b&lI&#354854&lP&#66948c&l1&#96e0c3&l2&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f19"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f20"
+      - " &8➤ &f400.000 &eTiền"
+      - " &8➤ &aKit: &#4329c1&lV&#3c398b&lI&#354854&lP&#66948c&l1&#96e0c3&l2&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(6 Ngày)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(6 Ngày)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip12
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip12_buy:
+    material: NETHERITE_INGOT
+    priority: 2
+    slot: 30
+    display_name: "&8✦ &7&lMua Rank &8» &#4329c1&lV&#3c398b&lI&#354854&lP&#66948c&l1&#96e0c3&l2&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f7 Slots&8]"
+      - " &8| &a/ah &8[&f13 Slots&8]"
+      - " &8| &a/heal &8[&fHồi máu bản thân&8]"
+      - " &8| &a/hieuung &8[&fMở khóa hiệu ứng kết liễu: Sấm sét&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx6.7&8]"
+      - " &8| &bEXP Level Shadow &8[&fx6.7&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx6&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-35%&8]"
+      - " &8| &a/kit &8[&#4329c1&lV&#3c398b&lI&#354854&lP&#66948c&l1&#96e0c3&l2&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f19"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f20"
+      - " &8➤ &f400.000 &eTiền"
+      - " &8➤ &aKit: &#4329c1&lV&#3c398b&lI&#354854&lP&#66948c&l1&#96e0c3&l2&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(6 Ngày)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(6 Ngày)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f32.000 &6Xu"
+      - "&c(Yêu cầu: VIP 11)"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        has_prev:
+          type: has permission
+          permission: group.vip11
+          deny_commands:
+            - "[message] &cBạn cần mua rank VIP 11 trước!"
+            - "[sound] ENTITY_VILLAGER_NO"
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "32000"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesSkey 19"
+      - "[console] crates key give %player_name% cratesckey 20"
+      - "[console] eco give %player_name% 400000"
+      - "[console] p take %player_name% 32000"
+      - "[console] lp user %player_name% parent add vip12"
+      - "[console] lp user %player_name% parent remove vip11"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#4329c1&lV&#3c398b&lI&#354854&lP&#66948c&l1&#96e0c3&l2&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#4329c1&lV&#3c398b&lI&#354854&lP&#66948c&l1&#96e0c3&l2&r&f!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-144h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-144h"
+      - "[refresh]"
+
+  # ==============================
+  # VIP 13 (Nhiều màu)
+  # ==============================
+  vip13_owned:
+    material: TOTEM_OF_UNDYING
+    priority: 1
+    slot: 31
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#37cbfc&lV&#25c1f6&lI&#13b6f0&lP&#49a7a5&l1&#7f9759&l3&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f8 Slots&8]"
+      - " &8| &a/ah &8[&f14 Slots&8]"
+      - " &8| &a/hieuung &8[&fMở khóa hiệu ứng kết liễu: Warden Effect&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx7.7&8]"
+      - " &8| &bEXP Level Shadow &8[&fx7.7&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx7&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-40%&8]"
+      - " &8| &a/kit &8[&#37cbfc&lV&#25c1f6&lI&#13b6f0&lP&#49a7a5&l1&#7f9759&l3&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f22"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f22"
+      - " &8➤ &f500.000 &eTiền"
+      - " &8➤ &aKit: &#37cbfc&lV&#25c1f6&lI&#13b6f0&lP&#49a7a5&l1&#7f9759&l3&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(1 Tuần)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(1 Tuần)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip13
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip13_buy:
+    material: TOTEM_OF_UNDYING
+    priority: 2
+    slot: 31
+    display_name: "&8✦ &7&lMua Rank &8» &#37cbfc&lV&#25c1f6&lI&#13b6f0&lP&#49a7a5&l1&#7f9759&l3&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f8 Slots&8]"
+      - " &8| &a/ah &8[&f14 Slots&8]"
+      - " &8| &a/hieuung &8[&fMở khóa hiệu ứng kết liễu: Warden Effect&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx7.7&8]"
+      - " &8| &bEXP Level Shadow &8[&fx7.7&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx7&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-40%&8]"
+      - " &8| &a/kit &8[&#37cbfc&lV&#25c1f6&lI&#13b6f0&lP&#49a7a5&l1&#7f9759&l3&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f22"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f22"
+      - " &8➤ &f500.000 &eTiền"
+      - " &8➤ &aKit: &#37cbfc&lV&#25c1f6&lI&#13b6f0&lP&#49a7a5&l1&#7f9759&l3&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(1 Tuần)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(1 Tuần)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f45.000 &6Xu"
+      - "&c(Yêu cầu: VIP 12)"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        has_prev:
+          type: has permission
+          permission: group.vip12
+          deny_commands:
+            - "[message] &cBạn cần mua rank VIP 12 trước!"
+            - "[sound] ENTITY_VILLAGER_NO"
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "45000"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesSkey 22"
+      - "[console] crates key give %player_name% cratesckey 22"
+      - "[console] eco give %player_name% 500000"
+      - "[console] p take %player_name% 45000"
+      - "[console] lp user %player_name% parent add vip13"
+      - "[console] lp user %player_name% parent remove vip12"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#37cbfc&lV&#25c1f6&lI&#13b6f0&lP&#49a7a5&l1&#7f9759&l3&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#37cbfc&lV&#25c1f6&lI&#13b6f0&lP&#49a7a5&l1&#7f9759&l3&r&f!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-168h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-168h"
+      - "[refresh]"
+
+  # ==============================
+  # VIP 14 (Nhiều màu)
+  # ==============================
+  vip14_owned:
+    material: NETHER_STAR
+    priority: 1
+    slot: 32
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#d50f1e&lV&#d86c4a&lI&#dbc975&lP&#eccd69&l1&#fcd05c&l4&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f8 Slots&8]"
+      - " &8| &a/ah &8[&f15 Slots&8]"
+      - " &8| &a/hieuung &8[&fMở khóa hiệu ứng kết liễu: Bùng cháy&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx8.8&8]"
+      - " &8| &bEXP Level Shadow &8[&fx8.8&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx8.5&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-45%&8]"
+      - " &8| &a/kit &8[&#d50f1e&lV&#d86c4a&lI&#dbc975&lP&#eccd69&l1&#fcd05c&l4&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f26"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f24"
+      - " &8➤ &f600.000 &eTiền"
+      - " &8➤ &aKit: &#d50f1e&lV&#d86c4a&lI&#dbc975&lP&#eccd69&l1&#fcd05c&l4&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(1 Tuần)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(1 Tuần)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip14
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip14_buy:
+    material: NETHER_STAR
+    priority: 2
+    slot: 32
+    display_name: "&8✦ &7&lMua Rank &8» &#d50f1e&lV&#d86c4a&lI&#dbc975&lP&#eccd69&l1&#fcd05c&l4&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f8 Slots&8]"
+      - " &8| &a/ah &8[&f15 Slots&8]"
+      - " &8| &a/hieuung &8[&fMở khóa hiệu ứng kết liễu: Bùng cháy&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx8.8&8]"
+      - " &8| &bEXP Level Shadow &8[&fx8.8&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx8.5&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-45%&8]"
+      - " &8| &a/kit &8[&#d50f1e&lV&#d86c4a&lI&#dbc975&lP&#eccd69&l1&#fcd05c&l4&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f26"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f24"
+      - " &8➤ &f600.000 &eTiền"
+      - " &8➤ &aKit: &#d50f1e&lV&#d86c4a&lI&#dbc975&lP&#eccd69&l1&#fcd05c&l4&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(1 Tuần)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(1 Tuần)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f65.000 &6Xu"
+      - "&c(Yêu cầu: VIP 13)"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        has_prev:
+          type: has permission
+          permission: group.vip13
+          deny_commands:
+            - "[message] &cBạn cần mua rank VIP 13 trước!"
+            - "[sound] ENTITY_VILLAGER_NO"
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "65000"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesSkey 26"
+      - "[console] crates key give %player_name% cratesckey 24"
+      - "[console] eco give %player_name% 600000"
+      - "[console] p take %player_name% 65000"
+      - "[console] lp user %player_name% parent add vip14"
+      - "[console] lp user %player_name% parent remove vip13"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#d50f1e&lV&#d86c4a&lI&#dbc975&lP&#eccd69&l1&#fcd05c&l4&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#d50f1e&lV&#d86c4a&lI&#dbc975&lP&#eccd69&l1&#fcd05c&l4&r&f!"
+      - "[sound] ENTITY_PLAYER_LEVELUP"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-168h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-168h"
+      - "[refresh]"
+
+  # ==============================
+  # VIP 15 (Nhiều màu)
+  # ==============================
+  vip15_owned:
+    material: DRAGON_EGG
+    priority: 1
+    slot: 33
+    item_flags:
+      - HIDE_ENCHANTS
+    enchantments:
+      - DURABILITY;1
+    display_name: "&8✦ &7&lRank &8» &#4958ec&lV&#564caf&lI&#633f72&lP&#a6364f&l1&#e92c2c&l5&r &7(&aĐã sở hữu&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f9 Slots&8]"
+      - " &8| &a/ah &8[&f16 Slots&8]"
+      - " &8| &a/hieuung &8[&fMở khóa hiệu ứng kết liễu: Linh hồn&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx10&8]"
+      - " &8| &bEXP Level Shadow &8[&fx10&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx10&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-50%&8]"
+      - " &8| &a/kit &8[&#4958ec&lV&#564caf&lI&#633f72&lP&#a6364f&l1&#e92c2c&l5&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f30"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f26"
+      - " &8➤ &f800.000 &eTiền"
+      - " &8➤ &aKit: &#4958ec&lV&#564caf&lI&#633f72&lP&#a6364f&l1&#e92c2c&l5&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(1 Tuần)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(1 Tuần)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8• &7Tình trạng: &aĐã sở hữu &2✔"
+      - " &8✔ &7Và là một người chơi tối cao trong server!"
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: group.vip15
+    left_click_commands:
+      - "[sound] UI_BUTTON_CLICK"
+  vip15_buy:
+    material: DRAGON_EGG
+    priority: 2
+    slot: 33
+    display_name: "&8✦ &7&lMua Rank &8» &#4958ec&lV&#564caf&lI&#633f72&lP&#a6364f&l1&#e92c2c&l5&r &7(&aVĩnh Viễn&7)"
+    lore:
+      - ""
+      - "&e&lQUYỀN LỢI:"
+      - " &8| &a/pv &8[&f9 Slots&8]"
+      - " &8| &a/ah &8[&f16 Slots&8]"
+      - " &8| &a/hieuung &8[&fMở khóa hiệu ứng kết liễu: Linh hồn&8]"
+      - " &8| &eAutofarm &8[&fVĩnh viễn&8]"
+      - " &8| &bEXP Level Bản thân &8[&fx10&8]"
+      - " &8| &bEXP Level Shadow &8[&fx10&8]"
+      - " &8| &dĐiểm ma lực rèn đồ &8[&fx10&8]"
+      - " &8| &eGiảm thời gian giao hàng thương nhân ở spawn &8[&f-50%&8]"
+      - " &8| &a/kit &8[&#4958ec&lV&#564caf&lI&#633f72&lP&#a6364f&l1&#e92c2c&l5&r&8]"
+      - " &8| &7Các quyền lợi của rank trước"
+      - ""
+      - "&6&lQUÀ NHẬN NGAY:"
+      - " &8➤ <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>HUNTER S <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ &7x&f30"
+      - " &8➤ <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿ &7x&f26"
+      - " &8➤ &f800.000 &eTiền"
+      - " &8➤ &aKit: &#4958ec&lV&#564caf&lI&#633f72&lP&#a6364f&l1&#e92c2c&l5&r &7(&f3 ngày nhận 1 lần&7)"
+      - " &8➤ &#00FF7F&l★ BOOSTER X2 XP &f(1 Tuần)"
+      - " &8➤ &#00FFFF&l★ BOOSTER X2 EXP ĐỆ TỬ &f(1 Tuần)"
+      - " &8▸ &cMẹo&7: &a/kit &fđể biết chi tiết"
+      - ""
+      - " &8| &eNhấn để mua: &f100.000 &6Xu"
+      - "&c(Yêu cầu: VIP 14)"
+      - ""
+      - " &8• &7Tình trạng: &cChưa sở hữu &4✖"
+      - "&c&lLƯU Ý: &cBạn phải nâng cấp từng rank một"
+    click_requirement:
+      requirements:
+        has_prev:
+          type: has permission
+          permission: group.vip14
+          deny_commands:
+            - "[message] &cBạn cần mua rank VIP 14 trước!"
+            - "[sound] ENTITY_VILLAGER_NO"
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "100000"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+    click_commands:
+      - "[console] crates key give %player_name% cratesSkey 30"
+      - "[console] crates key give %player_name% cratesckey 26"
+      - "[console] eco give %player_name% 800000"
+      - "[console] p take %player_name% 100000"
+      - "[console] lp user %player_name% parent add vip15"
+      - "[console] lp user %player_name% parent remove vip14"
+      - "[message] &b&lRANK &8» &aBạn đã mua thành công rank &#4958ec&lV&#564caf&lI&#633f72&lP&#a6364f&l1&#e92c2c&l5&r&f!"
+      - "[console] bc &8[&bRANK&8] %player_name% &fđã thăng cấp lên rank &#4958ec&lV&#564caf&lI&#633f72&lP&#a6364f&l1&#e92c2c&l5&r&f!"
+      - "[sound] UI_TOAST_CHALLENGE_COMPLETE"
+      - "[console] sl-booster:slb give %player_name% solo-leveling-exp-168h"
+      - "[console] sl-booster:slb give %player_name% shadowhunter-exp-168h"
+      - "[refresh]"

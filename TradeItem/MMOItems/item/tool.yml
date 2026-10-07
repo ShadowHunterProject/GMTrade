@@ -1,0 +1,307 @@
+﻿CUOC_TAN_BINH:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    custom-nbt: []
+    hide-enchants: true
+    enchants:
+      DIG_SPEED: 1
+      LOOT_BONUS_BLOCKS: 1
+    lore:
+      - '&f &7▪ &aHiệu Suất: &fI'
+      - '&f &7▪ &6Gia Tài: &fI'
+    material: WOODEN_PICKAXE
+    name: '&7Cuốc Tân Binh'
+    tier: E
+    digs-remaining: 1500
+CUOC_CHIEN_BINH:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    custom-nbt: []
+    hide-enchants: true
+    enchants:
+      DIG_SPEED: 2
+      LOOT_BONUS_BLOCKS: 1
+    lore:
+      - '&f &7▪ &aHiệu Suất: &fII'
+      - '&f &7▪ &6Gia Tài: &fI'
+    material: STONE_PICKAXE
+    name: '&aCuốc Chiến Binh'
+    tier: D
+    digs-remaining: 2000
+CUOC_HIEP_SI:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    custom-nbt: []
+    hide-enchants: true
+    enchants:
+      DIG_SPEED: 3
+      LOOT_BONUS_BLOCKS: 2
+    lore:
+      - '&f &7▪ &aHiệu Suất: &fIII'
+      - '&f &7▪ &6Gia Tài: &fII'
+    material: IRON_PICKAXE
+    name: '&bCuốc Hiệp Sĩ'
+    tier: C
+    digs-remaining: 2500
+CUOC_TIEN_PHONG:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    custom-nbt: []
+    hide-enchants: true
+    enchants:
+      DIG_SPEED: 4
+      LOOT_BONUS_BLOCKS: 2
+    lore:
+      - '&f &7▪ &aHiệu Suất: &fIV'
+      - '&f &7▪ &6Gia Tài: &fII'
+    material: GOLDEN_PICKAXE
+    name: '&dCuốc Tiên Phong'
+    tier: B
+    digs-remaining: 3000
+CUOC_BONG_TOI:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    custom-nbt: []
+    hide-enchants: true
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+    lore:
+      - '&f &7▪ &aHiệu Suất: &fV'
+      - '&f &7▪ &6Gia Tài: &fIII'
+    material: DIAMOND_PICKAXE
+    name: '&8༺ <#8A2BE2>&lC<#8427D8>&lu<#7D22CF>&lố<#771EC5>&lc <#711ABC>&lB<#6A16B2>&ló<#6411A8>&ln<#5E0D9F>&lg
+      <#580995>&lT<#51048C>&lố<#4B0082>&li &8༻'
+    tier: A
+    digs-remaining: 3500
+CUOC_BAO_CHUA_BANG_GIA:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    custom-nbt: []
+    hide-enchants: true
+    enchants:
+      DIG_SPEED: 6
+      LOOT_BONUS_BLOCKS: 3
+    lore:
+      - '&f &7▪ &aHiệu Suất: &fVI'
+      - '&f &7▪ &6Gia Tài: &fIII'
+    material: NETHERITE_PICKAXE
+    name: '&f꧁༺ <#00CBFF>&lC<#03CAFD>&lu<#07C8FB>&lố<#0AC7F9>&lc <#0DC6F7>&lB<#10C5F5>&lạ<#14C3F3>&lo
+      <#17C2F1>&lC<#1AC1EF>&lh<#1EBFEC>&lú<#21BEEA>&la <#24BDE8>&lB<#28BBE6>&lă<#2BBAE4>&ln<#2EB9E2>&lg
+      <#31B8E0>&lG<#35B6DE>&li<#38B5DC>&lá &f༻꧂'
+    tier: A+
+    digs-remaining: 4000
+CUOC_HOA_NGUC:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    custom-nbt: []
+    hide-enchants: true
+    enchants:
+      DIG_SPEED: 7
+      LOOT_BONUS_BLOCKS: 4
+    lore:
+      - '&f &7▪ &aHiệu Suất: &fVII'
+      - '&f &7▪ &6Gia Tài: &fIV'
+    material: NETHERITE_PICKAXE
+    name: '&f꧁༺ <#FF0000>&lC<#FF0E00>&lu<#FF1C00>&lố<#FF2A00>&lc <#FF3800>&lH<#FF4600>&lo<#FF5400>&lả
+      <#FF6200>&lN<#FF7000>&lg<#FF7E00>&lụ<#FF8C00>&lc &f༻꧂'
+    tier: A+
+    digs-remaining: 4500
+CUOC_HAC_THIEN_SU:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    custom-nbt: []
+    hide-enchants: true
+    enchants:
+      DIG_SPEED: 8
+      LOOT_BONUS_BLOCKS: 4
+    lore:
+      - '&f &7▪ &aHiệu Suất: &fVIII'
+      - '&f &7▪ &6Gia Tài: &fIV'
+    material: NETHERITE_PICKAXE
+    name: '&f꧁༺ <#8B008B>&lC<#86008A>&lu<#81008A>&lố<#7C0089>&lc <#770088>&lH<#720088>&lắ<#6D0087>&lc
+      <#690086>&lT<#640085>&lh<#5F0085>&li<#5A0084>&lê<#550083>&ln <#500083>&lS<#4B0082>&lứ
+      &f༻꧂'
+    tier: A+
+    digs-remaining: 5000
+CUOC_CUONG_NO_BAO_TO:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    custom-nbt: []
+    hide-enchants: true
+    enchants:
+      DIG_SPEED: 9
+      LOOT_BONUS_BLOCKS: 5
+    lore:
+      - '&f &7▪ &aHiệu Suất: &fIX'
+      - '&f &7▪ &6Gia Tài: &fV'
+    material: NETHERITE_PICKAXE
+    name: '&f꧁༺ <#FFD700>&lC<#FFD400>&lu<#FFD000>&lố<#FFCD00>&lc <#FFCA00>&lC<#FFC600>&lu<#FFC300>&lồ<#FFC000>&ln<#FFBC00>&lg
+      <#FFB900>&lN<#FFB600>&lộ <#FFB200>&lB<#FFAF00>&lã<#FFAC00>&lo <#FFA800>&lT<#FFA500>&lố
+      &f༻꧂'
+    tier: A+
+    digs-remaining: 5500
+CUOC_QUAN_VUONG_BANG_GIA:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    custom-nbt: []
+    hide-enchants: true
+    enchants:
+      DIG_SPEED: 10
+      LOOT_BONUS_BLOCKS: 5
+    lore:
+      - '&f &7▪ &aHiệu Suất: &fX'
+      - '&f &7▪ &6Gia Tài: &fV'
+    material: NETHERITE_PICKAXE
+    name: '<#FFF1CE>⊱⋇⊷ <#00FFFF>&lC<#00F2F9>&lu<#00E4F3>&lố<#00D7ED>&lc <#00C9E7>&lQ<#00BCE0>&lu<#00AEDA>&lâ<#00A1D4>&ln
+      <#0094CE>&lV<#0086C8>&lư<#0079C2>&lơ<#006BBC>&ln<#005EB6>&lg <#0051B0>&lB<#0043AA>&lă<#0036A3>&ln<#00289D>&lg
+      <#001B97>&lG<#000D91>&li<#00008B>&lá <#FFF1CE>⊶⋇⊰'
+    tier: S
+    digs-remaining: 6000
+CUOC_QUY_VUONG_V1:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    custom-nbt: []
+    hide-enchants: true
+    enchants:
+      DIG_SPEED: 11
+      LOOT_BONUS_BLOCKS: 6
+    lore:
+      - '&f &7▪ &aHiệu Suất: &fXI'
+      - '&f &7▪ &6Gia Tài: &fVI'
+    material: NETHERITE_PICKAXE
+    name: '&f꧁༺ <#FCD05C>&lC<#F9C55C>&lu<#F6BA5B>&lố<#F3AF5B>&lc &e&k&l.&e&l｡ <#F0A45A>&lQ<#EA8E5A>&lu<#E88459>&lỷ
+      <#E57959>&lV<#DF6358>&lư<#DC5858>&lơ<#D94D57>&ln<#D64257>&lg &e&l｡&k&l｡ &6&lV1
+      &f༻꧂'
+    tier: S
+    digs-remaining: 6500
+CUOC_QUY_VUONG_V2:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    custom-nbt: []
+    hide-enchants: true
+    enchants:
+      DIG_SPEED: 12
+      LOOT_BONUS_BLOCKS: 6
+    lore:
+      - '&f &7▪ &aHiệu Suất: &fXII'
+      - '&f &7▪ &6Gia Tài: &fVI'
+    material: NETHERITE_PICKAXE
+    name: '&f꧁༺ <#FCD05C>&lC<#F9C55C>&lu<#F6BA5B>&lố<#F3AF5B>&lc &c&k&l.&c&l｡ <#F0A45A>&lQ<#EA8E5A>&lu<#E88459>&lỷ
+      <#E57959>&lV<#DF6358>&lư<#DC5858>&lơ<#D94D57>&ln<#D64257>&lg &c&l｡&k&l｡ <#A470F1>&lV2
+      &f༻꧂'
+    tier: S
+    digs-remaining: 7000
+CUOC_THINH_NO_KAMIS_V1:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    custom-nbt: []
+    hide-enchants: true
+    enchants:
+      DIG_SPEED: 13
+      LOOT_BONUS_BLOCKS: 7
+    lore:
+      - '&f &7▪ &aHiệu Suất: &fXIII'
+      - '&f &7▪ &6Gia Tài: &fVII'
+    material: NETHERITE_PICKAXE
+    name: '<#FFF1CE>⊱⋇⊷ <#CFC6FF>&lC<#CBBDFC>&lu<#C8B3FA>&lố<#C4AAF7>&lc <#BC97F2>&lT<#B98DEF>&lh<#B17AEA>&lị<#AD71E7>&ln<#AA67E5>&lh
+      <#A65EE2>&lN<#9E4BDD>&lộ &e&k&l.&e&l｡ <#9B42DA>&lK<#9738D8>&la<#932FD5>&lm<#8E26D2>&li<#8A1ED0>&ls
+      &e&l｡&k&l｡ &6&lV1 <#FFF1CE>⊶⋇⊰'
+    tier: S
+    digs-remaining: 7500
+CUOC_THINH_NO_KAMIS_V2:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    custom-nbt: []
+    hide-enchants: true
+    enchants:
+      DIG_SPEED: 14
+      LOOT_BONUS_BLOCKS: 7
+    lore:
+      - '&f &7▪ &aHiệu Suất: &fXIV'
+      - '&f &7▪ &6Gia Tài: &fVII'
+    material: NETHERITE_PICKAXE
+    name: '<#FFF1CE>⊱⋇⊷ <#CFC6FF>&lC<#CBBDFC>&lu<#C8B3FA>&lố<#C4AAF7>&lc <#BC97F2>&lT<#B98DEF>&lh<#B17AEA>&lị<#AD71E7>&ln<#AA67E5>&lh
+      <#A65EE2>&lN<#9E4BDD>&lộ &d&k&l.&d&l｡ <#9B42DA>&lK<#9738D8>&la<#932FD5>&lm<#8E26D2>&li<#8A1ED0>&ls
+      &d&l｡&k&l｡ <#A470F1>&lV2 <#FFF1CE>⊶⋇⊰'
+    tier: S
+    digs-remaining: 8000
+TEST:
+  base:
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    unbreakable: true
+    material: NETHERITE_PICKAXE

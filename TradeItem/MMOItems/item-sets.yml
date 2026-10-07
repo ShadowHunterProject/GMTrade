@@ -1,0 +1,171 @@
+# Item sets let you create links betweens the different items you create.
+# By wearing multiple items from the same set, the player will benefit from
+# set bonuses which incites him to use items from the same type.
+# This is a very powerful system for RPG items.
+#
+# Possible stats:
+# - max-mana
+# - magic-damage
+# - weapon-damage
+# - pvp-damage
+# - pve-damage
+# - critical-strike-chance
+# - critical-strike-power
+# - blunt-power
+# - blunt-rating
+# - block-power
+# - block-rating
+# - block-cooldown-reduction
+# - parry-rating
+# - parry-cooldown-reduction
+# - dodge-rating
+# - dodge-cooldown-reduction
+# - damage-reduction
+# - fire-damage-reduction
+# - fall-damage-reduction
+# - magic-damage-reduction
+#
+# You can also use potion effects as set bonuses, e.g
+# speed: 2 gives permanent Speed II
+# damage_increase: 3 gives permanent Strength III
+#
+# You may also add abilities as full set bonuses. The ability ID
+# must start with 'ability-' but it is only used as reference.
+# You can configure the ability cast mode, type & modifiers as usual.
+
+
+VAI_THO:
+  name: '&7Set Vải Thô'
+  lore-tag:
+  - '&8✦ &fNội tại set: &7Vải Thô'
+  - '&7• &f5 Món:'
+  - '  &a+200 HP, +10 Giáp'
+  bonuses:
+    '4':
+      max-health: 200
+      armor: 10
+
+CHIEN_BINH:
+  name: '&aSet Chiến Binh'
+  lore-tag:
+  - '&8✦ &fNội tại set: &aChiến Binh'
+  - '&7• &f5 Món:'
+  - '  &a+320 HP, +20 Giáp'
+  bonuses:
+    '4':
+      max-health: 320
+      armor: 20
+
+HIEP_SI:
+  name: '&bSet Hiệp Sĩ'
+  lore-tag:
+  - '&8✦ &fNội tại set: &bHiệp Sĩ'
+  - '&7• &f5 Món:'
+  - '  &a+480 HP, +30 Giáp'
+  bonuses:
+    '4':
+      max-health: 480
+      armor: 30
+
+TIEN_PHONG:
+  name: '&dSet Tiên Phong'
+  lore-tag:
+  - '&8✦ &fNội tại set: &dTiên Phong'
+  - '&7• &f5 Món:'
+  - '  &a+640 HP, +40 Giáp'
+  bonuses:
+    '4':
+      max-health: 640
+      armor: 40
+
+BONG_TOI:
+  name: '&5Set Bóng Tối'
+  lore-tag:
+  - '&8✦ &fNội tại set: &5Bóng Tối'
+  - '&7• &f5 Món:'
+  - '  &a+800 HP, +50 Giáp'
+  bonuses:
+    '4':
+      max-health: 800
+      armor: 50
+
+BAO_CHUA_BANG_GIA:
+  name: '&bSet Bạo Chúa Băng Giá'
+  lore-tag:
+  - '&8✦ &fNội tại set: &bBạo Chúa Băng Giá'
+  - '&7• &f5 Món:'
+  - '  &a+960 HP, +60 Giáp'
+  bonuses:
+    '4':
+      max-health: 960
+      armor: 60
+
+HOA_NGUC:
+  name: '&cSet Hoả Ngục'
+  lore-tag:
+  - '&8✦ &fNội tại set: &cHoả Ngục'
+  - '&7• &f5 Món:'
+  - '  &a+1120 HP, +70 Giáp'
+  bonuses:
+    '4':
+      max-health: 1120
+      armor: 70
+
+HAC_THIEN_SU:
+  name: '&5Set Hắc Thiên Sứ'
+  lore-tag:
+  - '&8✦ &fNội tại set: &5Hắc Thiên Sứ'
+  - '&7• &f5 Món:'
+  - '  &a+1280 HP, +75 Giáp'
+  bonuses:
+    '4':
+      max-health: 1280
+      armor: 75
+
+CUONG_NO_BAO_TO:
+  name: '&eSet Cuồng Nộ Bão Tố'
+  lore-tag:
+  - '&8✦ &fNội tại set: &eCuồng Nộ Bão Tố'
+  - '&7• &f5 Món:'
+  - '  &a+1400 HP, +80 Giáp'
+  bonuses:
+    '4':
+      max-health: 1400
+      armor: 80
+
+QUAN_VUONG_BANG_GIA:
+  name: '&bSet Quân Vương Băng Giá'
+  lore-tag:
+  - '&8✦ &fNội tại set: &bQuân Vương Băng Giá'
+  - '&7• &f5 Món:'
+  - '  &a+1600 HP, +90 Giáp'
+  bonuses:
+    '4':
+      max-health: 1600
+      armor: 90
+
+QUY_VUONG:
+  name: '<#5c0000>☠ <#7a0000>&lS<#9e0000>&le<#c40000>&lt <#e60000>&lQ<#ff0000>&lu<#ff2b2b>&lỷ <#ff4747>&lV<#ff6666>&lư<#ff8585>&lơ<#ffa3a3>&ln<#ffc2c2>&lg <#5c0000>☠'
+  lore-tag:
+  - '&8✦ &fNội tại set: &cQuỷ Vương'
+  - '&7• &f5 Món:'
+  - '  &a+1800 HP, +120 Giáp'
+  - '  &a+20% Tỉ lệ CM'
+  bonuses:
+    '4':
+      max-health: 1800
+      armor: 120
+      critical-strike-chance: 20
+
+THINH_NO_KAMIS:
+  name: '<#3A0CA3>✦ <#3A0CA3>&lS<#4311A9>&le<#4C16AE>&lt <#551BB4>&lT<#5E20BA>&lh<#6725C0>&lị<#702AC5>&ln<#792FCB>&lh <#8234D1>&lN<#8B39D7>&lộ <#943EDC>&lK<#9D43E2>&la<#A648E8>&lm<#AF4DED>&li<#B852F3>&ls <#3A0CA3>✦'
+  lore-tag:
+  - '&8✦ &fNội tại set: &5Thịnh Nộ Kamis'
+  - '&7• &f5 Món:'
+  - '  &a+2000 HP, +150 Giáp'
+  - '  &a+15% Hút máu'
+  bonuses:
+    '4':
+      max-health: 2000
+      armor: 150
+      lifesteal: 15

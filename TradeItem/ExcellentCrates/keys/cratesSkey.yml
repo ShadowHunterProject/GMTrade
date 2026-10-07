@@ -1,0 +1,8 @@
+Name: <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>KỸ NĂNG <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱
+Virtual: true
+ItemData:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{extra:["Cratesckey Key"],text:""}},count:1,id:"minecraft:tripwire_hook"}'
+    DataVersion: 4671
+ItemStackable: false

@@ -1,0 +1,335 @@
+menu_title: "&8▶ Giao Diện | Menu Máy Chủ"
+open_command: menu
+open_commands:
+  - "[sound] BLOCK_ENDER_CHEST_OPEN 1.0 1.0"
+size: 54
+items:
+  "bg_purple":
+    material: PURPLE_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 0-9
+      - 17-18
+      - 26-27
+      - 35-36
+      - 44
+      - 46-52
+
+  "bg_magenta":
+    material: MAGENTA_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 20
+      - 24
+      - 32
+      - 30
+
+  "bg_black":
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 29
+      - 33
+      - 37-39
+      - 41-43
+
+  "playerInfo":
+    material: head-%player_name%
+    slot: 22
+    display_name: "&#00D4FF&l[ HỆ THỐNG ] &f&lHỒ SƠ THỢ SĂN"
+    lore:
+      - "&8&m                                       "
+      - ""
+      - "  &7Định danh: &#00D4FF%player_name%"
+      - "  &7Cấp độ: &#00D4FFLv.%sololeveling_level%"
+      - ""
+      - "  &#00D4FF&l| &f&lTÀI SẢN CÁ NHÂN"
+      - "   &8▪ &7Tiền mặt: &#FFD700%vault_eco_balance_formatted% &e🪙"
+      - "   &8▪ &7Xu khóa: &#A700FF%playerpoints_points% &d✦"
+      - ""
+      - "  &#FF003C&l| &f&lCHỈ SỐ CHIẾN ĐẤU"
+      - "   &8▪ &7Lực chiến: &#FF003C%mmopower_power_formatted% &c⚔"
+      - "   &8▪ &7Xếp hạng: &f#&#FF003C%mmopower_top_rank%"
+      - "   &8▪ &7Danh hiệu lực chiến:"
+      - "      &8↳ &r%mmopower_top_title%"
+      - ""
+      - "&8&m                                       "
+      - "  &8➥ &#00D4FFNhấn chuột để xem chỉ số bản thân"
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] stats"
+
+  "stats":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJjYmE5ZTc1YThhMzNhNGI5NzkzODRmZTJmM2RiMGIxZjFmODA2M2YyMTY2ODlmNmVkYTk1OWQ5MDUwYjk3NSJ9fX0=
+    slot: 13
+    display_name: "&#00BFFF&l📊 CHỈ SỐ NHÂN VẬT"
+    lore:
+      - ""
+      - " &7Xem chi tiết các chỉ số tấn công,"
+      - " &7phòng thủ và sức mạnh của bạn."
+      - ""
+      - " &7Lệnh: &#FFD700/stats"
+      - ""
+      - " &8▶ &#32CD32Click để mở bảng chỉ số"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] stats"
+
+  "attribute":
+    material: DIAMOND_SWORD
+    slot: 31
+    display_name: "&#FF4500&l⚔ NÂNG CẤP THUỘC TÍNH"
+    lore:
+      - ""
+      - " &7Cộng điểm thuộc tính để"
+      - " &7đột phá giới hạn bản thân."
+      - ""
+      - " &7Lệnh: &#FFD700/attr"
+      - ""
+      - " &8▶ &#32CD32Click để nâng cấp"
+    item_flags:
+      - HIDE_ATTRIBUTES
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[player] attr"
+
+  "toche":
+    material: NETHER_STAR
+    slot: 21
+    display_name: "&#FF1493&l🧬 HỆ THỐNG CLASS"
+    lore:
+      - ""
+      - " &7Tra cứu thông tin tiến hóa"
+      - " &7và các kỹ năng đặc trưng."
+      - ""
+      - " &7Lệnh: &#FFD700/class"
+      - ""
+      - " &8▶ &#32CD32Click để tra cứu"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[player] class"
+
+  "todoi":
+    material: WRITABLE_BOOK
+    slot: 23
+    display_name: "&#32CD32&l👥 QUẢN LÝ TỔ ĐỘI"
+    lore:
+      - ""
+      - " &7Tạo và mời bạn bè vào tổ đội"
+      - " &7cùng nhau chinh phục thế giới."
+      - ""
+      - " &7Lệnh: &#FFD700/guild"
+      - ""
+      - " &8▶ &#32CD32Click để mở menu tổ đội"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[player] guild"
+
+  "trangbi":
+    material: IRON_HORSE_ARMOR
+    slot: 10
+    display_name: "&#1E90FF&l🛡 TÚI TRANG BỊ RPG"
+    lore:
+      - ""
+      - " &7Mở túi đồ trang bị RPG"
+      - " &7để mặc các vật phẩm sức mạnh."
+      - ""
+      - " &7Lệnh: &#FFD700/tuido"
+      - ""
+      - " &8▶ &#32CD32Click để mở túi"
+    item_flags:
+      - HIDE_ATTRIBUTES
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[player] tuido"
+
+  "trungsinh":
+    material: enchanted_book
+    slot: 11
+    display_name: "&#FF8C00&l🔥 HỆ NHÁNH KỸ NĂNG"
+    lore:
+      - ""
+      - " &7Tìm hiểu về sức mạnh của"
+      - " &75 class hệ chính của máy chủ."
+      - ""
+      - " &7Lệnh: &#FFD700/skill"
+      - ""
+      - " &8▶ &#32CD32Click để xem chi tiết"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] thuvienkynang"
+
+  "shop":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMzODI2Mjc1N2Q2M2U0MmQ0NGE2ZjE1OTliMTJkODI3NzQwZDdmM2FiOWEyZTZkZGIxNjFmZGE4YzNlZWYifX19
+    slot: 19
+    display_name: "&#9370DB&l✨ THƯ VIỆN SHADOW"
+    lore:
+      - ""
+      - " &7Nghiên cứu các chiêu thức"
+      - " &7và ma thuật của Shadow."
+      - ""
+      - " &7Lệnh: &#FFD700/tvdt"
+      - ""
+      - " &8▶ &#32CD32Click để nghiên cứu"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[player] tvdt"
+
+  "shopxu":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA4MjczZGE0MzI2ZDNhNWRjM2E5OTk4MzljYzk5NzdjZmE5ZWFiZmQ1OWY3NTNiZTUyYzAzZGNlNTk2OSJ9fX0=
+    slot: 15
+    display_name: "&#00FFFF&l⛁ CỬA HÀNG XU"
+    lore:
+      - ""
+      - " &7Mua sắm vật phẩm VIP và"
+      - " &7thẻ đặc quyền bằng Xu."
+      - ""
+      - " &7Lệnh: &#FFD700/xu"
+      - ""
+      - " &8▶ &#32CD32Click để đi chợ"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] shopxu"
+
+  "mocnap":
+    material: DIAMOND
+    slot: 16
+    display_name: "&#FF69B4&l🎁 Quà Kit Rank"
+    lore:
+      - ""
+      - " &7Nhận quà tặng độc quyền"
+      - " &7khi mua rank tại máy chủ."
+      - ""
+      - " &7Lệnh: &#FFD700/kit"
+      - ""
+      - " &8▶ &#32CD32Click để nhận quà"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] nhanqua"
+
+  "napthe":
+    material: SUNFLOWER
+    slot: 25
+    display_name: "&#FFD700&l💳 DONATE"
+    lore:
+      - ""
+      - " &7Ủng hộ máy chủ và nhận"
+      - " &7các đặc quyền hấp dẫn."
+      - ""
+      - " &7Lệnh: &#FFD700/donate"
+      - ""
+      - " &8▶ &#32CD32Click để nạp ngay"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[player] donate"
+
+  "choden":
+    material: ANVIL
+    slot: 28
+    display_name: "&#FF6347&l⚖ CHỢ ĐEN"
+    lore:
+      - ""
+      - " &7Khu vực giao thương tự do"
+      - " &7với những người chơi khác."
+      - ""
+      - " &7Lệnh: &#FFD700/ah"
+      - ""
+      - " &8▶ &#32CD32Click để vào chợ"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[player] ah"
+
+  "thungrac":
+    material: CAULDRON
+    slot: 34
+    display_name: "&#A9A9A9&l🗑 THÙNG RÁC"
+    lore:
+      - ""
+      - " &7Ném bỏ những vật phẩm"
+      - " &7rác không còn sử dụng."
+      - ""
+      - " &7Lệnh: &#FFD700/trash"
+      - ""
+      - " &8▶ &#32CD32Click để dọn dẹp"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[player] trash"
+
+  "shoprank":
+    material: BEACON
+    slot: 40
+    display_name: "&#00FF7F&l🏆 CỬA HÀNG RANK"
+    lore:
+      - ""
+      - " &7Nâng cấp Rank bằng Xu"
+      - " &7để nhận nhiều đặc quyền xịn xò."
+      - ""
+      - " &7Lệnh: &#FFD700/rank"
+      - ""
+      - " &8▶ &#32CD32Click để mở Shop Rank"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] shoprank"
+
+  "warps":
+    material: COMPASS
+    slot: 12
+    display_name: "&#00FFFF&l🗺 ĐIỂM DỊCH CHUYỂN"
+    lore:
+      - ""
+      - " &7Mở giao diện điểm dịch chuyển"
+      - " &7để đi đến các khu vực quan trọng."
+      - ""
+      - " &7Lệnh: &#FFD700/warps"
+      - ""
+      - " &8▶ &#32CD32Click để mở menu"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] warps"
+
+  "shopbooster":
+    material: BEACON
+    slot: 14
+    display_name: "&#FFD700&l⚡ CỬA HÀNG BOOSTER"
+    lore:
+      - ""
+      - " &7Mua các bùa lợi nhân đôi (x2)"
+      - " &7kinh nghiệm và rớt đồ."
+      - ""
+      - " &7Lệnh: &#FFD700/booster"
+      - ""
+      - " &8▶ &#32CD32Click để mở Shop"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] shopbooster"
+
+  "help":
+    material: BOOK
+    slot: 45
+    display_name: "&#FFFF00&l❓ HỖ TRỢ"
+    lore:
+      - ""
+      - " &7Đọc hướng dẫn tân thủ"
+      - " &7và tìm kiếm sự trợ giúp."
+      - ""
+      - " &8▶ &#32CD32Click để xem trợ giúp"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] help"
+
+  "menu":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQyZmIzYmUwMzFmNjY0NjE2MGIyZjM3YjM0NjM2MjMyY2EyZjM5ODYxZjg4Y2FiYTE5MmNhYjhmZThlODZlIn19fQ==
+    slot: 53
+    display_name: "&#FF0000&l❌ ĐÓNG MENU"
+    lore:
+      - ""
+      - " &7Thoát khỏi giao diện"
+      - " &7hệ thống máy chủ."
+      - ""
+      - " &8▶ &#32CD32Click để thoát"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[close]"

@@ -1,0 +1,526 @@
+﻿menu_title: 'Nhận Quà Kit'
+open_command:
+  - nhanqua
+  - nhankit
+  - kit
+  - kits
+size: 54
+items:
+  'filter':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+    display_name: ' '
+  'close':
+    material: BARRIER
+    slot: 49
+    display_name: '&c&lĐóng Menu'
+    left_click_commands:
+      - '[close]'
+    right_click_commands:
+      - '[close]'
+  'kit_khoi_dau':
+    material: CHEST
+    slot: 19
+    display_name: '&a&l🎁 Quà Tân Thủ (kit khởi đầu)'
+    lore:
+      - '&7Nhận ngay các trang bị cơ bản'
+      - '&7để bắt đầu chuyến phiêu lưu của bạn!'
+      - ''
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_tools2%'
+      - ''
+      - '&f&lBao gồm:'
+      - '&8- &fĐồ Ăn'
+      - '&8- &fGiáp khởi đầu'
+      - ''
+      - '&eNhấp để nhận quà!'
+    click_commands:
+      #- '[console] lp user %player_name% permission settemp kit.starter true 1s' # Example command, can be replaced
+      - '[player] kit tools2' # Example command to get kit
+      - '[close]'
+  'kit_vip1':
+    material: COAL
+    slot: 12
+    display_name: '&e&l🎁 Quà &#fcd05c&l&oV&#ffffff&l&oI&l&oP&l&o1&r'
+    lore:
+      - '&7Quà dành riêng cho &#fcd05c&l&oV&#ffffff&l&oI&l&oP&l&o1&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip1%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx1 &fTáo vàng'
+      - ' &8▪ &a&lx1 &fThịt bò nướng'
+      - ' &8▪ &a&lx1 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx1 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx1 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx1 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx1 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx1 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx1 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx1 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx1 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip1'
+      - '[close]'
+  'kit_vip2':
+    material: COPPER_INGOT
+    slot: 13
+    display_name: '&e&l🎁 Quà &#fcd05c&l&oV&#fee8ae&l&oI&#ffffff&l&oP&#faedcb&l&o2&r'
+    lore:
+      - '&7Quà dành riêng cho &#fcd05c&l&oV&#fee8ae&l&oI&#ffffff&l&oP&#faedcb&l&o2&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip2%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx2 &fTáo vàng'
+      - ' &8▪ &a&lx2 &fThịt bò nướng'
+      - ' &8▪ &a&lx2 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx2 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx2 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx2 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx2 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx2 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx2 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx2 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx2 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip2'
+      - '[close]'
+  'kit_vip3':
+    material: IRON_INGOT
+    slot: 14
+    display_name: '&e&l🎁 Quà &#5fe2c5&l&oV&#aff1e2&l&oI&#ffffff&l&oP&l&o3&r'
+    lore:
+      - '&7Quà dành riêng cho &#5fe2c5&l&oV&#aff1e2&l&oI&#ffffff&l&oP&l&o3&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip3%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx4 &fTáo vàng'
+      - ' &8▪ &a&lx4 &fThịt bò nướng'
+      - ' &8▪ &a&lx4 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx4 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx4 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx4 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx4 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx4 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx4 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx4 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx3 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip3'
+      - '[close]'
+  'kit_vip4':
+    material: GOLD_INGOT
+    slot: 15
+    display_name: '&e&l🎁 Quà &#4498db&l&oV&#a2cced&l&oI&#ffffff&l&oP&l&o4&r'
+    lore:
+      - '&7Quà dành riêng cho &#4498db&l&oV&#a2cced&l&oI&#ffffff&l&oP&l&o4&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip4%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx8 &fTáo vàng'
+      - ' &8▪ &a&lx8 &fThịt bò nướng'
+      - ' &8▪ &a&lx8 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx8 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx8 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx8 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx8 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx8 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx8 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx8 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx4 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip4'
+      - '[close]'
+  'kit_vip5':
+    material: REDSTONE
+    slot: 16
+    display_name: '&e&l🎁 Quà &#9863e7&l&oV&#ccb1f3&l&oI&#ffffff&l&oP&l&o5&r'
+    lore:
+      - '&7Quà dành riêng cho &#9863e7&l&oV&#ccb1f3&l&oI&#ffffff&l&oP&l&o5&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip5%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx16 &fTáo vàng'
+      - ' &8▪ &a&lx16 &fThịt bò nướng'
+      - ' &8▪ &a&lx16 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx16 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx16 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx16 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx16 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx16 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx16 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx16 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx5 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip5'
+      - '[close]'
+  'kit_vip6':
+    material: LAPIS_LAZULI
+    slot: 21
+    display_name: '&e&l🎁 Quà &#e43a96&l&oV&#f29dcb&l&oI&#ffffff&l&oP&l&o6&r'
+    lore:
+      - '&7Quà dành riêng cho &#e43a96&l&oV&#f29dcb&l&oI&#ffffff&l&oP&l&o6&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip6%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx32 &fTáo vàng'
+      - ' &8▪ &a&lx32 &fThịt bò nướng'
+      - ' &8▪ &a&lx32 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx32 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx32 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx32 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx32 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx32 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx32 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx32 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx6 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip6'
+      - '[close]'
+  'kit_vip7':
+    material: AMETHYST_SHARD
+    slot: 22
+    display_name: '&e&l🎁 Quà &#555555&l&oV&#aaaaaa&l&oI&#ffffff&l&oP&l&o7&r'
+    lore:
+      - '&7Quà dành riêng cho &#555555&l&oV&#aaaaaa&l&oI&#ffffff&l&oP&l&o7&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip7%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx64 &fTáo vàng'
+      - ' &8▪ &a&lx64 &fThịt bò nướng'
+      - ' &8▪ &a&lx64 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx64 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx64 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx64 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx64 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx64 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx64 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx64 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx7 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip7'
+      - '[close]'
+  'kit_vip8':
+    material: QUARTZ
+    slot: 23
+    display_name: '&e&l🎁 Quà &#555555&l&oV&#8a5652&l&oI&#c0584e&l&oP&#f5594b&l&o8&r'
+    lore:
+      - '&7Quà dành riêng cho &#555555&l&oV&#8a5652&l&oI&#c0584e&l&oP&#f5594b&l&o8&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip8%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx64 &fTáo vàng'
+      - ' &8▪ &a&lx64 &fThịt bò nướng'
+      - ' &8▪ &a&lx64 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx64 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx64 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx64 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx64 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx64 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx64 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx64 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx8 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ' &8▪ &a&lx1 <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip8'
+      - '[close]'
+  'kit_vip9':
+    material: EMERALD
+    slot: 24
+    display_name: '&e&l🎁 Quà &#9863e7&l&oV&#b155cc&l&oI&#cb48b1&l&oP&#e43a96&l&o9&r'
+    lore:
+      - '&7Quà dành riêng cho &#9863e7&l&oV&#b155cc&l&oI&#cb48b1&l&oP&#e43a96&l&o9&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip9%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx64 &fTáo vàng'
+      - ' &8▪ &a&lx64 &fThịt bò nướng'
+      - ' &8▪ &a&lx64 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx64 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx64 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx64 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx64 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx64 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx64 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx64 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx9 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ' &8▪ &a&lx2 <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip9'
+      - '[close]'
+  'kit_vip10':
+    material: DIAMOND
+    slot: 25
+    display_name: '&e&l🎁 Quà &#fcd05c&l&oV&#d5d554&l&oI&#aeda4b&l&oP&#86df43&l&o1&#5fe43a&l&o0&r'
+    lore:
+      - '&7Quà dành riêng cho &#fcd05c&l&oV&#d5d554&l&oI&#aeda4b&l&oP&#86df43&l&o1&#5fe43a&l&o0&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip10%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx64 &fTáo vàng'
+      - ' &8▪ &a&lx64 &fThịt bò nướng'
+      - ' &8▪ &a&lx64 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx64 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx64 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx64 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx64 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx64 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx64 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx64 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx10 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ' &8▪ &a&lx3 <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip10'
+      - '[close]'
+  'kit_vip11':
+    material: NETHERITE_SCRAP
+    slot: 30
+    display_name: '&e&l🎁 Quà &#3d3f46&l&oV&#9d724f&l&oI&#fca458&l&oP&#8fa676&l&o1&#22a893&l&o1&r'
+    lore:
+      - '&7Quà dành riêng cho &#3d3f46&l&oV&#9d724f&l&oI&#fca458&l&oP&#8fa676&l&o1&#22a893&l&o1&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip11%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx64 &fTáo vàng'
+      - ' &8▪ &a&lx64 &fThịt bò nướng'
+      - ' &8▪ &a&lx64 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx64 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx64 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx64 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx64 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx64 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx64 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx64 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx11 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ' &8▪ &a&lx4 <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip11'
+      - '[close]'
+  'kit_vip12':
+    material: NETHERITE_INGOT
+    slot: 31
+    display_name: '&e&l🎁 Quà &#4329c1&l&oV&#3c398b&l&oI&#354854&l&oP&#66948c&l&o1&#96e0c3&l&o2&r'
+    lore:
+      - '&7Quà dành riêng cho &#4329c1&l&oV&#3c398b&l&oI&#354854&l&oP&#66948c&l&o1&#96e0c3&l&o2&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip12%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx64 &fTáo vàng'
+      - ' &8▪ &a&lx64 &fThịt bò nướng'
+      - ' &8▪ &a&lx64 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx64 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx64 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx64 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx64 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx64 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx64 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx64 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx12 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ' &8▪ &a&lx5 <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip12'
+      - '[close]'
+  'kit_vip13':
+    material: TOTEM_OF_UNDYING
+    slot: 32
+    display_name: '&e&l🎁 Quà &#37cbfc&l&oV&#25c1f6&l&oI&#13b6f0&l&oP&#49a7a5&l&o1&#7f9759&l&o3&r'
+    lore:
+      - '&7Quà dành riêng cho &#37cbfc&l&oV&#25c1f6&l&oI&#13b6f0&l&oP&#49a7a5&l&o1&#7f9759&l&o3&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip13%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx64 &fTáo vàng'
+      - ' &8▪ &a&lx64 &fThịt bò nướng'
+      - ' &8▪ &a&lx64 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx64 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx64 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx64 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx64 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx64 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx64 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx64 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx13 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ' &8▪ &a&lx6 <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿'
+      - ' &8▪ &a&lx1 <red>★<dark_red>✮ <red><bold>CHÌA KHÓA TRANG BỊ <light_purple>☾<red>⦿<light_purple>☽'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip13'
+      - '[close]'
+  'kit_vip14':
+    material: NETHER_STAR
+    slot: 33
+    display_name: '&e&l🎁 Quà &#d50f1e&l&oV&#d86c4a&l&oI&#dbc975&l&oP&#eccd69&l&o1&#fcd05c&l&o4&r'
+    lore:
+      - '&7Quà dành riêng cho &#d50f1e&l&oV&#d86c4a&l&oI&#dbc975&l&oP&#eccd69&l&o1&#fcd05c&l&o4&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip14%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx64 &fTáo vàng'
+      - ' &8▪ &a&lx64 &fThịt bò nướng'
+      - ' &8▪ &a&lx64 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx64 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx64 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx64 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx64 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx64 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx64 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx64 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx14 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ' &8▪ &a&lx7 <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿'
+      - ' &8▪ &a&lx2 <red>★<dark_red>✮ <red><bold>CHÌA KHÓA TRANG BỊ <light_purple>☾<red>⦿<light_purple>☽'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip14'
+      - '[close]'
+  'kit_vip15':
+    material: DRAGON_EGG
+    slot: 34
+    display_name: '&e&l🎁 Quà &#4958ec&l&oV&#564caf&l&oI&#633f72&l&oP&#a6364f&l&o1&#e92c2c&l&o5&r'
+    lore:
+      - '&7Quà dành riêng cho &#4958ec&l&oV&#564caf&l&oI&#633f72&l&oP&#a6364f&l&o1&#e92c2c&l&o5&r'
+      - '&7Thời gian nhận lại: &e%essentials_kit_time_until_available_vip15%'
+      - ''
+      - '&a&lPHẦN THƯỞNG:'
+      - ' &8▪ &a&lx64 &fTáo vàng'
+      - ' &8▪ &a&lx64 &fThịt bò nướng'
+      - ' &8▪ &a&lx64 &8✦ &f&lThan &dIII &8✦'
+      - ' &8▪ &a&lx64 &6✦ &a&lĐồng &dIII &6✦'
+      - ' &8▪ &a&lx64 &7✦ &b&lSắt &dIII &7✦'
+      - ' &8▪ &a&lx64 &e✦ &5&lVàng &dIII &e✦'
+      - ' &8▪ &a&lx64 &b✦ &6&lKim Cương &dIII &b✦'
+      - ' &8▪ &a&lx64 &b❄ &d&lBăng Thạch &dIII &b❄'
+      - ' &8▪ &a&lx64 &c♨ &d&lNham Thạch &dIII &c♨'
+      - ' &8▪ &a&lx64 &eϟ &d&lLôi Thạch &dIII &eϟ'
+      - ' &8▪ &a&lx15 <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱'
+      - ' &8▪ &a&lx8 <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿'
+      - ' &8▪ &a&lx3 <red>★<dark_red>✮ <red><bold>CHÌA KHÓA TRANG BỊ <light_purple>☾<red>⦿<light_purple>☽'
+      - ''
+      - '&eNhấp để nhận quà!'
+    view_requirement:
+      requirements:
+        vip_preview:
+          type: has permission
+          permission: kit.vip.preview
+    click_commands:
+      - '[player] kit vip15'
+      - '[close]'

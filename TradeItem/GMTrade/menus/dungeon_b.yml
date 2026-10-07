@@ -1,0 +1,126 @@
+title: '&8Cửa Hàng Dungeon B'
+layout:
+  - '#########'
+  - '# SBDHW #'
+  - '#########'
+  - '##12 34##'
+  - '####Q####'
+decorations:
+  '#':
+    material: GRAY_STAINED_GLASS_PANE
+    name: '&7'
+  Q:
+    material: DARK_OAK_DOOR
+    name: '&cQuay Lại Cửa Hàng'
+    lore:
+      - '&7Click để quay lại menu chính'
+    command: '[console] dm open trademenu %player%'
+trades:
+  S:
+    result:
+      type: SWORD
+      id: KIEM_TIEN_PHONG
+      amount: 1
+    cost:
+      money: 4000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_B
+          amount: 256
+  B:
+    result:
+      type: BOW
+      id: CUNG_TIEN_PHONG
+      amount: 1
+    cost:
+      money: 4000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_B
+          amount: 256
+  D:
+    result:
+      type: DAGGER
+      id: DAO_TIEN_PHONG
+      amount: 1
+    cost:
+      money: 4000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_B
+          amount: 256
+  H:
+    result:
+      type: HAMMER
+      id: BUA_TIEN_PHONG
+      amount: 1
+    cost:
+      money: 4000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_B
+          amount: 256
+  W:
+    result:
+      type: STAFF
+      id: GAY_TIEN_PHONG
+      amount: 1
+    cost:
+      money: 4000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_B
+          amount: 256
+  '1':
+    result:
+      type: ARMOR
+      id: MU_TIEN_PHONG
+      amount: 1
+    cost:
+      money: 2000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_B
+          amount: 256
+  '2':
+    result:
+      type: ARMOR
+      id: GIAP_TIEN_PHONG
+      amount: 1
+    cost:
+      money: 2000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_B
+          amount: 256
+  '3':
+    result:
+      type: ARMOR
+      id: QUAN_TIEN_PHONG
+      amount: 1
+    cost:
+      money: 2000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_B
+          amount: 256
+  '4':
+    result:
+      type: ARMOR
+      id: GIAY_TIEN_PHONG
+      amount: 1
+    cost:
+      money: 2000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_B
+          amount: 256

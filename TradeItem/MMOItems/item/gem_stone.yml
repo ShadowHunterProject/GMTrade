@@ -1,0 +1,2722 @@
+# Ngọc sức mạnh (redstone) - pve-damage/pvp-damage
+# Ngọc nhanh nhẹn (quartz) - movement-speed
+# Ngọc chuẩn xác (PRISMARINE_CRYSTALS) - attack-speed
+# Ngọc chí mạng (gold) - critical-strike
+# Ngọc sinh lực (emerald) - max-health
+# Ngọc né tránh () - dodge
+
+
+GEM_OF_STRENGTH_PVE_DAO1:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: COAL
+    disable-crafting: true
+    name: '&b◆ &8[&e⚒ Damage Quái &8] &elv.1 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    tier: E
+    success-rate: 50.0
+    pve-damage:
+      base: 2.2
+      spread: 0.1
+      max-spread: 0.3
+GEM_OF_STRENGTH_PVE_DAO1_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: COAL
+    disable-crafting: true
+    name: '&b◆ &8[&e⚒ Damage Quái &8] &elv.2 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 4.6
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_STRENGTH_PVP_DAO1:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&e⚔ Damage PVP &8] &elv.1 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 1.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_STRENGTH_PVP_DAO1_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&e⚔ Damage PVP &8] &elv.2 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 2.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_MAX_HEALTH_DAO1:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: COAL_BLOCK
+    disable-crafting: true
+    name: '&b◆ &8[&e❤ Sinh Lực &8] &elv.1 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 11
+    max-health:
+      base: 9
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_MAX_HEALTH_DAO1_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: COAL_BLOCK
+    disable-crafting: true
+    name: '&b◆ &8[&e❤ Sinh Lực &8] &elv.2 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 11.5
+    max-health:
+      base: 18
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_STRENGTH_PVE_DAO2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: IRON_INGOT
+    disable-crafting: true
+    name: '&b◆ &8[&e⚒ Damage Quái &8] &elv.3 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 7
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_STRENGTH_PVE_DAO2_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: IRON_INGOT
+    disable-crafting: true
+    name: '&b◆ &8[&e⚒ Damage Quái &8] &elv.4 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 9.4
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_STRENGTH_PVP_DAO2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&e⚔ Damage PVP &8] &elv.3 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 3.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_STRENGTH_PVP_DAO2_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&e⚔ Damage PVP &8] &elv.4 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 4.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_MAX_HEALTH_DAO2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: IRON_BLOCK
+    disable-crafting: true
+    name: '&b◆ &8[&e❤ Sinh Lực &8] &elv.3 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 12
+    max-health:
+      base: 27
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_MAX_HEALTH_DAO2_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: IRON_BLOCK
+    disable-crafting: true
+    name: '&b◆ &8[&e❤ Sinh Lực &8] &elv.4 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 13
+    max-health:
+      base: 36
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_STRENGTH_PVE_DAO3:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: GOLD_INGOT
+    disable-crafting: true
+    name: '&b◆ &8[&e⚒ Damage Quái &8] &elv.5 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 11.8
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_STRENGTH_PVE_DAO3_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: GOLD_INGOT
+    disable-crafting: true
+    name: '&b◆ &8[&e⚒ Damage Quái &8] &elv.6 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 14.2
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_STRENGTH_PVP_DAO3:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&e⚔ Damage PVP &8] &elv.5 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 5.9
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_STRENGTH_PVP_DAO3_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&e⚔ Damage PVP &8] &elv.6 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 7.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_MAX_HEALTH_DAO3:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: GOLD_BLOCK
+    disable-crafting: true
+    name: '&b◆ &8[&e❤ Sinh Lực &8] &elv.5 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 14
+    max-health:
+      base: 45
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_MAX_HEALTH_DAO3_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: GOLD_BLOCK
+    disable-crafting: true
+    name: '&b◆ &8[&e❤ Sinh Lực &8] &elv.6 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 14.5
+    max-health:
+      base: 54
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_STRENGTH_PVE_DAO4:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: DIAMOND
+    disable-crafting: true
+    name: '&b◆ &8[&6⚒ Damage Quái &8] &6lv.7 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 16.6
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_STRENGTH_PVE_DAO4_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: DIAMOND
+    disable-crafting: true
+    name: '&b◆ &8[&6⚒ Damage Quái &8] &6lv.8 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 19
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_STRENGTH_PVP_DAO4:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&6⚔ Damage PVP &8] &6lv.7 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 8.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_STRENGTH_PVP_DAO4_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&6⚔ Damage PVP &8] &6lv.8 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 9.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_MAX_HEALTH_DAO4:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: DIAMOND_BLOCK
+    disable-crafting: true
+    name: '&b◆ &8[&6❤ Sinh Lực &8] &6lv.7 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 16
+    max-health:
+      base: 63
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_MAX_HEALTH_DAO4_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: DIAMOND_BLOCK
+    disable-crafting: true
+    name: '&b◆ &8[&6❤ Sinh Lực &8] &6lv.8 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 16.5
+    max-health:
+      base: 72
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_STRENGTH_PVE_DAO5:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BRICK
+    disable-crafting: true
+    name: '&b◆ &8[&6⚒ Damage Quái &8] &6lv.9 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 21.4
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_STRENGTH_PVE_DAO5_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BRICK
+    disable-crafting: true
+    name: '&b◆ &8[&6⚒ Damage Quái &8] &6lv.10 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 23.8
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_STRENGTH_PVP_DAO5:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&6⚔ Damage PVP &8] &6lv.9 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 10.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_STRENGTH_PVP_DAO5_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&6⚔ Damage PVP &8] &6lv.10 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 11.9
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_MAX_HEALTH_DAO5:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: TERRACOTTA
+    disable-crafting: true
+    name: '&b◆ &8[&6❤ Sinh Lực &8] &6lv.9 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 17.5
+    max-health:
+      base: 81
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_MAX_HEALTH_DAO5_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: TERRACOTTA
+    disable-crafting: true
+    name: '&b◆ &8[&6❤ Sinh Lực &8] &6lv.10 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 18
+    max-health:
+      base: 90
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_STRENGTH_PVE_DAO6:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: CLAY_BALL
+    disable-crafting: true
+    name: '&b◆ &8[&6⚒ Damage Quái &8] &6lv.11 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 26.2
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_STRENGTH_PVE_DAO6_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: CLAY_BALL
+    disable-crafting: true
+    name: '&b◆ &8[&6⚒ Damage Quái &8] &6lv.12 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 28.6
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_STRENGTH_PVP_DAO6:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&6⚔ Damage PVP &8] &6lv.11 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 13.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_STRENGTH_PVP_DAO6_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&6⚔ Damage PVP &8] &6lv.12 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 14.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_MAX_HEALTH_DAO6:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: TERRACOTTA
+    disable-crafting: true
+    name: '&b◆ &8[&6❤ Sinh Lực &8] &6lv.11 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 19
+    max-health:
+      base: 99
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_MAX_HEALTH_DAO6_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: TERRACOTTA
+    disable-crafting: true
+    name: '&b◆ &8[&6❤ Sinh Lực &8] &6lv.12 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 19.5
+    max-health:
+      base: 108
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_STRENGTH_PVE_DAO7:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: NETHER_BRICK
+    disable-crafting: true
+    name: '&b◆ &8[&a⚒ Damage Quái &8] &alv.13 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 31
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_STRENGTH_PVE_DAO7_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: NETHER_BRICK
+    disable-crafting: true
+    name: '&b◆ &8[&a⚒ Damage Quái &8] &alv.14 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 33.4
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_STRENGTH_PVP_DAO7:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&a⚔ Damage PVP &8] &alv.13 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 15.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_STRENGTH_PVP_DAO7_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&a⚔ Damage PVP &8] &alv.14 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 16.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_MAX_HEALTH_DAO7:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: TERRACOTTA
+    disable-crafting: true
+    name: '&b◆ &8[&a❤ Sinh Lực &8] &alv.13 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 111.5
+    max-health:
+      base: 117
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_MAX_HEALTH_DAO7_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: TERRACOTTA
+    disable-crafting: true
+    name: '&b◆ &8[&a❤ Sinh Lực &8] &alv.14 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 112
+    max-health:
+      base: 126
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_STRENGTH_PVE_DAO8:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&a⚒ Damage Quái &8] &alv.15 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 35.8
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_STRENGTH_PVE_DAO8_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&a⚒ Damage Quái &8] &alv.16 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 38.2
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_STRENGTH_PVP_DAO8:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&a⚔ Damage PVP &8] &alv.15 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 17.9
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_STRENGTH_PVP_DAO8_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&a⚔ Damage PVP &8] &alv.16 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 19.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_MAX_HEALTH_DAO8:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: LAPIS_BLOCK
+    disable-crafting: true
+    name: '&b◆ &8[&a❤ Sinh Lực &8] &alv.15 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 113
+    max-health:
+      base: 135
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_MAX_HEALTH_DAO8_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: LAPIS_BLOCK
+    disable-crafting: true
+    name: '&b◆ &8[&a❤ Sinh Lực &8] &alv.16 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 114
+    max-health:
+      base: 144
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_STRENGTH_PVE_DAO9:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: SLIME_BALL
+    disable-crafting: true
+    name: '&b◆ &8[&a⚒ Damage Quái &8] &alv.17 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 40.6
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_STRENGTH_PVE_DAO9_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: SLIME_BALL
+    disable-crafting: true
+    name: '&b◆ &8[&a⚒ Damage Quái &8] &alv.18 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 43
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_STRENGTH_PVP_DAO9:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&a⚔ Damage PVP &8] &alv.17 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 20.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_STRENGTH_PVP_DAO9_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&a⚔ Damage PVP &8] &alv.18 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 21.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_MAX_HEALTH_DAO9:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: EMERALD_BLOCK
+    disable-crafting: true
+    name: '&b◆ &8[&a❤ Sinh Lực &8] &alv.17 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 115
+    max-health:
+      base: 153
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_MAX_HEALTH_DAO9_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: EMERALD_BLOCK
+    disable-crafting: true
+    name: '&b◆ &8[&a❤ Sinh Lực &8] &alv.18 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 115.5
+    max-health:
+      base: 162
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_STRENGTH_PVE_DAO10:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&c⚒ Damage Quái &8] &clv.19 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 45.4
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_STRENGTH_PVE_DAO10_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&c⚒ Damage Quái &8] &clv.20 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 47.8
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_STRENGTH_PVP_DAO10:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: CHORUS_PLANT
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage PVP &8] &clv.19 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 22.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_STRENGTH_PVP_DAO10_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: CHORUS_PLANT
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage PVP &8] &clv.20 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 23.9
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_MAX_HEALTH_DAO10:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: TERRACOTTA
+    disable-crafting: true
+    name: '&b◆ &8[&c❤ Sinh Lực &8] &clv.19 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 118
+    max-health:
+      base: 171
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_MAX_HEALTH_DAO10_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: TERRACOTTA
+    disable-crafting: true
+    name: '&b◆ &8[&c❤ Sinh Lực &8] &clv.20 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 118.5
+    max-health:
+      base: 180
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_STRENGTH_PVE_DAO11:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: EMERALD
+    disable-crafting: true
+    name: '&b◆ &8[&c⚒ Damage Quái &8] &clv.21 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 50.2
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+    disable-droping: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+GEM_OF_STRENGTH_PVE_DAO11_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: EMERALD
+    disable-crafting: true
+    name: '&b◆ &8[&c⚒ Damage Quái &8] &clv.22 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 52.6
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_STRENGTH_PVP_DAO11:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: SUGAR
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage PVP &8] &clv.21 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 25.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_STRENGTH_PVP_DAO11_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: SUGAR
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage PVP &8] &clv.22 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 26.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_MAX_HEALTH_DAO11:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: TERRACOTTA
+    disable-crafting: true
+    name: '&b◆ &8[&c❤ Sinh Lực &8] &clv.21 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 121
+    max-health:
+      base: 189
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_MAX_HEALTH_DAO11_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: TERRACOTTA
+    disable-crafting: true
+    name: '&b◆ &8[&c❤ Sinh Lực &8] &clv.22 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 121.5
+    max-health:
+      base: 198
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_STRENGTH_PVE_DAO12:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: GLOWSTONE_DUST
+    disable-crafting: true
+    name: '&b◆ &8[&c⚒ Damage Quái &8] &clv.23 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 55
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_STRENGTH_PVE_DAO12_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: GLOWSTONE_DUST
+    disable-crafting: true
+    name: '&b◆ &8[&c⚒ Damage Quái &8] &clv.24 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 57.4
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_STRENGTH_PVP_DAO12:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: NETHER_STAR
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage PVP &8] &clv.23 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 27.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_STRENGTH_PVP_DAO12_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: NETHER_STAR
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage PVP &8] &clv.24 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 28.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_MAX_HEALTH_DAO12:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: JACK_O_LANTERN
+    disable-crafting: true
+    name: '&b◆ &8[&c❤ Sinh Lực &8] &clv.23 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 122
+    max-health:
+      base: 207
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_MAX_HEALTH_DAO12_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: JACK_O_LANTERN
+    disable-crafting: true
+    name: '&b◆ &8[&c❤ Sinh Lực &8] &clv.24 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 122.5
+    max-health:
+      base: 216
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_STRENGTH_PVE_DAO13:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: MAGMA_CREAM
+    disable-crafting: true
+    name: '&b◆ &8[&c⚒ Damage Quái &8] &clv.25 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 59.8
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVE_DAO13_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: MAGMA_CREAM
+    disable-crafting: true
+    name: '&b◆ &8[&c⚒ Damage Quái &8] &clv.26 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 62.2
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DAO13:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: EMERALD
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage PVP &8] &clv.25 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 29.9
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DAO13_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: EMERALD
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage PVP &8] &clv.26 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 31.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_MAX_HEALTH_DAO13:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: YELLOW_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&b◆ &8[&c❤ Sinh Lực &8] &clv.25 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 123
+    max-health:
+      base: 225
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_MAX_HEALTH_DAO13_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: YELLOW_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&b◆ &8[&c❤ Sinh Lực &8] &clv.26 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 123.5
+    max-health:
+      base: 234
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVE_DAO14:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: LIME_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚒ &eDamage Quái lv.27 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 64.6
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVE_DAO14_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: LIME_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚒ &eDamage Quái lv.28 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 67
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DAO14:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: RED_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚔ &eDamage PVP lv.27 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 32.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DAO14_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: RED_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚔ &eDamage PVP lv.28 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 33.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_MAX_HEALTH_DAO14:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: CYAN_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6❤ &eSinh Lực lv.27 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 125
+    max-health:
+      base: 243
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_MAX_HEALTH_DAO14_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: CYAN_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6❤ &eSinh Lực lv.28 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 125.5
+    max-health:
+      base: 252
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVE_DAO15:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: PURPLE_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚒ &eDamage Quái lv.29 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 69.4
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVE_DAO15_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: PURPLE_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚒ &eDamage Quái lv.30 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 71.8
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DAO15:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BROWN_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚔ &eDamage PVP lv.29 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 34.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DAO15_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BROWN_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚔ &eDamage PVP lv.30 &d&k]&r &c｡&d'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 75.0
+    pvp-damage:
+      base: 35.9
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+    revision-id: 1
+GEM_OF_MAX_HEALTH_DAO15:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: GRAY_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6❤ &eSinh Lực lv.29 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 126
+    max-health:
+      base: 261
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_MAX_HEALTH_DAO15_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: GRAY_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6❤ &eSinh Lực lv.30 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 126.5
+    max-health:
+      base: 270
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVE_DAO16:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: LIGHT_GRAY_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚒ &eDamage Quái lv.31 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 74.2
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVE_DAO16_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: LIGHT_GRAY_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚒ &eDamage Quái lv.32 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 76.6
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DAO16:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: ORANGE_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚔ &eDamage PVP lv.31 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 37.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DAO16_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: ORANGE_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚔ &eDamage PVP lv.32 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 38.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_MAX_HEALTH_DAO16:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLUE_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6❤ &eSinh Lực lv.31 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 75.0
+    # defense: 127
+    max-health:
+      base: 279
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_MAX_HEALTH_DAO16_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLUE_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6❤ &eSinh Lực lv.32 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 127.5
+    max-health:
+      base: 288
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVE_DAO17:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚒ &cDamage Quái lv.33 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 79
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVE_DAO17_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚒ &cDamage Quái lv.34 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 75.0
+    pve-damage:
+      base: 81.4
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DAO17:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚔ &cDamage PVP lv.33 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 39.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DAO17_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚔ &cDamage PVP lv.34 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 40.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_MAX_HEALTH_DAO17:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d❤ &cSinh Lực lv.33 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 128
+    max-health:
+      base: 297
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_MAX_HEALTH_DAO17_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d❤ &cSinh Lực lv.34 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 128.5
+    max-health:
+      base: 306
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVE_DAO18:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    durability: 4
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚒ &cDamage Quái lv.35 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 83.8
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVE_DAO18_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    durability: 4
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚒ &cDamage Quái lv.36 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 86.2
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DAO18:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    durability: 5
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚔ &cDamage PVP lv.35 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 41.9
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DAO18_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    durability: 5
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚔ &cDamage PVP lv.36 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 43.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_MAX_HEALTH_DAO18:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    durability: 6
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d❤ &cSinh Lực lv.35 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 129
+    max-health:
+      base: 315
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_MAX_HEALTH_DAO18_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    durability: 6
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d❤ &cSinh Lực lv.36 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 129.5
+    max-health:
+      base: 324
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVE_DAO19:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: ROSE_BUSH
+    durability: 1
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚒ &cDamage Quái lv.37 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 88.6
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVE_DAO19_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: ROSE_BUSH
+    durability: 1
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚒ &cDamage Quái lv.38 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pve-damage:
+      base: 91
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DAO19:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: ROSE_BUSH
+    durability: 4
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚔ &cDamage PVP lv.37 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 44.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DAO19_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: ROSE_BUSH
+    durability: 4
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚔ &cDamage PVP lv.38 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    pvp-damage:
+      base: 45.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_MAX_HEALTH_DAO19:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: ROSE_BUSH
+    durability: 5
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d❤ &cSinh Lực lv.37 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 130
+    max-health:
+      base: 333
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_MAX_HEALTH_DAO19_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: ROSE_BUSH
+    durability: 5
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d❤ &cSinh Lực lv.38 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    # defense: 131
+    max-health:
+      base: 342
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_MAX_HEALTH_DONATE:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: END_CRYSTAL
+    disable-crafting: true
+    name: '&c&l☽&d｡&c｡ &c&k[&r &d&l❤ &a&lSinh Lực lv.39 &c&k]&r &c｡&d｡&c&l☾'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 75.0
+    # defense: 320
+    max-health:
+      base: 351
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVE_DONATE:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: END_CRYSTAL
+    disable-crafting: true
+    name: '&c&l☽&d｡&c｡ &c&k[&r &d&l⚒ &a&lDamage Quái lv.39 &c&k]&r &c｡&d｡&c&l☾'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 75.0
+    pve-damage:
+      base: 93.4
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_STRENGTH_PVP_DONATE:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: END_CRYSTAL
+    disable-crafting: true
+    name: '&c&l☽&d｡&c｡ &c&k[&r &d&l⚔ &a&lDamage PVP lv.39 &c&k]&r &c｡&d｡&c&l☾'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 75.0
+    pvp-damage:
+      base: 46.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+
+GEM_OF_SKILL_DAMAGE_DAO1:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&e⚔ Damage Kỹ Năng &8] &elv.1 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 1.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_SKILL_DAMAGE_DAO1_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&e⚔ Damage Kỹ Năng &8] &elv.2 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 2.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_SKILL_DAMAGE_DAO2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&e⚔ Damage Kỹ Năng &8] &elv.3 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 3.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_SKILL_DAMAGE_DAO2_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&e⚔ Damage Kỹ Năng &8] &elv.4 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 4.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_SKILL_DAMAGE_DAO3:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&e⚔ Damage Kỹ Năng &8] &elv.5 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 5.9
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_SKILL_DAMAGE_DAO3_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&e⚔ Damage Kỹ Năng &8] &elv.6 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 7.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+GEM_OF_SKILL_DAMAGE_DAO4:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&6⚔ Damage Kỹ Năng &8] &6lv.7 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 8.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_SKILL_DAMAGE_DAO4_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&6⚔ Damage Kỹ Năng &8] &6lv.8 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 9.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_SKILL_DAMAGE_DAO5:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&6⚔ Damage Kỹ Năng &8] &6lv.9 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 10.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_SKILL_DAMAGE_DAO5_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&6⚔ Damage Kỹ Năng &8] &6lv.10 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 11.9
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_SKILL_DAMAGE_DAO6:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&6⚔ Damage Kỹ Năng &8] &6lv.11 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 13.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_SKILL_DAMAGE_DAO6_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&6⚔ Damage Kỹ Năng &8] &6lv.12 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 14.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+GEM_OF_SKILL_DAMAGE_DAO7:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&a⚔ Damage Kỹ Năng &8] &alv.13 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 15.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_SKILL_DAMAGE_DAO7_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&a⚔ Damage Kỹ Năng &8] &alv.14 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 16.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_SKILL_DAMAGE_DAO8:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&a⚔ Damage Kỹ Năng &8] &alv.15 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 17.9
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_SKILL_DAMAGE_DAO8_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&a⚔ Damage Kỹ Năng &8] &alv.16 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 19.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_SKILL_DAMAGE_DAO9:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&a⚔ Damage Kỹ Năng &8] &alv.17 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 20.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_SKILL_DAMAGE_DAO9_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BLACK_DYE
+    disable-crafting: true
+    name: '&b◆ &8[&a⚔ Damage Kỹ Năng &8] &alv.18 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 21.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: C
+GEM_OF_SKILL_DAMAGE_DAO10:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: CHORUS_PLANT
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage Kỹ Năng &8] &clv.19 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 22.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_SKILL_DAMAGE_DAO10_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: CHORUS_PLANT
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage Kỹ Năng &8] &clv.20 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 23.9
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_SKILL_DAMAGE_DAO11:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: SUGAR
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage Kỹ Năng &8] &clv.21 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 25.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_SKILL_DAMAGE_DAO11_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: SUGAR
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage Kỹ Năng &8] &clv.22 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 26.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_SKILL_DAMAGE_DAO12:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: NETHER_STAR
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage Kỹ Năng &8] &clv.23 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 27.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_SKILL_DAMAGE_DAO12_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: NETHER_STAR
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage Kỹ Năng &8] &clv.24 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 28.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: B
+GEM_OF_SKILL_DAMAGE_DAO13:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: EMERALD
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage Kỹ Năng &8] &clv.25 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 29.9
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_SKILL_DAMAGE_DAO13_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: EMERALD
+    disable-crafting: true
+    name: '&b◆ &8[&c⚔ Damage Kỹ Năng &8] &clv.26 &b◆'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 31.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_SKILL_DAMAGE_DAO14:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: RED_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚔ &eDamage Kỹ Năng lv.27 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 32.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_SKILL_DAMAGE_DAO14_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: RED_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚔ &eDamage Kỹ Năng lv.28 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 33.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_SKILL_DAMAGE_DAO15:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BROWN_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚔ &eDamage Kỹ Năng lv.29 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 34.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_SKILL_DAMAGE_DAO15_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: BROWN_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚔ &eDamage Kỹ Năng lv.30 &d&k]&r &c｡&d'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 75.0
+    skill-damage:
+      base: 35.9
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+    revision-id: 1
+GEM_OF_SKILL_DAMAGE_DAO16:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: ORANGE_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚔ &eDamage Kỹ Năng lv.31 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 37.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_SKILL_DAMAGE_DAO16_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: ORANGE_GLAZED_TERRACOTTA
+    disable-crafting: true
+    name: '&d｡&c｡ &d&k[&r &6⚔ &eDamage Kỹ Năng lv.32 &d&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 38.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_SKILL_DAMAGE_DAO17:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚔ &cDamage Kỹ Năng lv.33 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 39.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_SKILL_DAMAGE_DAO17_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚔ &cDamage Kỹ Năng lv.34 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 40.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_SKILL_DAMAGE_DAO18:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    durability: 5
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚔ &cDamage Kỹ Năng lv.35 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 41.9
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_SKILL_DAMAGE_DAO18_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: POPPY
+    durability: 5
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚔ &cDamage Kỹ Năng lv.36 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 43.1
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_SKILL_DAMAGE_DAO19:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: ROSE_BUSH
+    durability: 4
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚔ &cDamage Kỹ Năng lv.37 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 44.3
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_SKILL_DAMAGE_DAO19_2:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: ROSE_BUSH
+    durability: 4
+    disable-crafting: true
+    name: '&d｡&c｡ &c&k[&r &d⚔ &cDamage Kỹ Năng lv.38 &c&k]&r &c｡&d｡'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 50.0
+    skill-damage:
+      base: 45.5
+      spread: 0.1
+      max-spread: 0.3
+    tier: A
+GEM_OF_SKILL_DAMAGE_DONATE:
+  base:
+    lore:
+    - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+    - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+    material: END_CRYSTAL
+    disable-crafting: true
+    name: '&c&l☽&d｡&c｡ &c&k[&r &d&l⚔ &a&lDamage Kỹ Năng lv.39 &c&k]&r &c｡&d｡&c&l☾'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    success-rate: 75.0
+    skill-damage:
+      base: 46.7
+      spread: 0.1
+      max-spread: 0.3
+    tier: A

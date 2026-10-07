@@ -1,0 +1,8 @@
+Name: <aqua>✦<dark_aqua>✯ <aqua><bold>CHÌA KHÓA DUNGEON C <dark_aqua>✯<aqua>✦
+Virtual: true
+ItemData:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{"extra":["CHÌA KHÓA DUNGEON C"],"text":""}},count:1,id:"minecraft:tripwire_hook"}'
+    DataVersion: 4671
+ItemStackable: false

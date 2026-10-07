@@ -1,0 +1,77 @@
+menu_title: "&8▶ Giao Diện | Cẩm Nang Tân Thủ"
+open_command:
+  - help
+  - huongdan
+open_commands:
+  - "[sound] ITEM_BOOK_PAGE_TURN 1.0 1.0"
+size: 27
+items:
+  "taf":
+    material: IRON_HOE
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slot: 11
+    display_name: "&#00FF7F&l🤖 Lệnh Tiện Ích"
+    lore:
+      - ""
+      - "&8▶ &a/autofarm &fđể mở menu auto farm"
+      - "&8▶ &a/tag &fđể mở menu tag"
+      - "&8▶ &a/ah &fđể mở menu đấu giá"
+      - "&8▶ &a/ah sell &fđể bám vật phẩm"
+      - "&8▶ &a/booster &fđể mở menu booster"
+      - "&8▶ &a/rendo &fđể mở menu rèn sức mạnh đồ"
+      - "&8▶ &a/menu &fđể mở menu chính của server"
+      - "&8▶ &a/warp &fđể mở menu dịch chuyển"
+      - "&8▶ &a/phukien &f để gắn các phụ kiện"
+      - "&8▶ &a/music &fđể bật tắt nhạc sảnh và pvp"
+      - "&8▶ &a/pass &fđể mở sổ thợ săn theo season"
+      - "&8▶ &a/thanhtuu &fđể mở menu thành tựu"
+      - "&8▶ &a/ore &fđể mở menu cúp và khoáng sản"
+      - "&8▶ &a/lc &fđể xem info lực chiến"
+      - "&8▶ &a/guild &fđể tạo guild hội"
+      - ""
+
+  "shadow":
+    material: WITHER_SKELETON_SKULL
+    slot: 13
+    display_name: "&#9370DB&l👻 TRIỆU HỒI SHADOW"
+    lore:
+      - ""
+      - "&8▶ &a/tvdt &f xem thông tin các đệ tử bóng tối"
+      - "&8▶ &a/shadowhunter &fđể mở menu đệ tự bóng tối"
+      - "&8▶ &a/shadowhunter despawn &fđể tắt đệ tử"
+      - "&8▶ &a/shadowhunter summon &fđể triệu hồi đệ tử"
+      - ""
+
+  "class":
+    material: NETHER_STAR
+    slot: 15
+    display_name: "&#FF1493&l🧬 HỆ THỐNG CLASS"
+    lore:
+      - ""
+      - "&8▶ &a/class &fđể mở menu class"
+      - "&8▶ &a/solo &fskills để mở nâng cấp kỹ năng"
+      - "&8▶ &a/attr &fđể nâng cấp chỉ số"
+      - ""
+
+  #--------------------------------------------------------------------
+
+  "menu":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQyZmIzYmUwMzFmNjY0NjE2MGIyZjM3YjM0NjM2MjMyY2EyZjM5ODYxZjg4Y2FiYTE5MmNhYjhmZThlODZlIn19fQ==
+    display_name: "&8[ &cX &8] &cReturn"
+    lore:
+      - "&7Quay lại giao diện chính"
+    slot: 26
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] menu"
+
+  "black":
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 0-8
+      - 9
+      - 17
+      - 18-25

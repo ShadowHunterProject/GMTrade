@@ -1,0 +1,8 @@
+Name: <white>❄<aqua>❅ <white><bold>CHÌA KHÓA DUNGEON A BĂNG GIÁ <aqua>❅<white>❄
+Virtual: true
+ItemData:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{"extra":["CHÌA KHÓA DUNGEON A BĂNG GIÁ"],"text":""}},count:1,id:"minecraft:tripwire_hook"}'
+    DataVersion: 4671
+ItemStackable: false

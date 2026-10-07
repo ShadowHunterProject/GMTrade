@@ -1,0 +1,126 @@
+title: '&8Cửa Hàng Dungeon A+ Đền Thờ'
+layout:
+  - '#########'
+  - '# SBDHW #'
+  - '#########'
+  - '##12 34##'
+  - '####Q####'
+decorations:
+  '#':
+    material: GRAY_STAINED_GLASS_PANE
+    name: '&7'
+  Q:
+    material: DARK_OAK_DOOR
+    name: '&cQuay Lại Cửa Hàng'
+    lore:
+      - '&7Click để quay lại menu chính'
+    command: '[console] dm open trademenu %player%'
+trades:
+  S:
+    result:
+      type: SWORD
+      id: KIEM_HAC_THIEN_SU
+      amount: 1
+    cost:
+      money: 8000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A_PLUS_DENTHO
+          amount: 512
+  B:
+    result:
+      type: BOW
+      id: CUNG_HAC_THIEN_SU
+      amount: 1
+    cost:
+      money: 8000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A_PLUS_DENTHO
+          amount: 512
+  D:
+    result:
+      type: DAGGER
+      id: DAO_HAC_THIEN_SU
+      amount: 1
+    cost:
+      money: 8000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A_PLUS_DENTHO
+          amount: 512
+  H:
+    result:
+      type: HAMMER
+      id: BUA_HAC_THIEN_SU
+      amount: 1
+    cost:
+      money: 8000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A_PLUS_DENTHO
+          amount: 512
+  W:
+    result:
+      type: STAFF
+      id: GAY_HAC_THIEN_SU
+      amount: 1
+    cost:
+      money: 8000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A_PLUS_DENTHO
+          amount: 512
+  '1':
+    result:
+      type: ARMOR
+      id: MU_HAC_THIEN_SU
+      amount: 1
+    cost:
+      money: 4000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A_PLUS_DENTHO
+          amount: 512
+  '2':
+    result:
+      type: ARMOR
+      id: GIAP_HAC_THIEN_SU
+      amount: 1
+    cost:
+      money: 4000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A_PLUS_DENTHO
+          amount: 512
+  '3':
+    result:
+      type: ARMOR
+      id: QUAN_HAC_THIEN_SU
+      amount: 1
+    cost:
+      money: 4000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A_PLUS_DENTHO
+          amount: 512
+  '4':
+    result:
+      type: ARMOR
+      id: GIAY_HAC_THIEN_SU
+      amount: 1
+    cost:
+      money: 4000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_A_PLUS_DENTHO
+          amount: 512

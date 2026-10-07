@@ -1,0 +1,1268 @@
+Name: <white><bold>⏱<green>○<yellow><bold>⏱<aqua><bold> Hòm <white><bold>Online <yellow><bold>⏱<green>○<white><bold>⏱
+Description: []
+ItemProvider:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{bold:0b,extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"Cratese Crate",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},"minecraft:tooltip_display":{hidden_components:["minecraft:trim","minecraft:container_loot","minecraft:custom_data","minecraft:lock","minecraft:horse/variant","minecraft:container","minecraft:max_damage","minecraft:swing_animation","minecraft:pot_decorations","minecraft:fireworks","minecraft:provides_banner_patterns","minecraft:ominous_bottle_amplifier","minecraft:cat/variant","minecraft:recipes","minecraft:consumable","minecraft:writable_book_content","minecraft:unbreakable","minecraft:bundle_contents","minecraft:enchantment_glint_override","minecraft:wolf/sound_variant","minecraft:instrument","minecraft:piercing_weapon","minecraft:map_id","minecraft:food","minecraft:mooshroom/variant","minecraft:block_state","minecraft:enchantable","minecraft:suspicious_stew_effects","minecraft:sheep/color","minecraft:kinetic_weapon","minecraft:equippable","minecraft:villager/variant","minecraft:frog/variant","minecraft:map_post_processing","minecraft:max_stack_size","minecraft:bucket_entity_data","minecraft:pig/variant","minecraft:llama/variant","minecraft:firework_explosion","minecraft:banner_patterns","minecraft:chicken/variant","minecraft:debug_stick_state","minecraft:glider","minecraft:map_color","minecraft:repairable","minecraft:potion_contents","minecraft:lodestone_tracker","minecraft:cat/collar","minecraft:dyed_color","minecraft:provides_trim_material","minecraft:repair_cost","minecraft:break_sound","minecraft:shulker/color","minecraft:charged_projectiles","minecraft:base_color","minecraft:minimum_attack_charge","minecraft:use_effects","minecraft:zombie_nautilus/variant","minecraft:intangible_projectile","minecraft:entity_data","minecraft:axolotl/variant","minecraft:parrot/variant","minecraft:tropical_fish/pattern_color","minecraft:use_cooldown","minecraft:rarity","minecraft:profile","minecraft:painting/variant","minecraft:wolf/variant","minecraft:damage_resistant","minecraft:written_book_content","minecraft:death_protection","minecraft:tool","minecraft:block_entity_data","minecraft:map_decorations","minecraft:creative_slot_lock","minecraft:wolf/collar","minecraft:bees","minecraft:fox/variant","minecraft:weapon","minecraft:potion_duration_scale","minecraft:attack_range","minecraft:use_remainder","minecraft:can_break","minecraft:salmon/size","minecraft:attribute_modifiers","minecraft:jukebox_playable","minecraft:damage","minecraft:blocks_attacks","minecraft:tropical_fish/pattern","minecraft:stored_enchantments","minecraft:note_block_sound","minecraft:can_place_on","minecraft:enchantments","minecraft:cow/variant","minecraft:damage_type","minecraft:tropical_fish/base_color","minecraft:rabbit/variant"]}},count:1,id:"minecraft:chest"}'
+    DataVersion: 4671
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: csgo
+OpeningCooldown:
+  Enabled: false
+  Value: 0
+OpeningLimit:
+  Amount: 1
+Block:
+  Positions:
+  - -25,64,-4,world_spawn
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: cratesonline
+    Y_Offset: 0.0
+  Effect:
+    Enabled: true
+    Model: helix
+    Particle:
+      Name: CLOUD
+Milestones:
+  Repeatable: false
+_dataver: 600
+Post-Open:
+  Commands: []
+Rewards:
+  List:
+    bamboo_crate:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"blue",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bamboo Crate",underlined:0b}],text:""},"minecraft:profile":{id:[I;67411088,-739686879,-1666252800,-1431949223],name:"HeadDatabase",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM1Y2VmMGRkNWExZGZjYjI0MTM4ODljZmM5YjNjYzAwZmY5MmUxZWIyOTJjZTAzYThmYWMxOTUwNTU5MTA5NSJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 550.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <green><b>Hòm 5k tiền
+      Description: []
+      Commands:
+      - eco give %player_name% 5000
+    bamboo_crate_1:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"blue",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bamboo Crate",underlined:0b}],text:""},"minecraft:profile":{id:[I;67411088,-739686879,-1666252790,-1441713512],name:"HeadDatabase",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBmODQ4YjA4ZTUzZTk4NGY3MGQ4ZjljMjllZGE0ZTFkMTQxMTk0NjIxOWE3NDQ4ZjYyODFiYjgwYWU4NTI1MiJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 350.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <green><b>Hòm 10k tiền
+      Description: []
+      Commands:
+      - eco give %player_name% 10000
+    birch_crate:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"blue",italic:0b,obfuscated:0b,strikethrough:0b,text:"Birch Crate",underlined:0b}],text:""},"minecraft:profile":{id:[I;67411088,-739686879,-1666252800,-1432258224],name:"HeadDatabase",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I0ZTQ3OGMxMWNjZGZhNDUzMjk4NzQ3MjQ1ZTA0MjVlYzQyNTFlMTdmYjNlNjdkYmVjMTQxNzZjNjQ3MTcifX19"}]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 300.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <green><b>Hòm 20k tiền
+      Description: []
+      Commands:
+      - eco give %player_name% 20000
+    kiem_chien_binh:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_CHIEN_BINH
+          Amount: 1
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_CHIEN_BINH
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_CHIEN_BINH
+    kiem_hiep_si:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_HIEP_SI
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_HIEP_SI
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_HIEP_SI
+    kiem_tien_phong:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_TIEN_PHONG
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_TIEN_PHONG
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_TIEN_PHONG
+    gay_chien_binh:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_CHIEN_BINH
+          Amount: 1
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_CHIEN_BINH
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_CHIEN_BINH
+    gay_hiep_si:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_HIEP_SI
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_HIEP_SI
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_HIEP_SI
+    gay_tien_phong:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_TIEN_PHONG
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_TIEN_PHONG
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_TIEN_PHONG
+    cung_chien_binh:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_CHIEN_BINH
+          Amount: 1
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_CHIEN_BINH
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_CHIEN_BINH
+    cung_hiep_si:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_HIEP_SI
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_HIEP_SI
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_HIEP_SI
+    cung_tien_phong:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_TIEN_PHONG
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_TIEN_PHONG
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_TIEN_PHONG
+    bua_chien_binh:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_CHIEN_BINH
+          Amount: 1
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_CHIEN_BINH
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_CHIEN_BINH
+    bua_hiep_si:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_HIEP_SI
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_HIEP_SI
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_HIEP_SI
+    bua_tien_phong:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_TIEN_PHONG
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_TIEN_PHONG
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_TIEN_PHONG
+    dao_chien_binh:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_CHIEN_BINH
+          Amount: 1
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_CHIEN_BINH
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_CHIEN_BINH
+    dao_hiep_si:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_HIEP_SI
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_HIEP_SI
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_HIEP_SI
+    dao_tien_phong:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_TIEN_PHONG
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_TIEN_PHONG
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_TIEN_PHONG
+    mu_chien_binh:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:MU_CHIEN_BINH
+          Amount: 1
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:MU_CHIEN_BINH
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: MU_CHIEN_BINH
+    mu_hiep_si:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:MU_HIEP_SI
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:MU_HIEP_SI
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: MU_HIEP_SI
+    mu_tien_phong:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:MU_TIEN_PHONG
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:MU_TIEN_PHONG
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: MU_TIEN_PHONG
+    giap_chien_binh:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:GIAP_CHIEN_BINH
+          Amount: 1
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:GIAP_CHIEN_BINH
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: GIAP_CHIEN_BINH
+    giap_hiep_si:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:GIAP_HIEP_SI
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:GIAP_HIEP_SI
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: GIAP_HIEP_SI
+    giap_tien_phong:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:GIAP_TIEN_PHONG
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:GIAP_TIEN_PHONG
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: GIAP_TIEN_PHONG
+    quan_chien_binh:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:QUAN_CHIEN_BINH
+          Amount: 1
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:QUAN_CHIEN_BINH
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: QUAN_CHIEN_BINH
+    quan_hiep_si:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:QUAN_HIEP_SI
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:QUAN_HIEP_SI
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: QUAN_HIEP_SI
+    quan_tien_phong:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:QUAN_TIEN_PHONG
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:QUAN_TIEN_PHONG
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: QUAN_TIEN_PHONG
+    giay_chien_binh:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:GIAY_CHIEN_BINH
+          Amount: 1
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:GIAY_CHIEN_BINH
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: GIAY_CHIEN_BINH
+    giay_hiep_si:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:GIAY_HIEP_SI
+          Amount: 1
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:GIAY_HIEP_SI
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: GIAY_HIEP_SI
+    giay_tien_phong:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:GIAY_TIEN_PHONG
+          Amount: 1
+      Weight: 7.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:GIAY_TIEN_PHONG
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: GIAY_TIEN_PHONG
+    key_trang_bi:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:tripwire_hook"}'
+          DataVersion: 4671
+      Weight: 1.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <red>★<dark_red>✮ <red><bold>CHÌA KHÓA TRANG BỊ <light_purple>☾<red>⦿<light_purple>☽
+      Description: []
+      Commands:
+      - crates key give %player_name% cratesakey 1
+    reset_attr:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:chest"}'
+          DataVersion: 4671
+      Weight: 9.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <green><b>Điểm Reset Attr
+      Description:
+      - '&7Vật phẩm đặc biệt dùng để tẩy điểm tiềm năng (Attr)'
+      - '&7Giúp bạn có cơ hội cộng lại các chỉ số sức mạnh'
+      - '&7cho nhân vật của mình một lần nữa.'
+      - ''
+      - '&a&l▶ &aTự động cộng vào tài khoản khi trúng thưởng!'
+      Commands:
+      - solo resetattr %player_name%
+    _bom_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:weapon","minecraft:dyed_color","minecraft:bundle_contents","minecraft:map_color","minecraft:equippable","minecraft:tool","minecraft:mooshroom/variant","minecraft:map_decorations","minecraft:container_loot","minecraft:swing_animation","minecraft:tropical_fish/base_color","minecraft:cat/collar","minecraft:fox/variant","minecraft:potion_contents","minecraft:container","minecraft:llama/variant","minecraft:lock","minecraft:attack_range","minecraft:food","minecraft:debug_stick_state","minecraft:entity_data","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:damage_resistant","minecraft:can_place_on","minecraft:damage","minecraft:jukebox_playable","minecraft:villager/variant","minecraft:firework_explosion","minecraft:chicken/variant","minecraft:max_damage","minecraft:use_effects","minecraft:parrot/variant","minecraft:salmon/size","minecraft:sheep/color","minecraft:use_cooldown","minecraft:use_remainder","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:horse/variant","minecraft:blocks_attacks","minecraft:zombie_nautilus/variant","minecraft:wolf/variant","minecraft:shulker/color","minecraft:bees","minecraft:unbreakable","minecraft:painting/variant","minecraft:custom_data","minecraft:cat/variant","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:profile","minecraft:instrument","minecraft:repairable","minecraft:provides_banner_patterns","minecraft:note_block_sound","minecraft:pot_decorations","minecraft:trim","minecraft:rarity","minecraft:rabbit/variant","minecraft:creative_slot_lock","minecraft:death_protection","minecraft:tropical_fish/pattern","minecraft:wolf/collar","minecraft:pig/variant","minecraft:suspicious_stew_effects","minecraft:enchantments","minecraft:wolf/sound_variant","minecraft:fireworks","minecraft:can_break","minecraft:cow/variant","minecraft:minimum_attack_charge","minecraft:block_entity_data","minecraft:glider","minecraft:stored_enchantments","minecraft:block_state","minecraft:enchantment_glint_override","minecraft:break_sound","minecraft:piercing_weapon","minecraft:map_id","minecraft:base_color","minecraft:banner_patterns","minecraft:intangible_projectile","minecraft:attribute_modifiers","minecraft:tropical_fish/pattern_color","minecraft:consumable","minecraft:repair_cost","minecraft:charged_projectiles","minecraft:kinetic_weapon","minecraft:frog/variant","minecraft:max_stack_size","minecraft:enchantable","minecraft:recipes","minecraft:writable_book_content","minecraft:axolotl/variant","minecraft:lodestone_tracker","minecraft:damage_type"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 4.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"bom"}},"minecraft:custom_name":{extra:[{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"⋨⋨⋨ BOM ⋩⋩⋩",underlined:0b}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thông tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang để biết chi tiết]"}],text:""},{extra:["
+              ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cấp độ",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"V1"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loại",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"Hệ Pháp Sư"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Độ hiếm",underlined:0b},{color:"gray",italic:0b,text:":
+              "},{color:"yellow",italic:0b,text:"Thường"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Yêu cầu",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cần Class Pháp Sư"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"để chọn nhánh này",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"⚠ ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"Lưu
+              ý: "},{color:"white",italic:0b,text:"Hãy suy nghĩ thật kỹ!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đổi nhánh khác sẽ phải về lại Class Chính.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuột Phải "},{color:"white",italic:0b,text:"để bắt đầu "},{color:"red",italic:0b,text:"Sử Dụng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;1963832570,-1706408669,-1802333710,-1547298787],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY0ZjgxNWJjYmFjMjM3MzQwNDY0Yjc3NzgwN2YyNmI1ZTkzMTdjMTlkNTc5ZGEyZGQ5NGNiYmM2YTBkZTUxMzgifX19"}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: bom
+    _băng_v1_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:weapon","minecraft:dyed_color","minecraft:bundle_contents","minecraft:map_color","minecraft:equippable","minecraft:tool","minecraft:mooshroom/variant","minecraft:map_decorations","minecraft:container_loot","minecraft:swing_animation","minecraft:tropical_fish/base_color","minecraft:cat/collar","minecraft:fox/variant","minecraft:potion_contents","minecraft:container","minecraft:llama/variant","minecraft:lock","minecraft:attack_range","minecraft:food","minecraft:debug_stick_state","minecraft:entity_data","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:damage_resistant","minecraft:can_place_on","minecraft:damage","minecraft:jukebox_playable","minecraft:villager/variant","minecraft:firework_explosion","minecraft:chicken/variant","minecraft:max_damage","minecraft:use_effects","minecraft:parrot/variant","minecraft:salmon/size","minecraft:sheep/color","minecraft:use_cooldown","minecraft:use_remainder","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:horse/variant","minecraft:blocks_attacks","minecraft:zombie_nautilus/variant","minecraft:wolf/variant","minecraft:shulker/color","minecraft:bees","minecraft:unbreakable","minecraft:painting/variant","minecraft:custom_data","minecraft:cat/variant","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:profile","minecraft:instrument","minecraft:repairable","minecraft:provides_banner_patterns","minecraft:note_block_sound","minecraft:pot_decorations","minecraft:trim","minecraft:rarity","minecraft:rabbit/variant","minecraft:creative_slot_lock","minecraft:death_protection","minecraft:tropical_fish/pattern","minecraft:wolf/collar","minecraft:pig/variant","minecraft:suspicious_stew_effects","minecraft:enchantments","minecraft:wolf/sound_variant","minecraft:fireworks","minecraft:can_break","minecraft:cow/variant","minecraft:minimum_attack_charge","minecraft:block_entity_data","minecraft:glider","minecraft:stored_enchantments","minecraft:block_state","minecraft:enchantment_glint_override","minecraft:break_sound","minecraft:piercing_weapon","minecraft:map_id","minecraft:base_color","minecraft:banner_patterns","minecraft:intangible_projectile","minecraft:attribute_modifiers","minecraft:tropical_fish/pattern_color","minecraft:consumable","minecraft:repair_cost","minecraft:charged_projectiles","minecraft:kinetic_weapon","minecraft:frog/variant","minecraft:max_stack_size","minecraft:enchantable","minecraft:recipes","minecraft:writable_book_content","minecraft:axolotl/variant","minecraft:lodestone_tracker","minecraft:damage_type"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 3.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"bang1"}},"minecraft:custom_name":{extra:[{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"⋨⋨⋨ BĂNG V1 ⋩⋩⋩",underlined:0b}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thông tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang để biết chi tiết]"}],text:""},{extra:["
+              ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cấp độ",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"V1"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loại",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"Hệ Pháp Sư"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Độ hiếm",underlined:0b},{color:"gray",italic:0b,text:":
+              "},{color:"yellow",italic:0b,text:"Thường"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Yêu cầu",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cần Class Pháp Sư"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"để chọn nhánh này",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"⚠ ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"Lưu
+              ý: "},{color:"white",italic:0b,text:"Hãy suy nghĩ thật kỹ!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đổi nhánh khác sẽ phải về lại Class Chính.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuột Phải "},{color:"white",italic:0b,text:"để bắt đầu "},{color:"red",italic:0b,text:"Sử Dụng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;1035864389,-773766473,-1455634520,-594110829],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U5NDM2NzYzZWU3MDRkZWYxYmM2ZTg5NGQxZjg1MzUxNDFiNDljOTU5OTViYWM1NzY0ZjE2MzVjNmQwZDExMzYifX19"}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: bang1
+    _lửa_v1_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:weapon","minecraft:dyed_color","minecraft:bundle_contents","minecraft:map_color","minecraft:equippable","minecraft:tool","minecraft:mooshroom/variant","minecraft:map_decorations","minecraft:container_loot","minecraft:swing_animation","minecraft:tropical_fish/base_color","minecraft:cat/collar","minecraft:fox/variant","minecraft:potion_contents","minecraft:container","minecraft:llama/variant","minecraft:lock","minecraft:attack_range","minecraft:food","minecraft:debug_stick_state","minecraft:entity_data","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:damage_resistant","minecraft:can_place_on","minecraft:damage","minecraft:jukebox_playable","minecraft:villager/variant","minecraft:firework_explosion","minecraft:chicken/variant","minecraft:max_damage","minecraft:use_effects","minecraft:parrot/variant","minecraft:salmon/size","minecraft:sheep/color","minecraft:use_cooldown","minecraft:use_remainder","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:horse/variant","minecraft:blocks_attacks","minecraft:zombie_nautilus/variant","minecraft:wolf/variant","minecraft:shulker/color","minecraft:bees","minecraft:unbreakable","minecraft:painting/variant","minecraft:custom_data","minecraft:cat/variant","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:profile","minecraft:instrument","minecraft:repairable","minecraft:provides_banner_patterns","minecraft:note_block_sound","minecraft:pot_decorations","minecraft:trim","minecraft:rarity","minecraft:rabbit/variant","minecraft:creative_slot_lock","minecraft:death_protection","minecraft:tropical_fish/pattern","minecraft:wolf/collar","minecraft:pig/variant","minecraft:suspicious_stew_effects","minecraft:enchantments","minecraft:wolf/sound_variant","minecraft:fireworks","minecraft:can_break","minecraft:cow/variant","minecraft:minimum_attack_charge","minecraft:block_entity_data","minecraft:glider","minecraft:stored_enchantments","minecraft:block_state","minecraft:enchantment_glint_override","minecraft:break_sound","minecraft:piercing_weapon","minecraft:map_id","minecraft:base_color","minecraft:banner_patterns","minecraft:intangible_projectile","minecraft:attribute_modifiers","minecraft:tropical_fish/pattern_color","minecraft:consumable","minecraft:repair_cost","minecraft:charged_projectiles","minecraft:kinetic_weapon","minecraft:frog/variant","minecraft:max_stack_size","minecraft:enchantable","minecraft:recipes","minecraft:writable_book_content","minecraft:axolotl/variant","minecraft:lodestone_tracker","minecraft:damage_type"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 3.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"lua1"}},"minecraft:custom_name":{extra:[{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"⋨⋨⋨ LỬA V1 ⋩⋩⋩",underlined:0b}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thông tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang để biết chi tiết]"}],text:""},{extra:["
+              ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cấp độ",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"V1"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loại",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"yellow",italic:0b,text:"Hệ Pháp Sư"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Độ hiếm",underlined:0b},{color:"gray",italic:0b,text:":
+              "},{color:"yellow",italic:0b,text:"Thường"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Yêu cầu",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cần Class Pháp Sư"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"để chọn nhánh này",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"⚠ ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"Lưu
+              ý: "},{color:"white",italic:0b,text:"Hãy suy nghĩ thật kỹ!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đổi nhánh khác sẽ phải về lại Class Chính.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuột Phải "},{color:"white",italic:0b,text:"để bắt đầu "},{color:"red",italic:0b,text:"Sử Dụng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;833799119,-1161214139,-1789092489,1465694170],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkyY2JhOWU3NWE4YTMzYTRiOTc5Mzg0ZmUyZjNkYjBiMWYxZjgwNjNmMjE2Njg5ZjZlZGE5NTlkOTA1MGI5NzUifX19"}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: lua1
+    _băng_v2_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:weapon","minecraft:dyed_color","minecraft:bundle_contents","minecraft:map_color","minecraft:equippable","minecraft:tool","minecraft:mooshroom/variant","minecraft:map_decorations","minecraft:container_loot","minecraft:swing_animation","minecraft:tropical_fish/base_color","minecraft:cat/collar","minecraft:fox/variant","minecraft:potion_contents","minecraft:container","minecraft:llama/variant","minecraft:lock","minecraft:attack_range","minecraft:food","minecraft:debug_stick_state","minecraft:entity_data","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:damage_resistant","minecraft:can_place_on","minecraft:damage","minecraft:jukebox_playable","minecraft:villager/variant","minecraft:firework_explosion","minecraft:chicken/variant","minecraft:max_damage","minecraft:use_effects","minecraft:parrot/variant","minecraft:salmon/size","minecraft:sheep/color","minecraft:use_cooldown","minecraft:use_remainder","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:horse/variant","minecraft:blocks_attacks","minecraft:zombie_nautilus/variant","minecraft:wolf/variant","minecraft:shulker/color","minecraft:bees","minecraft:unbreakable","minecraft:painting/variant","minecraft:custom_data","minecraft:cat/variant","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:profile","minecraft:instrument","minecraft:repairable","minecraft:provides_banner_patterns","minecraft:note_block_sound","minecraft:pot_decorations","minecraft:trim","minecraft:rarity","minecraft:rabbit/variant","minecraft:creative_slot_lock","minecraft:death_protection","minecraft:tropical_fish/pattern","minecraft:wolf/collar","minecraft:pig/variant","minecraft:suspicious_stew_effects","minecraft:enchantments","minecraft:wolf/sound_variant","minecraft:fireworks","minecraft:can_break","minecraft:cow/variant","minecraft:minimum_attack_charge","minecraft:block_entity_data","minecraft:glider","minecraft:stored_enchantments","minecraft:block_state","minecraft:enchantment_glint_override","minecraft:break_sound","minecraft:piercing_weapon","minecraft:map_id","minecraft:base_color","minecraft:banner_patterns","minecraft:intangible_projectile","minecraft:attribute_modifiers","minecraft:tropical_fish/pattern_color","minecraft:consumable","minecraft:repair_cost","minecraft:charged_projectiles","minecraft:kinetic_weapon","minecraft:frog/variant","minecraft:max_stack_size","minecraft:enchantable","minecraft:recipes","minecraft:writable_book_content","minecraft:axolotl/variant","minecraft:lodestone_tracker","minecraft:damage_type"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.5
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"bang2"}},"minecraft:custom_name":{extra:[{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"⋨⋨⋨ BĂNG V2 ⋩⋩⋩",underlined:0b}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thông tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang để biết chi tiết]"}],text:""},{extra:["
+              ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cấp độ",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"V2"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loại",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Hệ Pháp Sư"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Độ hiếm",underlined:0b},{color:"gray",italic:0b,text:":
+              "},{color:"red",italic:0b,text:"Huyền Thoại"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Yêu cầu",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cần Class Pháp Sư"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"để chọn nhánh này",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"⚠ ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"Lưu
+              ý: "},{color:"white",italic:0b,text:"Hãy suy nghĩ thật kỹ!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đổi nhánh khác sẽ phải về lại Class Chính.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuột Phải "},{color:"white",italic:0b,text:"để bắt đầu "},{color:"red",italic:0b,text:"Sử Dụng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;1772775714,453132937,-1154909796,-1037642585],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QzZTFjNWU2NWUxMzU1OWJmNjBlMTU0ZjE3ZjZhZjNhOGU1NjA4YTQ5ODdlY2QxZTBmYWU3NTFjNmY4MjcyNiJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: bang2
+    _lửa_v2_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:weapon","minecraft:dyed_color","minecraft:bundle_contents","minecraft:map_color","minecraft:equippable","minecraft:tool","minecraft:mooshroom/variant","minecraft:map_decorations","minecraft:container_loot","minecraft:swing_animation","minecraft:tropical_fish/base_color","minecraft:cat/collar","minecraft:fox/variant","minecraft:potion_contents","minecraft:container","minecraft:llama/variant","minecraft:lock","minecraft:attack_range","minecraft:food","minecraft:debug_stick_state","minecraft:entity_data","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:damage_resistant","minecraft:can_place_on","minecraft:damage","minecraft:jukebox_playable","minecraft:villager/variant","minecraft:firework_explosion","minecraft:chicken/variant","minecraft:max_damage","minecraft:use_effects","minecraft:parrot/variant","minecraft:salmon/size","minecraft:sheep/color","minecraft:use_cooldown","minecraft:use_remainder","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:horse/variant","minecraft:blocks_attacks","minecraft:zombie_nautilus/variant","minecraft:wolf/variant","minecraft:shulker/color","minecraft:bees","minecraft:unbreakable","minecraft:painting/variant","minecraft:custom_data","minecraft:cat/variant","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:profile","minecraft:instrument","minecraft:repairable","minecraft:provides_banner_patterns","minecraft:note_block_sound","minecraft:pot_decorations","minecraft:trim","minecraft:rarity","minecraft:rabbit/variant","minecraft:creative_slot_lock","minecraft:death_protection","minecraft:tropical_fish/pattern","minecraft:wolf/collar","minecraft:pig/variant","minecraft:suspicious_stew_effects","minecraft:enchantments","minecraft:wolf/sound_variant","minecraft:fireworks","minecraft:can_break","minecraft:cow/variant","minecraft:minimum_attack_charge","minecraft:block_entity_data","minecraft:glider","minecraft:stored_enchantments","minecraft:block_state","minecraft:enchantment_glint_override","minecraft:break_sound","minecraft:piercing_weapon","minecraft:map_id","minecraft:base_color","minecraft:banner_patterns","minecraft:intangible_projectile","minecraft:attribute_modifiers","minecraft:tropical_fish/pattern_color","minecraft:consumable","minecraft:repair_cost","minecraft:charged_projectiles","minecraft:kinetic_weapon","minecraft:frog/variant","minecraft:max_stack_size","minecraft:enchantable","minecraft:recipes","minecraft:writable_book_content","minecraft:axolotl/variant","minecraft:lodestone_tracker","minecraft:damage_type"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.5
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"lua2"}},"minecraft:custom_name":{extra:[{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"⋨⋨⋨ LỬA V2 ⋩⋩⋩",underlined:0b}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thông tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang để biết chi tiết]"}],text:""},{extra:["
+              ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cấp độ",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"V2"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loại",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Hệ Pháp Sư"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Độ hiếm",underlined:0b},{color:"gray",italic:0b,text:":
+              "},{color:"red",italic:0b,text:"Huyền Thoại"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Yêu cầu",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cần Class Pháp Sư"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"để chọn nhánh này",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"⚠ ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"Lưu
+              ý: "},{color:"white",italic:0b,text:"Hãy suy nghĩ thật kỹ!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đổi nhánh khác sẽ phải về lại Class Chính.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuột Phải "},{color:"white",italic:0b,text:"để bắt đầu "},{color:"red",italic:0b,text:"Sử Dụng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;-421515608,-667008194,-1517752113,-326154713],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMzNWUyYWM0NGYyNDJiZDRlYWYyNTFkMGY0YTA1MzNlNjkyYjhjZDhkMjFkNTQ5MTRlNWZlN2NhNDg0M2M5MzYifX19"}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: lua2
+    _chiến_binh_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:weapon","minecraft:dyed_color","minecraft:bundle_contents","minecraft:map_color","minecraft:equippable","minecraft:tool","minecraft:mooshroom/variant","minecraft:map_decorations","minecraft:container_loot","minecraft:swing_animation","minecraft:tropical_fish/base_color","minecraft:cat/collar","minecraft:fox/variant","minecraft:potion_contents","minecraft:container","minecraft:llama/variant","minecraft:lock","minecraft:attack_range","minecraft:food","minecraft:debug_stick_state","minecraft:entity_data","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:damage_resistant","minecraft:can_place_on","minecraft:damage","minecraft:jukebox_playable","minecraft:villager/variant","minecraft:firework_explosion","minecraft:chicken/variant","minecraft:max_damage","minecraft:use_effects","minecraft:parrot/variant","minecraft:salmon/size","minecraft:sheep/color","minecraft:use_cooldown","minecraft:use_remainder","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:horse/variant","minecraft:blocks_attacks","minecraft:zombie_nautilus/variant","minecraft:wolf/variant","minecraft:shulker/color","minecraft:bees","minecraft:unbreakable","minecraft:painting/variant","minecraft:custom_data","minecraft:cat/variant","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:profile","minecraft:instrument","minecraft:repairable","minecraft:provides_banner_patterns","minecraft:note_block_sound","minecraft:pot_decorations","minecraft:trim","minecraft:rarity","minecraft:rabbit/variant","minecraft:creative_slot_lock","minecraft:death_protection","minecraft:tropical_fish/pattern","minecraft:wolf/collar","minecraft:pig/variant","minecraft:suspicious_stew_effects","minecraft:enchantments","minecraft:wolf/sound_variant","minecraft:fireworks","minecraft:can_break","minecraft:cow/variant","minecraft:minimum_attack_charge","minecraft:block_entity_data","minecraft:glider","minecraft:stored_enchantments","minecraft:block_state","minecraft:enchantment_glint_override","minecraft:break_sound","minecraft:piercing_weapon","minecraft:map_id","minecraft:base_color","minecraft:banner_patterns","minecraft:intangible_projectile","minecraft:attribute_modifiers","minecraft:tropical_fish/pattern_color","minecraft:consumable","minecraft:repair_cost","minecraft:charged_projectiles","minecraft:kinetic_weapon","minecraft:frog/variant","minecraft:max_stack_size","minecraft:enchantable","minecraft:recipes","minecraft:writable_book_content","minecraft:axolotl/variant","minecraft:lodestone_tracker","minecraft:damage_type"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.1
+      Rarity: common
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"chienbinh"}},"minecraft:custom_name":{extra:[{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"⋨⋨⋨ Chiến Binh ⋩⋩⋩",underlined:0b}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thông tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang để biết chi tiết]"}],text:""},{extra:["
+              ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cấp độ",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"V1"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loại",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Hệ Đấu Sĩ"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Độ hiếm",underlined:0b},{color:"gray",italic:0b,text:":
+              "},{color:"red",italic:0b,text:"Huyền Thoại"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Yêu cầu",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cần Class Đấu Sĩ"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"để chọn nhánh này",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"⚠ ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"Lưu
+              ý: "},{color:"white",italic:0b,text:"Hãy suy nghĩ thật kỹ!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đổi nhánh khác sẽ phải về lại Class Chính.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuột Phải "},{color:"white",italic:0b,text:"để bắt đầu "},{color:"red",italic:0b,text:"Sử Dụng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;1674149886,1961577095,-1962568813,-340496391],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzliOGFmNTJlZjJmNzJjM2JmNWVjZTZlNzBhODJmMTM3MTk1OWNlM2ZjYjczNmM1MDAzMDVjYWRkYzUwNWM1ZTIifX19"}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: chienbinh
+    _nhamthach_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:weapon","minecraft:dyed_color","minecraft:bundle_contents","minecraft:map_color","minecraft:equippable","minecraft:tool","minecraft:mooshroom/variant","minecraft:map_decorations","minecraft:container_loot","minecraft:swing_animation","minecraft:tropical_fish/base_color","minecraft:cat/collar","minecraft:fox/variant","minecraft:potion_contents","minecraft:container","minecraft:llama/variant","minecraft:lock","minecraft:attack_range","minecraft:food","minecraft:debug_stick_state","minecraft:entity_data","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:damage_resistant","minecraft:can_place_on","minecraft:damage","minecraft:jukebox_playable","minecraft:villager/variant","minecraft:firework_explosion","minecraft:chicken/variant","minecraft:max_damage","minecraft:use_effects","minecraft:parrot/variant","minecraft:salmon/size","minecraft:sheep/color","minecraft:use_cooldown","minecraft:use_remainder","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:horse/variant","minecraft:blocks_attacks","minecraft:zombie_nautilus/variant","minecraft:wolf/variant","minecraft:shulker/color","minecraft:bees","minecraft:unbreakable","minecraft:painting/variant","minecraft:custom_data","minecraft:cat/variant","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:profile","minecraft:instrument","minecraft:repairable","minecraft:provides_banner_patterns","minecraft:note_block_sound","minecraft:pot_decorations","minecraft:trim","minecraft:rarity","minecraft:rabbit/variant","minecraft:creative_slot_lock","minecraft:death_protection","minecraft:tropical_fish/pattern","minecraft:wolf/collar","minecraft:pig/variant","minecraft:suspicious_stew_effects","minecraft:enchantments","minecraft:wolf/sound_variant","minecraft:fireworks","minecraft:can_break","minecraft:cow/variant","minecraft:minimum_attack_charge","minecraft:block_entity_data","minecraft:glider","minecraft:stored_enchantments","minecraft:block_state","minecraft:enchantment_glint_override","minecraft:break_sound","minecraft:piercing_weapon","minecraft:map_id","minecraft:base_color","minecraft:banner_patterns","minecraft:intangible_projectile","minecraft:attribute_modifiers","minecraft:tropical_fish/pattern_color","minecraft:consumable","minecraft:repair_cost","minecraft:charged_projectiles","minecraft:kinetic_weapon","minecraft:frog/variant","minecraft:max_stack_size","minecraft:enchantable","minecraft:recipes","minecraft:writable_book_content","minecraft:axolotl/variant","minecraft:lodestone_tracker","minecraft:damage_type"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.05
+      Rarity: common
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"nhamthach"}},"minecraft:custom_name":{extra:[{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"⋨⋨⋨ NHAM THẠCH ⋩⋩⋩",underlined:0b}],text:""},"minecraft:damage":0,"minecraft:lore":["",{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thông tin",underlined:0b},{bold:0b,color:"gray",italic:0b,text:": "},{color:"gray",italic:0b,text:"[/kynang để biết chi tiết]"}],text:""},{extra:["
+              ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cấp độ",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"V1"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Loại",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Hệ Đỡ Đòn"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Độ hiếm",underlined:0b},{color:"gray",italic:0b,text:":
+              "},{color:"red",italic:0b,text:"Huyền Thoại"}],text:""},{extra:[" ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Yêu cầu",underlined:0b},{color:"gray",italic:0b,text:": "},{color:"red",italic:0b,text:"Cần Class Đỡ Đòn"}],text:""},{extra:[" ",{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"để chọn nhánh này",underlined:0b}],text:""},"",{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"⚠ ",underlined:0b},{bold:0b,color:"red",italic:0b,text:"Lưu
+              ý: "},{color:"white",italic:0b,text:"Hãy suy nghĩ thật kỹ!"}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đổi nhánh khác sẽ phải về lại Class Chính.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuột Phải "},{color:"white",italic:0b,text:"để bắt đầu "},{color:"red",italic:0b,text:"Sử Dụng"},{color:"white",italic:0b,text:"!"}],text:""}],"minecraft:profile":{id:[I;811617956,-2081798203,-1128893272,1414350479],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JiNTA4Yzc3OWYzMTJkYWZmMzM3ZDEzN2YzNGRkMzY1YTNmOWMxMzJiZDkyZWIwYzVmZmFiN2M1YjRhNTVjNSJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+            DataVersion: 4671
+          Vouchers_Id: nhamthach
+    _rank1_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:weapon","minecraft:dyed_color","minecraft:bundle_contents","minecraft:map_color","minecraft:equippable","minecraft:tool","minecraft:mooshroom/variant","minecraft:map_decorations","minecraft:container_loot","minecraft:swing_animation","minecraft:tropical_fish/base_color","minecraft:cat/collar","minecraft:fox/variant","minecraft:potion_contents","minecraft:container","minecraft:llama/variant","minecraft:lock","minecraft:attack_range","minecraft:food","minecraft:debug_stick_state","minecraft:entity_data","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:damage_resistant","minecraft:can_place_on","minecraft:damage","minecraft:jukebox_playable","minecraft:villager/variant","minecraft:firework_explosion","minecraft:chicken/variant","minecraft:max_damage","minecraft:use_effects","minecraft:parrot/variant","minecraft:salmon/size","minecraft:sheep/color","minecraft:use_cooldown","minecraft:use_remainder","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:horse/variant","minecraft:blocks_attacks","minecraft:zombie_nautilus/variant","minecraft:wolf/variant","minecraft:shulker/color","minecraft:bees","minecraft:unbreakable","minecraft:painting/variant","minecraft:custom_data","minecraft:cat/variant","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:profile","minecraft:instrument","minecraft:repairable","minecraft:provides_banner_patterns","minecraft:note_block_sound","minecraft:pot_decorations","minecraft:trim","minecraft:rarity","minecraft:rabbit/variant","minecraft:creative_slot_lock","minecraft:death_protection","minecraft:tropical_fish/pattern","minecraft:wolf/collar","minecraft:pig/variant","minecraft:suspicious_stew_effects","minecraft:enchantments","minecraft:wolf/sound_variant","minecraft:fireworks","minecraft:can_break","minecraft:cow/variant","minecraft:minimum_attack_charge","minecraft:block_entity_data","minecraft:glider","minecraft:stored_enchantments","minecraft:block_state","minecraft:enchantment_glint_override","minecraft:break_sound","minecraft:piercing_weapon","minecraft:map_id","minecraft:base_color","minecraft:banner_patterns","minecraft:intangible_projectile","minecraft:attribute_modifiers","minecraft:tropical_fish/pattern_color","minecraft:consumable","minecraft:repair_cost","minecraft:charged_projectiles","minecraft:kinetic_weapon","minecraft:frog/variant","minecraft:max_stack_size","minecraft:enchantable","minecraft:recipes","minecraft:writable_book_content","minecraft:axolotl/variant","minecraft:lodestone_tracker","minecraft:damage_type"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.15
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"rank1"}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"✦ ",underlined:0b},{bold:1b,color:"gray",italic:0b,text:"Rank "},{bold:0b,color:"dark_gray",italic:0b,text:"» "},{bold:1b,color:"#FCD05C",italic:1b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#FFFFFF",italic:1b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#FFFFFF",italic:1b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#FFFFFF",italic:1b,obfuscated:0b,strikethrough:0b,text:"1",underlined:0b},{bold:0b,italic:0b,text:""}],text:""},"minecraft:damage":0,"minecraft:lore":[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"━━━━━━━━━━━━━━━━━━━━━━━━",underlined:0b}],text:""},{extra:["  ",{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"⭐
+              QUYỀN LỢI RANK ⭐",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"▸ ",underlined:0b},{color:"white",italic:0b,text:"Dùng lệnh "},{color:"green",italic:0b,text:"/rank "},{color:"white",italic:0b,text:"để xem chi tiết."}],text:""},"",{extra:[" ",{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"⚠ ",underlined:0b},{bold:0b,color:"yellow",italic:0b,text:"LƯU Ý QUAN TRỌNG "},{bold:1b,color:"red",italic:0b,text:"⚠"}],text:""},{extra:["
+              ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"• ",underlined:0b},{color:"white",italic:0b,text:"Sử dụng voucher sẽ "},{color:"red",italic:0b,text:"không nhận được "},{color:"white",italic:0b,text:"quà"}],text:""},{extra:["   ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"tặng kèm (Chìa khóa, Tiền,...) như mua ở shop.",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"• ",underlined:0b},{color:"white",italic:0b,text:"Quyền
+              lợi "},{color:"aqua",italic:0b,text:"/kit "},{color:"white",italic:0b,text:"vẫn nhận bình thường."}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"━━━━━━━━━━━━━━━━━━━━━━━━",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuột Phải "},{color:"white",italic:0b,text:"để bắt đầu "},{color:"red",italic:0b,text:"Sử Dụng"},{color:"white",italic:0b,text:"!"}],text:""}]},count:1,id:"minecraft:nether_star"}'
+            DataVersion: 4671
+          Vouchers_Id: rank1
+    _rank2_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:weapon","minecraft:dyed_color","minecraft:bundle_contents","minecraft:map_color","minecraft:equippable","minecraft:tool","minecraft:mooshroom/variant","minecraft:map_decorations","minecraft:container_loot","minecraft:swing_animation","minecraft:tropical_fish/base_color","minecraft:cat/collar","minecraft:fox/variant","minecraft:potion_contents","minecraft:container","minecraft:llama/variant","minecraft:lock","minecraft:attack_range","minecraft:food","minecraft:debug_stick_state","minecraft:entity_data","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:damage_resistant","minecraft:can_place_on","minecraft:damage","minecraft:jukebox_playable","minecraft:villager/variant","minecraft:firework_explosion","minecraft:chicken/variant","minecraft:max_damage","minecraft:use_effects","minecraft:parrot/variant","minecraft:salmon/size","minecraft:sheep/color","minecraft:use_cooldown","minecraft:use_remainder","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:horse/variant","minecraft:blocks_attacks","minecraft:zombie_nautilus/variant","minecraft:wolf/variant","minecraft:shulker/color","minecraft:bees","minecraft:unbreakable","minecraft:painting/variant","minecraft:custom_data","minecraft:cat/variant","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:profile","minecraft:instrument","minecraft:repairable","minecraft:provides_banner_patterns","minecraft:note_block_sound","minecraft:pot_decorations","minecraft:trim","minecraft:rarity","minecraft:rabbit/variant","minecraft:creative_slot_lock","minecraft:death_protection","minecraft:tropical_fish/pattern","minecraft:wolf/collar","minecraft:pig/variant","minecraft:suspicious_stew_effects","minecraft:enchantments","minecraft:wolf/sound_variant","minecraft:fireworks","minecraft:can_break","minecraft:cow/variant","minecraft:minimum_attack_charge","minecraft:block_entity_data","minecraft:glider","minecraft:stored_enchantments","minecraft:block_state","minecraft:enchantment_glint_override","minecraft:break_sound","minecraft:piercing_weapon","minecraft:map_id","minecraft:base_color","minecraft:banner_patterns","minecraft:intangible_projectile","minecraft:attribute_modifiers","minecraft:tropical_fish/pattern_color","minecraft:consumable","minecraft:repair_cost","minecraft:charged_projectiles","minecraft:kinetic_weapon","minecraft:frog/variant","minecraft:max_stack_size","minecraft:enchantable","minecraft:recipes","minecraft:writable_book_content","minecraft:axolotl/variant","minecraft:lodestone_tracker","minecraft:damage_type"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.05
+      Rarity: common
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"rank2"}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"✦ ",underlined:0b},{bold:1b,color:"gray",italic:0b,text:"Rank "},{bold:0b,color:"dark_gray",italic:0b,text:"» "},{bold:1b,color:"#FCD05C",italic:1b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#FEE8AE",italic:1b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#FFFFFF",italic:1b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#FAEDCB",italic:1b,obfuscated:0b,strikethrough:0b,text:"2",underlined:0b},{bold:0b,italic:0b,text:""}],text:""},"minecraft:damage":0,"minecraft:lore":[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"━━━━━━━━━━━━━━━━━━━━━━━━",underlined:0b}],text:""},{extra:["  ",{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"⭐
+              QUYỀN LỢI RANK ⭐",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"▸ ",underlined:0b},{color:"white",italic:0b,text:"Dùng lệnh "},{color:"green",italic:0b,text:"/rank "},{color:"white",italic:0b,text:"để xem chi tiết."}],text:""},"",{extra:[" ",{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"⚠ ",underlined:0b},{bold:0b,color:"yellow",italic:0b,text:"LƯU Ý QUAN TRỌNG "},{bold:1b,color:"red",italic:0b,text:"⚠"}],text:""},{extra:["
+              ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"• ",underlined:0b},{color:"white",italic:0b,text:"Sử dụng voucher sẽ "},{color:"red",italic:0b,text:"không nhận được "},{color:"white",italic:0b,text:"quà"}],text:""},{extra:["   ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"tặng kèm (Chìa khóa, Tiền,...) như mua ở shop.",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"• ",underlined:0b},{color:"white",italic:0b,text:"Quyền
+              lợi "},{color:"aqua",italic:0b,text:"/kit "},{color:"white",italic:0b,text:"vẫn nhận bình thường."}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"━━━━━━━━━━━━━━━━━━━━━━━━",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuột Phải "},{color:"white",italic:0b,text:"để bắt đầu "},{color:"red",italic:0b,text:"Sử Dụng"},{color:"white",italic:0b,text:"!"}],text:""}]},count:1,id:"minecraft:nether_star"}'
+            DataVersion: 4671
+          Vouchers_Id: rank2
+    _rank3_:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:profile":{id:[I;-527290097,-1329448586,-1246138032,-1018989882],name:"2705fd94a0c43192",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:weapon","minecraft:dyed_color","minecraft:bundle_contents","minecraft:map_color","minecraft:equippable","minecraft:tool","minecraft:mooshroom/variant","minecraft:map_decorations","minecraft:container_loot","minecraft:swing_animation","minecraft:tropical_fish/base_color","minecraft:cat/collar","minecraft:fox/variant","minecraft:potion_contents","minecraft:container","minecraft:llama/variant","minecraft:lock","minecraft:attack_range","minecraft:food","minecraft:debug_stick_state","minecraft:entity_data","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:damage_resistant","minecraft:can_place_on","minecraft:damage","minecraft:jukebox_playable","minecraft:villager/variant","minecraft:firework_explosion","minecraft:chicken/variant","minecraft:max_damage","minecraft:use_effects","minecraft:parrot/variant","minecraft:salmon/size","minecraft:sheep/color","minecraft:use_cooldown","minecraft:use_remainder","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:horse/variant","minecraft:blocks_attacks","minecraft:zombie_nautilus/variant","minecraft:wolf/variant","minecraft:shulker/color","minecraft:bees","minecraft:unbreakable","minecraft:painting/variant","minecraft:custom_data","minecraft:cat/variant","minecraft:potion_duration_scale","minecraft:provides_trim_material","minecraft:profile","minecraft:instrument","minecraft:repairable","minecraft:provides_banner_patterns","minecraft:note_block_sound","minecraft:pot_decorations","minecraft:trim","minecraft:rarity","minecraft:rabbit/variant","minecraft:creative_slot_lock","minecraft:death_protection","minecraft:tropical_fish/pattern","minecraft:wolf/collar","minecraft:pig/variant","minecraft:suspicious_stew_effects","minecraft:enchantments","minecraft:wolf/sound_variant","minecraft:fireworks","minecraft:can_break","minecraft:cow/variant","minecraft:minimum_attack_charge","minecraft:block_entity_data","minecraft:glider","minecraft:stored_enchantments","minecraft:block_state","minecraft:enchantment_glint_override","minecraft:break_sound","minecraft:piercing_weapon","minecraft:map_id","minecraft:base_color","minecraft:banner_patterns","minecraft:intangible_projectile","minecraft:attribute_modifiers","minecraft:tropical_fish/pattern_color","minecraft:consumable","minecraft:repair_cost","minecraft:charged_projectiles","minecraft:kinetic_weapon","minecraft:frog/variant","minecraft:max_stack_size","minecraft:enchantable","minecraft:recipes","minecraft:writable_book_content","minecraft:axolotl/variant","minecraft:lodestone_tracker","minecraft:damage_type"]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 0.01
+      Rarity: common
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"rank3"}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"✦ ",underlined:0b},{bold:1b,color:"gray",italic:0b,text:"Rank "},{bold:0b,color:"dark_gray",italic:0b,text:"» "},{bold:1b,color:"#5FE2C5",italic:1b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#AFF1E2",italic:1b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#FFFFFF",italic:1b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#FFFFFF",italic:1b,obfuscated:0b,strikethrough:0b,text:"3",underlined:0b},{bold:0b,italic:0b,text:""}],text:""},"minecraft:damage":0,"minecraft:lore":[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"━━━━━━━━━━━━━━━━━━━━━━━━",underlined:0b}],text:""},{extra:["  ",{bold:1b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"⭐
+              QUYỀN LỢI RANK ⭐",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"▸ ",underlined:0b},{color:"white",italic:0b,text:"Dùng lệnh "},{color:"green",italic:0b,text:"/rank "},{color:"white",italic:0b,text:"để xem chi tiết."}],text:""},"",{extra:[" ",{bold:1b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"⚠ ",underlined:0b},{bold:0b,color:"yellow",italic:0b,text:"LƯU Ý QUAN TRỌNG "},{bold:1b,color:"red",italic:0b,text:"⚠"}],text:""},{extra:["
+              ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"• ",underlined:0b},{color:"white",italic:0b,text:"Sử dụng voucher sẽ "},{color:"red",italic:0b,text:"không nhận được "},{color:"white",italic:0b,text:"quà"}],text:""},{extra:["   ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"tặng kèm (Chìa khóa, Tiền,...) như mua ở shop.",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"• ",underlined:0b},{color:"white",italic:0b,text:"Quyền
+              lợi "},{color:"aqua",italic:0b,text:"/kit "},{color:"white",italic:0b,text:"vẫn nhận bình thường."}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"━━━━━━━━━━━━━━━━━━━━━━━━",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"[!] ",underlined:0b},{color:"green",italic:0b,text:"Chuột Phải "},{color:"white",italic:0b,text:"để bắt đầu "},{color:"red",italic:0b,text:"Sử Dụng"},{color:"white",italic:0b,text:"!"}],text:""}]},count:1,id:"minecraft:nether_star"}'
+            DataVersion: 4671
+          Vouchers_Id: rank3
+CostOptions:
+  key:
+    Enabled: true
+    Name: Key
+    Icon:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:trial_key"}'
+        DataVersion: 4671
+    Entries:
+      '0':
+        Type: key
+        Key: cratesonline
+        Amount: 1

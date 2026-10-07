@@ -1,0 +1,480 @@
+menu_title: "&8▶ Giao Diện | Pháp Sư"
+open_command:
+  - tvkn_phapsu
+size: 54
+items:
+
+  bang1:
+    display_name: "&e&l⋨⋨⋨ BĂNG V1 ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTk0MzY3NjNlZTcwNGRlZjFiYzZlODk0ZDFmODUzNTE0MWI0OWM5NTk5NWJhYzU3NjRmMTYzNWM2ZDBkMTEzNiJ9fX0=
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - "&8&m                                     "
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &eThường"
+      - ""
+      - " &9[&b&l ❄ &f&lCHÉM BĂNG (kỹ năng 1) &b&l❄ &9]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Chém 3 nhát băng vào đối thủ"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e9s"
+      - "  &a✦ &7Mastery: &d150"
+      - "  &a⚔ &7Sát thương: &c160/nhÃ¡t"
+      - ""
+      - " &9[&b&l ❄ &f&lTHƯƠNG BĂNG (kỹ năng 2) &b&l❄ &9]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Tạo ra 1 cây thương bắn về phía trước"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e12s"
+      - "  &a✦ &7Mastery: &d250"
+      - "  &a⚔ &7Sát thương: &c220"
+      - ""
+      - " &9[&b&l ❄ &f&lKHIÊN BĂNG (kỹ năng 3) &b&l❄ &9]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Tạo ra 1 khiên băng và đóng"
+      - "  &7▪ băng nếu chiêu dính kẻ địch"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e18s"
+      - "  &a✦ &7Mastery: &d350"
+      - "  &a⚔ &7Sát thương: &c300"
+      - "&8&m                                     "
+      - "    &a&l☁ &f&omc.minerua.net"
+
+  bang2:
+    display_name: "&c&l⋨⋨⋨ BĂNG V2 ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDNlMWM1ZTY1ZTEzNTU5YmY2MGUxNTRmMTdmNmFmM2E4ZTU2MDhhNDk4N2VjZDFlMGZhZTc1MWM2ZjgyNzI2In19fQ==
+    slot: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - "&8&m                                     "
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &cV1 &7/ &cV2"
+      - "  &a✧ &7Loại: &cHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &cHuyền Thoại"
+      - ""
+      - " &9[&b&l ❄ &f&lBĂNG ĐỘNG ĐẤT (kỹ năng 1) &b&l❄ &9]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Nhảy lên và đáp mạnh đóng băng nơi chỉ định"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e9s"
+      - "  &a✦ &7Mastery: &d150"
+      - "  &a⚔ &7Sát thương: &c120"
+      - ""
+      - " &9[&b&l ❄ &f&lRỒNG BĂNG (kỹ năng 2) &b&l❄ &9]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Triệu hồi rồng băng càn quét kẻ địch"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e12s"
+      - "  &a✦ &7Mastery: &d250"
+      - "  &a⚔ &7Sát thương: &c180"
+      - ""
+      - " &9[&b&l ❄ &f&lTHƯƠNG BĂNG XUYÊN PHÁ (kỹ năng 3) &b&l❄ &9]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Tạo ra 1 cây thương bắn về phía trước"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e12s"
+      - "  &a✦ &7Mastery: &d250"
+      - "  &a⚔ &7Sát thương: &c220"
+      - "&8&m                                     "
+      - "    &a&l☁ &f&omc.minerua.net"
+
+  THUYLONG:
+    display_name: "&b⚘⊱ ─&b&l&k┊&b─ {.⋅ &b&lTHỦY LONG&b ⋅.} ─&b&l&k┊&b─ ⊰⚘"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY0MmQ5MjMxNTBhNTQ2NDk5MzNjNTVlYjhlNzZmYzJhM2ZiMGZhZTZmOGFmYWRjNmYyNDU4MzMxYjNjZWM3MyJ9fX0=
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - "&8&m                                     "
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &bV1 &7/ &bV2"
+      - "  &a✧ &7Loại: &bHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &b✵&lThượng Phẩm&b✵"
+      - ""
+      - " &3[&b&l 〰 &3&lHẢI LƯU PHÁ TRẬN (kỹ năng 1) &b&l〰 &3]"
+      - "  &f&lMÔ TẢ:"
+      - "   &7▪ Phá tan trận địch bằng kiếm thủy"
+      - "  &f&lCHỈ SỐ:"
+      - "   &a⚡ &7Cooldown: &e15s"
+      - "   &a✦ &7Mastery: &d&e300"
+      - "   &a⚔ &7Sát thương: &c200"
+      - ""
+      - " &3[&b&l 〰 &3&lHƠI THỞ THỦY NGUYÊN (kỹ năng 2) &b&l〰 &3]"
+      - "  &f&lMÔ TẢ:"
+      - "   &7▪ Triệu hồi thủy trận và hơi thở thủy"
+      - "   &7▪ nguyên khai mở lục địa"
+      - "  &f&lCHỈ SỐ:"
+      - "   &a⚡ &7Cooldown: &e20s"
+      - "   &a✦ &7Mastery: &d&e350"
+      - "   &a⚔ &7Sát thương: &c350"
+      - ""
+      - " &3[&b&l 〰 &3&lHẢI LONG GIÁNG THẾ (kỹ năng 3) &b&l〰 &3]"
+      - "  &f&lMÔ TẢ:"
+      - "   &7▪ Gọi hải long phá tan trận oách"
+      - "  &f&lCHỈ SỐ:"
+      - "   &a⚡ &7Cooldown: &e45s"
+      - "   &a✦ &7Mastery: &d&e450"
+      - "   &a⚔ &7Sát thương: &c380"
+      - "&8&m                                     "
+      - "&c&l⊱ ─&c&l&k┊&c─ {.⋅ &c&lBạo Long&c ⋅.} ─&c&l&k┊&c─ ⊰"
+      - "    &a&l☁ &f&omc.minerua.net"
+
+
+  bom:
+    display_name: "&e&l⋨⋨⋨ BOM ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRmODE1YmNiYWMyMzczNDA0NjRiNzc3ODA3ZjI2YjVlOTMxN2MxOWQ1NzlkYTJkZDk0Y2JiYzZhMGRlNTEzOCJ9fX0=
+    slot: 13
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - "&8&m                                     "
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1"
+      - "  &a✧ &7Loại: &eHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &eThường"
+      - ""
+      - " &4[&c&l ✹ &6&lBOM ĐỘC (kỹ năng 1) &c&l✹ &4]"
+      - "  &f&lMÔ TẢ:"
+      - "   &7▪ Tạo ra 1 vùng bom nổ độc và"
+      - "   &7▪ gây hiệu ứng độc cho kẻ địch"
+      - "  &f&lCHỈ SỐ:"
+      - "   &a⚡ &7Cooldown: &e15s"
+      - "   &a✦ &7Mastery: &d&b50"
+      - "   &a⚔ &7Sát thương: &c50"
+      - ""
+      - " &4[&c&l ✹ &6&lBOM MAGMA (kỹ năng 2) &c&l✹ &4]"
+      - "  &f&lMÔ TẢ:"
+      - "   &7▪ Tạo ra 1 vùng bom nổ và"
+      - "   &7▪ để lại vệt magma tại đó"
+      - "  &f&lCHỈ SỐ:"
+      - "   &a⚡ &7Cooldown: &e20s"
+      - "   &a✦ &7Mastery: &d&b70"
+      - "   &a⚔ &7Sát thương: &c80"
+      - ""
+      - " &4[&c&l ✹ &6&lBOM LIÊN HOÀN (kỹ năng 3) &c&l✹ &4]"
+      - "  &f&lMÔ TẢ:"
+      - "   &7▪ Tạo ra 1 vùng bom nổ 3 lần"
+      - "  &f&lCHỈ SỐ:"
+      - "   &a⚡ &7Cooldown: &e25s"
+      - "   &a✦ &7Mastery: &d&b100"
+      - "   &a⚔ &7Sát thương: &c120"
+      - "&8&m                                     "
+      - "    &a&l☁ &f&omc.minerua.net"
+
+  lua1:
+    display_name: "&e&l⋨⋨⋨ LỬA V1 ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJjYmE5ZTc1YThhMzNhNGI5NzkzODRmZTJmM2RiMGIxZjFmODA2M2YyMTY2ODlmNmVkYTk1OWQ5MDUwYjk3NSJ9fX0=
+    slot: 14
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - "&8&m                                     "
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &eThường"
+      - ""
+      - " &6[&c&l ♨ &e&lNHẪN LỬA (kỹ năng 1) &c&l♨ &6]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Tụ lửa và phát nổ hất tung kẻ địch."
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e5s"
+      - "  &a⚔ &7Sát thương: &c70"
+      - ""
+      - " &6[&c&l ♨ &e&lLÔNG VŨ RỰC CHÁY (kỹ năng 2) &c&l♨ &6]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Bắn ra những quả cầu lửa rực cháy."
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e7s"
+      - "  &a⚔ &7Sát thương: &c120"
+      - ""
+      - " &6[&c&l ♨ &e&lVŨ ĐIỆU TÀN TRO (kỹ năng 3) &c&l♨ &6]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Lướt đi và phóng hỏa tiễn truy kích."
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e9s"
+      - "  &a⚔ &7Sát thương: &c170"
+      - "&8&m                                     "
+      - "    &a&l☁ &f&omc.minerua.net"
+
+  luabv2:
+    display_name: "&c&l⋨⋨⋨ LỬA V2 ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzM1ZTJhYzQ0ZjI0MmJkNGVhZjI1MWQwZjRhMDUzM2U2OTJiOGNkOGQyMWQ1NDkxNGU1ZmU3Y2E0ODQzYzkzNiJ9fX0=
+    slot: 15
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - "&8&m                                     "
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &cV1 &7/ &cV2"
+      - "  &a✧ &7Loại: &cHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &cHuyền Thoại"
+      - ""
+      - " &6[&c&l ♨ &e&lPHƯỢNG HOÀNG VŨ (kỹ năng 1) &c&l♨ &6]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Triệu hồi chùm lông vũ hội tụ phát nổ."
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e11s"
+      - "  &a⚔ &7Sát thương: &c230"
+      - ""
+      - " &6[&c&l ♨ &e&lPHƯỢNG HOÀNG ẤN (kỹ năng 2) &c&l♨ &6]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Triệu hồi Ấn Phượng Hoàng lan tỏa nhiệt độ."
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e13s"
+      - "  &a⚔ &7Sát thương: &c290"
+      - ""
+      - " &6[&c&l ♨ &e&lPHƯỢNG HOÀNG NIẾT BÀN (kỹ năng 3) &c&l♨ &6]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Hóa thân thành Phượng Hoàng Lửa."
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e15s"
+      - "  &a⚔ &7Sát thương: &c350"
+      - "&8&m                                     "
+      - "    &a&l☁ &f&omc.minerua.net"
+
+  phaohoa:
+    display_name: "&d&l⋨⋨⋨ PHÁO HOA ⋩⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhY2M5OThmZTAzMTY0MTk3N2EzNmE4NWFlNjRkNDViMWRhYjlkODQyMmI4NWFlMTA5MDM5ZWZmODc3MDdiNSJ9fX0=
+    slot: 16
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - "&8&m                                     "
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &cV1"
+      - "  &a✧ &7Loại: &cHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &cHuyền Thoại"
+      - ""
+      - " &d[&c&l ☄ &e&lNỔ PHÁO HOA (kỹ năng 1) &c&l☄ &d]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Tạo vụ nổ pháo hoa rực rỡ"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e10s"
+      - "  &a⚔ &7Sát thương: &c150"
+      - ""
+      - " &d[&c&l ☄ &e&lLỬA MẶT ĐẤT (kỹ năng 2) &c&l☄ &d]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Thiêu đốt mặt đất"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e15s"
+      - "  &a⚔ &7Sát thương: &c200"
+      - ""
+      - " &d[&c&l ☄ &e&lMƯA PHÁO (kỹ năng 3) &c&l☄ &d]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Oanh tạc hỏa lực từ trên không"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e20s"
+      - "  &a⚔ &7Sát thương: &c250"
+      - "&8&m                                     "
+      - "    &a&l☁ &f&omc.minerua.net"
+
+
+  bongtoi:
+    display_name: "&e&l⋨⋨&kk&r &e&lBÓNG TỐI &kk&r&e&l⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg4MTMwOTI1NmEwNjQxMzVjMDlkNDhiNzM4ODgxYzcwMmU5Y2RjMTMwNjJkYzk5MjdjZWM0ZWM0ZmU1ZWQ3YiJ9fX0=
+    slot: 19
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - "&8&m                                     "
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Hắc Ám"
+      - "  &a✧ &7Độ hiếm: &e☬&lThần Thoại&e☬"
+      - ""
+      - " &8[&5&l ☽ &d&lBẪY BÓNG TỐI (kỹ năng 1) &5&l☾ &8]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Tạo ra 1 vùng bẫy bóng tối gây dame và mù"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e9s"
+      - "  &a✦ &7Mastery: &d150"
+      - "  &a⚔ &7Sát thương: &c160"
+      - ""
+      - " &8[&5&l ☽ &d&lGƯƠNG PHÁN XÉT (kỹ năng 2) &5&l☾ &8]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Triệu hồi các gương bóng tối tấn công"
+      - "  &7▪ trong phạm vi hoạt động của nó"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e12s"
+      - "  &a✦ &7Mastery: &d250"
+      - "  &a⚔ &7Sát thương: &c220"
+      - ""
+      - " &8[&5&l ☽ &d&lTẬN THẾ (kỹ năng 3) &5&l☾ &8]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Triệu hồi hố đen hút gây mù và khống chế"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e18s"
+      - "  &a✦ &7Mastery: &d350"
+      - "  &a⚔ &7Sát thương: &c300"
+      - "&8&m                                     "
+      - "    &a&l☁ &f&omc.minerua.net"
+
+  cleric:
+    display_name: "&e&l⋨⋨&kk&r &e&lTU SĨ &kk&r&e&l⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE3YmNlNDhlMDNjMzRmNjJkMzRiOGZlZmNkYzZmZDcxNzRlMWM4M2ZlMTExNWVkMmI1ODUzZTdjNGU1ODVjIn19fQ==
+    slot: 20
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - "&8&m                                     "
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Hỗ Trợ"
+      - "  &a✧ &7Độ hiếm: &e☬&lThần Thoại&e☬"
+      - ""
+      - " &8[&e&l ✚ &6&lQUẢ CẦU PHÚC LÀNH (kỹ năng 1) &e&l✚ &8]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Tạo ra các quả cầu ban phước và hồi máu"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e10s"
+      - "  &a✦ &7Mastery: &d150"
+      - "  &a⚔ &7Hồi phục: &c150"
+      - ""
+      - " &8[&e&l ✚ &6&lCHUÔNG XÁ TỘI (kỹ năng 2) &e&l✚ &8]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Rung chuông thanh tẩy và hất văng"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e15s"
+      - "  &a✦ &7Mastery: &d250"
+      - "  &a⚔ &7Sát thương: &c180"
+      - ""
+      - " &8[&e&l ✚ &6&lTIA SÁNG THÁNH ĐỊA (kỹ năng 3) &e&l✚ &8]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Phóng luồng ánh sáng phán xét rực rỡ"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e20s"
+      - "  &a✦ &7Mastery: &d350"
+      - "  &a⚔ &7Sát thương: &c280"
+      - "&8&m                                     "
+      - "    &a&l☁ &f&omc.minerua.net"
+
+  HUYDIET:
+    display_name: "&e⋇⊶⊰❣⊱⊷⋇ &e&l&k┊&e🎕⋅⚘ &e&lHỦY DIỆT&e ⚘⋅🎕&e&l&k┊&e &e⋇⊶⊰❣⊱⊷⋇"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUxZWY1ODNlZjFmYjUyZjI2MjI0ZWM1YzE2ZjU5Njg3YzM2YjMzNDkxZTBkZDAxODMyYTkwNTUzOGNhM2FkZSJ9fX0=
+    slot: 21
+    item_flags:
+      - HIDE_ATTRIBUTES
+    lore:
+      - "&8&m                                     "
+      - " &f&lTHÔNG TIN:"
+      - "  &a✧ &7Cấp độ: &eV1 &7/ &eV2"
+      - "  &a✧ &7Loại: &eHệ Pháp Sư"
+      - "  &a✧ &7Độ hiếm: &e✵&lThượng Phẩm&e✵"
+      - ""
+      - " &4[&c&l ✹ &6&lBÃO MẮT HỦY DIỆT (kỹ năng 1) &c&l✹ &4]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Triệu hồi mắt xoáy bão hút đối thủ"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e9s"
+      - "  &a✦ &7Mastery: &d150"
+      - "  &a⚔ &7Sát thương: &c160"
+      - ""
+      - " &4[&c&l ✹ &6&lPHÂN RÃ SỰ SỐNG (kỹ năng 2) &c&l✹ &4]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Kỹ năng khiến đối thủ khiếp sợ"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e12s"
+      - "  &a✦ &7Mastery: &d250"
+      - "  &a⚔ &7Sát thương: &c220"
+      - ""
+      - " &4[&c&l ✹ &6&lTIA PHÂN TỬ (kỹ năng 3) &c&l✹ &4]"
+      - " &f&lMÔ TẢ:"
+      - "  &7▪ Khai mở tia phân tử bắn về phía trước"
+      - ""
+      - " &f&lCHỈ SỐ:"
+      - "  &a⚡ &7Cooldown: &e18s"
+      - "  &a✦ &7Mastery: &d350"
+      - "  &a⚔ &7Sát thương: &c300"
+      - "&8&m                                     "
+      - "&4&l⊱ ─&4&l&k┊&4─ {.⋅ &4&lTàn Diệt&4 ⋅.} ─&4&l&k┊&4─ ⊰"
+      - "    &a&l☁ &f&omc.minerua.net"
+
+  "menu":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQyZmIzYmUwMzFmNjY0NjE2MGIyZjM3YjM0NjM2MjMyY2EyZjM5ODYxZjg4Y2FiYTE5MmNhYjhmZThlODZlIn19fQ==
+    display_name: "&8[ &cX &8] &cReturn"
+    lore:
+      - "&8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      - "&7➤ Trở về &fMenu Chính"
+      - "&8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      - "&8✦ &7Nhấn để quay lại"
+    slot: 49
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] thuvienkynang"
+
+  "black":
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 50
+      - 51
+      - 52
+      - 53

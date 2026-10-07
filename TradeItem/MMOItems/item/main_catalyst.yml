@@ -1,0 +1,7 @@
+LIFE_STEAL:
+  base:
+    material: DIAMOND_SWORD
+    gem-sockets:
+    - green
+    - adwan
+    weapon-damage: 1.0E7

@@ -1,0 +1,182 @@
+#########################################################
+#
+# MMOITEMS ANCIENT TOOLTIPS - TIẾNG VIỆT
+# Copyright (C) 2025 Phoenix Devt
+#
+# Last Modified: 15/03/2025
+# - Dịch sang tiếng Việt, giữ nguyên font pack Unicode
+# - Hex colors đẹp và độc đáo cho từng stats
+#
+#########################################################
+
+# Weapon Stats - Thống Kê Vũ Khí
+Level-Item: "&f䀪 <#A4B0BE>ᴄấᴘ độ ᴠậᴛ ᴘʜẩᴍ: <#c9f0e1>{value}</#c9f0e1>"
+weapon-damage: " &f霅 <#e87293>Sát Thương&7: <#c9f0e1><plus>{value}%</#c9f0e1>"
+attack-damage: " &f霅 <#e87293>Sát Thương&7: <#c9f0e1><plus>{value}%</#c9f0e1>"
+attack-speed: " &f甦 <#A4B0BE>Tốc Độ&7: <#c9f0e1>{value}</#c9f0e1>"
+critical-strike-chance: " &f寠 <#f2a54e>T.L Chí Mạng&7: <#c9f0e1><plus>{value}%</#c9f0e1>"
+critical-strike-power: " &f漡 <#f74f43>S.T Chí Mạng&7: <#c9f0e1><plus>{value}%</#c9f0e1>"
+skill-critical-strike-chance: " <#7BED9F>嚋</#7BED9F> <#A4B0BE>Kỹ Năng Chí Mạng: <#c9f0e1><plus>{value}%</#c9f0e1>"
+skill-critical-strike-power: " <#FF9FF3>丄</#FF9FF3> <#A4B0BE>Sức Kỹ Năng Chí Mạng: <#c9f0e1><plus>{value}%</#c9f0e1>"
+range: " <#3742FA>鷭</#3742FA> <#A4B0BE>Tầm Xa: <#c9f0e1>{value}</#c9f0e1>"
+mana-cost: " <#9C88FF>灋</#9C88FF> <#A4B0BE>Tốn <#9C88FF>{value} Mana</#9C88FF>"
+stamina-cost: " <#FF6B35>曍</#FF6B35> <#A4B0BE>Tốn <#FF6B35>{value} Thể Lực</#FF6B35>"
+arrow-velocity: " <#FF3838>嚉</#FF3838> <#A4B0BE>Tốc Độ Mũi Tên: <#c9f0e1>{value}</#c9f0e1>"
+blunt-power: " <#8B4513>撉</#8B4513> <#A4B0BE>Sức Đập: <#c9f0e1>{value}</#c9f0e1>"
+blunt-rating: " <#CD853F>遯</#CD853F> <#A4B0BE>Tỷ Lệ Đập: <#c9f0e1>{value}%</#c9f0e1>"
+two-handed: " <#FF4757>鷞</#FF4757> <#A4B0BE>Hai Tay</#A4B0BE>"
+handworn: " <#FF4757>敊</#FF4757> <#A4B0BE>Đeo Tay</#A4B0BE>"
+knockback: " <#FF1493>讉</#FF1493> <#A4B0BE>Đẩy Lùi: <#c9f0e1>{value}</#c9f0e1>"
+recoil: " <#FF69B4>矦</#FF69B4> <#A4B0BE>Giật Lùi: <#c9f0e1>{value}%</#c9f0e1>"
+note-weight: " <#DDA0DD>幒</#DDA0DD> <#A4B0BE>Trọng Lượng Ghi Chú: <#c9f0e1>{value}</#c9f0e1>"
+lifesteal: " <#DC143C>嚽</#DC143C> <#A4B0BE>Hút Máu: <#DC143C>+{value}%</#DC143C>"
+spell-vampirism: " <#8B0000>觷</#8B0000> <#A4B0BE>Hút Máu Phép: <#8B0000>+{value}%</#8B0000>"
+
+# Extra Damage - Sát Thương Bổ Sung
+pve-damage: " <#32CD32>嚩</#32CD32> <#A4B0BE>S.T Quái: <#c9f0e1><plus>{value}%</#c9f0e1>"
+pvp-damage: " <#FF4500>嚫</#FF4500> <#A4B0BE>S.T Người Chơi: <#c9f0e1><plus>{value}%</#c9f0e1>"
+magic-damage: " <#9370DB>醗</#9370DB> <#A4B0BE>S.T Phép: <#c9f0e1><plus>{value}%</#c9f0e1>"
+undead-damage: " <#8B0000>尩</#8B0000> <#A4B0BE>S.T Xác Sống: <#c9f0e1><plus>{value}%</#c9f0e1>"
+skill-damage: " <#FFD700>奤</#FFD700> <#A4B0BE>S.T Kỹ Năng: <#c9f0e1><plus>{value}%</#c9f0e1>"
+physical-damage: " <#FF6347>嚵</#FF6347> <#A4B0BE>S.T Vật Lý: <#c9f0e1><plus>{value}%</#c9f0e1>"
+projectile-damage: " <#87CEEB>嚱</#87CEEB> <#A4B0BE>S.T Đạn: <#c9f0e1><plus>{value}%</#c9f0e1>"
+faction-damage-undead: " <#2F1B14>囄</#2F1B14> <#A4B0BE>S.T Phe Xác Sống: <#c9f0e1><plus>{value}%</#c9f0e1>"
+
+# Abilities - Kỹ Năng
+ability:
+  general-format: " <#FFD700>䀐</#FFD700> <#A4B0BE>{trigger} <#555555>|</#555555><#FFD700>|</#FFD700><#555555>|</#555555> <#A4B0BE><b>{ability}</b></#A4B0BE>"
+  modifier-if-any: "\n" # Appended to general-format if the skill has at least one modifier
+  modifier-foreach: "%mythiclib_space_11%<#A4B0BE> {modifier}<#555555>: <#c9f0e1>{value}</#c9f0e1>"
+  modifier-splitter: " <#555555>"
+  modifiers-per-line: 1
+  ability-splitter:
+    enabled: true
+    format: " <#555555>"
+
+# Armor Stats - Thống Kê Giáp
+block-power: " <#4169E1>葅</#4169E1> <#A4B0BE>Sức Chặn: <#c9f0e1><plus>{value}%</#c9f0e1>"
+block-rating: " <#1E90FF>囒</#1E90FF> <#A4B0BE>Tỷ Lệ Chặn: <#c9f0e1><plus>{value}%</#c9f0e1>"
+block-cooldown-reduction: " <#00BFFF>囐</#00BFFF> <#A4B0BE>Giảm CD Chặn: <#c9f0e1><plus>{value}%</#c9f0e1>"
+dodge-rating: " <#00CED1>囆</#00CED1> <#A4B0BE>Tỷ Lệ Né: <#c9f0e1><plus>{value}%</#c9f0e1>"
+dodge-cooldown-reduction: " <#20B2AA>囇</#20B2AA> <#A4B0BE>Giảm CD Né: <#c9f0e1><plus>{value}%</#c9f0e1>"
+parry-rating: " <#FFD700>嚸</#FFD700> <#A4B0BE>Tỷ Lệ Đỡ: <#c9f0e1><plus>{value}%</#c9f0e1>"
+parry-cooldown-reduction: " <#FFA500>噧</#FFA500> <#A4B0BE>Giảm CD Đỡ: <#c9f0e1><plus>{value}%</#c9f0e1>"
+armor: " <#C0C0C0>囕</#C0C0C0> <#A4B0BE>Giáp: <#c9f0e1><plus>{value}</#c9f0e1>"
+armor-toughness: " <#A9A9A9>囖</#A9A9A9> <#A4B0BE>Độ Cứng Giáp: <#c9f0e1><plus>{value}</#c9f0e1>"
+knockback-resistance: " <#FF69B4>頺</#FF69B4> <#A4B0BE>Kháng Đẩy: <#c9f0e1><plus>{value}%</#c9f0e1>"
+max-health: " &f嚻</#FF0000> <#FF4951>Máu&7: <#c9f0e1><plus>{value}"
+movement-speed: " <#00FF00>嚺</#00FF00> <#A4B0BE>Tốc Độ: <#c9f0e1><plus>{value}</#c9f0e1>"
+
+# Damage Reduction - Giảm Sát Thương
+defense: "&f 倣 <#e8d672>Phòng Thủ: <#c9f0e1>{value}</#c9f0e1>"
+damage-reduction: " <#FF6347>櫋</#FF6347> <#A4B0BE>Giảm S.T: <#c9f0e1><plus>{value}%</#c9f0e1>"
+fall-damage-reduction: " <#8B4513>縗</#8B4513> <#A4B0BE>Giảm S.T Rơi: <#c9f0e1><plus>{value}%</#c9f0e1>"
+fire-damage-reduction: " <#FF4500>囃</#FF4500> <#A4B0BE>Giảm S.T Lửa: <#c9f0e1><plus>{value}%</#c9f0e1>"
+magic-damage-reduction: " <#9370DB>藅</#9370DB> <#A4B0BE>Giảm S.T Phép: <#c9f0e1><plus>{value}%</#c9f0e1>"
+projectile-damage-reduction: " <#87CEEB>亸</#87CEEB> <#A4B0BE>Giảm S.T Đạn: <#c9f0e1><plus>{value}%</#c9f0e1>"
+physical-damage-reduction: " <#FF6347>揾</#FF6347> <#A4B0BE>Giảm S.T Vật Lý: <#c9f0e1><plus>{value}%</#c9f0e1>"
+pve-damage-reduction: " <#32CD32>嚬</#32CD32> <#A4B0BE>Giảm S.T Quái: <#c9f0e1><plus>{value}%</#c9f0e1>"
+pvp-damage-reduction: " <#FF4500>嚪</#FF4500> <#A4B0BE>Giảm S.T Người Chơi: <#c9f0e1><plus>{value}%</#c9f0e1>"
+
+# RPG stats - Thống Kê RPG
+health-regeneration: " <#FF1493>嚿</#FF1493> <#A4B0BE>Hồi Máu: <#c9f0e1><plus>{value}</#c9f0e1>"
+max-mana: " <#9C88FF>龘</#9C88FF> <#A4B0BE>Mana Tối Đa: <#c9f0e1><plus>{value}</#c9f0e1>"
+mana-regeneration: " <#8A2BE2>瞂</#8A2BE2> <#A4B0BE>Hồi Mana: <#c9f0e1><plus>{value}</#c9f0e1>"
+max-stamina: " <#FF6B35>龖</#FF6B35> <#A4B0BE>Thể Lực Tối Đa: <#c9f0e1><plus>{value}</#c9f0e1>"
+stamina-regeneration: " <#FF8C00>嚈</#FF8C00> <#A4B0BE>Hồi Thể Lực: <#c9f0e1><plus>{value}</#c9f0e1>"
+cooldown-reduction: " <#FFD700>隺</#FFD700> <#A4B0BE>Giảm CD Kỹ Năng: <#c9f0e1><plus>{value}%</#c9f0e1>"
+additional-experience: " <#FFD700>顡</#FFD700> <#A4B0BE>KN Thêm: <#c9f0e1><plus>{value}%</#c9f0e1>"
+additional-experience-alchemy: " <#FF69B4>䀑</#FF69B4> <#A4B0BE>KN Luyện Đan: <#c9f0e1><plus>{value}%</#c9f0e1>"
+additional-experience-enchanting: " <#9370DB>䀑</#9370DB> <#A4B0BE>KN Phù Phép: <#c9f0e1><plus>{value}%</#c9f0e1>"
+additional-experience-farming: " <#32CD32>䀑</#32CD32> <#A4B0BE>KN Nông Nghiệp: <#c9f0e1><plus>{value}%</#c9f0e1>"
+additional-experience-fishing: " <#87CEEB>䀑</#87CEEB> <#A4B0BE>KN Câu Cá: <#c9f0e1><plus>{value}%</#c9f0e1>"
+additional-experience-mining: " <#8B4513>䀑</#8B4513> <#A4B0BE>KN Đào Mỏ: <#c9f0e1><plus>{value}%</#c9f0e1>"
+additional-experience-smelting: " <#FF6347>䀑</#FF6347> <#A4B0BE>KN Nấu Chảy: <#c9f0e1><plus>{value}%</#c9f0e1>"
+additional-experience-smithing: " <#C0C0C0>䀑</#C0C0C0> <#A4B0BE>KN Rèn: <#c9f0e1><plus>{value}%</#c9f0e1>"
+additional-experience-woodcutting: " <#228B22>䀑</#228B22> <#A4B0BE>KN Đốn Gỗ: <#c9f0e1><plus>{value}%</#c9f0e1>"
+
+# Extra Options - Tùy Chọn Bổ Sung
+perm-effect: " <#FFD700>䀵</#FFD700> <#A4B0BE>Hiệu Ứng Vĩnh Viễn: <#c9f0e1>{effect}</#c9f0e1>"
+command: " <#FF6347>■</#FF6347> <#A4B0BE>Lệnh: <#c9f0e1>{format} <#FFD700>䀘</#FFD700><#A4B0BE>(<#c9f0e1>{cooldown}</#c9f0e1><#A4B0BE>s)</#A4B0BE>"
+item-cooldown: " <#FFD700>撉</#FFD700> <#A4B0BE><#c9f0e1>{value}</#c9f0e1> <#A4B0BE>s Hồi Chiêu</#A4B0BE>"
+arrow-potion-effects: " <#87CEEB>䀔</#87CEEB> <#A4B0BE>Hiệu Ứng Mũi Tên: <#c9f0e1>{effect}</#c9f0e1>"
+
+# Consumables - Vật Phẩm Tiêu Dùng
+restore-health: " <#FF1493>❤</#FF1493> <#A4B0BE>Hồi <#c9f0e1>{value}</#c9f0e1> <#A4B0BE>Máu</#A4B0BE>"
+restore-food: " <#FFD700>🍖</#FFD700> <#A4B0BE>Hồi <#c9f0e1>{value}</#c9f0e1> <#A4B0BE>Đói</#A4B0BE>"
+restore-saturation: " <#FFA500>🍗</#FFA500> <#A4B0BE>Hồi <#c9f0e1>{value}</#c9f0e1> <#A4B0BE>No</#A4B0BE>"
+restore-mana: " <#9C88FF>💧</#9C88FF> <#A4B0BE>Hồi <#c9f0e1>{value}</#c9f0e1> <#A4B0BE>Mana</#A4B0BE>"
+restore-stamina: " <#FF6B35>⚡</#FF6B35> <#A4B0BE>Hồi <#c9f0e1>{value}</#c9f0e1> <#A4B0BE>Thể Lực</#A4B0BE>"
+effect: " <#FFD700>✨</#FFD700> <#A4B0BE>Cho <#c9f0e1>{effect}</#c9f0e1> <#A4B0BE>trong <#c9f0e1>{duration}</#c9f0e1> <#A4B0BE>s</#A4B0BE>"
+repair: " <#C0C0C0>🔧</#C0C0C0> <#A4B0BE>Sửa: <#c9f0e1>{value}</#c9f0e1>"
+repair-percent: " <#A9A9A9>🛠</#A9A9A9> <#A4B0BE>Sửa: <#c9f0e1>{value}%</#c9f0e1>"
+can-identify: " <#FFD700>🔍</#FFD700> <#A4B0BE>Có thể nhận diện vật phẩm.</#A4B0BE>"
+can-deconstruct: " <#FF6347>♻</#FF6347> <#A4B0BE>Có thể tháo rời vật phẩm tier.</#A4B0BE>"
+can-deskin: " <#FF4500>✂</#FF4500> <#A4B0BE>Có thể gỡ skin vật phẩm.</#A4B0BE>"
+success-rate: " <#32CD32>✔</#32CD32> <#A4B0BE>Tỷ Lệ Thành Công: <#32CD32><b>{value}%</b></#32CD32>"
+max-consume: " <#FFD700>⌛</#FFD700> <#A4B0BE><#c9f0e1>{value}</#c9f0e1> <#A4B0BE>Lần Sử Dụng</#A4B0BE>"
+
+# Gem Stones - Đá Quý
+gem-stone-lore: "&e☼ <#32CD32>Kéo vào vật phẩm để áp dụng!</#32CD32>"
+gem-sockets:
+  empty: "   <#FCD05C>◆ &7⌈ Ô trống ⌋ <#FCD05C>◆"
+  filled: "   &7( {name}&7 )"
+  # filled: ' <#FFD700>䀠</#FFD700> &7[ {name}&7 ]'
+
+# Soulbound - Ràng Buộc Linh Hồn
+soulbinding-chance: " <#9370DB>䀽</#9370DB> <#A4B0BE>Có <#32CD32>{value}%</#32CD32> <#A4B0BE>cơ hội ràng buộc vật phẩm.</#A4B0BE>"
+soulbound-break-chance: " <#8B0000>䀽</#8B0000> <#A4B0BE>Có <#32CD32>{value}%</#32CD32> <#A4B0BE>cơ hội phá ràng buộc.</#A4B0BE>"
+soulbound-level: " <#FFD700>䀽</#FFD700> <#A4B0BE>Cấp <#FFD700>{value}</#FFD700> <#A4B0BE>Ràng Buộc</#A4B0BE>"
+
+# Tools - Công Cụ
+autosmelt: "<#FF6347>\u4053</#FF6347> <#c9f0e1>Tự Nấu Chảy</#c9f0e1>"
+bouncing-crack: "<#FF4500>\u4053</#FF4500> <#c9f0e1>Nứt Nảy</#c9f0e1>"
+pickaxe-power: "<#8B4513>\u4056</#8B4513> <#c9f0e1>Sức Cuốc: <#32CD32>{value}</#32CD32>"
+durability: " <#C0C0C0>⚙</#C0C0C0> <#A4B0BE>Độ Bền: <#c9f0e1>{current}</#c9f0e1> <#A4B0BE>/ <#c9f0e1>{max}</#c9f0e1>"
+
+# General - Chung
+item-type: " <#FF0000>{type}</#FF0000>"
+tier: " <#FCD05C>◆ Phẩm Chất: <#FFD700>{value}</#FFD700>"
+required-class: " <#A4B0BE>Vật Phẩm <#FFD700>{value}</#FFD700>"
+required-level: " <#FFD700>Cần Cấp {value}</#FFD700>"
+
+# MMOCore Attributes - Thuộc Tính MMOCore
+required-dexterity: " <#FFD700>Cần <#FF0000>{value}</#FF0000> <#FFD700>Nhanh Nhẹn</#FFD700>"
+required-strength: " <#FFD700>Cần <#FF0000>{value}</#FF0000> <#FFD700>Sức Mạnh</#FFD700>"
+required-intelligence: " <#FFD700>Cần <#FF0000>{value}</#FF0000> <#FFD700>Trí Tuệ</#FFD700>"
+
+additional-strength: " <#FF6347>䁉</#FF6347> <#A4B0BE>Sức Mạnh Thêm: <#c9f0e1><plus>{value}</#c9f0e1>"
+additional-dexterity: " <#00CED1>䁊</#00CED1> <#A4B0BE>Nhanh Nhẹn Thêm: <#c9f0e1><plus>{value}</#c9f0e1>"
+additional-intelligence: " <#9370DB>䁋</#9370DB> <#A4B0BE>Trí Tuệ Thêm: <#c9f0e1><plus>{value}</#c9f0e1>"
+
+# Professions - Nghề Nghiệp
+profession-alchemy: " <#FF69B4>Luyện Đan Cấp: <#FF0000>{value}</#FF0000>"
+profession-enchanting: " <#9370DB>Phù Phép Cấp: <#FF0000>{value}</#FF0000>"
+profession-farming: " <#32CD32>Nông Nghiệp Cấp: <#FF0000>{value}</#FF0000>"
+profession-fishing: " <#87CEEB>Câu Cá Cấp: <#FF0000>{value}</#FF0000>"
+profession-mining: " <#8B4513>Đào Mỏ Cấp: <#FF0000>{value}</#FF0000>"
+profession-smelting: " <#FF6347>Nấu Chảy Cấp: <#FF0000>{value}</#FF0000>"
+profession-smithing: " <#C0C0C0>Rèn Cấp: <#FF0000>{value}</#FF0000>"
+profession-woodcutting: " <#228B22>Đốn Gỗ Cấp: <#FF0000>{value}</#FF0000>"
+
+# Heroes stats - Thống Kê Heroes
+required-secondary-hero-level: " <#FFD700>Cần Hero Cấp 2: <#FF0000>{value}</#FF0000>"
+
+# Elemental Stat Format - Định Dạng Thống Kê Nguyên Tố
+element:
+  damage: " <#c9f0e1>{icon}</#c9f0e1><#A4B0BE> <#c9f0e1>{value}</#c9f0e1> <#A4B0BE>S.T {element}</#A4B0BE>"
+  damage-percent: " <#c9f0e1>{icon}</#c9f0e1><#A4B0BE> <#c9f0e1>+{value}%</#c9f0e1> <#A4B0BE>S.T {element}</#A4B0BE>"
+  defense: "&f {icon}</#c9f0e1><#A4B0BE> <#c9f0e1>{value}</#c9f0e1> <#A4B0BE>Phòng Thủ {element}</#A4B0BE>"
+  defense-percent: " <#c9f0e1>{icon}</#c9f0e1><#A4B0BE> <#c9f0e1>+{value}%</#c9f0e1> <#A4B0BE>Phòng Thủ {element}</#A4B0BE>"
+  weakness: " <#c9f0e1>{icon}</#c9f0e1><#A4B0BE> <#c9f0e1>{value}%</#c9f0e1> <#A4B0BE>Yếu Điểm {element}</#A4B0BE>"
+
+# Custom stats - Thống Kê Tùy Chỉnh
+custom-myluck: " <#FFD700>䁌</#FFD700> <#A4B0BE>ᴄấᴘ độ ᴠậᴛ ᴘʜẩᴍ: <#c9f0e1><plus>{value}</#c9f0e1>"
+custom-levelitem: "&7[<#f54293>&l!&7] <#A4B0BE>ᴄấᴘ độ ᴠậᴛ ᴘʜẩᴍ: <#e3e0b8>{value}</#e3e0b8>"
+custom-materialitem: "&7[<#eef071>&l!&7] <#71f09b>ᴄáᴄʜ ɴʜậɴ: <#b8e3d7>{value}</#b8e3d7>"
+custom-finditem: "bbbb"
+seabeast-enchant-lure: "&f 䀬 <#C6DEF1>Nhử&7: <#FFEFCA>{value}"
+seabeast-enchant-lucky: "&f 䁌 <#C6F1CD>May Mắn&7: <#FFEFCA>{value}"
+seabeast-enchant-strong: "&f 䀾 <#F1C6C6>Lực Kéo&7: <#FFEFCA>{value}"
+
+digs-remaining: "<#FF69B4>Số lần đào còn lại: <#FF0000>{value}"

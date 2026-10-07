@@ -1,0 +1,8 @@
+Name: <yellow>🌕<gold>❖ <yellow><bold>CHÌA KHÓA TRUNG THU 2026 <gold>❖<yellow>🌕
+Virtual: true
+ItemData:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{extra:["Chìa khóa Trung Thu 2026"],text:""}},count:1,id:"minecraft:tripwire_hook"}'
+    DataVersion: 4671
+ItemStackable: false

@@ -1,0 +1,27 @@
+menu_title: "&#d400ff&lHƯỚNG DẪN CƯỜNG HÓA"
+open_command:
+  - hdcuonghoa
+  - cuonghoainfo
+  - inforendo
+size: 9
+items:
+  "info":
+    material: ANVIL
+    slot: 4
+    display_name: "&#d400ff&lCÁCH CƯỜNG HÓA TRANG BỊ"
+    lore:
+      - "&f&l1. TÌM KIẾM NGUYÊN LIỆU:"
+      - "&7- &cĐá Cường Hóa:&7 Có thể kiếm được thông qua việc tiêu diệt"
+      - "&7  các con &cBoss trong Dungeon&7."
+      - "&7- &dĐiểm Ma Lực:&7 Nhận được khi cày cuốc, tiêu diệt"
+      - "&7  &dQuái vật thông thường trong Dungeon&7."
+      - ""
+      - "&f&l2. CÁCH THỰC HIỆN NÂNG CẤP:"
+      - "&7- Mở lò cường hóa bằng lệnh (hoặc NPC)."
+      - "&7- Bỏ vật phẩm bạn muốn nâng cấp vào &eÔ nâng cấp đồ&7."
+      - "&7- Khi đã thu thập đủ điều kiện, hãy ấn vào nút"
+      - "&7  &d[Bơm Ma Lực] &7để tiến hành cường hóa."
+      - ""
+      - "&f&l3. HOÀN TẤT:"
+      - "&7- Nếu thành công, vật phẩm của bạn sẽ được nâng cấp,"
+      - "&7  gia tăng sức mạnh và sát thương đáng kể!"

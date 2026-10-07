@@ -1,0 +1,698 @@
+# ==================== ĐẢO 2 ====================
+RING_1:
+  base:
+    material: GOLD_NUGGET
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aNhẫn Thợ Săn&7]&c Sinh Mệnh I'
+    magic-damage:
+      base: 1.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 10
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_2:
+  base:
+    material: GOLD_NUGGET
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bNhẫn Thợ Săn&7]&c Sinh Mệnh II'
+    magic-damage:
+      base: 2.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 22
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_3:
+  base:
+    material: GOLD_NUGGET
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dNhẫn Thợ Săn&7]&c Sinh Mệnh III'
+    magic-damage:
+      base: 3.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 34
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_4:
+  base:
+    material: GOLD_NUGGET
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aNhẫn Thợ Săn&7]&c Sinh Mệnh IV'
+    magic-damage:
+      base: 4.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 46
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_5:
+  base:
+    material: GOLD_NUGGET
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bNhẫn Thợ Săn&7]&c Sinh Mệnh V'
+    magic-damage:
+      base: 5.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 58
+      spread: 0.1
+      max-spread: 0.3
+    tier: E
+
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_6:
+  base:
+    material: GOLD_NUGGET
+    tier: E
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dNhẫn Thợ Săn&7]&c Sinh Mệnh VI'
+    magic-damage:
+      base: 6.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 70
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_7:
+  base:
+    material: GOLD_NUGGET
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aNhẫn Thợ Săn&7]&c Sinh Mệnh VII'
+    magic-damage:
+      base: 7.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 82
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_8:
+  base:
+    material: GOLD_NUGGET
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bNhẫn Thợ Săn&7]&c Sinh Mệnh VIII'
+    magic-damage:
+      base: 8.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 94
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_9:
+  base:
+    material: GOLD_NUGGET
+    tier: D
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dNhẫn Thợ Săn&7]&c Sinh Mệnh IX'
+    magic-damage:
+      base: 9.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 107
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_10:
+  base:
+    material: GOLD_NUGGET
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aNhẫn Thợ Săn&7]&c Sinh Mệnh X'
+    magic-damage:
+      base: 10.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 119
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_11:
+  base:
+    material: GOLD_NUGGET
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bNhẫn Thợ Săn&7]&c Sinh Mệnh XI'
+    magic-damage:
+      base: 11.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 131
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_12:
+  base:
+    material: GOLD_NUGGET
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dNhẫn Thợ Săn&7]&c Sinh Mệnh XII'
+    magic-damage:
+      base: 12.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 143
+      spread: 0.1
+      max-spread: 0.3
+    tier: D
+
+
+# ==================== ĐẢO 6 → 13 ====================
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_13:
+  base:
+    material: GOLD_NUGGET
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aNhẫn Thợ Săn&7]&c Sinh Mệnh XIII'
+    magic-damage:
+      base: 13.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 155
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_14:
+  base:
+    material: GOLD_NUGGET
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bNhẫn Thợ Săn&7]&c Sinh Mệnh XIV'
+    magic-damage:
+      base: 14.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 167
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_15:
+  base:
+    material: GOLD_NUGGET
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dNhẫn Thợ Săn&7]&c Sinh Mệnh XV'
+    magic-damage:
+      base: 15.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 179
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_16:
+  base:
+    material: GOLD_NUGGET
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aNhẫn Thợ Săn&7]&c Sinh Mệnh XVI'
+    magic-damage:
+      base: 16.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 191
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_17:
+  base:
+    material: GOLD_NUGGET
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bNhẫn Thợ Săn&7]&c Sinh Mệnh XVII'
+    magic-damage:
+      base: 17.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 203
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_18:
+  base:
+    material: GOLD_NUGGET
+    tier: C
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dNhẫn Thợ Săn&7]&c Sinh Mệnh XVIII'
+    magic-damage:
+      base: 18.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 215
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_19:
+  base:
+    material: GOLD_NUGGET
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aNhẫn Thợ Săn&7]&c Sinh Mệnh XIX'
+    magic-damage:
+      base: 19.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 227
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_20:
+  base:
+    material: GOLD_NUGGET
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bNhẫn Thợ Săn&7]&c Sinh Mệnh XX'
+    magic-damage:
+      base: 20.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 239
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_21:
+  base:
+    material: GOLD_NUGGET
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dNhẫn Thợ Săn&7]&c Sinh Mệnh XXI'
+    magic-damage:
+      base: 21.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 251
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_22:
+  base:
+    material: GOLD_NUGGET
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aNhẫn Thợ Săn&7]&c Sinh Mệnh XXII'
+    magic-damage:
+      base: 22.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 263
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_23:
+  base:
+    material: GOLD_NUGGET
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bNhẫn Thợ Săn&7]&c Sinh Mệnh XXIII'
+    magic-damage:
+      base: 23.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 276
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_24:
+  base:
+    material: GOLD_NUGGET
+    tier: B
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dNhẫn Thợ Săn&7]&c Sinh Mệnh XXIV'
+    magic-damage:
+      base: 24.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 288
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_25:
+  base:
+    material: GOLD_NUGGET
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&aNhẫn Thợ Săn&7]&c Sinh Mệnh XXV'
+    magic-damage:
+      base: 25.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 300
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_26:
+  base:
+    material: GOLD_NUGGET
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&bNhẫn Thợ Săn&7]&c Sinh Mệnh XXVI'
+    magic-damage:
+      base: 26.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 312
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_27:
+  base:
+    material: GOLD_NUGGET
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&dNhẫn Thợ Săn&7]&c Sinh Mệnh XXVII'
+    magic-damage:
+      base: 27.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 324
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_28:
+  base:
+    material: GOLD_NUGGET
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&6Nhẫn Thợ Săn&7]&c Sinh Mệnh XXVIII'
+    magic-damage:
+      base: 28.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 336
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_29:
+  base:
+    material: GOLD_NUGGET
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&6Nhẫn Thợ Săn&7]&c Sinh Mệnh XXIX'
+    magic-damage:
+      base: 29.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 348
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true
+RING_30:
+  base:
+    material: GOLD_NUGGET
+    tier: A
+    unstackable: true
+    lore:
+      - '&7[&e!&7] &aĐặt vật phẩm lên ô nhẫn'
+      - '&7[&e✦&7] &fVật phẩm này có thể kiếm ở các'
+      - '&fhòm thưởng khi giết quái, boss ở dungeon.'
+      - ''
+      - '&7Dùng &e/phukien &7để trang bị'
+    name: '&7[&6Nhẫn Thợ Săn&7]&c Sinh Mệnh XXX'
+    magic-damage:
+      base: 30.0
+      spread: 0.1
+      max-spread: 0.3
+    max-health:
+      base: 360
+      spread: 0.1
+      max-spread: 0.3
+    enchants:
+      LURE: 1
+    hide-enchants: true

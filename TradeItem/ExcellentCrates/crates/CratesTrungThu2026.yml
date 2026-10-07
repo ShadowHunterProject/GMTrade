@@ -1,0 +1,71 @@
+Name: <yellow>🌕<gold>❖ <yellow><bold>KHO BÁU TRUNG THU 2026 <gold>❖<yellow>🌕
+Description: []
+ItemProvider:
+  Provider: vanilla
+  Data:
+    Value: '{count:1,id:"minecraft:chest"}'
+    DataVersion: 4671
+ItemStackable: false
+Permission_Required: false
+Key:
+  Id: CratesTrungThu2026key
+  Required: true
+  Amount: 1
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: csgo
+OpeningCooldown:
+  Enabled: false
+  Value: 0
+OpeningLimit:
+  Amount: 1
+Block:
+  Positions: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: cratestrungthu
+    Y_Offset: 0.0
+  Effect:
+    Enabled: true
+    Model: helix
+    Particle:
+      Name: TOTEM
+      floatValue: 1.0
+Milestones:
+  Repeatable: false
+_dataver: 600
+Post-Open:
+  Commands: []
+Rewards:
+  List:
+    mu_trung_thu_2026:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:MU_TRUNG_THU_2026
+          Amount: 1
+      Weight: 5.0
+      Rarity: rare
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:MU_TRUNG_THU_2026
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: MU_TRUNG_THU_2026
+      Custom_Preview: false

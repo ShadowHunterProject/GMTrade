@@ -1,0 +1,84 @@
+menu_title: "&8▶ Giao Diện | Khu Vực Dịch Chuyển"
+open_command:
+  - warps
+  - warp
+  - dichchuyen
+open_commands:
+  - "[sound] BLOCK_ENDER_CHEST_OPEN 1.0 1.0"
+size: 27
+
+items:
+  "bg_cyan":
+    material: CYAN_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 0-9
+      - 17-18
+      - 26
+  
+  "bg_lightblue":
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 10
+      - 12
+      - 14
+      - 16
+      - 19-21
+      - 23-25
+
+  "crates":
+    material: ENDER_CHEST
+    slot: 11
+    display_name: "&#FFD700&l🎁 KHU MỞ RƯƠNG (CRATES)"
+    lore:
+      - ""
+      - "&7Khu vực chứa các rương báu vật."
+      - "&7Nơi bạn thử vận may của mình!"
+      - ""
+      - "&8▶ &aClick để dịch chuyển"
+    click_commands:
+      - "[sound] ENTITY_ENDERMAN_TELEPORT"
+      - "[player] warp crates"
+      - "[close]"
+
+  "koth":
+    material: BEACON
+    slot: 13
+    display_name: "&#FF4500&l⚔ SỰ KIỆN KOTH"
+    lore:
+      - ""
+      - "&7Đấu trường King of the Hill."
+      - "&7Bảo vệ ngai vàng để nhận thưởng lớn!"
+      - ""
+      - "&8▶ &aClick để dịch chuyển"
+    click_commands:
+      - "[sound] ENTITY_ENDERMAN_TELEPORT"
+      - "[player] warp koth"
+      - "[close]"
+
+  "top":
+    material: GOLD_BLOCK
+    slot: 15
+    display_name: "&#00FF7F&l🏆 BẢNG XẾP HẠNG (TOP)"
+    lore:
+      - ""
+      - "&7Khu vực vinh danh những người chơi"
+      - "&7xuất sắc nhất máy chủ."
+      - ""
+      - "&8▶ &aClick để dịch chuyển"
+    click_commands:
+      - "[sound] ENTITY_ENDERMAN_TELEPORT"
+      - "[player] warp top"
+      - "[close]"
+
+  "close":
+    material: BARRIER
+    slot: 22
+    display_name: "&#FF0000&l❌ ĐÓNG GIAO DIỆN"
+    lore:
+      - ""
+      - "&7Thoát khỏi menu."
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[close]"

@@ -1,0 +1,696 @@
+menu_title: "&8▶ Giao Diện | Cửa Hàng Bóng Tối"
+open_command:
+  - xu
+  - shopxu
+  - key
+  - chiakhoa
+open_commands:
+  - "[sound] BLOCK_NOTE_BLOCK_BELL 1.0 1.5"
+size: 54
+update_interval: 1
+
+items:
+  # ==========================================
+  # VIỀN MENU (BORDERS) - SIZE 54
+  # ==========================================
+  "vien_goc":
+    material: CYAN_STAINED_GLASS_PANE
+    display_name: "&f "
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slots: [0, 1, 7, 8, 9, 17, 36, 44, 45, 46, 52, 53]
+
+  "vien_canh":
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    display_name: "&f "
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slots: [2, 3, 4, 5, 6, 47, 48, 50, 51]
+
+  "vien_trong":
+    material: WHITE_STAINED_GLASS_PANE
+    display_name: "&f "
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    slots: [26, 35, 37, 38, 39, 40, 41, 42, 43]
+
+  # ==========================================
+  # TRANG TRÍ BỐ CỤC (DECORATIONS)
+  # ==========================================
+  "decor_gold":
+    material: GOLD_BLOCK
+    slot: 18
+    display_name: "&#FFD700&lKhu Vực Xu"
+    lore:
+      - "&fCác vật phẩm ở hàng này"
+      - "&fyêu cầu &eXu &fđể mua."
+
+  "decor_emerald":
+    material: EMERALD_BLOCK
+    slot: 27
+    display_name: "&#32CD32&lKhu Vực Tiền"
+    lore:
+      - "&fCác vật phẩm ở hàng này"
+      - "&fyêu cầu &eTiền &fđể mua."
+
+  "keyGiap":
+    material: TRIPWIRE_HOOK
+    slot: 24
+    display_name: "<red><bold>✮ <dark_red><bold>CHÌA KHÓA GIÁP <yellow>☾<gold>♛"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Mua chìa khóa để đến khu vực"
+      - "&#E0E0E0✦ Crate và thử vận may của bạn."
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3245 Xu ⛁"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] points take %player_name% 45"
+      - "[console] crates key give %player_name% CratesGiap 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công <red><bold>✮ <dark_red><bold>CHÌA KHÓA GIÁP <yellow>☾<gold>♛&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "45"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "empty_key_1":
+    material: MINECART
+    slots:
+      - "25"
+    display_name: "&#FF3333&l[Ô Trống]"
+    lore:
+      - "&7Đang chờ vật phẩm mới..."
+
+  "keyGiapvault":
+    material: TRIPWIRE_HOOK
+    slot: 31
+    display_name: "<red><bold>✮ <dark_red><bold>CHÌA KHÓA GIÁP <yellow>☾<gold>♛"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Mua chìa khóa để đến khu vực"
+      - "&#E0E0E0✦ Crate và thử vận may của bạn."
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3240M Tiền"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[takemoney] 40000000"
+      - "[console] crates key give %player_name% CratesGiap 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công <red><bold>✮ <dark_red><bold>CHÌA KHÓA GIÁP <yellow>☾<gold>♛&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 40000000
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Tiền của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "empty_item_1":
+    material: MINECART
+    slots:
+      - "32-34"
+    display_name: "&#FF3333&l[Ô Trống]"
+    lore:
+      - "&7Đang chờ vật phẩm mới..."
+
+  "key_dungeon_e":
+    material: TRIPWIRE_HOOK
+    slot: 10
+    display_name: "&#00FF00&lCHÌA KHÓA DUNGEON E"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Dùng để mở Crate Dungeon E"
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD328 Xu ⛁"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] points take %player_name% 8"
+      - "[console] crates key give %player_name% cratesdungeonekey 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &#00FF00&lCHÌA KHÓA DUNGEON E&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "8"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "key_dungeon_d":
+    material: TRIPWIRE_HOOK
+    slot: 11
+    display_name: "&#32CD32&lCHÌA KHÓA DUNGEON D"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Dùng để mở Crate Dungeon D"
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3210 Xu ⛁"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] points take %player_name% 10"
+      - "[console] crates key give %player_name% cratesdungeondkey 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &#32CD32&lCHÌA KHÓA DUNGEON D&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "10"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "key_dungeon_c":
+    material: TRIPWIRE_HOOK
+    slot: 12
+    display_name: "&#00BFFF&lCHÌA KHÓA DUNGEON C"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Dùng để mở Crate Dungeon C"
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3212 Xu ⛁"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] points take %player_name% 12"
+      - "[console] crates key give %player_name% cratesdungeonckey 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &#00BFFF&lCHÌA KHÓA DUNGEON C&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "12"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "key_dungeon_b":
+    material: TRIPWIRE_HOOK
+    slot: 13
+    display_name: "&#9370DB&lCHÌA KHÓA DUNGEON B"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Dùng để mở Crate Dungeon B"
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3214 Xu ⛁"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] points take %player_name% 14"
+      - "[console] crates key give %player_name% cratesdungeonbkey 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &#9370DB&lCHÌA KHÓA DUNGEON B&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "14"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "key_dungeon_a":
+    material: TRIPWIRE_HOOK
+    slot: 14
+    display_name: "&#FFD700&lCHÌA KHÓA DUNGEON A"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Dùng để mở Crate Dungeon A"
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3216 Xu ⛁"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] points take %player_name% 16"
+      - "[console] crates key give %player_name% cratesdungeonakey 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &#FFD700&lCHÌA KHÓA DUNGEON A&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "16"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "key_dungeon_a_banggia":
+    material: TRIPWIRE_HOOK
+    slot: 15
+    display_name: "&#00FFFF&lCHÌA KHÓA A+ BĂNG GIÁ"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Dùng để mở Crate Dungeon A+ Băng Giá"
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3218 Xu ⛁"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] points take %player_name% 18"
+      - "[console] crates key give %player_name% cratesdungeonabanggiakey 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &#00FFFF&lCHÌA KHÓA A+ BĂNG GIÁ&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "18"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "key_dungeon_a_hoanguc":
+    material: TRIPWIRE_HOOK
+    slot: 16
+    display_name: "&#FF4500&lCHÌA KHÓA A+ HỎA NGỤC"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Dùng để mở Crate Dungeon A+ Hỏa Ngục"
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3219 Xu ⛁"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] points take %player_name% 19"
+      - "[console] crates key give %player_name% cratesdungeonahoanguckey 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &#FF4500&lCHÌA KHÓA A+ HỎA NGỤC&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "19"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "key_dungeon_a_dentho":
+    material: TRIPWIRE_HOOK
+    slot: 23
+    display_name: "&#8B4513&lCHÌA KHÓA A+ ĐỀN THỜ"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Dùng để mở Crate Dungeon A+ Đền Thờ"
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3220 Xu ⛁"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] points take %player_name% 20"
+      - "[console] crates key give %player_name% cratesdungeonadenthokey 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công &#8B4513&lCHÌA KHÓA A+ ĐỀN THỜ&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "20"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  # ==========================================
+  # VẬT PHẨM CHÍNH (CỬA HÀNG)
+  # ==========================================
+  "keyC":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q5NTg1MzVmMjY0ZjE2Mzk4YjI4OTY0MGMwYzUzOTFhNDE4NzlkMTk2NzMxYTcxNjY0N2QzYzY0NjZjZGNkZSJ9fX0=
+    slot: 19
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    display_name: "<white><bold>⏱<green>○<yellow><bold>⏱<aqua><bold> CHÌA KHÓA <white><bold>ONLINE <yellow><bold>⏱<green>○<white><bold>⏱"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Mua chìa khóa để đến khu vực"
+      - "&#E0E0E0✦ Crate và thử vận may của bạn."
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3215 Xu ⛁"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] points take %player_name% 15"
+      - "[console] crates key give %player_name% cratesonline 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công <white><bold>⏱<green>○<yellow><bold>⏱<aqua><bold> CHÌA KHÓA <white><bold>ONLINE <yellow><bold>⏱<green>○<white><bold>⏱&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "15"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "keyB":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1ZGY0MjA1NmQ3OTYwMmE2OTE1ZmVjNmVmODA0YmJlNTdiNDUwYTBhNDg0Y2U5OTk3NDAzZDBjOTA0ZDM1NiJ9fX0=
+    slot: 20
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    display_name: "<dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Mua chìa khóa để đến khu vực"
+      - "&#E0E0E0✦ Crate và thử vận may của bạn."
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3220 Xu ⛁"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] points take %player_name% 20"
+      - "[console] crates key give %player_name% cratesckey 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "20"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "keyA":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDMzY2JmNzVmZjQwZDFiZmM4MTQ2NTI4Y2EzZTFiZGFjM2Q2NzBhYzc3ZWUxYzhkOThhZjE3NGNhMTlmZWIxOSJ9fX0=
+    slot: 21
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    display_name: "<red>★<dark_red>✮ <red><bold>CHÌA KHÓA VŨ KHÍ <light_purple>☾<red>⦿<light_purple>☽"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Mua chìa khóa để đến khu vực"
+      - "&#E0E0E0✦ Crate và thử vận may của bạn."
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3245 Xu ⛁"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] points take %player_name% 45"
+      - "[console] crates key give %player_name% cratesakey 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công <red>★<dark_red>✮ <red><bold>CHÌA KHÓA VŨ KHÍ <light_purple>☾<red>⦿<light_purple>☽&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "45"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "keyS":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdiYzI1MWE2Y2IwZDZkOWYwNWM1NzExOTExYTZlYzI0YjIwOWRiZTY0MjY3OTAxYTRiMDM3NjFkZWJjZjczOCJ9fX0=
+    slot: 22
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    display_name: "<dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>KỸ NĂNG <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Mua chìa khóa để đến khu vực"
+      - "&#E0E0E0✦ Crate và thử vận may của bạn."
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3279 Xu ⛁"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[console] points take %player_name% 79"
+      - "[console] crates key give %player_name% cratesskey 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱ <white><bold>CHÌA KHÓA <red><bold><obf>||<reset> <dark_red><bold>KỸ NĂNG <red><bold><obf>||<reset> <dark_red>⊰<red>⊰<light_purple>ꕥ<red>⊱<dark_red>⊱&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Gold:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: "79"
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Xu của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  #vault
+  "keyCvault":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q5NTg1MzVmMjY0ZjE2Mzk4YjI4OTY0MGMwYzUzOTFhNDE4NzlkMTk2NzMxYTcxNjY0N2QzYzY0NjZjZGNkZSJ9fX0=
+    slot: 28
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    display_name: "<white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Mua chìa khóa để đến khu vực"
+      - "&#E0E0E0✦ Crate và thử vận may của bạn."
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD325M Tiền"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[takemoney] 5000000"
+      - "[console] crates key give %player_name% cratesonline 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công <white>⏱<yellow>⏱ <yellow><bold>CHÌA KHÓA <aqua><bold> Hòm <white>Online<yellow>⏱<white>⏱&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 5000000
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Tiền của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "keyBvault":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1ZGY0MjA1NmQ3OTYwMmE2OTE1ZmVjNmVmODA0YmJlNTdiNDUwYTBhNDg0Y2U5OTk3NDAzZDBjOTA0ZDM1NiJ9fX0=
+    slot: 29
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    display_name: "<dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Mua chìa khóa để đến khu vực"
+      - "&#E0E0E0✦ Crate và thử vận may của bạn."
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3215M Tiền"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[takemoney] 15000000"
+      - "[console] crates key give %player_name% cratesckey 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công <dark_purple>✿<light_purple>✿ <green><bold>CHÌA KHÓA <dark_green><bold>LINH THỂ KHẢM <light_purple>✿<dark_purple>✿&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 15000000
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Tiền của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  "keyAvault":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDMzY2JmNzVmZjQwZDFiZmM4MTQ2NTI4Y2EzZTFiZGFjM2Q2NzBhYzc3ZWUxYzhkOThhZjE3NGNhMTlmZWIxOSJ9fX0=
+    slot: 30
+    item_flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+    display_name: "<red>★<dark_red>✮ <red><bold>CHÌA KHÓA VŨ KHÍ <light_purple>☾<red>⦿<light_purple>☽"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#E0E0E0✦ Mua chìa khóa để đến khu vực"
+      - "&#E0E0E0✦ Crate và thử vận may của bạn."
+      - ""
+      - "&#00BFFF&l💰 THÔNG TIN THANH TOÁN"
+      - "  &#87CEFA▪ &fPhí mua: &#32CD3240M Tiền"
+      - ""
+      - "&#FF3333&l📌 LƯU Ý QUAN TRỌNG:"
+      - "  &#FF9999▪ &cMua sẽ không nhận Key vật lý như cũ."
+      - "  &#FF9999▪ &cHãy ra thẳng chỗ Rương và &eClick Chuột Phải"
+      - "  &#FF9999▪ &cđể tiến hành quay thưởng trực tiếp!"
+      - ""
+      - "&#A9A9A9➤ &#FFD700Click vào để tiến hành thanh toán!"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[takemoney] 40000000"
+      - "[console] crates key give %player_name% cratesakey 1"
+      - "[message] &#32CD32[&a✔&#32CD32] &aBạn vừa mua thành công <red>★<dark_red>✮ <red><bold>CHÌA KHÓA VŨ KHÍ <light_purple>☾<red>⦿<light_purple>☽&a!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+    click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 40000000
+          deny_commands:
+            - "[message] &#FF3333[&4✖&#FF3333] &cSố dư Tiền của bạn hiện không đủ!"
+            - "[sound] ENTITY_VILLAGER_NO"
+            - "[close]"
+
+  # ==========================================
+  # NÚT ĐÓNG MENU (SLOT 49)
+  # ==========================================
+  "menu":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 49
+    display_name: "&#FF3333&l❌ ĐÓNG / QUAY LẠI"
+    lore:
+      - "&#787878&m────────────────────────"
+      - "&#A9A9A9➤ &fClick để quay lại menu chính"
+      - "&#787878&m────────────────────────"
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] menu"

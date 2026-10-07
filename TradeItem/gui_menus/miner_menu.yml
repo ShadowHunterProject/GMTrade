@@ -1,0 +1,77 @@
+menu_title: '&8Khu Vực Khoáng Sản'
+open_command:
+  - khoangsan
+  - ore
+  - oreshop
+  - cuoc
+  - pickaxe
+size: 9
+items:
+  border_0:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 0
+    display_name: ' '
+    lore: []
+  border_1:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 1
+    display_name: ' '
+    lore: []
+  border_4:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 4
+    display_name: ' '
+    lore: []
+  border_7:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 7
+    display_name: ' '
+    lore: []
+  border_8:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 8
+    display_name: ' '
+    lore: []
+    
+  banquang:
+    material: DIAMOND_ORE
+    slot: 2
+    display_name: '&#FFD700&lBán Khoáng Sản'
+    lore:
+      - ''
+      - '&7Click để mở cửa hàng Bán các'
+      - '&7loại khoáng sản bạn kiếm được.'
+      - ""
+      - " &7Lệnh: &#FFD700/banquang"
+      - ''
+      - '&e▶ Click để mở!'
+    click_commands:
+      - '[player] banquang'
+      
+  chequang:
+    material: DEEPSLATE_DIAMOND_ORE
+    slot: 4
+    display_name: '&#FFD700&lNâng Cấp Khoáng Sản'
+    lore:
+      - ''
+      - '&7Click để mở cửa hàng nâng cấp các'
+      - '&7loại khoáng sản bạn kiếm được.'
+      - ""
+      - " &7Lệnh: &#FFD700/chetaoquang"
+      - ''
+      - '&e▶ Click để mở!'
+    click_commands:
+      - '[player] chetaoquang'      
+
+  shop_cuoc:
+    material: DIAMOND_PICKAXE
+    slot: 6
+    display_name: '&#00FFCC&lCửa Hàng Cuốc'
+    lore:
+      - ''
+      - '&7Click để mở cửa hàng mua/bán'
+      - '&7các loại cuốc đào khoáng sản.'
+      - ''
+      - '&e▶ Click để mở!'
+    click_commands:
+      - '[console] gmtrade open tool_shop %player_name%'

@@ -1,0 +1,764 @@
+﻿BUA_TAN_BINH:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    set: VAI_THO
+    custom-model-data: 2001
+    #attack-damage: 1
+    critical-strike-chance:
+      base: 1
+      spread: 0.1
+      max-spread: 0.3
+    critical-strike-power:
+      base: 15
+      spread: 0.1
+      max-spread: 0.3
+    custom-nbt: []
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    material: NETHERITE_SWORD
+    name: '&7Búa Tân Binh'
+    tier: E
+    unbreakable: true
+    attack-damage:
+      base: 1
+      spread: 0.1
+      max-spread: 0.3
+    #movement-speed: -0.05
+    #knockback: 10
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+      ability3:
+        type: vfx_basicattack
+        mode: SHIFT_LEFT_CLICK
+BUA_CHIEN_BINH:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    set: CHIEN_BINH
+    custom-model-data: 2001
+    #attack-damage: 1
+    critical-strike-chance:
+      base: 1
+      spread: 0.1
+      max-spread: 0.3
+    critical-strike-power:
+      base: 20
+      spread: 0.1
+      max-spread: 0.3
+    custom-nbt: []
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: NETHERITE_SWORD
+    name: '&aBúa Chiến Binh'
+    tier: D
+    unbreakable: true
+    attack-damage:
+      base: 4
+      spread: 0.1
+      max-spread: 0.3
+    #movement-speed: -0.05
+    #knockback: 10
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+      ability3:
+        type: vfx_basicattack
+        mode: SHIFT_LEFT_CLICK
+BUA_HIEP_SI:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    set: HIEP_SI
+    custom-model-data: 2001
+    #attack-damage: 1
+    critical-strike-chance:
+      base: 2
+      spread: 0.1
+      max-spread: 0.3
+    critical-strike-power:
+      base: 25
+      spread: 0.1
+      max-spread: 0.3
+    custom-nbt: []
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: NETHERITE_SWORD
+    name: '&bBúa Hiệp Sĩ'
+    tier: C
+    unbreakable: true
+    attack-damage:
+      base: 13
+      spread: 0.1
+      max-spread: 0.3
+    #movement-speed: -0.05
+    #knockback: 10
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+      ability3:
+        type: vfx_basicattack
+        mode: SHIFT_LEFT_CLICK
+BUA_TIEN_PHONG:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    set: TIEN_PHONG
+    custom-model-data: 2001
+    #attack-damage: 1
+    critical-strike-chance:
+      base: 2
+      spread: 0.1
+      max-spread: 0.3
+    critical-strike-power:
+      base: 30
+      spread: 0.1
+      max-spread: 0.3
+    custom-nbt: []
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: NETHERITE_SWORD
+    name: '&dBúa Tiên Phong'
+    tier: B
+    unbreakable: true
+    attack-damage:
+      base: 38
+      spread: 0.1
+      max-spread: 0.3
+    #movement-speed: -0.05
+    #knockback: 10
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+      ability3:
+        type: vfx_basicattack
+        mode: SHIFT_LEFT_CLICK
+BUA_BONG_TOI:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    set: BONG_TOI
+    custom-model-data: 2001
+    #attack-damage: 1
+    critical-strike-chance:
+      base: 2
+      spread: 0.1
+      max-spread: 0.3
+    critical-strike-power:
+      base: 35
+      spread: 0.1
+      max-spread: 0.3
+    custom-nbt: []
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: NETHERITE_SWORD
+    name: '&8༺ <#8A2BE2>&lB<#8427D8>&lú<#7D22CF>&la<#771EC5>&l <#711ABC>&lB<#6A16B2>&ló<#6411A8>&ln<#5E0D9F>&lg
+      <#580995>&lT<#51048C>&lố<#4B0082>&li &8༻'
+    tier: A
+    unbreakable: true
+    attack-damage:
+      base: 103
+      spread: 0.1
+      max-spread: 0.3
+    #movement-speed: -0.05
+    #knockback: 10
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+      ability3:
+        type: vfx_basicattack
+        mode: SHIFT_LEFT_CLICK
+BUA_BAO_CHUA_BANG_GIA:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    set: BAO_CHUA_BANG_GIA
+    custom-model-data: 2001
+    #attack-damage: 1
+    critical-strike-chance:
+      base: 3
+      spread: 0.1
+      max-spread: 0.3
+    critical-strike-power:
+      base: 40
+      spread: 0.1
+      max-spread: 0.3
+    custom-nbt: []
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: NETHERITE_SWORD
+    name: '&f꧁༺ <#00CBFF>&lB<#03CAFD>&lú<#07C8FB>&la<#0AC7F9>&l <#0DC6F7>&lB<#10C5F5>&lạ<#14C3F3>&lo
+      <#17C2F1>&lC<#1AC1EF>&lh<#1EBFEC>&lú<#21BEEA>&la <#24BDE8>&lB<#28BBE6>&lă<#2BBAE4>&ln<#2EB9E2>&lg
+      <#31B8E0>&lG<#35B6DE>&li<#38B5DC>&lá &f༻꧂'
+    tier: A+
+    unbreakable: true
+    attack-damage:
+      base: 151
+      spread: 0.1
+      max-spread: 0.3
+    #movement-speed: -0.05
+    #knockback: 10
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+      ability3:
+        type: vfx_basicattack
+        mode: SHIFT_LEFT_CLICK
+BUA_HOA_NGUC:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    set: HOA_NGUC
+    custom-model-data: 2001
+    #attack-damage: 1
+    critical-strike-chance:
+      base: 3
+      spread: 0.1
+      max-spread: 0.3
+    critical-strike-power:
+      base: 45
+      spread: 0.1
+      max-spread: 0.3
+    custom-nbt: []
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: NETHERITE_SWORD
+    name: '&f꧁༺ <#FF0000>&lB<#FF0E00>&lú<#FF1C00>&la<#FF2A00>&l <#FF3800>&lH<#FF4600>&lo<#FF5400>&lả
+      <#FF6200>&lN<#FF7000>&lg<#FF7E00>&lụ<#FF8C00>&lc &f༻꧂'
+    tier: A+
+    unbreakable: true
+    attack-damage:
+      base: 193
+      spread: 0.1
+      max-spread: 0.3
+    #movement-speed: -0.05
+    #knockback: 10
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+      ability3:
+        type: vfx_basicattack
+        mode: SHIFT_LEFT_CLICK
+BUA_HAC_THIEN_SU:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    set: HAC_THIEN_SU
+    custom-model-data: 2001
+    #attack-damage: 1
+    critical-strike-chance:
+      base: 3
+      spread: 0.1
+      max-spread: 0.3
+    critical-strike-power:
+      base: 50
+      spread: 0.1
+      max-spread: 0.3
+    custom-nbt: []
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: NETHERITE_SWORD
+    name: '&f꧁༺ <#8B008B>&lB<#86008A>&lú<#81008A>&la<#7C0089>&l <#770088>&lH<#720088>&lắ<#6D0087>&lc
+      <#690086>&lT<#640085>&lh<#5F0085>&li<#5A0084>&lê<#550083>&ln <#500083>&lS<#4B0082>&lứ
+      &f༻꧂'
+    tier: A+
+    unbreakable: true
+    attack-damage:
+      base: 172
+      spread: 0.1
+      max-spread: 0.3
+    #movement-speed: -0.05
+    #knockback: 10
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+      ability3:
+        type: vfx_basicattack
+        mode: SHIFT_LEFT_CLICK
+BUA_CUONG_NO_BAO_TO:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    set: CUONG_NO_BAO_TO
+    custom-model-data: 2001
+    #attack-damage: 1
+    critical-strike-chance:
+      base: 4
+      spread: 0.1
+      max-spread: 0.3
+    critical-strike-power:
+      base: 55
+      spread: 0.1
+      max-spread: 0.3
+    custom-nbt: []
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: NETHERITE_SWORD
+    name: '&f꧁༺ <#FFD700>&lB<#FFD400>&lú<#FFD000>&la<#FFCD00>&l <#FFCA00>&lC<#FFC600>&lu<#FFC300>&lồ<#FFC000>&ln<#FFBC00>&lg
+      <#FFB900>&lN<#FFB600>&lộ <#FFB200>&lB<#FFAF00>&lã<#FFAC00>&lo <#FFA800>&lT<#FFA500>&lố
+      &f༻꧂'
+    tier: A+
+    unbreakable: true
+    attack-damage:
+      base: 165
+      spread: 0.1
+      max-spread: 0.3
+    #movement-speed: -0.05
+    #knockback: 10
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+      ability3:
+        type: vfx_basicattack
+        mode: SHIFT_LEFT_CLICK
+BUA_QUAN_VUONG_BANG_GIA:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    set: QUAN_VUONG_BANG_GIA
+    custom-model-data: 2001
+    #attack-damage: 1
+    critical-strike-chance:
+      base: 4
+      spread: 0.1
+      max-spread: 0.3
+    critical-strike-power:
+      base: 60
+      spread: 0.1
+      max-spread: 0.3
+    custom-nbt: []
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: NETHERITE_SWORD
+    name: <#FFF1CE>⊱⋇⊷ <#00FFFF>&lB<#00F2F9>&lú<#00E4F3>&la<#00D7ED>&l <#00C9E7>&lQ<#00BCE0>&lu<#00AEDA>&lâ<#00A1D4>&ln
+      <#0094CE>&lV<#0086C8>&lư<#0079C2>&lơ<#006BBC>&ln<#005EB6>&lg <#0051B0>&lB<#0043AA>&lă<#0036A3>&ln<#00289D>&lg
+      <#001B97>&lG<#000D91>&li<#00008B>&lá <#FFF1CE>⊶⋇⊰
+    tier: S
+    unbreakable: true
+    attack-damage:
+      base: 261
+      spread: 0.1
+      max-spread: 0.3
+    #movement-speed: -0.05
+    #knockback: 10
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+      ability3:
+        type: vfx_basicattack
+        mode: SHIFT_LEFT_CLICK
+BUA_QUY_VUONG_V1:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    set: QUY_VUONG
+    custom-model-data: 2001
+    #attack-damage: 1
+    critical-strike-chance:
+      base: 4
+      spread: 0.1
+      max-spread: 0.3
+    critical-strike-power:
+      base: 65
+      spread: 0.1
+      max-spread: 0.3
+    custom-nbt: []
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: NETHERITE_SWORD
+    name: '&f꧁༺ <#FCD05C>&lB<#F9C55C>&lú<#F6BA5B>&la<#F3AF5B>&l &e&k&l.&e&l｡ <#F0A45A>&lQ<#EA8E5A>&lu<#E88459>&lỷ <#E57959>&lV<#DF6358>&lư<#DC5858>&lơ<#D94D57>&ln<#D64257>&lg &e&l｡&k&l｡ &6&lV1 &f༻꧂'
+    tier: S
+    unbreakable: true
+    attack-damage:
+      base: 288
+      spread: 0.1
+      max-spread: 0.3
+    #movement-speed: -0.05
+    #knockback: 10
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+      ability3:
+        type: vfx_basicattack
+        mode: SHIFT_LEFT_CLICK
+BUA_QUY_VUONG_V2:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    set: QUY_VUONG
+    custom-model-data: 2001
+    #attack-damage: 1
+    critical-strike-chance:
+      base: 4
+      spread: 0.1
+      max-spread: 0.3
+    critical-strike-power:
+      base: 70
+      spread: 0.1
+      max-spread: 0.3
+    custom-nbt: []
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: NETHERITE_SWORD
+    name: '&f꧁༺ <#FCD05C>&lB<#F9C55C>&lú<#F6BA5B>&la<#F3AF5B>&l &c&k&l.&c&l｡ <#F0A45A>&lQ<#EA8E5A>&lu<#E88459>&lỷ <#E57959>&lV<#DF6358>&lư<#DC5858>&lơ<#D94D57>&ln<#D64257>&lg &c&l｡&k&l｡ <#A470F1>&lV2 &f༻꧂'
+    tier: S
+    unbreakable: true
+    attack-damage:
+      base: 420
+      spread: 0.1
+      max-spread: 0.3
+    #movement-speed: -0.05
+    #knockback: 10
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+      ability3:
+        type: vfx_basicattack
+        mode: SHIFT_LEFT_CLICK
+BUA_THINH_NO_KAMIS_V1:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    set: THINH_NO_KAMIS
+    custom-model-data: 2001
+    #attack-damage: 1
+    critical-strike-chance:
+      base: 5
+      spread: 0.1
+      max-spread: 0.3
+    critical-strike-power:
+      base: 75
+      spread: 0.1
+      max-spread: 0.3
+    custom-nbt: []
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: NETHERITE_SWORD
+    name: '<#FFF1CE>⊱⋇⊷ <#CFC6FF>&lB<#CBBDFC>&lú<#C8B3FA>&la<#C4AAF7>&l <#BC97F2>&lT<#B98DEF>&lh<#B17AEA>&lị<#AD71E7>&ln<#AA67E5>&lh <#A65EE2>&lN<#9E4BDD>&lộ &e&k&l.&e&l｡ <#9B42DA>&lK<#9738D8>&la<#932FD5>&lm<#8E26D2>&li<#8A1ED0>&ls &e&l｡&k&l｡ &6&lV1 <#FFF1CE>⊶⋇⊰'
+    tier: S
+    unbreakable: true
+    attack-damage:
+      base: 309
+      spread: 0.1
+      max-spread: 0.3
+    #movement-speed: -0.05
+    #knockback: 10
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+      ability3:
+        type: vfx_basicattack
+        mode: SHIFT_LEFT_CLICK
+BUA_THINH_NO_KAMIS_V2:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    set: THINH_NO_KAMIS
+    custom-model-data: 2001
+    #attack-damage: 1
+    critical-strike-chance:
+      base: 5
+      spread: 0.1
+      max-spread: 0.3
+    critical-strike-power:
+      base: 80
+      spread: 0.1
+      max-spread: 0.3
+    custom-nbt: []
+    lore:
+    - '&8▪ &cVật phẩm có thể nâng'
+    - '&8▪ &ccấp tại &e/rendo'
+    - ''
+    - '&7 &6&l⚒ <#FCD05C>Khảm Linh Thể &6&l⚒'
+    gem-sockets:
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    - '&cVũ Khí'
+    material: NETHERITE_SWORD
+    name: '<#FFF1CE>⊱⋇⊷ <#CFC6FF>&lB<#CBBDFC>&lú<#C8B3FA>&la<#C4AAF7>&l <#BC97F2>&lT<#B98DEF>&lh<#B17AEA>&lị<#AD71E7>&ln<#AA67E5>&lh <#A65EE2>&lN<#9E4BDD>&lộ &d&k&l.&d&l｡ <#9B42DA>&lK<#9738D8>&la<#932FD5>&lm<#8E26D2>&li<#8A1ED0>&ls &d&l｡&k&l｡ <#A470F1>&lV2 <#FFF1CE>⊶⋇⊰'
+    tier: S
+    unbreakable: true
+    attack-damage:
+      base: 450
+      spread: 0.1
+      max-spread: 0.3
+    #movement-speed: -0.05
+    #knockback: 10
+    ability:
+      ability1:
+        type: vfx_basicattack
+        mode: LEFT_CLICK
+      ability2:
+        type: vfx_basicattack
+        mode: ON_HIT
+      ability3:
+        type: vfx_basicattack
+        mode: SHIFT_LEFT_CLICK
+TEST:
+  base:
+    upgrade:
+      template: hammer-upgrade
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    unstackable: true
+    disable-repairing: true
+    material: NETHERITE_SWORD
+    #attack-damage: 100000.0
+
+

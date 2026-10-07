@@ -1,0 +1,1210 @@
+Name: <white>❄<aqua>❅ <white><bold>KHO BÁU DUNGEON A BĂNG GIÁ <aqua>❅<white>❄
+Description: []
+ItemProvider:
+  Provider: vanilla
+  Data:
+    Value: '{count:1,id:"minecraft:chest"}'
+    DataVersion: 4671
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: csgo
+OpeningCooldown:
+  Enabled: false
+  Value: 0
+OpeningLimit:
+  Amount: 1
+Block:
+  Positions: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: cratesdungeonabanggia
+    Y_Offset: 0.0
+  Effect:
+    Enabled: true
+    Model: helix
+    Particle:
+      Name: SNOWFLAKE
+      floatValue: 1.0
+Milestones:
+  Repeatable: false
+_dataver: 600
+Post-Open:
+  Commands: []
+Rewards:
+  List:
+    manh_vo:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: MATERIAL:ITEM_YEU_CAU_A_PLUS_BANGGIA
+          Amount: 1
+      Weight: 200.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: MATERIAL:ITEM_YEU_CAU_A_PLUS_BANGGIA
+            Amount: 1
+          MMOItems_Type: MATERIAL
+          MMOItems_Id: ITEM_YEU_CAU_A_PLUS_BANGGIA
+    tien_16k:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"blue",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bamboo Crate",underlined:0b}],text:""},"minecraft:profile":{id:[I;67411088,-739686879,-1666252800,-1431949223],name:"HeadDatabase",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM1Y2VmMGRkNWExZGZjYjI0MTM4ODljZmM5YjNjYzAwZmY5MmUxZWIyOTJjZTAzYThmYWMxOTUwNTU5MTA5NSJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 1734.91
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <green><b>Hòm 16k tiền
+      Description: []
+      Commands:
+      - eco give %player_name% 16000
+    tien_32k:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"blue",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bamboo Crate",underlined:0b}],text:""},"minecraft:profile":{id:[I;67411088,-739686879,-1666252800,-1431949223],name:"HeadDatabase",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM1Y2VmMGRkNWExZGZjYjI0MTM4ODljZmM5YjNjYzAwZmY5MmUxZWIyOTJjZTAzYThmYWMxOTUwNTU5MTA5NSJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 1040.94
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <green><b>Hòm 32k tiền
+      Description: []
+      Commands:
+      - eco give %player_name% 32000
+    tien_48k:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"blue",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bamboo Crate",underlined:0b}],text:""},"minecraft:profile":{id:[I;67411088,-739686879,-1666252800,-1431949223],name:"HeadDatabase",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM1Y2VmMGRkNWExZGZjYjI0MTM4ODljZmM5YjNjYzAwZmY5MmUxZWIyOTJjZTAzYThmYWMxOTUwNTU5MTA5NSJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 624.57
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <green><b>Hòm 48k tiền
+      Description: []
+      Commands:
+      - eco give %player_name% 48000
+    tien_64k:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"blue",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bamboo Crate",underlined:0b}],text:""},"minecraft:profile":{id:[I;67411088,-739686879,-1666252800,-1431949223],name:"HeadDatabase",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM1Y2VmMGRkNWExZGZjYjI0MTM4ODljZmM5YjNjYzAwZmY5MmUxZWIyOTJjZTAzYThmYWMxOTUwNTU5MTA5NSJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 374.74
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <green><b>Hòm 64k tiền
+      Description: []
+      Commands:
+      - eco give %player_name% 64000
+    tien_80k:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"blue",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bamboo Crate",underlined:0b}],text:""},"minecraft:profile":{id:[I;67411088,-739686879,-1666252800,-1431949223],name:"HeadDatabase",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM1Y2VmMGRkNWExZGZjYjI0MTM4ODljZmM5YjNjYzAwZmY5MmUxZWIyOTJjZTAzYThmYWMxOTUwNTU5MTA5NSJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+          DataVersion: 4671
+      Weight: 224.84
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <green><b>Hòm 80k tiền
+      Description: []
+      Commands:
+      - eco give %player_name% 80000
+    mu_bao_chua_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:MU_BAO_CHUA_BANG_GIA
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:MU_BAO_CHUA_BANG_GIA
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: MU_BAO_CHUA_BANG_GIA
+    giap_bao_chua_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:GIAP_BAO_CHUA_BANG_GIA
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:GIAP_BAO_CHUA_BANG_GIA
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: GIAP_BAO_CHUA_BANG_GIA
+    quan_bao_chua_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:QUAN_BAO_CHUA_BANG_GIA
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:QUAN_BAO_CHUA_BANG_GIA
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: QUAN_BAO_CHUA_BANG_GIA
+    giay_bao_chua_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ARMOR:GIAY_BAO_CHUA_BANG_GIA
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ARMOR:GIAY_BAO_CHUA_BANG_GIA
+            Amount: 1
+          MMOItems_Type: ARMOR
+          MMOItems_Id: GIAY_BAO_CHUA_BANG_GIA
+    kiem_bao_chua_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: SWORD:KIEM_BAO_CHUA_BANG_GIA
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: SWORD:KIEM_BAO_CHUA_BANG_GIA
+            Amount: 1
+          MMOItems_Type: SWORD
+          MMOItems_Id: KIEM_BAO_CHUA_BANG_GIA
+    cung_bao_chua_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: BOW:CUNG_BAO_CHUA_BANG_GIA
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: BOW:CUNG_BAO_CHUA_BANG_GIA
+            Amount: 1
+          MMOItems_Type: BOW
+          MMOItems_Id: CUNG_BAO_CHUA_BANG_GIA
+    dao_bao_chua_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: DAGGER:DAO_BAO_CHUA_BANG_GIA
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: DAGGER:DAO_BAO_CHUA_BANG_GIA
+            Amount: 1
+          MMOItems_Type: DAGGER
+          MMOItems_Id: DAO_BAO_CHUA_BANG_GIA
+    bua_bao_chua_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: HAMMER:BUA_BAO_CHUA_BANG_GIA
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: HAMMER:BUA_BAO_CHUA_BANG_GIA
+            Amount: 1
+          MMOItems_Type: HAMMER
+          MMOItems_Id: BUA_BAO_CHUA_BANG_GIA
+    gay_bao_chua_bang_gia:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: STAFF:GAY_BAO_CHUA_BANG_GIA
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: STAFF:GAY_BAO_CHUA_BANG_GIA
+            Amount: 1
+          MMOItems_Type: STAFF
+          MMOItems_Id: GAY_BAO_CHUA_BANG_GIA
+    amulet_27:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: AMULET:AMULET_27
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: AMULET:AMULET_27
+            Amount: 1
+          MMOItems_Type: AMULET
+          MMOItems_Id: AMULET_27
+    accessory_27:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ACCESSORY:ACCESSORY_27
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ACCESSORY:ACCESSORY_27
+            Amount: 1
+          MMOItems_Type: ACCESSORY
+          MMOItems_Id: ACCESSORY_27
+    mask_27:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: MASK:MASK_27
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: MASK:MASK_27
+            Amount: 1
+          MMOItems_Type: MASK
+          MMOItems_Id: MASK_27
+    ring_27:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: RING:RING_27
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: RING:RING_27
+            Amount: 1
+          MMOItems_Type: RING
+          MMOItems_Id: RING_27
+    talisman_27:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: TALISMAN:TALISMAN_27
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: TALISMAN:TALISMAN_27
+            Amount: 1
+          MMOItems_Type: TALISMAN
+          MMOItems_Id: TALISMAN_27
+    gem_stone_pve_DAO7:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: GEM_STONE:GEM_OF_STRENGTH_PVE_DAO7
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: GEM_STONE:GEM_OF_STRENGTH_PVE_DAO7
+            Amount: 1
+          MMOItems_Type: GEM_STONE
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO7
+    gem_stone_pve_DAO7_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: GEM_STONE:GEM_OF_STRENGTH_PVE_DAO7_2
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: GEM_STONE:GEM_OF_STRENGTH_PVE_DAO7_2
+            Amount: 1
+          MMOItems_Type: GEM_STONE
+          MMOItems_Id: GEM_OF_STRENGTH_PVE_DAO7_2
+    gem_stone_pvp_DAO7:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: GEM_STONE:GEM_OF_STRENGTH_PVP_DAO7
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: GEM_STONE:GEM_OF_STRENGTH_PVP_DAO7
+            Amount: 1
+          MMOItems_Type: GEM_STONE
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO7
+    gem_stone_pvp_DAO7_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: GEM_STONE:GEM_OF_STRENGTH_PVP_DAO7_2
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: GEM_STONE:GEM_OF_STRENGTH_PVP_DAO7_2
+            Amount: 1
+          MMOItems_Type: GEM_STONE
+          MMOItems_Id: GEM_OF_STRENGTH_PVP_DAO7_2
+    gem_stone_health_DAO7:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: GEM_STONE:GEM_OF_MAX_HEALTH_DAO7
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: GEM_STONE:GEM_OF_MAX_HEALTH_DAO7
+            Amount: 1
+          MMOItems_Type: GEM_STONE
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO7
+    gem_stone_health_DAO7_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: GEM_STONE:GEM_OF_MAX_HEALTH_DAO7_2
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: GEM_STONE:GEM_OF_MAX_HEALTH_DAO7_2
+            Amount: 1
+          MMOItems_Type: GEM_STONE
+          MMOItems_Id: GEM_OF_MAX_HEALTH_DAO7_2
+    gem_stone_skill_DAO7:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: GEM_STONE:GEM_OF_SKILL_DAMAGE_DAO7
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: GEM_STONE:GEM_OF_SKILL_DAMAGE_DAO7
+            Amount: 1
+          MMOItems_Type: GEM_STONE
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO7
+    gem_stone_skill_DAO7_2:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: GEM_STONE:GEM_OF_SKILL_DAMAGE_DAO7_2
+          Amount: 1
+      Weight: 68.18
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: GEM_STONE:GEM_OF_SKILL_DAMAGE_DAO7_2
+            Amount: 1
+          MMOItems_Type: GEM_STONE
+          MMOItems_Id: GEM_OF_SKILL_DAMAGE_DAO7_2
+    dacuonghoa5:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: MATERIAL:DACUONGHOA5
+          Amount: 1
+      Weight: 1000.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: MATERIAL:DACUONGHOA5
+            Amount: 1
+          MMOItems_Type: MATERIAL
+          MMOItems_Id: DACUONGHOA5
+    bang_thach_i:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ORE:BANG_THACH_I
+          Amount: 1
+      Weight: 1800.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ORE:BANG_THACH_I
+            Amount: 1
+          MMOItems_Type: ORE
+          MMOItems_Id: BANG_THACH_I
+    bang_thach_ii:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ORE:BANG_THACH_II
+          Amount: 1
+      Weight: 900.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ORE:BANG_THACH_II
+            Amount: 1
+          MMOItems_Type: ORE
+          MMOItems_Id: BANG_THACH_II
+    bang_thach_iii:
+      Type: ITEM
+      PreviewData:
+        Provider: mmoitems
+        Data:
+          ID: ORE:BANG_THACH_III
+          Amount: 1
+      Weight: 300.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: mmoitems
+          Data:
+            ID: ORE:BANG_THACH_III
+            Amount: 1
+          MMOItems_Type: ORE
+          MMOItems_Id: BANG_THACH_III
+    trial_bom:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_bom"}},"minecraft:custom_name":''{"text":"⋨⋨⋨ BOM ⋩⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+          DataVersion: 4671
+      Weight: 55.56
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_bom"}},"minecraft:custom_name":''{"text":"⋨⋨⋨ BOM ⋩⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+            DataVersion: 4671
+          Vouchers_Id: trial_bom
+      Custom_Preview: false
+    trial_bang1:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_bang1"}},"minecraft:custom_name":''{"text":"⋨⋨⋨ BĂNG V1 ⋩⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+          DataVersion: 4671
+      Weight: 55.56
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_bang1"}},"minecraft:custom_name":''{"text":"⋨⋨⋨ BĂNG V1 ⋩⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+            DataVersion: 4671
+          Vouchers_Id: trial_bang1
+      Custom_Preview: false
+    trial_lua1:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_lua1"}},"minecraft:custom_name":''{"text":"⋨⋨⋨ LỬA V1 ⋩⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+          DataVersion: 4671
+      Weight: 55.56
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_lua1"}},"minecraft:custom_name":''{"text":"⋨⋨⋨ LỬA V1 ⋩⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+            DataVersion: 4671
+          Vouchers_Id: trial_lua1
+      Custom_Preview: false
+    trial_bang2:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_bang2"}},"minecraft:custom_name":''{"text":"⋨⋨⋨ BĂNG V2 ⋩⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+          DataVersion: 4671
+      Weight: 55.56
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_bang2"}},"minecraft:custom_name":''{"text":"⋨⋨⋨ BĂNG V2 ⋩⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+            DataVersion: 4671
+          Vouchers_Id: trial_bang2
+      Custom_Preview: false
+    trial_lua2:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_lua2"}},"minecraft:custom_name":''{"text":"⋨⋨⋨ LỬA V2 ⋩⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+          DataVersion: 4671
+      Weight: 55.56
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_lua2"}},"minecraft:custom_name":''{"text":"⋨⋨⋨ LỬA V2 ⋩⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+            DataVersion: 4671
+          Vouchers_Id: trial_lua2
+      Custom_Preview: false
+    trial_chienbinh:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_chienbinh"}},"minecraft:custom_name":''{"text":"⋨⋨⋨ CHIẾN BINH ⋩⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+          DataVersion: 4671
+      Weight: 55.56
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_chienbinh"}},"minecraft:custom_name":''{"text":"⋨⋨⋨ CHIẾN BINH ⋩⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+            DataVersion: 4671
+          Vouchers_Id: trial_chienbinh
+      Custom_Preview: false
+    trial_nhamthach:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_nhamthach"}},"minecraft:custom_name":''{"text":"⋨⋨⋨ NHAM THẠCH ⋩⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+          DataVersion: 4671
+      Weight: 55.56
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_nhamthach"}},"minecraft:custom_name":''{"text":"⋨⋨⋨ NHAM THẠCH ⋩⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+            DataVersion: 4671
+          Vouchers_Id: trial_nhamthach
+      Custom_Preview: false
+    trial_poison:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_poison"}},"minecraft:custom_name":''{"text":"⋨⋨ ĐỘC ⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+          DataVersion: 4671
+      Weight: 55.56
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_poison"}},"minecraft:custom_name":''{"text":"⋨⋨ ĐỘC ⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+            DataVersion: 4671
+          Vouchers_Id: trial_poison
+      Custom_Preview: false
+    trial_bongtoi:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_bongtoi"}},"minecraft:custom_name":''{"text":"⋨⋨ BÓNG TỐI ⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+          DataVersion: 4671
+      Weight: 55.56
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{id:"minecraft:name_tag",count:1,components:{"minecraft:custom_data":{PublicBukkitValues:{"vouchers:voucher":"trial_bongtoi"}},"minecraft:custom_name":''{"text":"⋨⋨ BÓNG TỐI ⋩⋩ [DÙNG THỬ 12H]","color":"yellow","bold":true}'',"minecraft:lore":[''{"text":"Nhận thẻ dùng thử class trong 12 tiếng.","color":"gray","italic":false}'']}}'
+            DataVersion: 4671
+          Vouchers_Id: trial_bongtoi
+      Custom_Preview: false
+
+Key:
+  Enabled: true
+  Name: Key
+  Icon:
+    Provider: vanilla
+    Data:
+      Value: '{count:1,id:"minecraft:trial_key"}'
+      DataVersion: 4671
+  Entries:
+    '0':
+      Type: key
+      Key: cratesdungeonabanggiakey
+      Amount: 1
+CostOptions:
+  '1':
+    Enabled: true
+    Name: '1'
+    Icon:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:trial_key"}'
+        DataVersion: 4671
+    Entries:
+      '0':
+        Type: key
+        Key: cratesdungeonabanggiakey
+        Amount: 1

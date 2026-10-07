@@ -1,0 +1,117 @@
+menu_title: "&8▶ Giao Diện | Cung Thủ"
+open_command:
+- tvkn_cungthu
+size: 54
+items:
+
+  archer:
+    display_name: "&e&l⋨⋨&kk&r &e&lTHẦN TIỄN &kk&r&e&l⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJiYzUzY2ExZjRjY2NjMmRlYTZjNmQyYTQxZjQzZGFiMzk3N2MzZWQ2YWNlMzFhNzdhOTNlNzcxYTljZjczNyJ9fX0=
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES     
+    lore:
+      - '&8&m                                     '
+      - ' &f&lTHÔNG TIN:'
+      - '  &a✧ &7Cấp độ: &eV1 &7/ &eV2'
+      - '  &a✧ &7Loại: &eHệ Xạ Thủ'
+      - '  &a✧ &7Độ hiếm: &e☬&lThần Thoại&e☬'
+      - ''
+      - ' &8[&f&l 🏹 &b&lPHI TIỄN (kỹ năng 1) &f&l🏹 &8]'
+      - ' &f&lMÔ TẢ:'
+      - '  &7▪ Phóng ra luồng gió sắc bén'
+      - ''
+      - ' &f&lCHỈ SỐ:'
+      - '  &a⚡ &7Cooldown: &e9s'
+      - '  &a✦ &7Mastery: &d150'
+      - '  &a⚔ &7Sát thương: &c160'
+      - ''
+      - ' &8[&f&l 🏹 &b&lBÃO TÁP (kỹ năng 2) &f&l🏹 &8]'
+      - ' &f&lMÔ TẢ:'
+      - '  &7▪ Bắn ra mũi tên cuồng phong'
+      - ''
+      - ' &f&lCHỈ SỐ:'
+      - '  &a⚡ &7Cooldown: &e12s'
+      - '  &a✦ &7Mastery: &d250'
+      - '  &a⚔ &7Sát thương: &c220'
+      - ''
+      - ' &8[&f&l 🏹 &b&lMƯA TÊN (kỹ năng 3) &f&l🏹 &8]'
+      - ' &f&lMÔ TẢ:'
+      - '  &7▪ Triệu hồi cơn mưa tên trút xuống mục tiêu'
+      - ''
+      - ' &f&lCHỈ SỐ:'
+      - '  &a⚡ &7Cooldown: &e18s'
+      - '  &a✦ &7Mastery: &d350'
+      - '  &a⚔ &7Sát thương: &c300'
+      - '&8&m                                     '
+      - '    &a&l☁ &f&omc.minerua.net'
+
+  "menu":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQyZmIzYmUwMzFmNjY0NjE2MGIyZjM3YjM0NjM2MjMyY2EyZjM5ODYxZjg4Y2FiYTE5MmNhYjhmZThlODZlIn19fQ==
+    display_name: "&8[ &cX &8] &cReturn"
+    lore:
+      - "&8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      - "&7➤ Trở về &fMenu Chính"
+      - "&8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      - "&8✦ &7Nhấn để quay lại"
+    slot: 49
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] thuvienkynang"
+
+  "black":
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 50
+      - 51
+      - 52
+      - 53

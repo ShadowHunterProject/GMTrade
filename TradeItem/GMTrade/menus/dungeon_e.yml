@@ -1,0 +1,126 @@
+title: '&8Cửa Hàng Dungeon E'
+layout:
+  - '#########'
+  - '# SBDHW #'
+  - '#########'
+  - '##12 34##'
+  - '####Q####'
+decorations:
+  '#':
+    material: GRAY_STAINED_GLASS_PANE
+    name: '&7'
+  Q:
+    material: DARK_OAK_DOOR
+    name: '&cQuay Lại Cửa Hàng'
+    lore:
+      - '&7Click để quay lại menu chính'
+    command: '[console] dm open trademenu %player%'
+trades:
+  S:
+    result:
+      type: SWORD
+      id: KIEM_TAN_BINH
+      amount: 1
+    cost:
+      money: 1000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_E
+          amount: 64
+  B:
+    result:
+      type: BOW
+      id: CUNG_TAN_BINH
+      amount: 1
+    cost:
+      money: 1000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_E
+          amount: 64
+  D:
+    result:
+      type: DAGGER
+      id: DAO_TAN_BINH
+      amount: 1
+    cost:
+      money: 1000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_E
+          amount: 64
+  H:
+    result:
+      type: HAMMER
+      id: BUA_TAN_BINH
+      amount: 1
+    cost:
+      money: 1000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_E
+          amount: 64
+  W:
+    result:
+      type: STAFF
+      id: GAY_TAN_BINH
+      amount: 1
+    cost:
+      money: 1000.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_E
+          amount: 64
+  '1':
+    result:
+      type: ARMOR
+      id: MU_TAN_BINH
+      amount: 1
+    cost:
+      money: 500.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_E
+          amount: 64
+  '2':
+    result:
+      type: ARMOR
+      id: GIAP_TAN_BINH
+      amount: 1
+    cost:
+      money: 500.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_E
+          amount: 64
+  '3':
+    result:
+      type: ARMOR
+      id: QUAN_TAN_BINH
+      amount: 1
+    cost:
+      money: 500.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_E
+          amount: 64
+  '4':
+    result:
+      type: ARMOR
+      id: GIAY_TAN_BINH
+      amount: 1
+    cost:
+      money: 500.0
+      items:
+        req_item:
+          type: MATERIAL
+          id: ITEM_YEU_CAU_E
+          amount: 64

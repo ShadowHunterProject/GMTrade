@@ -1,0 +1,41 @@
+# 'name' is used to display the tier in the item lore.
+#
+# 'deconstruct-item' is the drop table for the item
+# that drops when deconstructing an item.
+#
+# Tier IDs (TRASH,COMMON...) are case sensitive.
+
+HU:
+    name: '&f&l★&7★★★★'
+THUONG:
+    name: '&f&l★★&7★★★'
+CAOCAP: 
+    name: '&f&l★★★&7★★'
+EPIC:
+    name: '&f&l★★★★&7★'
+VIP:
+    name: '&f&l★★★★★'
+VIP1:
+    name: '&e&l★&f&l★★★★'
+VIP2:
+    name: '&e&l★★&f&l★★★'
+VIP3:
+    name: '&e&l★★★&f&l★★'
+VIP4:
+    name: '&e&l★★★★&f&l★'
+VIP5:
+    name: '&e&l★★★★★'
+E:
+    name: '&e&l★&7★★★★'
+D:
+    name: '&e&l★★&7★★★'
+C:
+    name: '&e&l★★★&7★★'
+B:
+    name: '&e&l★★★&7★★'
+A:
+    name: '&e&l★★★★&7★'
+A+:
+    name: '&e&l★★★★&7★'
+S:
+    name: '&e&l★★★★★'

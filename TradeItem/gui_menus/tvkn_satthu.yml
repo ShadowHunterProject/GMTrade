@@ -1,0 +1,117 @@
+menu_title: "&8▶ Giao Diện | Sát Thủ"
+open_command:
+- tvkn_satthu
+size: 54
+items:
+
+  poison:
+    display_name: "&e&l⋨⋨&kk&r &e&lĐỘC &kk&r&e&l⋩⋩"
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI1NzViYzk0NzY0OGI3ZmU2OGYxYjYyM2ZlYjdmNzcyODZmOTZhMTc5ODk1ZDcyZDI3MThmOTRiODljNjMifX19
+    slot: 10
+    item_flags:
+      - HIDE_ATTRIBUTES     
+    lore:
+      - '&8&m                                     '
+      - ' &f&lTHÔNG TIN:'
+      - '  &a✧ &7Cấp độ: &eV1 &7/ &eV2'
+      - '  &a✧ &7Loại: &eHệ Sát Thủ'
+      - '  &a✧ &7Độ hiếm: &e☬&lThần Thoại&e☬'
+      - ''
+      - ' &2[&a&l ☣ &2&lBẪY ĐỘC (kỹ năng 1) &a&l☣ &2]'
+      - ' &f&lMÔ TẢ:'
+      - '  &7▪ Triệu hồi 1 dãy độc về phía trước'
+      - ''
+      - ' &f&lCHỈ SỐ:'
+      - '  &a⚡ &7Cooldown: &e9s'
+      - '  &a✦ &7Mastery: &d150'
+      - '  &a⚔ &7Sát thương: &c160/hit'
+      - ''
+      - ' &2[&a&l ☣ &2&lDỊCH ĐỘC (kỹ năng 2) &a&l☣ &2]'
+      - ' &f&lMÔ TẢ:'
+      - '  &7▪ Bắn ra những chất dịch độc chậm và gây sát thương'
+      - ''
+      - ' &f&lCHỈ SỐ:'
+      - '  &a⚡ &7Cooldown: &e12s'
+      - '  &a✦ &7Mastery: &d250'
+      - '  &a⚔ &7Sát thương: &c220'
+      - ''
+      - ' &2[&a&l ☣ &2&lVÙNG ĐỘC (kỹ năng 3) &a&l☣ &2]'
+      - ' &f&lMÔ TẢ:'
+      - '  &7▪ Tạo ra 1 vùng độc gây chậm và rút máu nhanh'
+      - ''
+      - ' &f&lCHỈ SỐ:'
+      - '  &a⚡ &7Cooldown: &e18s'
+      - '  &a✦ &7Mastery: &d350'
+      - '  &a⚔ &7Sát thương: &c300'
+      - '&8&m                                     '
+      - '    &a&l☁ &f&omc.minerua.net'
+
+  "menu":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQyZmIzYmUwMzFmNjY0NjE2MGIyZjM3YjM0NjM2MjMyY2EyZjM5ODYxZjg4Y2FiYTE5MmNhYjhmZThlODZlIn19fQ==
+    display_name: "&8[ &cX &8] &cReturn"
+    lore:
+      - "&8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      - "&7➤ Trở về &fMenu Chính"
+      - "&8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      - "&8✦ &7Nhấn để quay lại"
+    slot: 49
+    click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] thuvienkynang"
+
+  "black":
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 50
+      - 51
+      - 52
+      - 53
